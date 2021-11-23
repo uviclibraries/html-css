@@ -28,8 +28,8 @@ To start, we will be learning about adding basic components to an about me page 
 <!DOCTYPE html>
     -   this is not an HTML tag, but is a declaration for the browser. When a browser opens this file it reads this line and understands that this is a HTML document. This declaration is required at the start of an HTML file.
     -   Next we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type <html>. Go down to a new line and type </html> as this is the closing html tag. The browser interprets this code as HTML from the opening tag to the closing HTML tag. 
-<html>
-</html>
+&lt;html&gt;
+&lt;/html&gt;
     -   When the browser opens this file it now knows how to deal with what is between these tags as it’s a recognized tag. There are many kinds of tags and you’ll be introduced to some of them.
     -   The next part will be within our tags.Underneath the opening tag click the tab key once. Then type <head> the reason we indent is to make our code more readable and orderly. Similarly, we want to have our closing head tag (</head>) indented the same amount, still in between the HTML tags. The head tag holds metadata (data about data) on our file. Things like styling and title, but we’ll get to that later.
     -   Next we want to create the body tags. This is where the content of the website is held. Underneath the closing head tag but still within the HTML tags <body> and </body> should both be indented once, similar to head.
