@@ -64,15 +64,15 @@ To start, we will be learning about adding basic components to an about me page 
     -   Text tags can be put around any text that shows up in the browser. These tags don't have to encompass the whole text, it doesn't even have to cover a whole word. Say I wanted the following text to be typed out in a paragraph:
         -   This is important. This is very important. Thank you!
         -   We have 2 words in bold, 1 word underlined, and 1 word underlined & in bold. Let’s look at what that would look like with tags.
-        -   <p>This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins></p>
+        -   &lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt;. This is &lt;strong&gt;&lt;ins&gt;very&lt;/ins&gt; important.&lt;/strong&gt; Thank &lt;ins&gt;you!&lt;/ins&gt;&lt;/p&gt;
         -   Notice where the spaces and full stops are. With so many tags, it can be easy to forget to add important content in the right places.
     -   Try some more types of text altering tags.
-        -   <strong> - Important text
-        -   <i> - Italic text
-        -   <em> - Emphasized text
-        -   <mark> - Marked text
-        -   <small> - Smaller text
-        -   <sub> - Subscript text
-        -   <sup> - Superscript text
+        -   &lt;strong&gt; - Important text
+        -   &lt;i&gt; - Italic text
+        -   &lt;em&gt; - Emphasized text
+        -   &lt;mark&gt; - Marked text
+        -   &lt;small&gt; - Smaller text
+        -   &lt;sub&gt; - Subscript text
+        -   &lt;sup&gt; - Superscript text
 
 [NEXT STEP: title](act-2.html){: .btn .btn-blue }
