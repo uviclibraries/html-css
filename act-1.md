@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1 - act 1
+title: 1 - Getting Started
 nav_order: 2
 parent: Workshop Activities
 ---
@@ -40,10 +40,10 @@ To start, we will be learning about adding basic components to an about me page 
     -   This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.
 6.  **H and P Tags**
     -   Let’s move onto the body part of our code. “h” tags are HTML heading tags. There are 6 types: “h1”, “h2, “h3”, “h4”, “h5”, and “h6”. Inherently, h1 gives the largest text and h6 the smallest. The tags are written like so:
-<h1></h1>
+&lt;h1&gt;&lt;/h1&gt;
     -   Like the title tags they can go on the same line. Don’t forget to indent from the body. I'm going to write two tags, h2 and h3:
 <h2>Hello, Zuko here.</h2>
-<h3>About Me</h3>
+&lt;h3&gt;About Me&lt;/h3&gt;
     -   See the changes you’ve made by saving and refreshing your webpage. Feel free to try different heading tags to see the difference between them and find what works best for you.
     -   The “p” tag is used for paragraphs of text and are written as:
 <p></p>
