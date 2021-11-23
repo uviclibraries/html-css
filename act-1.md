@@ -27,7 +27,7 @@ To start, we will be learning about adding basic components to an about me page 
     -   The first thing needed is an HTML declaration: 
 <!DOCTYPE html>
     -   this is not an HTML tag, but is a declaration for the browser. When a browser opens this file it reads this line and understands that this is a HTML document. This declaration is required at the start of an HTML file.
-    -   Next we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type <html>. Go down to a new line and type </html> as this is the closing html tag. The browser interprets this code as HTML from the opening tag to the closing HTML tag. 
+    -   Next we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type <html>. Go down to a new line and type </html> as this is the closing html tag. The browser interprets this code as HTML from the opening tag to the closing HTML tag.<br>
 &lt;html&gt;
 &lt;/html&gt;
     -   When the browser opens this file it now knows how to deal with what is between these tags as it’s a recognized tag. There are many kinds of tags and you’ll be introduced to some of them.
@@ -39,25 +39,25 @@ To start, we will be learning about adding basic components to an about me page 
     -   The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add <title></title>
     -   This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.
 6.  **H and P Tags**
-    -   Let’s move onto the body part of our code. “h” tags are HTML heading tags. There are 6 types: “h1”, “h2, “h3”, “h4”, “h5”, and “h6”. Inherently, h1 gives the largest text and h6 the smallest. The tags are written like so:
+    -   Let’s move onto the body part of our code. “h” tags are HTML heading tags. There are 6 types: “h1”, “h2, “h3”, “h4”, “h5”, and “h6”. Inherently, h1 gives the largest text and h6 the smallest. The tags are written like so:<br>
 &lt;h1&gt;&lt;/h1&gt;
-    -   Like the title tags they can go on the same line. Don’t forget to indent from the body. I'm going to write two tags, h2 and h3:
-<h2>Hello, Zuko here.</h2>
+    -   Like the title tags they can go on the same line. Don’t forget to indent from the body. I'm going to write two tags, h2 and h3:<br>
+&lt;h2&gt;Hello, Zuko here.&lt;/h2&gt;
 &lt;h3&gt;About Me&lt;/h3&gt;
     -   See the changes you’ve made by saving and refreshing your webpage. Feel free to try different heading tags to see the difference between them and find what works best for you.
-    -   The “p” tag is used for paragraphs of text and are written as:
-<p></p>
-    -   Underneath each h tag, add a paragraph tag. If you are following along you can add the following in the p tags, if not add what is appropriate to your page:
-<h2>Hello, Zuko here.</h2>
-<p>Prince of the Fire Nation</p>
-<h3>About Me</h3>
-<p>Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>
+    -   The “p” tag is used for paragraphs of text and are written as:<br>
+&lt;p&gt;&lt;/p&gt;
+    -   Underneath each h tag, add a paragraph tag. If you are following along you can add the following in the p tags, if not add what is appropriate to your page:<br>
+&lt;h2&gt;Hello, Zuko here.&lt;/h2&gt;
+&lt;p&gt;Prince of the Fire Nation&lt;/p&gt;
+&lt;h3&gt;About Me&lt;/h3&gt;
+&lt;p&gt;Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.&lt;/p&gt;
     -   Atom has a helpful feature to make your file more readable. If your text exceeds the width of Atom you can compress it instead of having to scroll sideways. Under View click Toggle Soft Wrap.
-    -   I’m going to add another paragraph beneath the last p tag. This will still be in the about me section. Separating items in different tags can be helpful when you want them to appear or behave in different ways when it comes to changing layout. For the Zuko page I’m adding the following:
-<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.</p>
+    -   I’m going to add another paragraph beneath the last p tag. This will still be in the about me section. Separating items in different tags can be helpful when you want them to appear or behave in different ways when it comes to changing layout. For the Zuko page I’m adding the following:<br>
+&lt;p&gt;Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.&lt;/p&gt;
 7.  **List Tags**
-    -   HTML has tags that can create lists for us. Ordered lists make each item organized by a number and unordered lists make bullet point styled lists. The way to add to a list is with a list tag: 
-<li></li>
+    -   HTML has tags that can create lists for us. Ordered lists make each item organized by a number and unordered lists make bullet point styled lists. The way to add to a list is with a list tag:<br>
+&lt;li&gt;&lt;/li&gt;
     -   “li” tags are written within “ol” or “ul” tags and its best practice to have them indented. I want to add a list of attributes on my about page. I’ll make a list underneath the paragraph tags with “Prince of the Fire Nation”. I used an unordered list since these details are not in any particular order.
 8.  **Text Tags**
     -   Styling should be done in CSS files but sometimes making changes in the HTML file can be helpful. For example, the <del></del>  & <ins></ins> tags can be helpful to highlight specific text. The <del> tag puts a line through the text and the <ins> tag underlines text.
