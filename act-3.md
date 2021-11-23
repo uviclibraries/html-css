@@ -1,6 +1,10 @@
 ---
 layout: default
-title: 1) Cropping and Exporting Photos
-nav_order: 2
+title: 3 - act 3
+nav_order: 4
 parent: Workshop Activities
 ---
+
+# title
+
+[NEXT STEP: title](act-4.html){: .btn .btn-blue }
