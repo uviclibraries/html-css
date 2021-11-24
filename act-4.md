@@ -31,9 +31,9 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   In CSS, class blocks are written with a full stop in front of them.
         
 	```
-	.about-title{CHANGED
-	    font-size:150%;
-	    Font-weight: bold;
+	.about-title{
+	font-size:150%;
+	Font-weight: bold;
     }
 	```
 	
@@ -64,13 +64,13 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         
 	```
 	body{
-	    display: flex;
-        }
+	display: flex;
+    }
 	```
 	
     -   Refresh your html page and you should get each item line up horizontally.
     
-        <img src="/images/act-4/flex2.png" alt="more flex containers" style="width:720px;">
+        <img src="images/act-4/flex2.png" alt="more flex containers" style="width:720px;">
     
     -   I don’t want my page to look like this either. Here is where I can use division tags to organize it further. First get rid of the display:flex in we just added in our body tag.
     -   I want my list to be horizontal to the image of Zuko. I’m going to add my opening divisions tag above the image tag and the closing division tag below the closing unordered list tag. Make the opening division tag look like this:<br>
@@ -80,8 +80,8 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         
 	```
 	.bio{
-            display:flex;
-        }
+        display:flex;
+    }
 	```
 	
     -   Your list should now be to the right of the image of Zuko!
@@ -97,7 +97,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   flex-wrap: (wrap / nowrap);
         -   Should your flexbox items extend past the width of the page and you do not want users to side scroll, wrap will stack the following content below. In the example below, without wrap the purple item would be off of the display screen (orange box). With wrap, the purple box goes down
 
-            <img src="/images/act-4/flex3.png" alt="flex container wrap" style="width:720px;">
+            <img src="images/act-4/flex3.png" alt="flex container wrap" style="width:720px;">
 
     -   [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/#:~:text=The%20justify%2Dcontent%20property%20is,have%20reached%20their%20maximum%20size.){:target="_blank"}: (flex-start(default) / flex-end / center / space-between / space-around);
         -   This property changes how the flex boxes are spaced between other flexboxes. This can be a fun one to play around with as it can dramatically change the layout of a page.
