@@ -5,6 +5,8 @@ nav_order: 3
 parent: Workshop Activities
 ---
 
+<img src="WORKSHOP-LOGO-HERE.png" alt="image description" style="float:right;width:180px;">
+
 # Adding Images and Links in HTML
 
 Next we’ll be learning about adding images, and links to other pages. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
