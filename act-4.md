@@ -77,4 +77,4 @@ flex-direction: row-reverse;
             -   justify-content : center;
             -   align-items : center;
 
-[NEXT STEP: title](act-5.html){: .btn .btn-blue }
+[NEXT STEP: Next Steps](act-5.html){: .btn .btn-blue }
