@@ -13,6 +13,9 @@ To start, we will be learning about adding basic components to an about me page 
 
 1.  If you haven’t already, please install [Atom text editor](https://atom.io/){:target="_blank"} on your computer. If you wish to use an alternative text editor that is great, however our examples will be from the Atom.
 2.  Opening Atom for the first time should automatically open 3 pages.You can close the Welcome and Telemetry Consent page. If you’d like to change the color and overall look of your text editor click on **Choose a Theme**. If the Welcome Page doesn’t appear, you can still find it under Settings (for Linux: Edit->Preferences, for Mac: Atom->Preferences), then click on Theme. Choose one that best works for you.
+
+    <img src="/images/act-1/DOWNLOAD.png" alt="choose a theme" style="width:720px;">
+
 3.  This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuke, a character from a cartoon show.
 4.  **Coding Time**
     -   Create a Folder somewhere to save your files, I have called this folder “html_workshop” but you can call it whatever you like. An easy place to access would be the desktop or document folder. You can always move it for future use.
