@@ -67,7 +67,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
     -   Whatever is between the anchor tags becomes the link. Our anchor tags surround some text within a paragraph, but could encompass paragraph, image, and even body tags. Changing where the anchor tags start and end change what needs to be clicked to go to the desired page.
     -   Back on your about page, let's put a link to go back to the index page.
     -   Add a paragraph to the bottom of the about page and make it a link to the index page.
-6.  Note: it’s best to save your files without spaces in the name as it can look strange in the url bar. Instead, replace spaces with underscores or dashes. The same goes for image files. “Image page.html” should either be:
+6.  Note: it’s best to save your files without spaces in the name as it can look strange in the url bar. Instead, replace spaces with underscores or dashes. The same goes for image files.<br><br>“Image page.html” should either be:
     -   “Image_page.html”
         **or**
     -   “Image-page.html”
