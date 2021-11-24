@@ -30,10 +30,10 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         **&lt;p class=”about-title”&gt;**Hello, Zuko here**&lt;/p&gt;**
     -   In CSS, class blocks are written with a full stop in front of them.
         ```
-	.about-title{
-	font-size:150%;
-	Font-weight: bold;
-        }
+	    .about-title{
+	        font-size:150%;
+	        Font-weight: bold;
+            }
 	```
     -   Notice how only the paragraph with the “about-title” class has been affected by the changes.
     -   You may have the same property in the class block and the tag block with different values. This is where precedence comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
@@ -60,9 +60,9 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 	
 	Add the following in your CSS file: 
         ```
-	body{
-	    display: flex;
-        }
+	    body{
+	        display: flex;
+            }
 	```
     -   Refresh your html page and you should get each item line up horizontally.
     
@@ -74,9 +74,9 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         -   Note: You can highlight everything between the opening and closing division tags and click the tab key. This indents all the highlighted items, helping to keep you code legible. Holding the shift key then clicking the tab key does the opposite and moves the text closer to the margin.
     -   Go to your CSS file and create a block for the bio class and add the display flex property.
         ```
-	.bio{
-            display:flex;
-        }
+	    .bio{
+                display:flex;
+            }
 	```
     -   Your list should now be to the right of the image of Zuko!
     -   If you’d like to have the list on the left, there are a few ways to do this.
