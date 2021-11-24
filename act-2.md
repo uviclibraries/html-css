@@ -56,4 +56,4 @@ Next we’ll be learning about adding images, and links to other pages. If you a
         **or**
     -   “Image-page.html”
 
-[NEXT STEP: title](act-3.html){: .btn .btn-blue }
+[NEXT STEP: Adding CSS](act-3.html){: .btn .btn-blue }
