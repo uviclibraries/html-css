@@ -12,7 +12,7 @@ An introduction to CSS, adding color and a little bit of style to your web pages
 1.  If you haven’t already completed the previous exercise, please start [here](https://richmccue.github.io/html-css/act-1.html){:target="_blank"}, as this part builds on the topics from the previous section.
 2.  So far, you should have **AT LEAST? AT MOST?** two html pages, some with text and one with text and images. They all should have at least one link to another page. Even with all this lovely text your pages probably look quite plain. That’s where CSS (which stands for Cascading Style Sheets) comes into play.
 
-    <img src="/images/act-3/example.png" alt="recap of previous acts" style="width:720px;">
+    <img src="/images/act-3/example.jpg" alt="recap of previous acts" style="width:720px;">
 
 3.  CSS is a different language than html and has different rules and structure. It is used to alter the presentation of a website and doesn’t hold any new content to the web. This means that the same html file can appear dramatically different depending on how CSS is used.
 4.  **Linking CSS Stylesheet**
@@ -53,7 +53,7 @@ Save the changes to your html file.
     -   ul
     -   li
 
-    <img src="/images/act-3/further-format.png" alt="block with more formatting" style="width:720px;">
+    <img src="/images/act-3/further-format.jpg" alt="block with more formatting" style="width:720px;">
 
 8.  Some properties you can change are the following:
     -   color: #012345;
@@ -78,6 +78,6 @@ Save the changes to your html file.
 10.  Try adding your new CSS file to other HTML files.
 11.  Below is an example for the Zuko about me page:
 
-     <img src="/images/act-3/zuko-format.png" alt="block of formatting for Zuko" style="width:720px;">
+     <img src="/images/act-3/zuko-format.jpg" alt="block of formatting for Zuko" style="width:720px;">
 
 [NEXT STEP: Using CSS to Change Layout](act-4.html){: .btn .btn-blue }
