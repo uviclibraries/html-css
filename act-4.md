@@ -61,11 +61,13 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 	    <img src="/images/act-4/flex.png" alt="flex container" style="width:720px;">
 	
 	Add the following in your CSS file: 
-        ```
+        
+	```
 	    body{
 	        display: flex;
             }
 	```
+	
     -   Refresh your html page and you should get each item line up horizontally.
     
         <img src="/images/act-4/flex2.png" alt="more flex containers" style="width:720px;">
@@ -75,11 +77,13 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 	**&lt;div class = “bio”&gt;**
         -   Note: You can highlight everything between the opening and closing division tags and click the tab key. This indents all the highlighted items, helping to keep you code legible. Holding the shift key then clicking the tab key does the opposite and moves the text closer to the margin.
     -   Go to your CSS file and create a block for the bio class and add the display flex property.
-        ```
+        
+	```
 	    .bio{
                 display:flex;
             }
 	```
+	
     -   Your list should now be to the right of the image of Zuko!
     -   If you’d like to have the list on the left, there are a few ways to do this.
         -   Move the list in your html code to be above the image tag.
