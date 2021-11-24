@@ -10,7 +10,7 @@ parent: Workshop Activities
 Next we’ll be learning about adding images, and links to other pages. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
 1.  If you haven’t already completed the first exercise, please start [here](https://richmccue.github.io/html-css/act-1.html){:target="_blank"}, as this part builds on the topics from the previous section.
-2.  So far, you should have an about me page with some paragraphs, headers, and a list. You may have added some text tags as well! We are now going to add additional pages and some images.
+2.  So far, you should have an about me page with some paragraphs, headers, and a list. You may have added some text tags as well! We are now going to add additional pages and some images. Your HTML document should look something like the following:
 
     <img src="images/act-2/recap.png" alt="recap of act 1" style="width:720px;">
 
