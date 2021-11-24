@@ -10,13 +10,13 @@ parent: Workshop Activities
 To start, we will be learning about adding basic components to an about me page like text. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 1.  If you haven’t already, please install [Atom text editor](https://atom.io/){:target="_blank"} on your computer. If you wish to use an alternative text editor that is great, however our examples will be from the Atom.
-2.  Opening Atom for the first time should automatically open 3 pages.You can close the Welcome and Telemetry Consent page. If you’d like to change the color and overall look of your text editor click on **Choose a Theme**. If the Welcome Page doesn’t appear, you can still find it under Settings (for Linux: Edit->Preferences, for Mac: Atom->Preferences), then click on Theme. Choose one that best works for you.
+2.  Opening Atom for the first time should automatically open 3 pages.You can close the Welcome and Telemetry Consent page. If you’d like to change the color and overall look of your text editor click on **Choose a Theme**. If the Welcome Page doesn’t appear, you can still find it under **Settings** (for Linux: **Edit -> Preferences**, for Mac: **Atom -> Preferences**), then click on Theme. Choose one that best works for you.
 
     <img src="images/act-1/DOWNLOAD.png" alt="choose a theme" style="width:720px;">
 
-3.  This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuke, a character from a cartoon show.
+3.  This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuko, a character from a cartoon show.
 4.  **Coding Time**
-    -   Create a Folder somewhere to save your files, I have called this folder “html_workshop” but you can call it whatever you like. An easy place to access would be the desktop or document folder. You can always move it for future use.
+    -   Create a Folder somewhere to save your files, I have called this folder “html_workshop” but you can call it whatever you like. An easy place to access would be the **Desktop** or document folder. You can always move it for future use.
     -   Close all tabs in Atom including the Welcome Guide if you haven't done so already.
     -   Go to **File**, **Open Folder** or **Open..**, then find and select the “html_workshop” folder you just made and click the **Select Folder** button.
     -   You’ll notice on the left hand side the “html_workshop” folder. We now need to create our first file.
@@ -25,11 +25,9 @@ To start, we will be learning about adding basic components to an about me page 
         -   We now have our first HTMLfile. Atom recognizes this and will help coordinate our code with helpful coloring, suggestions, and autocompletes.
     
         <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
+        <img src="images/act-1/heading.png" alt="headings menu" style="float:right;width:360px;">
     
     -   To see an example of how Atom can help us out, type the letter “h”. Atom has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one.
-    
-        <img src="images/act-1/heading.png" alt="headings menu" style="width:720px;">
-    
     -   Now it’s time to get to the actual coding portion.
     -   Typing “html” will give you an option to autocomplete. Feel free to click enter to see what it looks like, but we will start from a blank page.
     -   HTML uses tags to inform the browser how to interpret text. Tags are built with three components; The opening tag which has a descriptor symbol such as “h1” between two pointy brackets: < and >, The closing bracket which has the same symbols as the opening bracket with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags), Finally the content (everything between the opening bracket and the closing bracket).
@@ -50,11 +48,11 @@ To start, we will be learning about adding basic components to an about me page 
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
 
 5.  **Title Tag**
-    
-    <img src="images/act-1/example.png" alt="webpage" style="float:right;width:180px;">
-    
     -   The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add **<title></title>**
     -   This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.
+
+    <img src="images/act-1/example.png" alt="webpage" style="width:720px;">
+
 6.  **H and P Tags**
     
     <img src="images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
