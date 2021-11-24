@@ -62,11 +62,11 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 
         Add the following in your CSS file: 
         
-        
+        ```
         body{
             display: flex;
         }
-        
+        ```
 
     -   Refresh your html page and you should get each item line up horizontally.
     
