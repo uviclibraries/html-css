@@ -43,7 +43,7 @@ To start, we will be learning about adding basic components to an about me page 
         <img src="images/act-1/tags.png" alt="tags" style="width:720px;">
     
     -   It’s good to note that HTML is not case sensitive. You could write the body tag as **<BODY>** or even **<BoDy>** and it would work. However, it’s best practice to keep to the same pattern so if you choose to capitalize, capitalize uniformly.
-    -   Although our page is empty we can still open it in our browser. First thing we need to do is save the changes we’ve made. Under “File”, “Save”. Now open the file by double clicking “about.html” in your “html_workshop” folder. This should open a browser with nothing on the page.
+    -   Although our page is empty we can still open it in our browser. First thing we need to do is save the changes we’ve made. Under “**File**”, click “**Save**”. Now open the file by double clicking “about.html” in your “html_workshop” folder. This should open a browser with nothing on the page.
 
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
 
