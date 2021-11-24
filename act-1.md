@@ -25,7 +25,13 @@ To start, we will be learning about adding basic components to an about me page 
         -   Under **File**, click  **New File**
         -   Again, under **File** click on **Save As..** and you should already be inside the correct folder (if not, navigate to your “html_workshop” folder). Save the file as “about.html”.
         -   We now have our first HTMLfile. Atom recognizes this and will help coordinate our code with helpful coloring, suggestions, and autocompletes.
+    
+        <img src="/images/act-1/save-as.gif" alt="save as" style="width:720px;">
+    
     -   To see an example of how Atom can help us out, type the letter “h”. Atom has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one.
+    
+        <img src="/images/act-1/heading.png" alt="headings menu" style="width:720px;">
+    
     -   Now it’s time to get to the actual coding portion.
     -   Typing “html” will give you an option to autocomplete. Feel free to click enter to see what it looks like, but we will start from a blank page.
     -   HTML uses tags to inform the browser how to interpret text. Tags are built with three components; The opening tag which has a descriptor symbol such as “h1” between two pointy brackets: < and >, The closing bracket which has the same symbols as the opening bracket with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags), Finally the content (everything between the opening bracket and the closing bracket).
@@ -37,12 +43,24 @@ To start, we will be learning about adding basic components to an about me page 
     -   When the browser opens this file it now knows how to deal with what is between these tags as it’s a recognized tag. There are many kinds of tags and you’ll be introduced to some of them.
     -   The next part will be within our tags.Underneath the opening tag click the tab key once. Then type **<head>** the reason we indent is to make our code more readable and orderly. Similarly, we want to have our closing head tag (**</head>**) indented the same amount, still in between the HTML tags. The head tag holds metadata (data about data) on our file. Things like styling and title, but we’ll get to that later.
     -   Next we want to create the body tags. This is where the content of the website is held. Underneath the closing head tag but still within the HTML tags **<body>** and **</body>** should both be indented once, similar to head.
+    
+        <img src="/images/act-1/tags.png" alt="tags" style="width:720px;">
+    
     -   It’s good to note that HTML is not case sensitive. You could write the body tag as **<BODY>** or even **<BoDy>** and it would work. However, it’s best practice to keep to the same pattern so if you choose to capitalize, capitalize uniformly.
     -   Although our page is empty we can still open it in our browser. First thing we need to do is save the changes we’ve made. Under “File”, “Save”. Now open the file by double clicking “about.html” in your “html_workshop” folder. This should open a browser with nothing on the page.
+
+    <img src="/images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
+
 5.  **Title Tag**
+    
+    <img src="/images/act-1/example.png" alt="webpage" style="float:right;width:180px;">
+    
     -   The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add **<title></title>**
     -   This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.
 6.  **H and P Tags**
+    
+    <img src="/images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
+    
     -   Let’s move onto the body part of our code. “h” tags are HTML heading tags. There are 6 types: “h1”, “h2, “h3”, “h4”, “h5”, and “h6”. Inherently, h1 gives the largest text and h6 the smallest. The tags are written like so:<br>
 **&lt;h1&gt;&lt;/h1&gt;**
     -   Put text within the above header tags to make a header
@@ -60,10 +78,17 @@ To start, we will be learning about adding basic components to an about me page 
     -   Atom has a helpful feature to make your file more readable. If your text exceeds the width of Atom you can compress it instead of having to scroll sideways. Under View click Toggle Soft Wrap.
     -   I’m going to add another paragraph beneath the last p tag. This will still be in the about me section. Separating items in different tags can be helpful when you want them to appear or behave in different ways when it comes to changing layout. For the Zuko page I’m adding the following:<br>
 **&lt;p&gt;**Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.**&lt;/p&gt;**
+
+    <img src="/images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
+
 7.  **List Tags**
     -   HTML has tags that can create lists for us. Ordered lists make each item organized by a number and unordered lists make bullet point styled lists. The way to add to a list is with a list tag:<br>
 **&lt;li&gt;&lt;/li&gt;**
     -   “li” tags are written within “ol” or “ul” tags and its best practice to have them indented. I want to add a list of attributes on my about page. I’ll make a list underneath the paragraph tags with “Prince of the Fire Nation”. I used an unordered list since these details are not in any particular order.
+
+    <img src="/images/act-1/list-tag.gif" alt="list tags animated" style="width:720px;">
+    <img src="/images/act-1/list-tag.png" alt="list tags" style="width:720px;">
+
 8.  **Text Tags**
     -   Styling should be done in CSS files but sometimes making changes in the HTML file can be helpful. For example, the **<del></del>**  & **<ins></ins>** tags can be helpful to highlight specific text. The **<del>** tag puts a line through the text and the **<ins>** tag underlines text.
     -   Text tags can be put around any text that shows up in the browser. These tags don't have to encompass the whole text, it doesn't even have to cover a whole word. Say I wanted the following text to be typed out in a paragraph:
