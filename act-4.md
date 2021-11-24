@@ -19,7 +19,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   Add some css styling
     Your page should look something like this:
     
-    <img src="/images/act-4/example.png" alt="recap of activities" style="width:720px;">
+    <img src="images/act-4/example.png" alt="recap of activities" style="width:720px;">
     
 3.  You may have noticed that all of our content is stacked like a list. This is the default layout of html files. Although our information is clear and orderly, it is also static and not very exciting. Flex boxes can be used to arrange content in a simple way.
 4.  **CSS and Classes**
@@ -31,16 +31,16 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   In CSS, class blocks are written with a full stop in front of them.
         
 	```
-	    .about-title{
-	        font-size:150%;
-	        Font-weight: bold;
-            }
+	.about-title{
+	    font-size:150%;
+	    Font-weight: bold;
+        }
 	```
 	
     -   Notice how only the paragraph with the “about-title” class has been affected by the changes.
     -   You may have the same property in the class block and the tag block with different values. This is where precedence comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
 
-        <img src="/images/act-4/css-class.jpg" alt="css class" style="width:720px;">
+        <img src="images/act-4/css-class.jpg" alt="css class" style="width:720px;">
 
 5.  **HTML and Divisions**
     -   The “div” tag, written in html as **<div></div>**, stands for division. All it does is defines sections within our code. Alone, it doesn’t do much. However, with CSS it helps organize our content into groups
@@ -48,7 +48,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   In the Zuko example I’ve added a div class to my nested list. This way, I can change the items in my list without affecting the main list or even other lists I may have.
     -   The top image is from the html code and the bottom is the corresponding CSS code. The text is now bold and not italicized.
     
-        <img src="/images/act-4/div.jpg" alt="div example" style="width:720px;">
+        <img src="images/act-4/div.jpg" alt="div example" style="width:720px;">
     
     -   Division tags can also take advantage of precedence, A division tag enclosed within another division tag has higher precedence than the outside division tag.
 6.  **CSS Flexible Boxes**
@@ -58,14 +58,14 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   HTML defaults to listing everything, one below the other. Like so:
     -   Let's start by adding a flex container to our body tag in CSS.
         
-	    <img src="/images/act-4/flex.png" alt="flex container" style="width:720px;">
+	    <img src="images/act-4/flex.png" alt="flex container" style="width:720px;">
 	
 	Add the following in your CSS file: 
         
 	```
-	    body{
-	        display: flex;
-            }
+	body{
+	    display: flex;
+        }
 	```
 	
     -   Refresh your html page and you should get each item line up horizontally.
@@ -79,9 +79,9 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   Go to your CSS file and create a block for the bio class and add the display flex property.
         
 	```
-	    .bio{
-                display:flex;
-            }
+	.bio{
+            display:flex;
+        }
 	```
 	
     -   Your list should now be to the right of the image of Zuko!
