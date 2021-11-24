@@ -83,7 +83,7 @@ To start, we will be learning about adding basic components to an about me page 
     -   “li” tags are written within “ol” or “ul” tags and its best practice to have them indented. I want to add a list of attributes on my about page. I’ll make a list underneath the paragraph tags with “Prince of the Fire Nation”. I used an unordered list since these details are not in any particular order.
 
     <img src="images/act-1/list-tag.gif" alt="list tags animated" style="width:720px;">
-    <img src="images/act-1/list-tag.png" alt="list tags" style="width:720px;">
+    <img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;">
 
 8.  **Text Tags**
     -   Styling should be done in CSS files but sometimes making changes in the HTML file can be helpful. For example, the **<del></del>**  & **<ins></ins>** tags can be helpful to highlight specific text. The **<del>** tag puts a line through the text and the **<ins>** tag underlines text.
