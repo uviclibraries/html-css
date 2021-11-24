@@ -19,7 +19,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   Add some css styling
     Your page should look something like this:
     
-    <img src="images/act-4/example.png" alt="recap of activities" style="width:720px;">
+    <img src="images/act-4/example.jpg" alt="recap of activities" style="width:720px;">
     
 3.  You may have noticed that all of our content is stacked like a list. This is the default layout of html files. Although our information is clear and orderly, it is also static and not very exciting. Flex boxes can be used to arrange content in a simple way.
 4.  **CSS and Classes**
