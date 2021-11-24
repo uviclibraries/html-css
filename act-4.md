@@ -5,6 +5,8 @@ nav_order: 5
 parent: Workshop Activities
 ---
 
+<img src="WORKSHOP-LOGO-HERE.png" alt="image description" style="float:right;width:180px;">
+
 # Using CSS to Change Layout
 
 Using CSS to change the positioning and layout of your page. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
