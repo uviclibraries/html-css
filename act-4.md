@@ -31,10 +31,10 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   In CSS, class blocks are written with a full stop in front of them.
         
 	```
-	.about-title{
+	.about-title{CHANGED
 	    font-size:150%;
 	    Font-weight: bold;
-        }
+    }
 	```
 	
     -   Notice how only the paragraph with the “about-title” class has been affected by the changes.
