@@ -35,7 +35,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
             font-size:150%;
             font-weight: bold;
         }
-	```
+        ```
 
     -   Notice how only the paragraph with the “about-title” class has been affected by the changes.
     -   You may have the same property in the class block and the tag block with different values. This is where precedence comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
@@ -66,7 +66,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         body{
             display: flex;
         }
-	```
+        ```
 
     -   Refresh your html page and you should get each item line up horizontally.
     
@@ -82,7 +82,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         .bio{
             display: flex;
         }
-	```
+        ```
 
     -   Your list should now be to the right of the image of Zuko!
     -   If you’d like to have the list on the left, there are a few ways to do this.
