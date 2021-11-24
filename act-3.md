@@ -66,4 +66,4 @@ Save the changes to your html file.
 10.  Try adding your new CSS file to other HTML files.
 11.  Below is an example for the Zuko about me page:
 
-[NEXT STEP: title](act-4.html){: .btn .btn-blue }
+[NEXT STEP: Using CSS to Change Layout](act-4.html){: .btn .btn-blue }
