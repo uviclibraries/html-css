@@ -16,7 +16,7 @@ To start, we will be learning about adding basic components to an about me page 
 
 3.  This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuko, a character from a cartoon show.
 4.  **Coding Time**
-    -   Create a Folder somewhere to save your files, I have called this folder “html_workshop” but you can call it whatever you like. An easy place to access would be the **Desktop** or document folder. You can always move it for future use.
+    -   Create a Folder somewhere to save your files, I have called this folder “html_workshop” but you can call it whatever you like. An easy place to access would be the **Desktop** or **Document** folder. You can always move it for future use.
     -   Close all tabs in Atom including the Welcome Guide if you haven't done so already.
     -   Go to **File**, **Open Folder** or **Open..**, then find and select the “html_workshop” folder you just made and click the **Select Folder** button.
     -   You’ll notice on the left hand side the “html_workshop” folder. We now need to create our first file.
@@ -25,7 +25,7 @@ To start, we will be learning about adding basic components to an about me page 
         -   We now have our first HTMLfile. Atom recognizes this and will help coordinate our code with helpful coloring, suggestions, and autocompletes.
     
         <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
-        <img src="images/act-1/heading.png" alt="headings menu" style="float:right;width:360px;">
+        <img src="images/act-1/heading.png" alt="headings menu" style="float:right;width:360px;margin-top:10px;margin-left:10px;">
     
     -   To see an example of how Atom can help us out, type the letter “h”. Atom has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one.
     -   Now it’s time to get to the actual coding portion.
