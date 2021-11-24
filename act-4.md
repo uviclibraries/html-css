@@ -40,7 +40,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   Notice how only the paragraph with the “about-title” class has been affected by the changes.
     -   You may have the same property in the class block and the tag block with different values. This is where precedence comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
 
-        <img src="/images/act-4/css-class.png" alt="css class" style="width:720px;">
+        <img src="/images/act-4/css-class.jpg" alt="css class" style="width:720px;">
 
 5.  **HTML and Divisions**
     -   The “div” tag, written in html as **<div></div>**, stands for division. All it does is defines sections within our code. Alone, it doesn’t do much. However, with CSS it helps organize our content into groups
