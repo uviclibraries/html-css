@@ -25,7 +25,7 @@ Save the changes to your html file.
     -   CSS code can be used within an html file, but to keep things simple we will only use CSS code in our CSS file.
 5.  **CSS Format**
     
-    <img src="images/act-3/color.png" alt="CSS block" style="width:720px;">
+    <img src="images/act-3/color.png" alt="CSS block" style="width:720px;"><br>
     
     -   In the code extract above we see a snippet of CSS code. The example is called a block. It holds the changes we want to make to a specific component. Each part is explained below. Note that the colors may differ depending on the type
         -   The p in this case, is the selector. It states which elements we want to style.
