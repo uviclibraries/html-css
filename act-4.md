@@ -48,7 +48,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   In the Zuko example I’ve added a div class to my nested list. This way, I can change the items in my list without affecting the main list or even other lists I may have.
     -   The top image is from the html code and the bottom is the corresponding CSS code. The text is now bold and not italicized.
     
-        <img src="/images/act-4/div.png" alt="div example" style="width:720px;">
+        <img src="/images/act-4/div.jpg" alt="div example" style="width:720px;">
     
     -   Division tags can also take advantage of precedence, A division tag enclosed within another division tag has higher precedence than the outside division tag.
 6.  **CSS Flexible Boxes**
