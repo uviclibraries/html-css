@@ -5,8 +5,6 @@ nav_order: 5
 parent: Workshop Activities
 ---
 
-<img src="WORKSHOP-LOGO-HERE.png" alt="image description" style="float:right;width:180px;">
-
 # Using CSS to Change Layout
 
 Using CSS to change the positioning and layout of your page. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
@@ -20,6 +18,9 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   Link a css stylesheet
     -   Add some css styling
     Your page should look something like this:
+    
+    <img src="/images/act-4/example.png" alt="recap of activities" style="width:720px;">
+    
 3.  You may have noticed that all of our content is stacked like a list. This is the default layout of html files. Although our information is clear and orderly, it is also static and not very exciting. Flex boxes can be used to arrange content in a simple way.
 4.  **CSS and Classes**
     -   Classes can be used in CSS to define specific html tags and alter properties and values for elements for that specific class.
@@ -36,24 +37,37 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 	```
     -   Notice how only the paragraph with the “about-title” class has been affected by the changes.
     -   You may have the same property in the class block and the tag block with different values. This is where precedence comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
+
+        <img src="/images/act-4/css-class.png" alt="css class" style="width:720px;">
+
 5.  **HTML and Divisions**
     -   The “div” tag, written in html as **<div></div>**, stands for division. All it does is defines sections within our code. Alone, it doesn’t do much. However, with CSS it helps organize our content into groups
     -   By applying a class to division tags we can change a section of code that can apply to everything between the opening and closing tag.
     -   In the Zuko example I’ve added a div class to my nested list. This way, I can change the items in my list without affecting the main list or even other lists I may have.
     -   The top image is from the html code and the bottom is the corresponding CSS code. The text is now bold and not italicized.
+    
+        <img src="/images/act-4/div.png" alt="div example" style="width:720px;">
+    
     -   Division tags can also take advantage of precedence, A division tag enclosed within another division tag has higher precedence than the outside division tag.
 6.  **CSS Flexible Boxes**
     -   Despite all the changes we’ve made, nothing has really moved around yet. This is where flexible boxes or flexbox comes in.
     -   Flexbox is a simple and powerful way to organize a webpage.
     -   Flexbox works by separating each item into their own box. These boxes can then be told how to behave and organize themselves even when viewed from different screen sizes (think a computer screen compared to a smartphone screen).
     -   HTML defaults to listing everything, one below the other. Like so:
-    -   Let's start by adding a flex container to our body tag in CSS. Add the following in your CSS file: 
+    -   Let's start by adding a flex container to our body tag in CSS.
+        
+	    <img src="/images/act-4/flex.png" alt="flex container" style="width:720px;">
+	
+	Add the following in your CSS file: 
         ```
 	body{
 	    display: flex;
         }
 	```
     -   Refresh your html page and you should get each item line up horizontally.
+    
+        <img src="/images/act-4/flex2.png" alt="more flex containers" style="width:720px;">
+    
     -   I don’t want my page to look like this either. Here is where I can use division tags to organize it further. First get rid of the display:flex in we just added in our body tag.
     -   I want my list to be horizontal to the image of Zuko. I’m going to add my opening divisions tag above the image tag and the closing division tag below the closing unordered list tag. Make the opening division tag look like this:<br>
 	**&lt;div class = “bio”&gt;**
@@ -76,6 +90,9 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         -   Note: column-reverse & row-reverse but using them is not advised as it may cause a conflict with how you indent your page to be viewed and how users utilizing assistive technology view your page.
     -   flex-wrap: (wrap / nowrap);
         -   Should your flexbox items extend past the width of the page and you do not want users to side scroll, wrap will stack the following content below. In the example below, without wrap the purple item would be off of the display screen (orange box). With wrap, the purple box goes down
+
+            <img src="/images/act-4/flex3.png" alt="flex container wrap" style="width:720px;">
+
     -   [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/#:~:text=The%20justify%2Dcontent%20property%20is,have%20reached%20their%20maximum%20size.){:target="_blank"}: (flex-start(default) / flex-end / center / space-between / space-around);
         -   This property changes how the flex boxes are spaced between other flexboxes. This can be a fun one to play around with as it can dramatically change the layout of a page.
     -   [align-items](https://css-tricks.com/almanac/properties/a/align-items/){:target="_blank"}: (flex-start / flex-end / center / stretch);
