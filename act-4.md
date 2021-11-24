@@ -33,7 +33,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 	```
 	.about-title{
 	    font-size:150%;
-	    font-weight: bold;<br>
+	    font-weight: bold;
         }
 	```
 	
@@ -106,5 +106,12 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         -   For having items in the center of your flex box, apply both of the following:
             -   justify-content : center;
             -   align-items : center;
+
+```
+.about-title{
+font-size:150%;
+font-weight: bold;
+}
+```
 
 [NEXT STEP: Next Steps](act-5.html){: .btn .btn-blue }
