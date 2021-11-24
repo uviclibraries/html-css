@@ -60,7 +60,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
     -   Remember to save it in your “html_workshop folder”
     
         <img src="images/act-2/links.gif" alt="adding links animated" style="width:720px;">
-        <img src="images/act-2/links.png" alt="adding links" style="width:720px;">
+        <img src="images/act-2/links.jpg" alt="adding links" style="width:720px;">
     
     -   Using relative paths for anchor tags works the same as paths for image sources. Since the files are saved in the same location, the link will just be the file name:<br>
 **&lt;a href = "about.html"&gt;**Zuko**&lt;/a&gt;**
