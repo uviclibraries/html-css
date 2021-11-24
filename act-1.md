@@ -67,12 +67,12 @@ To start, we will be learning about adding basic components to an about me page 
         -   &lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt;. This is &lt;strong&gt;&lt;ins&gt;very&lt;/ins&gt; important.&lt;/strong&gt; Thank &lt;ins&gt;you!&lt;/ins&gt;&lt;/p&gt;
         -   Notice where the spaces and full stops are. With so many tags, it can be easy to forget to add important content in the right places.
     -   Try some more types of text altering tags.
-        -   &lt;strong&gt; - Important text
-        -   &lt;i&gt; - Italic text
-        -   &lt;em&gt; - Emphasized text
-        -   &lt;mark&gt; - Marked text
-        -   &lt;small&gt; - Smaller text
-        -   &lt;sub&gt; - Subscript text
-        -   &lt;sup&gt; - Superscript text
+        -   **&lt;strong&gt;** - Important text
+        -   **&lt;i&gt;** - Italic text
+        -   **&lt;em&gt;** - Emphasized text
+        -   **&lt;mark&gt;** - Marked text
+        -   **&lt;small&gt;** - Smaller text
+        -   **&lt;sub&gt;** - Subscript text
+        -   **&lt;sup&gt;** - Superscript text
 
 [NEXT STEP: Adding Images and Links in HTML](act-2.html){: .btn .btn-blue }
