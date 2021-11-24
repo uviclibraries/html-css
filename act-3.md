@@ -5,6 +5,8 @@ nav_order: 4
 parent: Workshop Activities
 ---
 
+<img src="WORKSHOP-LOGO-HERE.png" alt="image description" style="float:right;width:180px;">
+
 # Adding CSS
 
 An introduction to CSS, adding color and a little bit of style to your web pages. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
