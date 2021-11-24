@@ -62,8 +62,8 @@ To start, we will be learning about adding basic components to an about me page 
 8.  **Text Tags**
     -   Styling should be done in CSS files but sometimes making changes in the HTML file can be helpful. For example, the **<del></del>**  & **<ins></ins>** tags can be helpful to highlight specific text. The **<del>** tag puts a line through the text and the **<ins>** tag underlines text.
     -   Text tags can be put around any text that shows up in the browser. These tags don't have to encompass the whole text, it doesn't even have to cover a whole word. Say I wanted the following text to be typed out in a paragraph:
-    -   <p>This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins></p><br>
-        -   We have 2 words in bold, 1 word underlined, and 1 word underlined & in bold. Let’s look at what that would look like with tags.<br>
+    -   This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins>
+        -   We have 2 words in bold, 1 word underlined, and 1 word underlined & in bold. Let’s look at what that would look like with tags.
         -   &lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt;. This is &lt;strong&gt;&lt;ins&gt;very&lt;/ins&gt; important.&lt;/strong&gt; Thank &lt;ins&gt;you!&lt;/ins&gt;&lt;/p&gt;
         -   Notice where the spaces and full stops are. With so many tags, it can be easy to forget to add important content in the right places.
     -   Try some more types of text altering tags.
