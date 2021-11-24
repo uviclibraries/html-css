@@ -32,7 +32,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
     -   The **alt** stands for alternative and is what will be displayed when the image fails to load, cannot be found or is read allowed for individuals who may have visual disabilities.
     -   Save the file and refresh your browser to see the changes.
     
-        <img src="images/act-2/img.png" alt="image tag" style="width:720px;">
+        <img src="images/act-2/img.jpg" alt="image tag" style="width:720px;">
     
     -   Add another image at the bottom of your page. You can use the fire nation image below if you don't have any images of your own to use.
 
