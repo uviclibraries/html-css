@@ -58,9 +58,9 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   HTML defaults to listing everything, one below the other. Like so:
     -   Let's start by adding a flex container to our body tag in CSS.
         
-	    <img src="images/act-4/flex.png" alt="flex container" style="width:720px;">
-	
-	Add the following in your CSS file: 
+        <img src="images/act-4/flex.png" alt="flex container" style="width:720px;">
+
+        Add the following in your CSS file: 
         
         
         body{
