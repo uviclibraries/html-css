@@ -32,8 +32,8 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         
 	```
 	.about-title{
-	font-size:150%;
-	Font-weight: bold;
+	    font-size:150%;
+	    Font-weight: bold;
     }
 	```
 	
@@ -64,7 +64,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         
 	```
 	body{
-	display: flex;
+	    display: flex;
     }
 	```
 	
@@ -80,7 +80,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         
 	```
 	.bio{
-        display:flex;
+            display:flex;
     }
 	```
 	
