@@ -30,10 +30,10 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         **&lt;p class=”about-title”&gt;**Hello, Zuko here**&lt;/p&gt;**
     -   In CSS, class blocks are written with a full stop in front of them.
         
-	```
-	.about-title{
-	    font-size:150%;
-	    font-weight: bold;
+        ```
+        .about-title{
+            font-size:150%;
+            font-weight: bold;
         }
 	```
 	
@@ -63,9 +63,9 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 	Add the following in your CSS file: 
         
 	```
-	body{
-	    display: flex;
-    }
+        body{
+            display: flex;
+        }
 	```
 	
     -   Refresh your html page and you should get each item line up horizontally.
@@ -78,10 +78,10 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         -   Note: You can highlight everything between the opening and closing division tags and click the tab key. This indents all the highlighted items, helping to keep you code legible. Holding the shift key then clicking the tab key does the opposite and moves the text closer to the margin.
     -   Go to your CSS file and create a block for the bio class and add the display flex property.
         
-	```
-	.bio{
+        ```
+        .bio{
             display: flex;
-    }
+        }
 	```
 	
     -   Your list should now be to the right of the image of Zuko!
@@ -106,12 +106,5 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         -   For having items in the center of your flex box, apply both of the following:
             -   justify-content : center;
             -   align-items : center;
-
-```
-.about-title{
-    font-size:150%;
-    font-weight: bold;
-}
-```
 
 [NEXT STEP: Next Steps](act-5.html){: .btn .btn-blue }
