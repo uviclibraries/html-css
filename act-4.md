@@ -109,8 +109,8 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 
 ```
 .about-title{
-font-size:150%;
-font-weight: bold;
+    font-size:150%;
+    font-weight: bold;
 }
 ```
 
