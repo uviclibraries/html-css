@@ -17,9 +17,9 @@ An introduction to CSS, adding color and a little bit of style to your web pages
 3.  CSS is a different language than html and has different rules and structure. It is used to alter the presentation of a website and doesn’t hold any new content to the web. This means that the same html file can appear dramatically different depending on how CSS is used.
 4.  **Linking CSS Stylesheet**
     -   Let's start off by creating a separate folder inside our “html-workshop” folder called “hello-css”. This can be done in Atom by right clicking html_workshop in the project tab and clicking “New Folder”. Make a new file in Atom by right clicking on our new folder in the project tab and select “New File”. Save this file as “styling.css”.
-    -   In order for a CSS file to have any effect on an html file it needs to be linked. This is done in the html file by using a link tag. Link tags are placed within the head tags and are self closing tags. Within the tag we need to have two values; rel (which stands for relation and is required for all “link” tags) and href (which behaves like the href in our “a” tags and it shows the path to the CSS file). 
-<link rel = “stylesheet” href=”hello-css/styling.css”>
-Save the changes to your html file.
+    -   In order for a CSS file to have any effect on an html file it needs to be linked. This is done in the html file by using a link tag. Link tags are placed within the head tags and are self closing tags. Within the tag we need to have two values; rel (which stands for relation and is required for all “link” tags) and href (which behaves like the href in our “a” tags and it shows the path to the CSS file).<br>
+        **&lt;link rel = “stylesheet” href=”hello-css/styling.css”&gt;**
+    -   Save the changes to your html file.
     -   Make sure that the link tag is in the head part of the html file.
     -   Once our style sheet is linked, refreshing our html file in the browser will fetch the CSS file. To see changes save your CSS file and refresh the browser.
     -   CSS code can be used within an html file, but to keep things simple we will only use CSS code in our CSS file.
