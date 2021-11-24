@@ -75,4 +75,4 @@ To start, we will be learning about adding basic components to an about me page 
         -   &lt;sub&gt; - Subscript text
         -   &lt;sup&gt; - Superscript text
 
-[NEXT STEP: title](act-2.html){: .btn .btn-blue }
+[NEXT STEP: Adding Images and Links in HTML](act-2.html){: .btn .btn-blue }
