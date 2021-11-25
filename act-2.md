@@ -15,12 +15,12 @@ Next we’ll be learning about adding images, and links to other pages. If you a
     <img src="images/act-2/recap.png" alt="recap of act 1" style="width:720px;">
 
 3.  **Image Tag**
-    -   First off, inside your “html_workshop” folder create another folder called “images”. You can do this in Atom by rightclikcing the project tab and selecting “New Folder” and naming it within Atom.
+    -   First off, inside your “html_workshop” folder create another folder called “images”. You can do this in Atom by rightclicking the project tab and selecting “**New Folder**” and naming it within Atom.
     -   If your page is about Zuko, click on the image below, and then save it into that folder else use a photo appropriate to your about me page.
     
         <img src="images/act-2/zuko.png" alt="zuko" style="width:720px;">
     
-    -   **<img>** is the tag for images. Notice there is no closing tag. This happens because “img” is a self closing tag. You may see it written as **</img>** to show that it is self closing but this is just for readability. Both work and the important thing is to keep it consistent.
+    -   **&lt;img&gt;** is the tag for images. Notice there is no closing tag. This happens because “img” is a self closing tag. You may see it written as **</img>** to show that it is self closing but this is just for readability. Both work and the important thing is to keep it consistent.
     -   Using atom’s Autocomplete while typing img you’ll end up with:<br>
 **&lt;img src ="" alt=""&gt;**
     -   If you didn't use autocomplete, type out the above so “src” and “alt” are in your “img” tag.
@@ -29,7 +29,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
         -   .jpeg
         -   .svg
     -   **src** stands for source and is where HTML will look to grab the image. My image is stored in the image folder and under the name “avaZuko.png”. Between the quotation marks we put the path to get to our jar.jpg file. The path is the following “images/avaZuko.png”. This is called a relative path, as it works from the current folder and if we moved the image.html file to a different folder it would not be able to find the image as it would be a different path. How it works is from where the current file is (in our case about.html) and first opens the images folder then looks for the file avaZuko.png. If you want the path to go to the parent folder, it is written as “../”.
-    -   The **alt** stands for alternative and is what will be displayed when the image fails to load, cannot be found or is read allowed for individuals who may have visual disabilities.
+    -   The **alt** stands for alternative and is what will be displayed when the image fails to load, cannot be found or is read aloud for individuals who may have visual disabilities.
     -   Save the file and refresh your browser to see the changes.
     
         <img src="images/act-2/img.jpg" alt="image tag" style="width:720px;">
@@ -67,7 +67,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
     -   Whatever is between the anchor tags becomes the link. Our anchor tags surround some text within a paragraph, but could encompass paragraph, image, and even body tags. Changing where the anchor tags start and end change what needs to be clicked to go to the desired page.
     -   Back on your about page, let's put a link to go back to the index page.
     -   Add a paragraph to the bottom of the about page and make it a link to the index page.
-6.  Note: it’s best to save your files without spaces in the name as it can look strange in the url bar. Instead, replace spaces with underscores or dashes. The same goes for image files.<br><br>“Image page.html” should either be:
+6.  Note: it’s best to save your files without spaces in the name as it can look strange in the url bar. Instead, replace spaces with underscores or dashes. The same goes for image files.<br>**For Example:** “Image page.html” should either be:
     -   “Image_page.html”
         **or**
     -   “Image-page.html”
