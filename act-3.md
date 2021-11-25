@@ -10,16 +10,16 @@ parent: Workshop Activities
 An introduction to CSS, adding color and a little bit of style to your web pages. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 1.  If you haven’t already completed the previous exercise, please start [here](https://richmccue.github.io/html-css/act-1.html){:target="_blank"}, as this part builds on the topics from the previous section.
-2.  So far, you should have at least two html pages, some with text and one with text and images. They all should have at least one link to another page. Even with all this lovely text your pages probably look quite plain. That’s where CSS (which stands for Cascading Style Sheets) comes into play.
+2.  So far, you should have at least two html pages, some with text and one with text and images. They all should have at least one link to another page. Even with all this lovely text your pages probably look quite plain, like the example below. That’s where CSS (which stands for Cascading Style Sheets) comes into play.
 
     <img src="images/act-3/example.jpg" alt="recap of previous acts" style="width:720px;">
 
-3.  CSS is a different language than html and has different rules and structure. It is used to alter the presentation of a website and doesn’t hold any new content to the web. This means that the same html file can appear dramatically different depending on how CSS is used.
+3.  CSS is a different language than html and has different rules and structure. It is used to alter the presentation of a website and doesn’t hold any new content to the web. This means that the same HTML file can appear dramatically different depending on how CSS is used.
 4.  **Linking CSS Stylesheet**
-    -   Let's start off by creating a separate folder inside our “html-workshop” folder called “hello-css”. This can be done in Atom by right clicking html_workshop in the project tab and clicking “New Folder”. Make a new file in Atom by right clicking on our new folder in the project tab and select “New File”. Save this file as “styling.css”.
+    -   Let's start off by creating a separate folder inside our “html-workshop” folder called “hello-css”. This can be done in Atom by right clicking html_workshop in the project tab and clicking “**New Folder**”. Make a new file in Atom by right clicking on our new folder in the project tab and select “**New File**”. Save this file as “styling.css”.
     -   In order for a CSS file to have any effect on an html file it needs to be linked. This is done in the html file by using a link tag. Link tags are placed within the head tags and are self closing tags. Within the tag we need to have two values; rel (which stands for relation and is required for all “link” tags) and href (which behaves like the href in our “a” tags and it shows the path to the CSS file).<br>
         **&lt;link rel = “stylesheet” href=”hello-css/styling.css”&gt;**
-    -   Save the changes to your html file.
+    -   Save the changes to your HTML file.
     -   Make sure that the link tag is in the head part of the html file.
     -   Once our style sheet is linked, refreshing our html file in the browser will fetch the CSS file. To see changes save your CSS file and refresh the browser.
     -   CSS code can be used within an html file, but to keep things simple we will only use CSS code in our CSS file.
@@ -36,11 +36,11 @@ An introduction to CSS, adding color and a little bit of style to your web pages
     -   Each block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. Don’t forget to add the semicolon at the end of each rule. Let’s add the following properties:
         -   background-color:
         -   text-decoration:
-    -   Your CSS file should have something like this. Save it and refresh your index.html page. You should see the changes you’ve made.
+    -   Your CSS file should now contain something like this. Save it and refresh your index.html page. You should see the changes you’ve made.
     
         <img src="images/act-3/format.png" alt="block with formatting" style="width:720px;">
     
-    -   Note: Not every single color has been made available in word form. You can look up those that are available here. For colors not available, we can use its hexadecimal code. You’re probably familiar with decimal numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Hexadecimal works the same except it has 16 unique numbers; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. A, B, C, D, E, and F. The hexadecimal numbers for colors have 6 digits, divided into three sections. 000000. The first 2 numbers represent how much red goes into the color, the middle two represents how much green is in the color, and the last 2 are how much blue. If you’re interested in playing around with hexadecimal numbers, start by replacing “blue” with “#0000FF” and you’ll get the same result. Then change the hexadecimal number as you see fit. (#000000 is black, no color, and #FFFFFF is white, all colors.)
+    -   Note: Not every single color has been made available in word form. You can look up those that are available [here](youtube.com){:target="_blank"}. For colors not available, we can use its hexadecimal code. You’re probably familiar with decimal numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Hexadecimal works the same except it has 16 unique numbers; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal numbers for colors have 6 digits, divided into three sections. 000000. The first 2 numbers represent how much red goes into the color, the middle two represents how much green is in the color, and the last 2 are how much blue. If you’re interested in playing around with hexadecimal numbers, start by replacing “blue” with “#0000FF” and you’ll get the same result. Then change the hexadecimal number as you see fit. (#000000 is black, no color, and #FFFFFF is white, all colors.)
 6.  There are a lot of different properties that we can change. Each element has a selection of what can be changed, but there are many shared between elements. No one is expected to memorise all of them, but it’s good to know the main ones and the rest you can always look up. Here are a few to start playing with:
     -   font-style:
     -   font-size: (For now use px as the value, eg: 30px)
