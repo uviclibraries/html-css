@@ -25,6 +25,6 @@ At the end of this workshop, you will be able to:
 4. Install and set up Atom text editor
 5. Find support
 
-Image credit: W3C under the [Creative Commons Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/deed.en){:target="_blank"} license
+Image credit: W3C under the [Creative Commons Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/deed.en){:target="_blank"} obtained from the following webpage: [https://commons.wikimedia.org/w/index.php?curid=12736763](https://commons.wikimedia.org/w/index.php?curid=12736763){:target="_blank"}
  
 [NEXT STEP: Pre-Workshop Activities](pre-workshop.html){: .btn .btn-blue }
