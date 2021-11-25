@@ -6,10 +6,10 @@ nav_order: 10
 # Additional Resources & Acknowledgements
 
 ## HTML & CSS Resources
-- coming soon
+-   [W3 schools](https://www.w3schools.com/){:target="_blank"} offers examples and simple explanations of both HTML and CSS.
+-   [Stackoverflow](https://stackoverflow.com/tags){:target="_blank"} is a forum where coders of all levels ask and answer questions. Post your own question or read resolved problems similar to your own.
 
 ## Acknowledgements
-
 - [UBC Library Research Commons](https://github.com/ubc-library-rc/), for their assistance with the Jekyll template for GitHub Pages.
 - **MORE ACKNOWLEDGEMENTS HERE**
 
