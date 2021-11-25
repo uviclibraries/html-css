@@ -40,7 +40,7 @@ An introduction to CSS, adding color and a little bit of style to your web pages
     
         <img src="images/act-3/format.png" alt="block with formatting" style="width:720px;">
     
-    -   Note: Not every single color has been made available in word form. You can look up those that are available [here](youtube.com){:target="_blank"}. For colors not available, we can use its hexadecimal code. You’re probably familiar with decimal numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Hexadecimal works the same except it has 16 unique numbers; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal numbers for colors have 6 digits, divided into three sections. <mark1>00</mark1> <mark2>00</mark2> <mark3>00</mark3> only without the spaces. The first 2 numbers represent how much red goes into the color, the middle two represents how much green is in the color, and the last 2 are how much blue. If you’re interested in playing around with hexadecimal numbers, start by replacing “blue” with “#0000FF” and you’ll get the same result. Then change the hexadecimal number as you see fit. (#000000 is black, no color, and #FFFFFF is white, all colors.)
+    -   Note: Not every single color has been made available in word form. You can look up those that are available [here](youtube.com){:target="_blank"}. For colors not available, we can use its hexadecimal code. You’re probably familiar with decimal numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Hexadecimal works the same except it has 16 unique numbers; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal numbers for colors have 6 digits, divided into three sections. <mark style="color:black;background-color:red;">00</mark><mark color:black;background-color:green;>00</mark> <mark color:black;background-color:blue;>00</mark>. The first 2 numbers represent how much red goes into the color, the middle two represents how much green is in the color, and the last 2 are how much blue. If you’re interested in playing around with hexadecimal numbers, start by replacing “blue” with “#0000FF” and you’ll get the same result. Then change the hexadecimal number as you see fit. (#000000 is black, no color, and #FFFFFF is white, all colors.)
 6.  There are a lot of different properties that we can change. Each element has a selection of what can be changed, but there are many shared between elements. No one is expected to memorise all of them, but it’s good to know the main ones and the rest you can always look up. Here are a few to start playing with:
     -   font-style:
     -   font-size: (For now use px as the value, eg: 30px)
@@ -79,20 +79,5 @@ An introduction to CSS, adding color and a little bit of style to your web pages
 11.  Below is an example for the Zuko about me page:
 
      <img src="images/act-3/zuko-format.jpg" alt="block of formatting for Zuko" style="width:720px;">
-
-.mark1{
-    background-color: red;
-    color: black;
-}
-
-.mark2{
-    background-color: blue;
-    color: black;
-}
-
-.mark3{
-    background-color: green;
-    color: black;
-}
 
 [NEXT STEP: Using CSS to Change Layout](act-4.html){: .btn .btn-blue }
