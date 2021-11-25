@@ -10,7 +10,7 @@ parent: Workshop Activities
 To start, we will be learning about adding basic components to an about me page like text. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 1.  If you haven’t already, please install [Atom text editor](https://atom.io/){:target="_blank"} on your computer. If you wish to use an alternative text editor that is great, however our examples will be from the Atom.
-2.  Opening Atom for the first time should automatically open 3 pages. You can close the Welcome and Telemetry Consent page. If you’d like to change the color and overall look of your text editor click on **Choose a Theme**. If the Welcome Page doesn’t appear, you can still find it under **Settings** (for Linux: **Edit -> Preferences**, for Mac: **Atom -> Preferences**), then click on Theme. Choose one that best works for you.
+2.  Opening Atom for the first time should automatically open 3 pages. You can close the Welcome and Telemetry Consent page. If you’d like to change the color and overall look of your text editor click on **Choose a Theme**. If the Welcome Page doesn’t appear, you can still find it under **Settings** (for Linux: **Edit -> Preferences**, for Mac: **Atom -> Preferences**), then click on **Theme**. Choose one that best works for you.
 
     <img src="images/act-1/DOWNLOAD.png" alt="choose a theme" style="width:720px;">
 
