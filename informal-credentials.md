@@ -15,7 +15,7 @@ DSC badges are awarded at the request of workshop participants after a DSC staff
 
 ### Earn an Informal Credential or Badge for HTML and CSS
 
-If you’d like to earn a DSC badge for this workshop, please email screenshots of your code and final webpage from the end of Activity 4: asdf to: [dscommons@uvic.ca](mailto:dscommons@uvic.ca){:target="_blank"}
+If you’d like to earn a DSC badge for this workshop, please email screenshots of your code and final webpage from the end of "Activity 4: Using CSS to Change Layout" to: [dscommons@uvic.ca](mailto:dscommons@uvic.ca){:target="_blank"}
 
 ### Learn how you can share your DSC Badge
 To learn more about DSC badges and how you can share your them on LinkedIn profile, personal website, or resume, check our [DSC Badges webpage](https://onlineacademiccommunity.uvic.ca/dsc/badges/){:target="_blank"}.
