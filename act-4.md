@@ -55,11 +55,11 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   Despite all the changes we’ve made, nothing has really moved around yet. This is where flexible boxes or flexbox comes in.
     -   Flexbox is a simple and powerful way to organize a webpage.
     -   Flexbox works by separating each item into their own box. These boxes can then be told how to behave and organize themselves even when viewed from different screen sizes (think a computer screen compared to a smartphone screen).
+
+        <img src="images/act-4/flex.png" alt="flex container" style="float:right;width:180px;">
+
     -   HTML defaults to listing everything, one below the other. Like so:
     -   Let's start by adding a flex container to our body tag in CSS.
-        
-        <img src="images/act-4/flex.png" alt="flex container" style="width:720px;">
-
         Add the following in your CSS file: 
         
         ```
@@ -68,10 +68,9 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         }
         ```
 
+        <img src="images/act-4/flex2.png" alt="more flex containers" style="float:right;width:480px;">
+
     -   Refresh your html page and you should get each item line up horizontally.
-    
-        <img src="images/act-4/flex2.png" alt="more flex containers" style="width:720px;">
-    
     -   I don’t want my page to look like this either. Here is where I can use division tags to organize it further. First get rid of the display:flex in we just added in our body tag.
     -   I want my list to be horizontal to the image of Zuko. I’m going to add my opening divisions tag above the image tag and the closing division tag below the closing unordered list tag. Make the opening division tag look like this:<br>
 	**&lt;div class = “bio”&gt;**
