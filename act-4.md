@@ -72,7 +72,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 
         <img src="images/act-4/flex2.png" alt="more flex containers" style="float:right;width:267px;">
 
-    -   I don’t want my page to look like this either. Here is where I can use division tags to organize it further. First get rid of the display:flex in we just added in our body tag.
+    -   I don’t want my page to look like this either. Here is where I can use division tags to organize it further. First get rid of the `display:flex;` we just added in our body tag.
     -   I want my list to be horizontal to the image of Zuko. I’m going to add my opening divisions tag above the image tag and the closing division tag below the closing unordered list tag. Make the opening division tag look like this:<br>
 	**&lt;div class = “bio”&gt;**
         -   Note: You can highlight everything between the opening and closing division tags and click the tab key. This indents all the highlighted items, helping to keep you code legible. Holding the shift key then clicking the tab key does the opposite and moves the text closer to the margin.
