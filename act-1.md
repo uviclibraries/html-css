@@ -67,12 +67,10 @@ To start, we will be learning about adding basic components to an about me page 
     -   The “p” tag is used for paragraphs of text and are written as:<br>
 **&lt;p&gt;&lt;/p&gt;**
     -   Underneath each h tag, add a paragraph tag. If you are following along you can add the following in the p tags, if not add what is appropriate to your page:<br>
-        ```
-        **&lt;h2&gt;**Hello, Zuko here.**&lt;/h2&gt;**<br>
-        **&lt;p&gt;**Prince of the Fire Nation**&lt;/p&gt;**<br>
-        **&lt;h3&gt;**About Me**&lt;/h3&gt;**<br>
-        **&lt;p&gt;**Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.**&lt;/p&gt;**
-        ```
+        `**&lt;h2&gt;**Hello, Zuko here.**&lt;/h2&gt;**`<br>
+        `**&lt;p&gt;**Prince of the Fire Nation**&lt;/p&gt;**`<br>
+        `**&lt;h3&gt;**About Me**&lt;/h3&gt;**`<br>
+        `**&lt;p&gt;**Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.**&lt;/p&gt;**`<br>
     -   Atom has a helpful feature to make your file more readable. If your text exceeds the width of Atom you can compress it instead of having to scroll sideways. Under View click Toggle Soft Wrap.
     -   I’m going to add another paragraph beneath the last p tag. This will still be in the about me section. Separating items in different tags can be helpful when you want them to appear or behave in different ways when it comes to changing layout. For the Zuko page I’m adding the following:<br>
 **&lt;p&gt;**Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.**&lt;/p&gt;**
