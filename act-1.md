@@ -48,7 +48,7 @@ To start, we will be learning about adding basic components to an about me page 
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
 
 5.  **Title Tag**
-    -   The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add **<title></title>**
+    -   The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add **&lt;title&gt;&lt;/title&gt;** and then add your own text between these two tags
     -   This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.
 
     <img src="images/act-1/example.png" alt="webpage" style="width:720px;">
