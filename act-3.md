@@ -33,18 +33,19 @@ An introduction to CSS, adding color and a little bit of style to your web pages
         -   **blue**, is the **value**. This is what we want to appear on the page.
         -   The open and closed curly brackets, these things **{}**, behave in a similar manner as the open and closed tags do in html. In the example case it states that between these brackets are all the values we want **p** to have.
         -   The semicolon on line 2 signifies the ending of a rule.
-    -   Each block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. Don’t forget to add the semicolon at the end of each rule. Let’s add the following properties:
-        -   background-color:
-        -   text-decoration:
+    -   Each block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. Don’t forget to add the semicolon at the end of each rule. Let’s add the following properties and values:
+        `background-color:grey;`
+        `text-decoration:underline;`
+    -   Feel free to change the values if you wish.
     -   Your CSS file should now contain something like this. Save it and refresh your index.html page. You should see the changes you’ve made.
     
         <img src="images/act-3/format.png" alt="block with formatting" style="width:720px;">
     
     -   Note: Not every single color has been made available in word form. You can look up those that are available [here](https://www.w3schools.com/cssref/css_colors.asp){:target="_blank"}. For colors not available, we can use its hexadecimal code. You’re probably familiar with decimal numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Hexadecimal works the same except it has 16 unique numbers; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal numbers for colors have 6 digits, divided into three sections. <mark style="color:white;background-color:red;">00</mark><mark style="color:white;background-color:green;">00</mark><mark style="color:white;background-color:blue;">00</mark>. The first 2 numbers represent how much red goes into the color, the middle two represents how much green is in the color, and the last 2 are how much blue. If you’re interested in playing around with hexadecimal numbers, start by replacing “blue” with “#0000FF” and you’ll get the same result. Then change the hexadecimal number as you see fit. (#000000 is black, no color, and #FFFFFF is white, all colors.)
 6.  There are a lot of different properties that we can change. Each element has a selection of what can be changed, but there are many shared between elements. No one is expected to memorise all of them, but it’s good to know the main ones and the rest you can always look up. Here are a few to start playing with:
-    -   font-style:
+    -   font-style: (can take on the values "normal", "italic", or "oblique")
     -   font-size: (For now use px as the value, eg: 30px)
-    -   Text-align:
+    -   text-align: (can take on the values "center", "left", or "right")
 7.  Now add more blocks for different types of tags. Here are some suggestions:
     -   body
     -   h1 (you can assign multiple tags to the same block and have a tag in multiple blocks.)
@@ -59,21 +60,12 @@ An introduction to CSS, adding color and a little bit of style to your web pages
     -   color: #012345;
     -   background-color: #6789AB;
     -   font-size: 10px;
-    -   text-align: center;
-        -   right
-        -   left
-    -   text-transform: uppercase;
-        -   lowercase
-        -   capitalize
-    -   letter-spacing: 10px;
-        -   Can be negative
-    -   font-style: italic;
-        -   normal
-        -   oblique
+    -   text-align: center; (or left or right)
+    -   text-transform: uppercase; (or lowercase or capitalize)
+    -   letter-spacing: 10px; (could also be negative eg: -10px)
+    -   font-style: italic; (or normal or oblique)
     -   list-style-type: circle; (only works for lists)
-        -   square
-        -   lower-alpha
-        -   Upper-roman
+        -   could also be square, lower-alpha, upper-roman
 9.  CSS files can be used for multiple html pages and a single html page can have multiple CSS stylesheets.
 10.  Try adding your new CSS file to other HTML files.
 11.  Below is an example for the Zuko about me page:
