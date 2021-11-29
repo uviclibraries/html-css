@@ -71,9 +71,9 @@ To start, we will be learning about adding basic components to an about me page 
         `<p>Prince of the Fire Nation</p>`<br>
         `<h3>About Me</h3>`<br>
         `<p>Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>`<br>
-    -   Atom has a helpful feature to make your file more readable. If your text exceeds the width of Atom you can compress it instead of having to scroll sideways. Under View click Toggle Soft Wrap.
+    -   Atom has a helpful feature to make your file more readable. If your text exceeds the width of Atom you can compress it instead of having to scroll sideways. Under **View** click **Toggle Soft Wrap**.
     -   I’m going to add another paragraph beneath the last p tag. This will still be in the about me section. Separating items in different tags can be helpful when you want them to appear or behave in different ways when it comes to changing layout. For the Zuko page I’m adding the following:<br>
-**&lt;p&gt;**Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.**&lt;/p&gt;**
+        `<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.</p>`
 
     <img src="images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
 
@@ -90,7 +90,7 @@ To start, we will be learning about adding basic components to an about me page 
     -   Text tags can be put around any text that shows up in the browser. These tags don't have to encompass the whole text, it doesn't even have to cover a whole word. Say I wanted the following text to be typed out in a paragraph:
     -   This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins>
         -   We have 2 words in bold, 1 word underlined, and 1 word underlined & in bold. Let’s look at what that would look like with tags.
-        -   &lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt;. This is &lt;strong&gt;&lt;ins&gt;very&lt;/ins&gt; important.&lt;/strong&gt; Thank &lt;ins&gt;you!&lt;/ins&gt;&lt;/p&gt;
+        -   **&lt;p&gt;**This is **&lt;strong&gt;**important**&lt;/strong&gt;**. This is **&lt;strong&gt;&lt;ins&gt;**very**&lt;/ins&gt;** important.**&lt;/strong&gt;** Thank **&lt;ins&gt;**you!**&lt;/ins&gt;&lt;/p&gt;**
         -   Notice where the spaces and full stops are. With so many tags, it can be easy to forget to add important content in the right places.
     -   Try some more types of text altering tags.
         -   **&lt;strong&gt;** - Important text
