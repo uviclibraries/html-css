@@ -16,7 +16,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   Have images on our pages
     -   Links to other pages on our site and links to other sites
     -   Link a css stylesheet
-    -   Add some css styling
+    -   Add some css styling<br>
     Your page should look something like this:
     
     <img src="images/act-4/example.jpg" alt="recap of activities" style="width:720px;">
@@ -38,27 +38,27 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         ```
 
     -   Notice how only the paragraph with the “about-title” class has been affected by the changes.
-    -   You may have the same property in the class block and the tag block with different values. This is where precedence comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
+    -   You may have the same property in the class block and the tag block with different values. This is where **precedence** comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
 
         <img src="images/act-4/css-class.jpg" alt="css class" style="width:720px;">
 
 5.  **HTML and Divisions**
-    -   The “div” tag, written in html as **<div></div>**, stands for division. All it does is defines sections within our code. Alone, it doesn’t do much. However, with CSS it helps organize our content into groups
+    -   The “div” tag, written in html as **<div></div>**, stands for division. All it does is define sections within our code. Alone, it doesn’t do much. However, with CSS it helps organize our content into groups
     -   By applying a class to division tags we can change a section of code that can apply to everything between the opening and closing tag.
     -   In the Zuko example I’ve added a div class to my nested list. This way, I can change the items in my list without affecting the main list or even other lists I may have.
-    -   The top image is from the html code and the bottom is the corresponding CSS code. The text is now bold and not italicized.
     
         <img src="images/act-4/div.jpg" alt="div example" style="width:720px;">
-    
+
+    -   The top image is from the html code and the bottom is the corresponding CSS code. The text is now bold and not italicized.
     -   Division tags can also take advantage of precedence, A division tag enclosed within another division tag has higher precedence than the outside division tag.
 6.  **CSS Flexible Boxes**
     -   Despite all the changes we’ve made, nothing has really moved around yet. This is where flexible boxes or flexbox comes in.
     -   Flexbox is a simple and powerful way to organize a webpage.
+
+        <img src="images/act-4/flex.png" alt="flex container" style="float:right;width:100px;">
+
     -   Flexbox works by separating each item into their own box. These boxes can then be told how to behave and organize themselves even when viewed from different screen sizes (think a computer screen compared to a smartphone screen).
-
-        <img src="images/act-4/flex.png" alt="flex container" style="float:right;width:180px;">
-
-    -   HTML defaults to listing everything, one below the other. Like so:
+    -   HTML defaults to listing everything, one below the other (see right).
     -   Let's start by adding a flex container to our body tag in CSS.
         Add the following in your CSS file: 
         
@@ -68,9 +68,10 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         }
         ```
 
-        <img src="images/act-4/flex2.png" alt="more flex containers" style="float:right;width:480px;">
-
     -   Refresh your html page and you should get each item line up horizontally.
+
+        <img src="images/act-4/flex2.png" alt="more flex containers" style="float:right;width:267px;">
+
     -   I don’t want my page to look like this either. Here is where I can use division tags to organize it further. First get rid of the display:flex in we just added in our body tag.
     -   I want my list to be horizontal to the image of Zuko. I’m going to add my opening divisions tag above the image tag and the closing division tag below the closing unordered list tag. Make the opening division tag look like this:<br>
 	**&lt;div class = “bio”&gt;**
