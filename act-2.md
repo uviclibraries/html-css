@@ -42,7 +42,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
 5.  **Links (a Tags)**
     -   To navigate between different pages we need links to know where we are going. This is where anchor tags, **&lt;a&gt;&lt;/a&gt;**, come in to play.
     -   First thing to do is find where on your page you want to create a link and where you want that link to go. On the Zuko page, I’m going to make a link from  the word tea to the wikipedia page on tea.
-    -   Surround the word (or even **<img>** tag if you so choose) you want to use to be the hyperlink like so:<br>
+    -   Surround the word (or even **&lt;img&gt;** tag if you so choose) you want to use to be the hyperlink like so:<br>
 **&lt;a&gt;**tea**&lt;/a&gt;**
     -   Within the opening tag, after the a, type “ **href =””** ”. Type in the hyperlink for the desired website between the double quotes:<br>
 **&lt;a href = “https://en.wikipedia.org/wiki/Tea”&gt;**tea**&lt;/a&gt;**
