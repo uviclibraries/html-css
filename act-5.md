@@ -7,7 +7,7 @@ parent: Workshop Activities
 
 # Next Steps
 
-Now that you have some exposure to coding in HTML and CSS, it's time to apply that knowledge. Your goal is to build an about me page. The page doesn’t have to be about you, it can be about a fictional or historical or celebrity figure. Try to include the tools from the workshop like; images, links, color, and flex boxes. Before you start on your about me page it's recommended to plan before hand with pen and paper. This way you can visualize your page before making it.
+Now that you have some exposure to coding in HTML and CSS, it's time to apply that knowledge. Your goal is to build an about me page. The page doesn’t have to be about you, it can be about a fictional or historical or celebrity figure. Try to include the tools from the workshop like: images, links, color, and flex boxes. Before you start on your about me page it's recommended to plan beforehand with pen and paper. This way you can visualize your page before making it.
 
 ## Create Your Own Public Website
 
