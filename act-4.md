@@ -95,7 +95,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         -   This affects how the boxes are organized. If you’d like them to stack vertically, use the value: column;
         -   Note: column-reverse & row-reverse but using them is not advised as it may cause a conflict with how you indent your page to be viewed and how users utilizing assistive technology view your page.
 
-        <img src="images/act-4/flex3.png" alt="flex container wrap" style="float:right;width:180px;">
+        <img src="images/act-4/flex3.png" alt="flex container wrap" style="float:right;width:240px;">
 
     -   flex-wrap: (wrap / nowrap);
         -   Should your flexbox items extend past the width of the page and you do not want users to side scroll, wrap will stack the following content below. In the example below, without wrap the purple item would be off of the display screen (orange box). With wrap, the purple box goes down
