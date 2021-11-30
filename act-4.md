@@ -94,11 +94,11 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   flex-direction: (row / column / row-reversed / column-reversed);
         -   This affects how the boxes are organized. If you’d like them to stack vertically, use the value: column;
         -   Note: column-reverse & row-reverse but using them is not advised as it may cause a conflict with how you indent your page to be viewed and how users utilizing assistive technology view your page.
+
+        <img src="images/act-4/flex3.png" alt="flex container wrap" style="float:right;width:180px;">
+
     -   flex-wrap: (wrap / nowrap);
         -   Should your flexbox items extend past the width of the page and you do not want users to side scroll, wrap will stack the following content below. In the example below, without wrap the purple item would be off of the display screen (orange box). With wrap, the purple box goes down
-
-            <img src="images/act-4/flex3.png" alt="flex container wrap" style="width:720px;">
-
     -   [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/#:~:text=The%20justify%2Dcontent%20property%20is,have%20reached%20their%20maximum%20size.){:target="_blank"}: (flex-start(default) / flex-end / center / space-between / space-around);
         -   This property changes how the flex boxes are spaced between other flexboxes. This can be a fun one to play around with as it can dramatically change the layout of a page.
     -   [align-items](https://css-tricks.com/almanac/properties/a/align-items/){:target="_blank"}: (flex-start / flex-end / center / stretch);
