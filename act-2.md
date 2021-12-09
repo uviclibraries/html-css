@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2 - Adding Images and Links
+title: 2 - Adding Images & Links
 nav_order: 3
 parent: Workshop Activities
 ---
