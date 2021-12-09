@@ -13,7 +13,9 @@ nav_order: 1
 
 ## Why HTML & CSS? 
 
-HTML and CSS are the foundational languages used to build websites. By learning how they work, you’ll be a step ahead when it comes to design, marketing, and several other website related tasks. That said you don’t need to be an HTML/CSS expert to build a user-friendly website for yourself or your organization.
+HTML and CSS are the foundational languages used to build websites. By learning how they work, you’ll be a step ahead when it comes to design, marketing, and several other website related tasks. 
+
+This workshop will introduce you to the basics of HTML and CSS that will give you the skills you need to build a simple user-friendly website.
 
 ## Learning objectives
 
