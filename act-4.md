@@ -88,7 +88,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
     -   If you’d like to have the list on the left, there are a few ways to do this.
         -   Move the list in your html code to be above the image tag.
         -   Use the flex-direction property in CSS. Flex direction changes the order the items are displayed in. Check out how it works by adding the following to the bio block in your CSS file. 
-            **&lt;flex-direction: row-reverse;&gt;**
+            **flex-direction: row-reverse;**
     -   Where flex boxes can start to get complicated is with nested flex boxes. It is important to plan out how you want your content laid out. This way when adding your division tags, you know where the opening and closing tags should be.
 7.  There are many different ways to manipulate flex boxes with built in properties. [Here](https://www.google.com/url?q=https://www.w3schools.com/css/css3_flexbox_container.asp&sa=D&source=editors&ust=1637785562991000&usg=AOvVaw0dVdgDERpGsMzoVn0GAyuI){:target="_blank"} and [here](https://www.google.com/url?q=https://css-tricks.com/snippets/css/a-guide-to-flexbox/&sa=D&source=editors&ust=1637785562991000&usg=AOvVaw2yQ3MsixSAmSJrJtymwNpw){:target="_blank"} are helpful pages on flex properties. The following is a list of a few you can try to add.
     -   flex-direction: (row / column / row-reversed / column-reversed);
