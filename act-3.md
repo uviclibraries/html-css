@@ -31,7 +31,7 @@ An introduction to CSS, adding color and a little bit of style to your web pages
         -   The **p** in this case, is the **selector**. It states which elements we want to style.
         -   **color** in our example, is the **property**. It states which component of the element we want to change.
         -   **blue**, is the **value**. This is what we want to appear on the page.
-        -   The open and closed curly brackets, these things **{}**, behave in a similar manner as the open and closed tags do in html. In the example case it states that between these brackets are all the values we want **p** to have.
+        -   The open and closed curly brackets, these things **{ }**, behave in a similar manner as the open and closed tags do in html. In the example case it states that between these brackets are all the values we want **p** to have.
         -   The semicolon on line 2 signifies the ending of a rule.
     -   Each block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. Don’t forget to add the semicolon at the end of each rule. Let’s add the following properties and values:
         `background-color:grey;`
