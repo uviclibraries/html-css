@@ -12,8 +12,8 @@ To start, we will be learning about adding basic components to an about me page 
 1.  If you haven’t already, please install [Atom text editor](https://atom.io/){:target="_blank"} on your computer. If you wish to use an alternative text editor that is great, however our examples will be from the Atom.
 2.  Opening Atom for the first time should automatically open 3 pages. You can close the Welcome and Telemetry Consent page. 
 3.  This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuko, a character from a cartoon show.
-4.  **Coding Time**
-    -   Create a Folder somewhere to save your files, I have called this folder “html_workshop” but you can call it whatever you like. An easy place to access would be the **Desktop** or **Document** folder. You can always move it for future use.
+4.  **Coding Time:**
+    -   Create a Folder named **html_workshop** on your **Desktop** or **Document** folder. You can always move it for future use.
     -   Close all tabs in Atom including the Welcome Guide if you haven't done so already.
     -   Go to **File**, **Open Folder** or **Open..**, then find and select the “html_workshop” folder you just made and click the **Select Folder** button.
     -   You’ll notice on the left hand side the “html_workshop” folder. We now need to create our first file.
