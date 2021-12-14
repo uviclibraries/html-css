@@ -16,7 +16,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
 
 3.  **Image Tag**
     -   First off, inside your “html_workshop” folder create another folder called “images”. You can do this in Atom by rightclicking the project tab and selecting “**New Folder**” and naming it within Atom.
-    -   If your page is about Zuko, click on the image below, and then save it into that folder else use a photo appropriate to your about me page.
+    -   If your page is about Zuko, right mouse click on the image below, and then save it into that folder else use a photo appropriate to your about me page (in Google Chrome you'd right mouse click on the image and then select **Save Image As...**).
     
         <img src="images/act-2/zuko.png" alt="zuko" style="width:720px;">
     
@@ -67,9 +67,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
     -   Whatever is between the anchor tags becomes the link. Our anchor tags surround some text within a paragraph, but could encompass paragraph, image, and even body tags. Changing where the anchor tags start and end change what needs to be clicked to go to the desired page.
     -   Back on your about page, let's put a link to go back to the index page.
     -   Add a paragraph to the bottom of the about page and make it a link to the index page.
-6.  Note: it’s best to save your files without spaces in the name as it can look strange in the url bar. Instead, replace spaces with underscores or dashes. The same goes for image files.<br>**For Example:** “Image page.html” should either be:
-    -   “Image_page.html”
-        **or**
-    -   “Image-page.html”
+6.  Note: it’s best to save your files without spaces in the name as it can look strange in the url bar. Instead, replace spaces with underscores or dashes. The same goes for image files.<br>**For Example:** “image page.html” should either be:
+    -   “image_page.html” **or** “image-page.html”
 
 [NEXT STEP: Adding CSS](act-3.html){: .btn .btn-blue }
