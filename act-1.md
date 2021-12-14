@@ -24,12 +24,11 @@ To start, we will be learning about adding basic components to an about me page 
         <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
         <img src="images/act-1/heading.png" alt="headings menu" style="float:right;width:360px;margin-top:10px;margin-left:10px;">
     
-    -   To see an example of how Atom can help us out, type the letter “h”. Atom has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one.
+    -   To see an example of how Atom can help us out, type the letter “**h**”. Atom has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one.
     -   Now it’s time to get to the actual coding portion.
-    -   Typing “html” will give you an option to autocomplete. Feel free to click enter to see what it looks like, but we will start from a blank page.
-    -   HTML uses tags to inform the browser how to interpret text. Tags are built with three components; The opening tag which has a descriptor symbol such as “h1” between two pointy brackets: < and >, The closing bracket which has the same symbols as the opening bracket with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags), Finally the content (everything between the opening bracket and the closing bracket).
-    -   The first thing needed is an HTML declaration:<br>
-**<!DOCTYPE html>**
+    -   Typing “**html**” will give you an option to autocomplete. Feel free to click enter to see what it looks like, but we will start from a blank page.
+    -   HTML uses tags to tell the browser how to interpret text. Tags are built with three components; The opening tag which has a descriptor symbol such as “h1” between two pointy brackets: < and >, The closing bracket which has the same symbols as the opening bracket with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags), Finally the content (everything between the opening bracket and the closing bracket).
+    -   The first thing needed is an HTML declaration: **<!DOCTYPE html>**
     -   this is not an HTML tag, but is a declaration for the browser. When a browser opens this file it reads this line and understands that this is a HTML document. This declaration is required at the start of an HTML file.
     -   Next we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type **<html>**. Go down to a new line and type **</html>** as this is the closing html tag. The browser interprets this code as HTML from the opening tag to the closing HTML tag.<br>
 **&lt;html&gt;**<br>**&lt;/html&gt;**
