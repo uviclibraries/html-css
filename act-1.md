@@ -13,13 +13,13 @@ To start, we will be learning about adding basic components to an about me page 
 2.  Opening Atom for the first time should automatically open 3 pages. You can close the Welcome and Telemetry Consent page. 
 3.  This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuko, a character from a cartoon show.
 4.  **Coding Time:**
-    -   Create a Folder named **html_workshop** on your **Desktop** or **Document** folder. You can always move it for future use.
+    -   Create a Folder named "**html_workshop**" on your **Desktop** or **Document** folder. You can always move it for future use.
     -   Close all tabs in Atom including the Welcome Guide if you haven't done so already.
     -   Go to **File**, **Open Folder** or **Open..**, then find and select the “html_workshop” folder you just made and click the **Select Folder** button.
     -   You’ll notice on the left hand side the “html_workshop” folder. We now need to create our first file.
         -   Under **File**, click  **New File**
-        -   Again, under **File** click on **Save As..** and you should already be inside the correct folder (if not, navigate to your “html_workshop” folder). Save the file as “about.html”.
-        -   We now have our first HTMLfile. Atom recognizes this and will help coordinate our code with helpful coloring, suggestions, and autocompletes.
+        -   Again, under **File** click on **Save As..** and you should already be inside the correct folder (if not, navigate to your “html_workshop” folder). Save the file as “**about.html**”.
+        -   We now have our first HTML file. Atom recognizes this and will help you with your code with helpful autocompletes, suggestions, and coloring.
     
         <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
         <img src="images/act-1/heading.png" alt="headings menu" style="float:right;width:360px;margin-top:10px;margin-left:10px;">
