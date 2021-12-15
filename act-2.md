@@ -44,7 +44,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
     -   First thing to do is find where on your page you want to create a link and where you want that link to go. On the Zuko page, I’m going to make a link from  the word tea to the wikipedia page on tea.
     -   Surround the word (or even **&lt;img&gt;** tag if you so choose) you want to use to be the hyperlink like so:<br>
 **&lt;a&gt;**tea**&lt;/a&gt;**
-    -   Within the opening tag, after the a, type “ **href =””** ”. Type in the hyperlink for the desired website between the double quotes:<br>
+    -   Within the opening tag, after the a, type **href =””**. Type in the hyperlink for the desired website between the double quotes:<br>
 **&lt;a href = “https://en.wikipedia.org/wiki/Tea”&gt;**tea**&lt;/a&gt;**
     -   Save and refresh your page and you’ll be able to see that the text appears different and when clicked, goes to the linked website.
     -   This kind of link is called an absolute path. It doesn't matter where the file is saved the link will go to the intended site. A relative path is when the link is based on the current location of the file. Relative links are great for maneuvering between pages on the same site.
