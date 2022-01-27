@@ -11,7 +11,7 @@ Now that you have some exposure to coding in HTML and CSS, it's time to apply th
 
 ## Create Your Own Public Website
 
-If you eventually want to have your website available on the internet, a great place to start is [GitHub Pages](https://pages.github.com/){:target="_blank"} because they can host your files for free. Uvic also offers hosting services for free for [students](https://www.uvic.ca/systems/services/web/webhosting-students/index.php){:target="_blank"} and [faculty](https://www.uvic.ca/systems/support/web/webhosting-fac-staff/index.php){:target="_blank"} but you will lose access to your UVic space one year after you graduate. Other hosting services are available, but may charge a monthly/annual fee.
+If you eventually want to have your website available on the internet, a great place to start is [GitHub Pages](https://uviclibraries.github.io/twine/github.html){:target="_blank"} because they can host your files for free (this is a DSC step-by-step tutorial). Uvic also offers hosting services for free for [students](https://www.uvic.ca/systems/services/web/webhosting-students/index.php){:target="_blank"} and [faculty](https://www.uvic.ca/systems/support/web/webhosting-fac-staff/index.php){:target="_blank"} but you will lose access to your UVic space one year after you graduate. Uploading to your UVic web space is not as easy as using Github for your web hosting. Other hosting services are available, but may charge a monthly/annual fee.
 
 ## Add More features to Your Website
 
