@@ -5,7 +5,7 @@ nav_order: 2
 parent: Workshop Activities
 ---
 
-# Getting Started With HTML 
+# Getting Started With HTML
 
 To start, we will be learning about adding basic components to an about me page like text. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
