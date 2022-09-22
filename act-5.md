@@ -15,6 +15,14 @@ If you eventually want to have your website available on the internet, a great p
 
 Uvic also offers hosting services for free for [students](https://www.uvic.ca/systems/services/web/webhosting-students/index.php){:target="_blank"} and [faculty](https://www.uvic.ca/systems/support/web/webhosting-fac-staff/index.php){:target="_blank"} but you will lose access to your UVic space one year after you graduate. Uploading to your UVic web space is not as easy as using Github for your web hosting. Other non-UVic hosting services are available, but typically charge a monthly/annual fee.
 
+## Use a HTML/CSS Template
+
+Most website developers do not create their websites from scratch, but will use a template as a starting point and then modify and extend the tempalte to meet their needs. One of the more popular templates that can be used free of charge, and without any licensing restrictions is [Bootstrap](https://getbootstrap.com/){:target="_blank"}. 
+
+From the Bootstrap website: "Build fast, responsive sites with Bootstrap. Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."
+
+You can learn more about the Bootstrap website here: [Bootstrap Website & Documentation](https://getbootstrap.com/){:target="_blank"}
+
 ## Add More features to Your Website
 
 Now that you have the basic building blocks for a website, you can start to design your own. It is recommended that before you start coding, you sketch out ideas on pen & paper. It can be helpful to think about what you can do using the tools you have, but you shouldn’t shy away from trying to design something out of your current scope. It may take some research and trial & error, but there are plenty of resources available with helpful tutorials on how to implement all kinds of designs.
