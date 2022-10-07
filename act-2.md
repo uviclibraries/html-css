@@ -20,7 +20,7 @@ Next we’ll be learning about adding images, and links to other pages. If you a
     
         <img src="images/act-2/zuko.png" alt="zuko" style="width:720px;">
     
-    -   **&lt;img&gt;** <code><img></code> is the tag for images. Notice there is no closing tag. This happens because “img” is a self closing tag. You may see it written as **</img>** to show that it is self closing but this is just for readability. Both work and the important thing is to keep it consistent.
+    -   **&lt;img&gt;** `<img>` is the tag for images. Notice there is no closing tag. This happens because “img” is a self closing tag. You may see it written as **</img>** to show that it is self closing but this is just for readability. Both work and the important thing is to keep it consistent.
     -   Using atom’s Autocomplete while typing img you’ll end up with:<br>
 **&lt;img src ="" alt=""&gt;**
     -   If you didn't use autocomplete, type out the above so “src” and “alt” are in your “img” tag.
