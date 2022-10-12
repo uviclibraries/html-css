@@ -7,28 +7,30 @@ parent: Workshop Activities
 
 # Using CSS to Change Layout
 
-Using CSS to change the positioning and layout of your page. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
+This section teaches you to use CSS to change the positioning and layout of your page. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 1.  If you haven’t already completed the previous exercise, please start [here](https://richmccue.github.io/html-css/act-1.html){:target="_blank"}, as this part builds on the topics from the previous section.
-2.  Let’s recap what we’ve gone through thus far.
-    -   Create html pages
-    -   Add headings, text and lists
-    -   Have images on our pages
-    -   Links to other pages on our site and links to other sites
-    -   Link a css stylesheet
-    -   Add some css styling<br>
-    Your page should look something like this:
+2.  Let’s recap what we have learned about thus far.
+    -   HTML pages
+    -   Headings, text, and lists
+    -   Adding images
+    -   Internal links, to pages within our folder
+    -   External links, to pages on the Internet
+    -   CSS stylesheets and how to link to them
+    -   Some basic CSS styling
+
+Your page should look something like this:
     
     <img src="images/act-4/example.jpg" alt="recap of activities" style="width:720px;">
     
-3.  You may have noticed that all of our content is stacked like a list. This is the default layout of html files. Although our information is clear and orderly, it is also static and not very exciting. Flex boxes can be used to arrange content in a simple way.
+3.  You may have noticed that all of our content is stacked like a list. This is the default layout of HTML files. Although our information is clear and orderly, it is also static and not very exciting.
 4.  **CSS and Classes**
-    -   Classes can be used in CSS to define specific html tags and alter properties and values for elements for that specific class.
+    -   Classes can be used in CSS to define specific HTML tags and alter properties and values for elements for that specific class.
     -   On the Zuko about page I want to increase the size of text in my paragraph tags. However, I want my upper paragraph tag to be a different size than my other paragraph tags.
-    -   In the html file, I can give a tag a class. This class can then be referred to as its own block in the CSS file.
+    -   In the HTML file, I can give a tag a class. This class can then be referred to as its own block in the CSS file.
     -   I'm going to add a class to my top paragraph tag as follows:<br>
         **&lt;p class=”about-title”&gt;**Hello, Zuko here**&lt;/p&gt;**
-    -   In CSS, class blocks are written with a full stop in front of them.
+    -   In CSS, class blocks are preceded by a period.
         
         ```
         .about-title{
@@ -43,21 +45,20 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         <img src="images/act-4/css-class.jpg" alt="css class" style="width:720px;">
 
 5.  **HTML and Divisions**
-    -   The “div” tag, written in html as **<div></div>**, stands for division. All it does is define sections within our code. Alone, it doesn’t do much. However, with CSS it helps organize our content into groups
-    -   By applying a class to division tags we can change a section of code that can apply to everything between the opening and closing tag.
+    -   The “div” tag, written in HTML as **<div></div>**, stands for division. All it does is define sections within our code. Alone, it doesn’t do much. However, with CSS it helps organize our content into groups
+    -   By applying a class to **<div>** tag we can change everything between the opening and closing tag.
     -   In the Zuko example I’ve added a div class to my nested list. This way, I can change the items in my list without affecting the main list or even other lists I may have.
-    
+	
         <img src="images/act-4/div.jpg" alt="div example" style="width:720px;">
-
-    -   The top image is from the html code and the bottom is the corresponding CSS code. The text is now bold and not italicized.
-    -   Division tags can also take advantage of precedence, A division tag enclosed within another division tag has higher precedence than the outside division tag.
+	
+    -   Division tags can also take advantage of precedence. A division tag enclosed within another division tag has higher precedence than the outside division tag.
 6.  **CSS Flexible Boxes**
     -   Despite all the changes we’ve made, nothing has really moved around yet. This is where flexible boxes or flexbox comes in.
     -   Flexbox is a simple and powerful way to organize a webpage.
 
         <img src="images/act-4/flex.png" alt="flex container" style="float:right;width:90px;margin-left:20px;">
 
-    -   Flexbox works by separating each item into their own box. These boxes can then be told how to behave and organize themselves even when viewed from different screen sizes (think a computer screen compared to a smartphone screen).
+    -   Flexbox works by separating each item into its own box. These boxes can then be told how to behave and organize themselves even when viewed from different screen sizes (think a computer screen compared to a smartphone screen).
     -   HTML defaults to listing everything, one below the other (see right).
     -   Let's start by adding a flex container to our body tag in CSS.
         Add the following in your CSS file: 
@@ -68,14 +69,14 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         }
         ```
 
-    -   Refresh your html page and you should get each item line up horizontally.
+    -   Refresh your HTML page and the boxes should appear horizontally.
 
         <img src="images/act-4/flex2.png" alt="more flex containers" style="float:right;width:240px;margin-left:20px;">
 
     -   I don’t want my page to look like this either. Here is where I can use division tags to organize it further. First get rid of the `display:flex;` we just added in our body tag.
-    -   I want my list to be horizontal to the image of Zuko. I’m going to add my opening divisions tag above the image tag and the closing division tag below the closing unordered list tag. Make the opening division tag look like this:<br>
+    -   I want my list to be horizontal to the image of Zuko. I’m going to add my opening <div> above the image tag and the closing </div> below the closing unordered list tag:<br>
 	**&lt;div class = “bio”&gt;**
-        -   Note: You can highlight everything between the opening and closing division tags and click the tab key. This indents all the highlighted items, helping to keep you code legible. Holding the shift key then clicking the tab key does the opposite and moves the text closer to the margin.
+        -   Note: you can highlight everything between the opening and closing division tags and click the tab key. This indents all the highlighted items, helping to keep you code legible. Holding the shift key then clicking the tab key does the opposite and moves the text closer to the margin.
     -   Go to your CSS file and create a block for the bio class and add the display flex property.
         
         ```
@@ -86,14 +87,20 @@ Using CSS to change the positioning and layout of your page. If you and your gro
 
     -   Your list should now be to the right of the image of Zuko!
     -   If you’d like to have the list on the left, there are a few ways to do this.
-        -   Move the list in your html code to be above the image tag.
-        -   Use the flex-direction property in CSS. Flex direction changes the order the items are displayed in. Check out how it works by adding the following to the bio block in your CSS file. 
+        -   Move the list in your HTML code to be above the image tag.
+        -   Use the flex-direction property in CSS. Flex direction changes the order the items are displayed in. Check out how it works by adding the following to the bio block in your CSS file:
             **flex-direction: row-reverse;**
-    -   Where flex boxes can start to get complicated is with nested flex boxes. It is important to plan out how you want your content laid out. This way when adding your division tags, you know where the opening and closing tags should be.
-7.  There are many different ways to manipulate flex boxes with built in properties. [Here](https://www.google.com/url?q=https://www.w3schools.com/css/css3_flexbox_container.asp&sa=D&source=editors&ust=1637785562991000&usg=AOvVaw0dVdgDERpGsMzoVn0GAyuI){:target="_blank"} and [here](https://www.google.com/url?q=https://css-tricks.com/snippets/css/a-guide-to-flexbox/&sa=D&source=editors&ust=1637785562991000&usg=AOvVaw2yQ3MsixSAmSJrJtymwNpw){:target="_blank"} are helpful pages on flex properties. The following is a list of a few you can try to add.
-    -   flex-direction: (row / column / row-reversed / column-reversed);
-        -   This affects how the boxes are organized. If you’d like them to stack vertically, use the value: column;
-        -   Note: column-reverse & row-reverse but using them is not advised as it may cause a conflict with how you indent your page to be viewed and how users utilizing assistive technology view your page.
+    -   Where flex boxes can start to get complicated is with nested flex boxes, or flex boxes within flex boxes. It is important to plan out how you want your content laid out. This way when adding your division tags, you know where the opening and closing tags should be.
+7.  There are many different ways to manipulate flex boxes with built-in properties. Try a few of the following values to see what they do: 
+
+    - flex-direction: row; 
+      - “row” aligns flex items horizontally, from left to right. 
+    - flex-direction: row-reverse; 
+      - “row-reverse” aligns flex items horizontally, from right to left, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
+    - flex-direction: column;
+      - “column” aligns flex items vertically, from top to bottom.
+    - flex-direction: column-reverse;
+      - “column-reverse” aligns flex items vertically, from bottom to top, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
 
         <img src="images/act-4/flex3.png" alt="flex container wrap" style="float:right;width:240px;">
 
@@ -105,6 +112,7 @@ Using CSS to change the positioning and layout of your page. If you and your gro
         -   This property dictates how flex boxes are aligned vertically. Flex-start makes them all start at the top, flex-end makes them all end at the bottom, center makes their center sit in the center, stretch forces all items to cover the entirety of the flex box.
         -   For having items in the center of your flex box, apply both of the following:
             -   justify-content : center;
-            -   align-items : center;
+	    -   align-items : center;
 
-[NEXT STEP: Next Steps](act-5.html){: .btn .btn-blue }
+You can read more about flex boxes on the [W3Shools Flexbox page](https://www.w3schools.com/css/css3_flexbox.asp). 
+[NEXT STEP: Next Steps]
