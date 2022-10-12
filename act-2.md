@@ -63,11 +63,11 @@ The `<a>` in the hyperlink tag defines it as a hyperlink element, and the `href`
   - **"external links"** link you to other locations outside of your directory, such as other webpages or websites. These links always use the full URL. **Example: `<a href = http://www.wordpress.com/my-webpage.html>clickable text</a>`**.
   - **"email links"** link you to an email address. When you click on these, they tell your computer to open up whatever email program you are using. **Example: `<a href="mailto:some-email@yoursite.com">Email me</a>`**.
 
-### Add one or more hyperlinks to your HTML page
+## Add one or more hyperlinks to your HTML page
 
 To get a feel for how hyperlinks work, **choose one or more of the following examples to add to your "about.html" page.**
 
-#### 1. Anchor link
+### 1. Anchor link
 
 This type of link jumps us to another place in the same page.
 
@@ -87,7 +87,7 @@ This type of link jumps us to another place in the same page.
 
 **For more practice with anchor links, try [this W3Schools test-space (↪)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_href_anchor).**
 
-#### 2. Internal link
+### 2. Internal link
 
 This type of link jumps us to another HTML page in our directory. So, **we need to create another HTML page to jump to.**
 
@@ -125,7 +125,7 @@ In my example, I want my readers to know that I have another webpage on my websi
 
 3. **Save your "about.html" file** and refresh your browser to see if your new link works.
 
-#### 3. External link
+### 3. External link
 
 This type of link takes you to somewhere outside of your website, to another website or webpage on the Internet. The process to create an external link is identical to an internal link, except that the external link requires a full URL, the whole `https://www` part. This type of full URL is known as an ["absolute" URL (↪)](https://www.w3schools.com/tags/att_link_href.asp).  
 
