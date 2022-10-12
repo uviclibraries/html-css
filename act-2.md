@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 ### Before we begin...
 
-If you haven’t already completed the first exercise, please go to [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html), as this section builds on the Getting Started section.
+If you haven’t already completed the first exercise, please go to [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html).
 
 ### Next steps: images and links!
 
@@ -33,7 +33,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 2. **Get to know the image `<img>` tag.**
     - `<img>` is the tag used to show images on an HTML webpage. Notice that there is no closing, or forward slash, in this tag. This is because `<img>` is what's called a self-closing tag, or a [void element (↪)](https://html.spec.whatwg.org/multipage/syntax.html#elements-2). You may see it written as `<img/>` to show that it is self-closing, but this is just for human readability. Both `<img>` and `<img/>` are valid, so the important thing is to keep it consistent.
-3. **Add this placeholder `<img>` tag to your HTML page: `<img src="image.jpg" alt="image description">`.**
+3. **Add an `<img>` tag to your HTML page.**
     - Somewhere between the `<body></body>` tags, add `<img src="image.jpg" alt="image description">`.
     - **`src`** means "source," or the location your HTML browser will look to display the image. My image, “avaZuko.png”, is stored in the "images" folder. Between the quotation marks we put the filepath to our image file, which creates a link between our image and our HTML webpage. The path in my case is “images/avaZuko.png”. If you used another image file, then you would replace "avaZuko.png" with your file's name. **Note** that if we ever move our image file to another folder we would break the link between the image and our HTML page.
     - **`alt`** means "alternate text" for an image, if the image cannot be displayed. What you put between the quotation marks will be displayed when the image fails to load. This text is also used by people who may have visual disabilities, who use [screen reader software (↪)](https://www.cnib.ca/en/screen-readers?region=bc).
@@ -72,11 +72,13 @@ To get a feel for how hyperlinks work, **choose one or more of the following exa
 This type of link jumps us to another place in the same page.
 
 1. **Add some placeholder text of some kind** to one of your "about.html" page. You can type a few paragraphs on your own, or use placeholder text called [_lorem ipsum_ (↪)](https://en.wikipedia.org/wiki/Lorem_ipsum), which is often used by web developers for creating website examples. People like to have fun inventing their own versions of _lorem ipsum_, and my current favourite is [_The Lord of The Rings_ _lorem ipsum_ generator (↪)](https://ceheiss.github.io/LordOfTheIpsum/).
-2. **Wrap a selection of text in a header tag of your choice and give it a unique `id`.** Think of this as your named anchor. The `<a>` link we eventually create will link to this unique `id` anchor, and note that each anchor has to be unique or the link will not work. In my example, I have wrapped the heading text of "Bilbo's speech to the Council" in an `h2` tag and assigned it a unique `id` of "bilbo-speech":
+2. **Wrap a selection of text in a header tag of your choice and give it a unique `id`.** Think of this as your named anchor. The `<a>` link we eventually create will link to this unique `id` anchor. In my example, I have wrapped the heading text of "Bilbo's speech to the Council" in an `h2` tag and assigned it a unique `id` of "bilbo-speech":
 
 >`<h2 id="bilbo-speech">Bilbo's speech to the Council</h>`
 >`<p>I used to think that they were things the wonderful folk of the stories went out and looked for, because they wanted them, because they were exciting and life was a bit dull, a kind of a sport, as you might say. But that’s not the way of it with the tales that really mattered, or the ones that stay in the mind. Folk seem to have been just landed in them, usually their paths were laid that way, as you put it.</p>`
 
+ **Note** that each anchor has to have a unique name. In my example, the anchor's `id` is "bilbo-speech". Any additional anchor on this same page would need to have a diffrent name. For example, if I wanted to link to another of Bilbo's speeches, I would change that anchor's `id` to something like "bilbo-speech-2". 
+ 
 3. **Create an `<a>` link to your anchor's unique `id`**. This will be the clickable link that jumps you to the unique `id` you just created. You can add this link anywhere on the HTML page, but to pretend we are making a table of contents, please add your link toward the top of your HTML page, but within the `<body></body>` tags. What we are doing in my example is making my `h2` become a link that jumps us to the heading of "Bilbo's speech to the Council." Here is what my link looks like:
 
 >`<h2 href="#bilbo-speech">Read Bilbo's speech to the Council</h2>`
@@ -89,7 +91,7 @@ This type of link jumps us to another place in the same page.
 
 This type of link jumps us to another HTML page in our directory. So, **we need to create another HTML page to jump to.**
 
-1. **In your "html_workshop" folder, create a new HTML page called "index.html"**. This is the file to where we are going to link from our **"about.html"** page. If you are using Atom, choose **"File"** and select **“New File."** Once saved you should see the **"index.html"** file appear in Atom's project tab are on the left of the Atom window.
+1. **In your "html_workshop" folder, create a new HTML page called "index.html"**. This is the file to where we are going to link from our **"about.html"** page. If you are using Atom, choose **"File"** and select **“New File."** Once saved you should see the **"index.html"** file appear in Atom's project tab, on the left of the Atom window.
 
 <img src="images/act-2/links.gif" alt="adding links animated" style="width:720px;">
 
