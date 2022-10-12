@@ -142,4 +142,4 @@ This type of link takes you to somewhere outside of your website, to another web
 
 🎉 **Congratulations!** You now know how to add images and links to a webpage!
 
-[NEXT STEP: Adding CSS](https://uviclibraries.github.io/html-css/act-3.html)
+[NEXT STEP: Adding CSS](https://uviclibraries.github.io/html-css/act-3.html){: .btn .btn-blue }
