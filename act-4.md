@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 This section teaches you to use CSS to change the positioning and layout of your page. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-1.  If you haven’t already completed the previous exercise, please start [here](https://richmccue.github.io/html-css/act-1.html){:target="_blank"}, as this part builds on the topics from the previous section.
+1.  If you haven’t already completed the previous exercise, please start [here](https://richmccue.github.io/html-css/act-1.html), as this part builds on the topics from the previous section.
 2.  Let’s recap what we have learned about thus far.
     -   HTML pages
     -   Headings, text, and lists
@@ -101,18 +101,18 @@ Your page should look something like this:
       - “column” aligns flex items vertically, from top to bottom.
     - flex-direction: column-reverse;
       - “column-reverse” aligns flex items vertically, from bottom to top, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
-
-        <img src="images/act-4/flex3.png" alt="flex container wrap" style="float:right;width:240px;">
-
     -   flex-wrap: (wrap / nowrap);
-        -   Should your flexbox items extend past the width of the page and you do not want users to side scroll, wrap will stack the following content below. In the example below, without wrap the purple item would be off of the display screen (orange box). With wrap, the purple box goes down
-    -   [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/#:~:text=The%20justify%2Dcontent%20property%20is,have%20reached%20their%20maximum%20size.){:target="_blank"}: (flex-start(default) / flex-end / center / space-between / space-around);
+        -   Should your flexbox items extend past the width of your browser page and you do not want users to side scroll, the “wrap” value will stack the following content below. In the example below, without “wrap” the purple box would sit outside the browser window, as represented by the  orange outline. With “wrap,” the purple box aligns below the green and orange boxes.
+
+	<img src="images/act-4/flex3.png" alt="flex container wrap" style="float:right;width:240px;">
+	
+    -   [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/#:~:text=The%20justify%2Dcontent%20property%20is,have%20reached%20their%20maximum%20size.): (flex-start(default) / flex-end / center / space-between / space-around);
         -   This property changes how the flex boxes are spaced between other flexboxes. This can be a fun one to play around with as it can dramatically change the layout of a page.
-    -   [align-items](https://css-tricks.com/almanac/properties/a/align-items/){:target="_blank"}: (flex-start / flex-end / center / stretch);
+    -   [align-items](https://css-tricks.com/almanac/properties/a/align-items/): (flex-start / flex-end / center / stretch);
         -   This property dictates how flex boxes are aligned vertically. Flex-start makes them all start at the top, flex-end makes them all end at the bottom, center makes their center sit in the center, stretch forces all items to cover the entirety of the flex box.
         -   For having items in the center of your flex box, apply both of the following:
-            -   justify-content : center;
-	    -   align-items : center;
+            -   justify-content: center;
+	    -   align-items: center;
 
 You can read more about flex boxes on the [W3Shools Flexbox page](https://www.w3schools.com/css/css3_flexbox.asp). 
 [NEXT STEP: Next Steps]
