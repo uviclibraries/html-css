@@ -115,7 +115,7 @@ As with any new HTML page, we need to add at least `<!DOCTYPE html>` at the top 
 
 `<a href="index.html">your link text here</a>`
 
-We only need to link to another location within the same directory, so notice that we do not need to add the full URL, as in the `https://www` part. We only add the file name.
+We only need to link to another location within the same directory, so notice that we do not need to add the full URL, as in the `https://www` part. We only add the file name between the quotation marks.
 
 In my example, I want my readers to know that I have another webpage on my website that they can read:
 
