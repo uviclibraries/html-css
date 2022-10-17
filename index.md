@@ -32,4 +32,4 @@ By the end of this workshop you will be able to do the following:
 
 Image credit: W3C under the [Creative Commons Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/deed.en){:target="_blank"} obtained from the [Wikimedia.org](https://commons.wikimedia.org/w/index.php?curid=12736763){:target="_blank"}
  
-[NEXT STEP: Pre-Workshop Activities](pre-workshop.html){: .btn .btn-blue }
+[NEXT STEP: Pre-Workshop Activities](https://uviclibraries.github.io/html-css/pre-workshop.html){: .btn .btn-blue }
