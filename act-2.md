@@ -3,6 +3,7 @@ layout: default
 title: 2 - Adding Images & Links
 nav_order: 3
 parent: Workshop Activities
+customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 
 # Adding Images and Links in HTML
@@ -93,8 +94,12 @@ This type of link jumps us to another HTML page in our directory. So, **we need 
 
 1. **In your "html_workshop" folder, create a new HTML page called "index.html"**. This is the file to where we are going to link from our **"about.html"** page. If you are using Atom, choose **"File"** and select **“New File."** Once saved you should see the **"index.html"** file appear in Atom's project tab, on the left of the Atom window.
 
+<button onclick="toggle('gif1')">Show/Hide Animation</button>
+    
+<div id="gif1">
 <img src="images/act-2/links.gif" alt="adding links animated" style="width:720px;">
-
+</div>
+    
 <img src="images/act-2/links.jpg" alt="adding links" style="width:720px;">
 
 As with any new HTML page, we need to add at least `<!DOCTYPE html>` at the top of the page and some other tags to get us started. **Copy/paste the following into your "index.html" page (and be sure save the file afterwards):**  
@@ -141,5 +146,18 @@ This type of link takes you to somewhere outside of your website, to another web
 4. **Save your HTML file** and refresh your browser to see if your new link works.
 
 🎉 **Congratulations!** You now know how to add images and links to a webpage!
+
+
+<script>  
+
+    function toggle(input) {
+        var x = document.getElementById(input);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
 
 [NEXT STEP: Adding CSS](https://uviclibraries.github.io/html-css/act-3.html){: .btn .btn-blue }
