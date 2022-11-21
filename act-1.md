@@ -10,7 +10,7 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 
 To start, we will be learning about adding basic components to an about me page like text. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-1.  If you haven’t already, please install [Atom text editor](https://atom.io/){:target="_blank"} on your computer. You are welcome to use any text editor you like, but our examples use Atom.
+1.  If you haven’t already, please install [Vistual Studio Code editor](https://code.visualstudio.com/download){:target="_blank"} on your computer. You are welcome to use any text editor you like, but our examples use the Visual Studio Code Editor.
 2.  Opening Atom for the first time should automatically open 3 pages. You can close the Welcome and Telemetry Consent page. 
 3.  This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuko, a character from a cartoon show.
 4.  **Coding Time:**
