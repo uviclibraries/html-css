@@ -18,8 +18,9 @@ To start, we will be learning about adding basic components to an about me page 
     -   Navigate to either your **Desktop** or **Documents** folder, and then click on the **Create Directory** button.
     -   Name your directory "**html_workshop**" You can always move it for future use.
     -   You’ll notice on the left hand side the “html_workshop” folder. We now need to create our first file.
-        -   Under **File**, click  **New Text File**
-        -   Again, under **File** click on **Save As..** and you should already be inside the correct folder (if not, navigate to your “html_workshop” folder). Save the file as “**about.html**”.
+        -   Under **File**, click  **New Text File**.
+        -   Click on the blue **Select a language** link and then scroll down and select **HTML** (you can also typle "html" in to the search box and then select it).
+        -   Again, under **File** click on **Save As..** and save the file as “**about.html**”.
         -   We now have our first HTML file. Atom recognizes this and will help you with your code with helpful autocompletes, suggestions, and colouring.
     
     <button onclick="toggle('gif1')">Show/Hide Animation</button>
