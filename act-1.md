@@ -41,8 +41,9 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 - When the browser opens this file it now knows how to deal with what is between these tags as it’s a recognized tag. There are many kinds of tags and you’ll be introduced to some of them.
 - The next part will be within our tags. Underneath the opening tag click the tab key once. Then type `<head>`. Your text editor may automatically indents tags by default. Indenting tags, especially within other tags, makes code more readable and orderly. Similarly, we want to have our closing head tag (`</head>`) indented the same amount, still in between the HTML tags. The head tag holds metadata (data about data) on our file, things like styling and  title, but we’ll get to that later.
 - Next, we want to create the `<body>` tags. This is where the content of the website is held. Underneath the closing head tag, but still within the HTML tags, `<body>` and `</body>` should both be indented once, similar to head.
+- Here is what your `about.html` page should look like so far: 
     
-    <img src="images/act-1/tags.png" alt="tags" style="width:720px;">
+    <img src="images/act-1/vcs-basic-tags.png" alt="tag examples">
     
 - Note that HTML is not case sensitive. You could write the body tag as **<BODY>** or even **<BoDy>** and it would work. However, it’s best practice to keep to the same pattern, so if you choose to capitalize, capitalize uniformly.
 - Although our page is empty we can still open it in our browser. First thing we need to do is save the changes we’ve made. Under “**File**”, click “**Save**”. Now open the file by double clicking “**about.html**” in your “**html_workshop**” folder. This should open a browser with nothing on the page.
