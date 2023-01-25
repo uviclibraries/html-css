@@ -100,8 +100,7 @@ To start, we will be learning about adding basic components to an about me page 
     
 7.  **List Tag**
     
-- You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. Use an ordered list if you want to display content in a particular order. Use an unordered list if the order of the list items does not matter.
-- This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.   
+- You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. Use an ordered list if you want to display content in a particular order. Use an unordered list if the order of the list items does not matter. 
 
 - Ordered lists use an `<ol>` tag and display in a browser as a numbered list. Here’s an example of an ordered list: 
     
@@ -133,20 +132,20 @@ To start, we will be learning about adding basic components to an about me page 
 <img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;">
 
 8.  **Text Tags**
-    -   Styling should be done in CSS files but sometimes making changes in the HTML file can be helpful. For example, the **&lt;del&gt;&lt;/del&gt;** and **&lt;ins&gt;&lt;/ins&gt;** tags can be helpful to highlight specific text. The **&lt;del&gt;** tag puts a line through the text and the **&lt;ins&gt;** tag underlines text.
+    -   Applying style to your HTML code should be done in CSS files, but sometimes making changes in the HTML file can be helpful. For example, the `<del></del>` and `<ins></ins>` tags can be helpful to highlight specific text. The `<del>` tag puts a line through the text and the `<ins>` tag underlines text.
     -   HTML tags can be put around any text that shows up in the browser. These tags don't have to encompass the whole text, it doesn't even have to cover a whole word. Say I wanted the following text to be typed out in a paragraph:
     -   This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins>
-        -   We have 2 words in bold, 1 word underlined, and 1 word underlined & in bold. Let’s look at what that would look like with tags.
-        -   **&lt;p&gt;**This is **&lt;strong&gt;**important**&lt;/strong&gt;**. This is **&lt;strong&gt;&lt;ins&gt;**very**&lt;/ins&gt;** important.**&lt;/strong&gt;** Thank **&lt;ins&gt;**you!**&lt;/ins&gt;&lt;/p&gt;**
+        -   We have 2 words in bold, 1 word underlined, and 1 word underlined & in bold. Let’s look at what that would look like in HTML, with tags: 
+    -   `<p>This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins></p>`
         -   Notice where the spaces and full stops are. With so many tags, it can be easy to forget to add important content in the right places.
-    -   Try some more types of text altering tags.
-        -   **&lt;strong&gt;** - Important text
-        -   **&lt;i&gt;** - Italic text
-        -   **&lt;em&gt;** - Emphasized text
-        -   **&lt;mark&gt;** - Marked text
-        -   **&lt;small&gt;** - Smaller text
-        -   **&lt;sub&gt;** - Subscript text
-        -   **&lt;sup&gt;** - Superscript text
+    -   Try some more tags that alter HTML text in the following ways:
+        -   `<strong>` = important
+        -   `<i>` = italic
+        -   `<em>` = emphasized
+        -   `<mark>` = marked, or <mark>highlighted</mark>
+        -   `<small>` = smaller
+        -   `<sub>` = subscript
+        -   `<sup>` = superscript text
 
 
 <script>  
