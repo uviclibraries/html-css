@@ -13,23 +13,25 @@ To start, we will be learning about adding basic components to an about me page 
 If you haven’t already, **please install [Visual Code Studio text editor](https://code.visualstudio.com/) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor becasue it has some smart features that help to prevent code errors.
 
 
-1. When you open VCS for the first time you will see a "Get Started" window, which you can close.
-2.  **Coding Time:**
-    -   We are going to create a new project in VCS by clicking in the main menu on **File** > **Open Folder**. A Dialogue box will appear. 
-    -   Navigate to your **Desktop** and then click on the **New Folder** button.
-    -   Name your folder, or directory, `html_workshop`. 
-    -   Once back in VCS, you will see a navigation pane on the lefthand side of the VCS window. We will use this navigation pane to create our first file.
-        -   To the right of your directory name (html_workshop), click on the "New file" button. 
-        -   <img src="images/act-1/vcs-new-file-button.png" alt="New file button">
-        -   You will see a text field appear below the directory name. Now, we will add our file name. 
-        -   Name your file exactly like this: `about.html`. 
-        -   VCS will know that this new file is an HTML file becasue you used the `.html` extension, or suffix.
-        -   We now have our first HTML file. VCS will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themse to make your code easier to read.
+## Coding Time
+
+- Open VCS.
+- When you open VCS for the first time you will see a "Get Started" window, which you can close.
+- We are going to create a new project in VCS by clicking in the main menu on **File** > **Open Folder**. A Dialogue box will appear. 
+- Navigate to your **Desktop** and then click on the **New Folder** button.
+- Name your folder, or directory, `html_workshop`. 
+- Once back in VCS, you will see a navigation pane on the lefthand side of the VCS window. We will use this navigation pane to create our first file.
+- To the right of your directory name (html_workshop), click on the "New file" button. 
+- <img src="images/act-1/vcs-new-file-button.png" alt="New file button">
+- You will see a text field appear below the directory name. Now, we will add our file name. 
+- Name your file exactly like this: `about.html`. 
+- VCS will know that this new file is an HTML file becasue you used the `.html` extension, or suffix.
+- We now have our first HTML file. VCS will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themse to make your code easier to read.
     <!-- <button onclick="toggle('gif1')">Show/Hide Animation</button> -->
 <!-- <div id="gif1">
     <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
     </div> -->
-   -   To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one. 
+- To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one. 
     -  <img src="images/act-1/vcs-autocomplete.png" alt="autocomplete example">
      
 - Now it’s time to get to the actual coding portion.
@@ -55,14 +57,14 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
     </div>
 
 
-5.  **Title Tag**
+## Title Tags
     
 - The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add `<title></title>` and then add your own text between these two tags.
 - This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.
 
     <img src="images/act-1/example.png" alt="webpage" style="width:720px;">
 
-6.  **Headings and Paragraph Tags**
+## Headings and Paragraph Tags
     
     <button onclick="toggle('gif3')">Show/Hide Animation</button>
     
@@ -94,7 +96,7 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
     <img src="images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
     </div>
     
-7.  **List Tag**
+## List Tags
     
 - You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. Use an ordered list if you want to display content in a particular order. Use an unordered list if the order of the list items does not matter. 
 
@@ -127,7 +129,8 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 
 <img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;">
 
-8.  **Text Tags**
+## Text Tags
+    
     -   Applying style to your HTML code should be done in CSS files, but sometimes making changes in the HTML file can be helpful. For example, the `<del></del>` and `<ins></ins>` tags can be helpful to highlight specific text. The `<del>` tag puts a line through the text and the `<ins>` tag underlines text.
     -   HTML tags can be put around any text that shows up in the browser. These tags don't have to encompass the whole text, it doesn't even have to cover a whole word. Say I wanted the following text to be typed out in a paragraph:
     -   This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins>
