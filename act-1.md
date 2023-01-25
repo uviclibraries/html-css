@@ -37,17 +37,17 @@ To start, we will be learning about adding basic components to an about me page 
     -   Now it’s time to get to the actual coding portion.
     -   Typing “**html**” will give you an option to autocomplete. Feel free to click enter to see what it looks like, but we will start from a blank page.
     -   HTML uses tags to tell the browser how to interpret text. Tags are built with three components: (1) the opening tag, which has a descriptor symbol such as “h1” between two pointy brackets: < and >; (2) the closing bracket, which has the same symbols as the opening bracket, with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags); (3) finally, the content (everything between the opening bracket and the closing bracket).
-    -   The first thing needed is an HTML declaration: **<!DOCTYPE html>**
+    -   The first thing needed is an HTML declaration: `<!DOCTYPE html>`
     -   This is not an HTML tag, but is a declaration for the browser. When a browser opens this file it reads this line and understands that this is an HTML document. 
-    -   Next we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type **<html>**. Go down to a new line and type **</html>** as this is the closing html tag. The browser interprets this code as HTML from the opening tag to the closing HTML tag.<br>
-**&lt;html&gt;**<br>**&lt;/html&gt;**
+    -   Next we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type `<html>` (this is the "open" tag because there is no forward slash before "html"). 
+    -   Go down to a new line and type a closed `</html>` (this is the "closed" tag because there is a forward slash before "html").
 -   When the browser opens this file it now knows how to deal with what is between these tags as it’s a recognized tag. There are many kinds of tags and you’ll be introduced to some of them.
-    -   The next part will be within our tags. Underneath the opening tag click the tab key once. Then type <head>. Atom automatically indents tags by default. Indenting tags, especially within other tags, makes our code more readable and orderly. Similarly, we want to have our closing head tag (</head>) indented the same amount, still in between the HTML tags. The head tag holds metadata (data about data) on our file, things like styling and  title, but we’ll get to that later.
-    -   Next, we want to create the body tags. This is where the content of the website is held. Underneath the closing head tag, but still within the HTML tags, <body> and </body> should both be indented once, similar to head.
+    -   The next part will be within our tags. Underneath the opening tag click the tab key once. Then type `<head>`. Your text editor may automatically indents tags by default. Indenting tags, especially within other tags, makes code more readable and orderly. Similarly, we want to have our closing head tag (`</head>`) indented the same amount, still in between the HTML tags. The head tag holds metadata (data about data) on our file, things like styling and  title, but we’ll get to that later.
+    -   Next, we want to create the `<body>` tags. This is where the content of the website is held. Underneath the closing head tag, but still within the HTML tags, `<body>` and `</body>` should both be indented once, similar to head.
     
     <img src="images/act-1/tags.png" alt="tags" style="width:720px;">
     
-    -   It’s good to note that HTML is not case sensitive. You could write the body tag as **<BODY>** or even **<BoDy>** and it would work. However, it’s best practice to keep to the same pattern, so if you choose to capitalize, capitalize uniformly.
+    -   Note that HTML is not case sensitive. You could write the body tag as **<BODY>** or even **<BoDy>** and it would work. However, it’s best practice to keep to the same pattern, so if you choose to capitalize, capitalize uniformly.
     -   Although our page is empty we can still open it in our browser. First thing we need to do is save the changes we’ve made. Under “**File**”, click “**Save**”. Now open the file by double clicking “**about.html**” in your “**html_workshop**” folder. This should open a browser with nothing on the page.
 
     <button onclick="toggle('gif2')">Show/Hide Animation</button>
@@ -59,7 +59,7 @@ To start, we will be learning about adding basic components to an about me page 
     
 
 5.  **Title Tag**
-    -   The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add **&lt;title&gt;&lt;/title&gt;** and then add your own text between these two tags.
+    -   The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add `<title></title>` and then add your own text between these two tags.
     -   This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.
 
     <img src="images/act-1/example.png" alt="webpage" style="width:720px;">
@@ -74,15 +74,15 @@ To start, we will be learning about adding basic components to an about me page 
 
    
     
-  -   Let’s move onto the body part of our code. “h” tags are HTML heading tags. There are 6 types: “h1”, “h2, “h3”, “h4”, “h5”, and “h6”. Inherently, h1 gives the largest text and h6 the smallest. The tags are written like so:<br>
-**&lt;h1&gt;&lt;/h1&gt;**
+  -   Let’s move onto the body part of our code. `<h>` tags are HTML heading tags. There are 6 types: “h1”, “h2, “h3”, “h4”, “h5”, and “h6”. Inherently, h1 gives the largest text and h6 the smallest. The tags are written like so:<br>
+`<h1></h1>`
   -   Put text within the above header tags to make a header.
   -   Like the title tags they can go on the same line. Don’t forget to indent from the body. I'm going to write two tags, h2 and h3:<br>
-**&lt;h2&gt;**Hello, Zuko here.**&lt;/h2&gt;**<br>
-**&lt;h3&gt;**About Me**&lt;/h3&gt;**
+`<h2>Hello, Zuko here.</h2>`<br>
+`<h3>About Me</h3>`
 -   See the changes you’ve made by saving and refreshing your webpage. Feel free to try different heading tags to see the difference between them and find what works best for you.
--   The “p” tag is used for paragraphs of text and are written as:<br>
-**&lt;p&gt;&lt;/p&gt;**
+-   The “p” tag is used for paragraphs. The content you want in a paragraph would go between the open and closed paragraph tags, as in the following example:<br>
+    `<p>Your paragrpah content woudl go here.</p>`
  -   Underneath each h tag, add a paragraph tag. If you are following along you can add the following in the p tags, if not add what is appropriate to your page:<br>
         `<h2>Hello, Zuko here.</h2>`<br>
         `<p>Prince of the Fire Nation</p>`<br>
