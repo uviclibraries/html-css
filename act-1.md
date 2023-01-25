@@ -58,6 +58,7 @@ To start, we will be learning about adding basic components to an about me page 
 
 
 5.  **Title Tag**
+    
     -   The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add `<title></title>` and then add your own text between these two tags.
     -   This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.
 
@@ -98,18 +99,22 @@ To start, we will be learning about adding basic components to an about me page 
     </div>
     
 7.  **List Tag**
+    
     -   You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. Use an ordered list if you want to display content in a particular order. Use an unordered list if the order of the list items does not matter.
     -   This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.   
     -   Ordered lists use an `<ol>` tag and display in a browser as a numbered list. Here’s an example of an ordered list: 
-        -   Frodo’s top three traveling essentials, in order of importance: 
+
+    Frodo’s top three traveling essentials, in order of importance: 
     1. The One Ring
     2. Sting (the sword, not the musician)
     3. Samwise Gamgee
+    
     -   Unordered lists use a `<ul>` tag and display in a browser as a bulleted list. Here’s an example of an unordered list: 
-        -   Frodo’s shopping list for Bree Market: 
-        -- Pipe weed
-        -- Craft beer
-        -- Even more lembas bread?
+    
+    Frodo’s shopping list for Bree Market: 
+    - Pipe weed
+    - Craft beer
+    - Even more lembas bread?
 
     -   Both ordered (`<ol>`) and unordered (`<ul>`) contain list items, which are indicated with an `<li>`, or list item, tag. 
     -   It's best markup practice to indent your `<li>` tags within the `<ol>` or `<ul>` tags. 
