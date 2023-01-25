@@ -16,11 +16,11 @@ To start, we will be learning about adding basic components to an about me page 
 4.  **Coding Time:**
     -   Start the process of creating a new project by clicking on the **File** menu and then **Open Folder**. A Dialog box will appear. 
     -   Navigate to either your **Desktop** or **Documents** folder, and then click on the **Create Directory** button.
-    -   Name your directory "**html_workshop**" You can always move it for future use.
-    -   You’ll notice on the left hand side the “html_workshop” folder. We now need to create our first file.
+    -   Name your directory `html_workshop` You can always move it for future use.
+    -   You’ll notice on the left hand side the `html_workshop` folder. We now need to create our first file.
         -   Under **File**, click  **New Text File**.
         -   Click on the blue **Select a language** link and then scroll down and select **HTML** (you can also typle "html" in to the search box and then select it).
-        -   Again, under **File** click on **Save As..** and save the file as “**about.html**”.
+        -   Again, under **File** click on **Save As..** and save the file as `about.html`.
         -   We now have our first HTML file. Atom recognizes this and will help you with your code with helpful autocompletes, suggestions, and colouring.
     
     <button onclick="toggle('gif1')">Show/Hide Animation</button>
@@ -36,11 +36,11 @@ To start, we will be learning about adding basic components to an about me page 
    -   To see an example of how Atom can help us out, type the letter “**h**”. Atom has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one.
     -   Now it’s time to get to the actual coding portion.
     -   Typing “**html**” will give you an option to autocomplete. Feel free to click enter to see what it looks like, but we will start from a blank page.
-    -   HTML uses tags to tell the browser how to interpret text. Tags are built with three components: (1) the opening tag, which has a descriptor symbol such as “h1” between two pointy brackets: < and >; (2) the closing bracket, which has the same symbols as the opening bracket, with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags); (3) finally, the content (everything between the opening bracket and the closing bracket).
+    -   HTML uses tags to tell the browser how to interpret text. Tags are built with three components: (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy brackets: `<` and `>`; (2) the closing bracket, which has the same symbols as the opening bracket, with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags); (3) finally, the content (everything between the opening bracket and the closing bracket).
     -   The first thing needed is an HTML declaration: `<!DOCTYPE html>`
     -   This is not an HTML tag, but is a declaration for the browser. When a browser opens this file it reads this line and understands that this is an HTML document. 
-    -   Next we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type `<html>` (this is the "open" tag because there is no forward slash before "html"). 
-    -   Go down to a new line and type a closed `</html>` (this is the "closed" tag because there is a forward slash before "html").
+    -   Next we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type `<html>` (this is the "open" tag because there is no forward slash before `html`). 
+    -   Go down to a new line and type a closed `</html>` (this is the "closed" tag because there is a forward slash before `html`).
 -   When the browser opens this file it now knows how to deal with what is between these tags as it’s a recognized tag. There are many kinds of tags and you’ll be introduced to some of them.
     -   The next part will be within our tags. Underneath the opening tag click the tab key once. Then type `<head>`. Your text editor may automatically indents tags by default. Indenting tags, especially within other tags, makes code more readable and orderly. Similarly, we want to have our closing head tag (`</head>`) indented the same amount, still in between the HTML tags. The head tag holds metadata (data about data) on our file, things like styling and  title, but we’ll get to that later.
     -   Next, we want to create the `<body>` tags. This is where the content of the website is held. Underneath the closing head tag, but still within the HTML tags, `<body>` and `</body>` should both be indented once, similar to head.
