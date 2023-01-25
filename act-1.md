@@ -19,23 +19,16 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
     -   Navigate to your **Desktop** and then click on the **New Folder** button.
     -   Name your folder, or directory, `html_workshop`. 
     -   Once back in VCS, you will see a navigation pane on the lefthand side of the VCS window. We will use this navigation pane to create our first file.
-        -   To the right of your directory name (html_workshop), click on the "New file" button.
+        -   To the right of your directory name (html_workshop), click on the "New file" button. <img src="images/act-1/vcs-new-file-button.png" alt="New file button">
         -   You will see a text field appear below the directory name. Now, we will add our file name. 
         -   Name your file exactly like this: `about.html`. 
         -   VCS will know that this new file is an HTML file becasue you used the `.html` extension, or suffix.
         -   We now have our first HTML file. VCS will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themse to make your code easier to read.
-    
-    <button onclick="toggle('gif1')">Show/Hide Animation</button>
-    
-<div id="gif1">
+    <!-- <button onclick="toggle('gif1')">Show/Hide Animation</button> -->
+<!-- <div id="gif1">
     <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
-    </div>
-
-        
-<img src="images/act-1/heading.png" alt="headings menu" style="float:right;width:360px;margin-top:10px;margin-left:10px;">
-    
-    
-   -   To see an example of how Atom can help us out, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one.
+    </div> -->
+   -   To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one. <img src="images/act-1/vcs-autocomplete.png" alt="autocomplete example">
     -   Now it’s time to get to the actual coding portion.
     -   Typing “**html**” will give you an option to autocomplete. Feel free to click enter to see what it looks like, but we will start from a blank page.
     -   HTML uses tags to tell the browser how to interpret text. Tags are built with three components: (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy brackets: `<` and `>`; (2) the closing bracket, which has the same symbols as the opening bracket, with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags); (3) finally, the content (everything between the opening bracket and the closing bracket).
