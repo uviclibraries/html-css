@@ -8,20 +8,22 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 
 # Getting Started With HTML
 
-To start, we will be learning about adding basic components to an about me page like text. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
+To start, we will be learning about adding basic components to an about me page like text. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuko, a character from a cartoon show. Have fun!
 
-1.  If you haven’t already, please install [Atom text editor](https://atom.io/){:target="_blank"} on your computer. You are welcome to use any text editor you like, but our examples use Atom.
-2.  Opening Atom for the first time should automatically open 3 pages. You can close the Welcome and Telemetry Consent page. 
-3. This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuko, a character from a cartoon show.
-4.  **Coding Time:**
-    -   Start the process of creating a new project by clicking on the **File** menu and then **Open Folder**. A Dialog box will appear. 
-    -   Navigate to either your **Desktop** or **Documents** folder, and then click on the **Create Directory** button.
-    -   Name your directory `html_workshop` You can always move it for future use.
-    -   You’ll notice on the left hand side the `html_workshop` folder. We now need to create our first file.
-        -   Under **File**, click  **New Text File**.
-        -   Click on the blue **Select a language** link and then scroll down and select **HTML** (you can also typle "html" in to the search box and then select it).
-        -   Again, under **File** click on **Save As..** and save the file as `about.html`.
-        -   We now have our first HTML file. Atom recognizes this and will help you with your code with helpful autocompletes, suggestions, and colouring.
+If you haven’t already, **please install [Visual Code Studio text editor](https://code.visualstudio.com/) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor becasue it has some smart features that help to prevent code errors.
+
+
+1. When you open VCS for the first time you will see a "Get Started" window, which you can close.
+2.  **Coding Time:**
+    -   We are going to create a new project in VCS by clicking in the main menu on **File** > **Open Folder**. A Dialogue box will appear. 
+    -   Navigate to your **Desktop** and then click on the **New Folder** button.
+    -   Name your folder, or directory, `html_workshop`. 
+    -   Once back in VCS, you will see a navigation pane on the lefthand side of the VCS window. We will use this navigation pane to create our first file.
+        -   To the right of your directory name (html_workshop), click on the "New file" button.
+        -   You will see a text field appear below the directory name. Now, we will add our file name. 
+        -   Name your file exactly like this: `about.html`. 
+        -   VCS will know that this new file is an HTML file becasue you used the `.html` extension, or suffix.
+        -   We now have our first HTML file. VCS will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themse to make your code easier to read.
     
     <button onclick="toggle('gif1')">Show/Hide Animation</button>
     
@@ -33,7 +35,7 @@ To start, we will be learning about adding basic components to an about me page 
 <img src="images/act-1/heading.png" alt="headings menu" style="float:right;width:360px;margin-top:10px;margin-left:10px;">
     
     
-   -   To see an example of how Atom can help us out, type the letter “**h**”. Atom has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one.
+   -   To see an example of how Atom can help us out, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one.
     -   Now it’s time to get to the actual coding portion.
     -   Typing “**html**” will give you an option to autocomplete. Feel free to click enter to see what it looks like, but we will start from a blank page.
     -   HTML uses tags to tell the browser how to interpret text. Tags are built with three components: (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy brackets: `<` and `>`; (2) the closing bracket, which has the same symbols as the opening bracket, with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags); (3) finally, the content (everything between the opening bracket and the closing bracket).
