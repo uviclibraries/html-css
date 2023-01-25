@@ -142,7 +142,7 @@ To start, we will be learning about adding basic components to an about me page 
         -   `<strong>` = important
         -   `<i>` = italic
         -   `<em>` = emphasized
-        -   `<mark>` = marked, or <mark>highlighted</mark>
+        -   `<mark>` = marked, or ==highlighted==
         -   `<small>` = smaller
         -   `<sub>` = subscript
         -   `<sup>` = superscript
