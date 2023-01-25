@@ -97,33 +97,24 @@ To start, we will be learning about adding basic components to an about me page 
     <img src="images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
     </div>
     
-    
+7.  **List Tag**
+    -   You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. Use an ordered list if you want to display content in a particular order. Use an unordered list if the order of the list items does not matter.
+    -   This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.   
+    -   Ordered lists use an `<ol>` tag and display in a browser as a numbered list. Here’s an example of an ordered list: 
+        -   Frodo’s top three traveling essentials, in order of importance: 
+    1. The One Ring
+    2. Sting (the sword, not the musician)
+    3. Samwise Gamgee
+    -   Unordered lists use a `<ul>` tag and display in a browser as a bulleted list. Here’s an example of an unordered list: 
+        -   Frodo’s shopping list for Bree Market: 
+        -- Pipe weed
+        -- Craft beer
+        -- Even more lembas bread?
 
-7.  **List Tags**
-    - You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. 
-    - Use an ordered list if you want to display content in a particular order. 
-    - Use an unordered list if the order of the list items does not matter. 
-
-    - Ordered lists use an `<ol>` tag and display in a browser as a numbered list. Here’s an example of an ordered list: 
-
-      Frodo’s top three traveling essentials, in order of importance: 
-    
-      1. The One Ring
-      2. Sting (the sword, not the musician)
-      3. Samwise Gamgee
-
-    - Unordered lists use a `<ul>` tag and display in a browser as a bulleted list. Here’s an example of an unordered list: 
-
-   - Frodo’s shopping list for Bree Market: 
-    -- Pipe weed
-    -- Craft beer
-    -- Even more lembas bread?
-
-    - Both ordered (`<ol>`) and unordered (`<ul>`) contain list items, which are indicated with an `<li>`, or list item, tag. 
-    - It's best markup practice to indent your `<li>` tags within the `<ol>` or `<ul>` tags. 
-
-- In the following examples, I use unordered lists, since the list (`<li>`) items do not need to be in any particular order. Note that the lists in both examples are nested inside paragraph (`<p>`) tags. 
-    - I want to add a list of attributes on my about page. I’ll make a list underneath the paragraph tags with “Prince of the Fire Nation”. I used an unordered list since these details are not in any particular order.
+    -   Both ordered (`<ol>`) and unordered (`<ul>`) contain list items, which are indicated with an `<li>`, or list item, tag. 
+    -   It's best markup practice to indent your `<li>` tags within the `<ol>` or `<ul>` tags. 
+    -   In the following examples, I use unordered lists, since the list (`<li>`) items do not need to be in any particular order. Note that the lists in both examples are nested inside paragraph (`<p>`) tags. 
+    -   I want to add a list of attributes on my about page. I’ll make a list underneath the paragraph tags with “Prince of the Fire Nation”. I used an unordered list since these details are not in any particular order.
 
 <button onclick="toggle('gif5')">Show/Hide Animation</button>
     
