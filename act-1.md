@@ -95,16 +95,15 @@ Looking good! Let's move on to adding content to our `about.html` page...
         `<p>Prince of the Fire Nation</p>`<br>
         `<h3>About Me</h3>`<br>
         `<p>Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>`<br>
-    -   <mark>Note</mark>: The paragraph content about Zuko is longer than anything we have added so far, and it could be that our text exceeds the width of the VCS window, depending on how wide you have made it. If your text is disappearing off to the right of the VCS window, we can enable "Word Wrap" so that you can always see your text, not matter what size you make your VCS window. 
-    -   To enable word wrap in VCS, click on **View > Word Wrap**. 
-    -   I’m going to add another paragraph beneath the last `p` tag. This will still be in the "about me" section. Separating items in different tags can be helpful when you want them to appear or behave in different ways when it comes to changing layout. For the Zuko page I’m adding the following:<br>
-        `<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.</p>`
+- <mark>Note</mark>: The paragraph content about Zuko is longer than anything we have added so far, and it could be that our text exceeds the width of the VCS window, depending on how wide you have made it. If your text is disappearing off to the right of the VCS window, we can enable "Word Wrap" so that you can always see your text, not matter what size you make your VCS window. 
+  - To enable word wrap in VCS, click on **View > Word Wrap**. 
+- Let's add another paragraph beneath the first paragraph:<br>
+`<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.</p>`
 
-<button onclick="toggle('gif4')">Show/Hide Animation</button>
-    
-<div id="gif4">
+<!-- <button onclick="toggle('gif4')">Show/Hide Animation</button>-->
+<!-- <div id="gif4">
     <img src="images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
-    </div>
+    </div> -->
     
 ## List Tags
     
