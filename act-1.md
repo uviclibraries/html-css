@@ -65,30 +65,38 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 
 Looking good! Let's move on to adding content to our `about.html` page...
 
-## Headings and Paragraph Tags
+## Headings Tags
     
-    <!-- <button onclick="toggle('gif3')">Show/Hide Animation</button>
-   
-<div id="gif3">
+<!-- <button onclick="toggle('gif3')">Show/Hide Animation</button>-->
+<!-- <div id="gif3">
     <img src="images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
-    </div>-->
+    </div> -->
 - Let’s move onto writing code and content between the `<body></body>` tags.
 - We are going to start with heaging or `<h>` tags are HTML heading tags.
-- There are 6 types of heading tags: “h1”, “h2, “h3”, “h4”, “h5”, and “h6”. Inherently, h1 gives the largest text and h6 the smallest. The tags are written like so:<br>
+- There are 6 types of heading tags: `h1`, `h2`, `h3`, `h4`, `h5`, and `h6`. Heading tags range from biggest, with `h1`, to the smallest, with `h6`.
+- Heading tags are written as follows:<br>
 `<h1></h1>`
-- Put text within the above header tags to make a header.
-- Like the title tags they can go on the same line. Don’t forget to indent from the body. I'm going to write two tags, h2 and h3:<br>
+- We are going to add the following heading tags (between the `<body></body>` tags) and content to our page:
 `<h2>Hello, Zuko here.</h2>`<br>
 `<h3>About Me</h3>`
-- See the changes you’ve made by saving and refreshing your webpage. Feel free to try different heading tags to see the difference between them and find what works best for you.
+- Here is an example of what we have, so far: 
+
+<img src="images/act-1/first-content.png" alt="adding first content">
+
+- As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser. 
+- Feel free to try different heading tags to see the difference between them and find what works best for you.
+
+## Paragraph Tag
+
 - The `p` tag is used for paragraphs. The content you want in a paragraph would go between the open and closed paragraph tags, as in the following example:<br>
     `<p>Your paragraph content would go here.</p>`
-- Underneath each `h` tag, add a paragraph tag. If you are following along you can add the following in the `p` tags, if not add what is appropriate to your page:<br>
+- We are going to add a couple of `p` tags and some content within them:<br>
         `<h2>Hello, Zuko here.</h2>`<br>
         `<p>Prince of the Fire Nation</p>`<br>
         `<h3>About Me</h3>`<br>
         `<p>Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>`<br>
-    -   Atom has a helpful feature to make your file more readable. If your text exceeds the width of Atom you can compress it instead of having to scroll sideways. Under **View** click **Toggle Soft Wrap**.
+    -   <mark>Note</mark>: The paragraph content about Zuko is longer than anything we have added so far, and it could be that our text exceeds the width of the VCS window, depending on how wide you have made it. If your text is disappearing off to the right of the VCS window, we can enable "Word Wrap" so that you can always see your text, not matter what size you make your VCS window. 
+    -   To enable word wrap in VCS, click on **View > Word Wrap**. 
     -   I’m going to add another paragraph beneath the last `p` tag. This will still be in the "about me" section. Separating items in different tags can be helpful when you want them to appear or behave in different ways when it comes to changing layout. For the Zuko page I’m adding the following:<br>
         `<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.</p>`
 
