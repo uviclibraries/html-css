@@ -13,7 +13,7 @@ To start, we will be learning about adding basic components to an about me page 
 If you haven’t already, **please install [Visual Code Studio text editor](https://code.visualstudio.com/) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor becasue it has some smart features that help to prevent code errors.
 
 
-## Coding Time
+## Create a directory and your first HTML file
 
 - Open VCS.
 - When you open VCS for the first time you will see a "Get Started" window, which you can close.
@@ -33,13 +33,20 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 <!-- <div id="gif1">
     <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
     </div> -->
-- To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one. 
+    - To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
 
 <img src="images/act-1/vcs-autocomplete.png" alt="autocomplete example">
-     
-- Now it’s time to get to the actual coding portion.
-- HTML uses tags to tell the browser how to interpret text. Tags are built with three components: (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy brackets: `<` and `>`; (2) the closing bracket, which has the same symbols as the opening bracket, with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags); (3) finally, the content (everything between the opening bracket and the closing bracket).
-- The first thing needed at the very top of the page is an HTML declaration: `<!DOCTYPE html>`
+
+## Introducing HTML "tags"
+
+- HTML uses tags to tell the browser how to interpret text.
+- HTML involves three basic components: 
+    - (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy brackets: `<` and `>`; 
+    - (2) the closing tag, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor (there are some tags that don’t need a closing bracket and these are called "self-closing" tags); 
+    - (3) finally, we have the content (everything between the opening bracket and the closing bracket).
+
+## Essential HTML 
+
 - The HTML <!DOCTYPE> declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to render it properly.
 - Next, we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type `<html>` (this is the "open" tag because there is no forward slash before `html`). 
 - Go down to a new line and type a closed `</html>` (this is the "closed" tag because there is a forward slash before `html`).
@@ -57,7 +64,7 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
     </div> -->
 
-## Title Tags
+### Title Tags
     
 - The title tag goes within the head tag and is the title of our webpage. You may notice our current file name is `about.html`, but we want to add a different title to our page. Since it is within the head tags, we indent one space and add `<title></title>` and then add text between these two tags.
 - This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type `About Me` and save your file.
@@ -68,7 +75,7 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 
 Looking good! Let's move on to adding content to our `about.html` page...
 
-## Headings Tags
+### Headings Tags
     
 <!-- <button onclick="toggle('gif3')">Show/Hide Animation</button>-->
 <!-- <div id="gif3">
@@ -87,11 +94,12 @@ Looking good! Let's move on to adding content to our `about.html` page...
 <img src="images/act-1/first-content.png" alt="adding first content">
 
 - As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser if you do not see the changes you expect. 
-- Feel free to try different heading tags to see the difference between them and find what works best for you.
+- Feel free to try different heading tags to see the differences between them.
 
-## Paragraph Tag
+### Paragraph Tag
 
-- The `p` tag is used for paragraphs. The content you want in a paragraph would go between the open and closed paragraph tags, as in the following example:<br>
+- The `p` tag is used for paragraphs. 
+- The content you want in a paragraph would go between the open and closed paragraph tags, as in the following example:<br>
     `<p>Your paragraph content would go here.</p>`
 - We are going to add a couple of `p` tags and some content within them:<br>
         `<h2>Hello, Zuko here.</h2>`<br>
@@ -108,24 +116,19 @@ Looking good! Let's move on to adding content to our `about.html` page...
     <img src="images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
     </div> -->
     
-## List Tags
+### List Tags
     
 - You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. Use an ordered list if you want to display content in a particular order. Use an unordered list if the order of the list items does not matter. 
-
-- Ordered lists use an `<ol>` tag and display in a browser as a numbered list. Here’s an example of an ordered list: 
-    
+- Ordered lists use an `<ol>` tag and display in a browser as a numbered list. Here’s an example of an ordered list:  
 > Frodo’s top three traveling essentials, in order of importance: 
 > 1. The One Ring
 > 2. Sting (the sword, not the musician)
 > 3. Samwise Gamgee
-    
 - Unordered lists use a `<ul>` tag and display in a browser as a bulleted list. Here’s an example of an unordered list: 
-    
 > Frodo’s shopping list for Bree Market: 
 > - Pipe weed
 > - Craft beer
 > - Even more lembas bread?
-
 - Both ordered (`<ol>`) and unordered (`<ul>`) contain list items, which are indicated with an `<li>`, or list item, tag. 
 - It is considered best markup practice to indent your `<li>` tags within the `<ol>` or `<ul>` tags. 
 - In the following examples, I use unordered lists, since the list (`<li>`) items do not need to be in any particular order. Note that the lists in both examples are nested inside paragraph (`<p>`) tags. 
@@ -142,7 +145,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 
 <!-- <img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;"> -->
 
-## Text Tags
+### Text Tags
     
 - Applying style to your HTML code should be done in CSS files, but sometimes making changes in the HTML file can be helpful. For example, the `<del></del>` and `<ins></ins>` tags can be helpful to highlight specific text. The `<del>` tag puts a line through the text and the `<ins>` tag underlines text.
 - HTML tags can be put around any text that shows up in the browser. These tags don't have to encompass the whole text, it doesn't even have to cover a whole word. Say I wanted the following text to be typed out in a paragraph:
