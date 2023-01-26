@@ -22,7 +22,9 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 - Name your folder, or directory, `html_workshop`. 
 - Once back in VCS, you will see a navigation pane on the lefthand side of the VCS window. We will use this navigation pane to create our first file.
 - To the right of your directory name (html_workshop), click on the "New file" button. 
-- <img src="images/act-1/vcs-new-file-button.png" alt="New file button">
+
+<img src="images/act-1/vcs-new-file-button.png" alt="New file button">
+
 - You will see a text field appear below the directory name. Now, we will add our file name. 
 - Name your file exactly like this: `about.html`. 
 - VCS will know that this new file is an HTML file becasue you used the `.html` extension, or suffix.
@@ -32,7 +34,8 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
     <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
     </div> -->
 - To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake. So make sure you are selecting the right one. 
-    -  <img src="images/act-1/vcs-autocomplete.png" alt="autocomplete example">
+
+<img src="images/act-1/vcs-autocomplete.png" alt="autocomplete example">
      
 - Now it’s time to get to the actual coding portion.
 - HTML uses tags to tell the browser how to interpret text. Tags are built with three components: (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy brackets: `<` and `>`; (2) the closing bracket, which has the same symbols as the opening bracket, with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags); (3) finally, the content (everything between the opening bracket and the closing bracket).
@@ -42,24 +45,23 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 - Go down to a new line and type a closed `</html>` (this is the "closed" tag because there is a forward slash before `html`).
 - When the browser opens this file it now knows how to deal with what is between these tags as it’s a recognized tag. There are many kinds of tags and you’ll be introduced to some of them.
 - The next part will be within our tags. Underneath the opening tag click the tab key once. Then type `<head>`. Your text editor may automatically indents tags by default. Indenting tags, especially within other tags, makes code more readable and orderly. Similarly, we want to have our closing head tag (`</head>`) indented the same amount, still in between the HTML tags. The head tag holds metadata (data about data) on our file, things like styling and  title, but we’ll get to that later.
-- Next, we want to create the `<body>` tags. This is where the content of the website is held. Underneath the closing head tag, but still within the HTML tags, `<body>` and `</body>` should both be indented once, similar to head.
+- Next, we want to create the `<body>` tags. This is where the content of the website is held. Underneath the closing head tag, but still within the HTML tags, add an open `<body>` and closed `</body>` tag. You can also indent both of these tags. 
 - Here is what your `about.html` page should look like so far: 
     
     <img src="images/act-1/vcs-basic-tags.png" alt="tag examples">
 
 - Have you saved your file yet? Now is the time: in VCS's main menu, click on **File > Save As...** or hit **CTRL (or Command for Mac users) + S** on your keyboard.
-<!--  <button onclick="toggle('gif2')">Show/Hide Animation</button>
-    
-<div id="gif2">
+<!--  <button onclick="toggle('gif2')">Show/Hide Animation</button> -->
+<-- <div id="gif2">
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
     </div> -->
 
 ## Title Tags
     
-- The title tag goes within the head tag and is the title of our webpage. You may notice our current file name is “about.html”, but we want to add a different title to our page. Since it is within the head tags we indent one space and add `<title></title>` and then add your own text between these two tags.
-- This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type `About Me` between the `<title></title>` tags and save your file.
+- The title tag goes within the head tag and is the title of our webpage. You may notice our current file name is `about.html`, but we want to add a different title to our page. Since it is within the head tags, we indent one space and add `<title></title>` and then add text between these two tags.
+- This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type `About Me` and save your file.
 - We will now look at our page in a browser. 
-- Navigate to your **Desktop** and go into your `html_workshop` folder and click on the `about.html` file. Your `about.html` file will open in whatever browser is the default on your computer. In the following example, I have opened my file in Safari: 
+- Navigate to your **Desktop** and go into your `html_workshop` folder and click on the `about.html` file. Your `about.html` file will open in whatever browser is the default on your computer. In the following example, I have opened my file in Chrome: 
 
     <img src="images/act-1/view-page-title.png" alt="page title test">
 
@@ -71,9 +73,9 @@ Looking good! Let's move on to adding content to our `about.html` page...
 <!-- <div id="gif3">
     <img src="images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
     </div> -->
-- Let’s move onto writing code and content between the `<body></body>` tags.
+- Let’s move on to writing code and content between the `<body></body>` tags.
 - We are going to start with heaging or `<h>` tags are HTML heading tags.
-- There are 6 types of heading tags: `h1`, `h2`, `h3`, `h4`, `h5`, and `h6`. Heading tags range from biggest, with `h1`, to the smallest, with `h6`.
+- There are 6 types of heading tags: `h1`, `h2`, `h3`, `h4`, `h5`, and `h6`. Heading tags range from biggest text size, with `h1`, to the smallest text size, with `h6`.
 - Heading tags are written as follows:<br>
 `<h1></h1>`
 - We are going to add the following heading tags (between the `<body></body>` tags) and content to our page:
@@ -83,7 +85,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 
 <img src="images/act-1/first-content.png" alt="adding first content">
 
-- As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser. 
+- As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser if you do not see the changes you expect. 
 - Feel free to try different heading tags to see the difference between them and find what works best for you.
 
 ## Paragraph Tag
@@ -95,7 +97,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
         `<p>Prince of the Fire Nation</p>`<br>
         `<h3>About Me</h3>`<br>
         `<p>Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>`<br>
-- <mark>Note</mark>: The paragraph content about Zuko is longer than anything we have added so far, and it could be that our text exceeds the width of the VCS window, depending on how wide you have made it. If your text is disappearing off to the right of the VCS window, we can enable "Word Wrap" so that you can always see your text, not matter what size you make your VCS window. 
+- <mark>Note</mark>: The paragraph content about Zuko is longer than anything we have added so far, and it could be that our text exceeds the width of the VCS window, depending on how wide you have made it on your computer. If your text is disappearing off to the right of the VCS window, we can enable "Word Wrap" so that you can always see your text, not matter what size you make your VCS window. 
   - To enable word wrap in VCS, click on **View > Word Wrap**. 
 - Let's add another paragraph beneath the first paragraph:<br>
 `<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.</p>`
@@ -124,7 +126,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 > - Even more lembas bread?
 
 - Both ordered (`<ol>`) and unordered (`<ul>`) contain list items, which are indicated with an `<li>`, or list item, tag. 
-- It's best markup practice to indent your `<li>` tags within the `<ol>` or `<ul>` tags. 
+- It is considered best markup practice to indent your `<li>` tags within the `<ol>` or `<ul>` tags. 
 - In the following examples, I use unordered lists, since the list (`<li>`) items do not need to be in any particular order. Note that the lists in both examples are nested inside paragraph (`<p>`) tags. 
 - I want to add a list of attributes on my about page. I’ll make a list underneath the paragraph tags with “Prince of the Fire Nation”. I used an unordered list since these details are not in any particular order.
 
