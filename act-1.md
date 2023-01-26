@@ -51,6 +51,7 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
     <img src="images/act-1/vcs-basic-tags.png" alt="tag examples">
 
 - Have you saved your file yet? Now is the time: in VCS's main menu, click on **File > Save As...** or hit **CTRL (or Command for Mac users) + S** on your keyboard.
+
 <!-- <button onclick="toggle('gif2')">Show/Hide Animation</button> -->
 <-- <div id="gif2">
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
