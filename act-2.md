@@ -16,30 +16,41 @@ If you haven’t already completed the first exercise, please go to [Getting Sta
 
 Next, we’ll learn how to add images and links to an HTML page. If you or your group have any questions, or you get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
-If you completed the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) exercises, you should have an **"about.html"** page with some paragraphs, headers, and a list.
+If you completed the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) exercises, you should have an `about.html` page with some paragraphs, headers, and a list.
 
 You may have added some additional content and HTML markup as well, and that's encouraged because we're here to tinker!
 
-**Your "about.html" document should look something like this:**
+**Your `about.html` document should look something like this:**
 
-<img src="images/act-2/recap.png" alt="recap of act 1" style="width:720px;">
+<img src="images/act-1/example-page-with-list.png" alt="example page with list">
 
 ## Adding Images
 
-1.  **Create a folder called "images" in your “html_workshop” folder.**
-    -   In your **“html_workshop”** folder create another folder called **“images”**. You can do this in Atom by right-clicking the "**Project**" tab and selecting “**New Folder**” and naming it within Atom.
-    -   You can find an image on the Internet or right-click with your mouse or trackpad on the image below, and then save it to the **"images"** folder.
+- We are going to add some images to our `about.html` page. What this is means, really, is that we are going to create a link to an image file so that when your `about.html` displays in your browser, you will see the actual image. 
+- To help keep things as tidy as possible, we are going to keep all our images in a separate folder called "images."
+- In your **html_workshop** folder, **create a new folder and name it exactly as follows: `images`.
+- We will now add an image to the **images** folder. You can find an image on the Internet, or right-click with your mouse or trackpad on the image below, and then save it to the **images** folder.
 
-<img src="images/act-2/zuko.png" alt="zuko" style="width:720px;">
+<img src="images/act-2/zuko.png" alt="zuko">
 
-2. **Get to know the image `<img>` tag.**
-    - `<img>` is the tag used to show images on an HTML webpage. Notice that there is no closing, or forward slash, in this tag. This is because `<img>` is what's called a self-closing tag, or a [void element (↪)](https://html.spec.whatwg.org/multipage/syntax.html#elements-2). You may see it written as `<img/>` to show that it is self-closing, but this is just for human readability. Both `<img>` and `<img/>` are valid, so the important thing is to keep it consistent.
-3. **Add an `<img>` tag to your HTML page.**
-    - Somewhere between the `<body></body>` tags, add `<img src="image.jpg" alt="image description">`.
-    - **`src`** means "source," or the location your HTML browser will look to display the image. My image, “avaZuko.png”, is stored in the "images" folder. Between the quotation marks we put the filepath to our image file, which creates a link between our image and our HTML webpage. The path in my case is “images/avaZuko.png”. If you used another image file, then you would replace "avaZuko.png" with your file's name. **Note** that if we ever move our image file to another folder we would break the link between the image and our HTML page.
-    - **`alt`** means "alternate text" for an image, if the image cannot be displayed. What you put between the quotation marks will be displayed when the image fails to load. This text is also used by people who may have visual disabilities, who use [screen reader software (↪)](https://www.cnib.ca/en/screen-readers?region=bc).
-4. **Add your filepath and alternate text to your `<img>` tag.**
-    - When you have added your filepath and alternate text, you should have an `<img>` tag that looks something like this: **`<img src="images/avaZuko.png" alt="Zuko headshot with a frowning expression">`**.
+### Get to know the image `<img>` tag
+
+- `<img>` is the tag used to show images on an HTML webpage. 
+- Notice that there is no closing, or forward slash, in this tag. This is because `<img>` is what's called a self-closing tag, or a [void element (↪)](https://html.spec.whatwg.org/multipage/syntax.html#elements-2). 
+- You may see it written as `<img/>` to show that it is self-closing, but this is just for human readability. 
+- Both `<img>` and `<img/>` are valid, so the important thing is to be consistent.
+
+### Add an `<img>` tag to your HTML page
+
+- Somewhere between the `<body></body>` tags, add `<img src="image.jpg" alt="image description">`.
+- The `src` part of the `img` tag means "source," or the location your HTML browser will look to display the image. My image, “avaZuko.png”, is stored in the **images** folder. 
+- Between the double quotation marks we put the "filepath" to our image file, which creates a link between our image and our HTML webpage. 
+- The path in my case is `images/avaZuko.png`. If you used another image file, then you would replace `avaZuko.png` with your file's name. 
+- <mark>Note</mark> that if we ever move our image file to another folder we would break the link between the image and our HTML page.
+- The `alt` part of the `img` tag means "alternate text" for an image. What you put between the quotation marks will be displayed when the image fails to load. This text is also used by people who may have visual disabilities and who use [screen reader software (↪)](https://www.cnib.ca/en/screen-readers?region=bc).
+- Add your filepath and alternate text to your `<img>` tag.**
+- When you have added your filepath and alternate text, you should have an `<img>` tag that looks something like this:<br/>
+`<img src="images/avaZuko.png" alt="Zuko headshot with a frowning expression">`
 
         <img src="images/act-2/img.jpg" alt="image tag" style="width:720px;">
 
