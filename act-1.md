@@ -46,33 +46,35 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 - Here is what your `about.html` page should look like so far: 
     
     <img src="images/act-1/vcs-basic-tags.png" alt="tag examples">
-    
-- Note that HTML is not case sensitive. You could write the body tag as **<BODY>** or even **<BoDy>** and it would work. However, it’s best practice to keep to the same pattern, so if you choose to capitalize, capitalize uniformly.
-- Although our page is empty we can still open it in our browser. First thing we need to do is save the changes we’ve made. Under “**File**”, click “**Save**”. Now open the file by double clicking “**about.html**” in your “**html_workshop**” folder. This should open a browser with nothing on the page.
 
-    <button onclick="toggle('gif2')">Show/Hide Animation</button>
+- Have you saved your file yet? Now is the time: in VCS's main menu, click on **File > Save As...** or hit **CTRL (or Command for Mac users) + S** on your keyboard.
+<!--  <button onclick="toggle('gif2')">Show/Hide Animation</button>
     
 <div id="gif2">
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
-    </div>
-
+    </div> -->
 
 ## Title Tags
     
-- The title tag goes within the head tag and is the title of our webpage. You may notice our current title is “about.html”, but we want to change this. Since it is within the head tags we indent one space and add `<title></title>` and then add your own text between these two tags.
-- This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type “About Me”. Save your file and refresh your browser.
+- The title tag goes within the head tag and is the title of our webpage. You may notice our current file name is “about.html”, but we want to add a different title to our page. Since it is within the head tags we indent one space and add `<title></title>` and then add your own text between these two tags.
+- This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type `About Me` between the `<title></title>` tags and save your file.
+- We will now look at our page in a browser. 
+- Navigate to your **Desktop** and go into your `html_workshop` folder and click on the `about.html` file. Your `about.html` file will open in whatever browser is the default on your computer. In the following example, I have opened my file in Safari: 
 
-    <img src="images/act-1/example.png" alt="webpage" style="width:720px;">
+    <img src="images/act-1/view-page-title.png" alt="page title test">
+
+Looking good! Let's move on to adding content to our `about.html` page...
 
 ## Headings and Paragraph Tags
     
-    <button onclick="toggle('gif3')">Show/Hide Animation</button>
-    
+    <!-- <button onclick="toggle('gif3')">Show/Hide Animation</button>
+   
 <div id="gif3">
     <img src="images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
-    </div>
-
-- Let’s move onto the body part of our code. `<h>` tags are HTML heading tags. There are 6 types: “h1”, “h2, “h3”, “h4”, “h5”, and “h6”. Inherently, h1 gives the largest text and h6 the smallest. The tags are written like so:<br>
+    </div>-->
+- Let’s move onto writing code and content between the `<body></body>` tags.
+- We are going to start with heaging or `<h>` tags are HTML heading tags.
+- There are 6 types of heading tags: “h1”, “h2, “h3”, “h4”, “h5”, and “h6”. Inherently, h1 gives the largest text and h6 the smallest. The tags are written like so:<br>
 `<h1></h1>`
 - Put text within the above header tags to make a header.
 - Like the title tags they can go on the same line. Don’t forget to indent from the body. I'm going to write two tags, h2 and h3:<br>
