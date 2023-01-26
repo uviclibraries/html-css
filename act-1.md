@@ -53,7 +53,7 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 - Have you saved your file yet? Now is the time: in VCS's main menu, click on **File > Save As...** or hit **CTRL (or Command for Mac users) + S** on your keyboard.
 
 <!-- <button onclick="toggle('gif2')">Show/Hide Animation</button> -->
-<-- <div id="gif2">
+<!-- <div id="gif2">
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
     </div> -->
 
@@ -129,17 +129,18 @@ Looking good! Let's move on to adding content to our `about.html` page...
 - Both ordered (`<ol>`) and unordered (`<ul>`) contain list items, which are indicated with an `<li>`, or list item, tag. 
 - It is considered best markup practice to indent your `<li>` tags within the `<ol>` or `<ul>` tags. 
 - In the following examples, I use unordered lists, since the list (`<li>`) items do not need to be in any particular order. Note that the lists in both examples are nested inside paragraph (`<p>`) tags. 
-- I want to add a list of attributes on my about page. I’ll make a list underneath the paragraph tags with “Prince of the Fire Nation”. I used an unordered list since these details are not in any particular order.
+- I have added a list of some of Zuko's attributes on my `about.html` page. I used an unordered list, since these details are not in any particular order.
+- Here is an example of what we have, so far:
 
-<button onclick="toggle('gif5')">Show/Hide Animation</button>
+<img src="images/act-1/example-page-with-list.png" alt="example page with list">
+
+<!-- <button onclick="toggle('gif5')">Show/Hide Animation</button> -->
     
-<div id="gif5">
+<!-- <div id="gif5">
     <img src="images/act-1/list-tag.gif" alt="list tags animated" style="width:720px;">
-    </div>
+    </div> -->
 
-    
-
-<img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;">
+<!-- <img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;"> -->
 
 ## Text Tags
     
@@ -149,7 +150,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
     - We have 2 words in bold, 1 word underlined, and 1 word underlined and in bold. Let’s look at what that would look like in HTML, with tags: 
     -   `<p>This is <strong>important</strong>. This is <strong><ins>very</ins>important.</strong> Thank <ins>you!</ins></p>`
 - Notice where the spaces and full stops are. With so many tags, it can be easy to forget to add important content in the right places.
-- Try some more tags that alter HTML text in the following ways:
+- On your `about.html` page, play around with some of the following tags, saving your file(!), and looking at it in your browser as you go:
   - `<strong>` = important
   - `<i>` = italic
   - `<em>` = emphasized
@@ -157,7 +158,9 @@ Looking good! Let's move on to adding content to our `about.html` page...
   - `<small>` = smaller
   - `<sub>` = subscript
   - `<sup>` = superscript
-
+- Remember that there is no right or wrong with our growing `about.html` page. 
+- We are taking this time to play around and, often, the best learning happens when we break things! 
+- Let's move on the next section in our workshop... 
 
 <script>  
 
