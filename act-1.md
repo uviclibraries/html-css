@@ -40,7 +40,7 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 - Now it’s time to get to the actual coding portion.
 - HTML uses tags to tell the browser how to interpret text. Tags are built with three components: (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy brackets: `<` and `>`; (2) the closing bracket, which has the same symbols as the opening bracket, with a forward slash before the descriptor (there are some tags that don’t need a closing bracket. They are called self-closing tags); (3) finally, the content (everything between the opening bracket and the closing bracket).
 - The first thing needed at the very top of the page is an HTML declaration: `<!DOCTYPE html>`
-- This is not an HTML tag, but a "declaration" for the browser. When opened in a browser, this file it reads, or declares itself, as an HTML document. 
+- The HTML <!DOCTYPE> declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to render it properly.
 - Next, we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type `<html>` (this is the "open" tag because there is no forward slash before `html`). 
 - Go down to a new line and type a closed `</html>` (this is the "closed" tag because there is a forward slash before `html`).
 - When the browser opens this file it now knows how to deal with what is between these tags as it’s a recognized tag. There are many kinds of tags and you’ll be introduced to some of them.
