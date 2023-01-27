@@ -75,14 +75,15 @@ You may have added some additional content and HTML markup as well, and that's e
 - Here is an example of a complete [hyperlink tag (↪)](https://www.w3schools.com/tags/tag_a.asp) for an Internet URL (Uniform Resource Locator) web address: `<a href="https://www.wikipedia.org/">Wikipedia</a>`.
 - The content between the open and closed `<a>` tags will appear as a clickable link in your browser. In the example given, the word "Wikipedia" would appear as the clickable hyperlinked text.
 - The `<a>` in the hyperlink tag defines it as a hyperlink element, and the `href` is the attribute that indicates the link's destination.
-- Hyperlinks come in many flavours and here are the basic four:
+- Hyperlinks come in flavours and here are the basic four:
+  - **"external links"** link you to other locations outside of your directory, such as other webpages or websites. These links always use the full URL. **Example: `<a href="http://www.wordpress.com/my-webpage.html">clickable text</a>`**.
+  - **"internal links"** link you to other locations within your directory, such as other webpages on your own website. These links do _not_ use the full URL. **Example: `<a href="about-me.html">clickable text</a>`**.
   - **"anchor links"**, or hashtag links, "jump" you to locations in the same webpage, or document. These are helpful in pages with a lot of text. You can, for example create a table of contents at the top of your HTML page that jumps to sections (or text) within that same page. **Example: `<a href="#anchor-location">clickable text</a>`**.
-  - **"external links"** link you to other locations outside of your directory, such as other webpages or websites. These links always use the full URL. **Example: `<a href = http://www.wordpress.com/my-webpage.html>clickable text</a>`**.
   - **"email links"** link you to an email address. When you click on these, they tell your computer to open up whatever email program you are using. **Example: `<a href="mailto:some-email@yoursite.com">Email me</a>`**.
 
 ## Add one or more hyperlinks to your HTML page
 
-- To get a feel for how hyperlinks work, **choose one or more of the following examples to add to your `about.html` page.**
+- To get a feel for how hyperlinks work, **choose one or more of the following three examples to add to your `about.html` page.**
 
 ### 1. External link
 
@@ -164,7 +165,7 @@ You may have added some additional content and HTML markup as well, and that's e
 - **Save your HTML file** and look at it again, after you refresh your browser, to see if your anchor link works. 
 - In my example, the text of "Read Bilbo's speech to the Council" now jumps me to start of Biblo's speech.
 - <mark>Note</mark> that if your anchor link does not appear to "jump" you anywhere, it could be that there is not enough content on your page. In other words, the link _could_ be working, but the page does not need to scroll down to get you to the link. You can solve this problem by adding a bunch of placeholder text to your page, so that you have to scroll to see the end of it.
-- [This W3Schools test-space (↪)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_href_anchor) shows a working anchor link so that you can get a sense of how it is supposed to work if you're having trouble with yours.
+- [This W3Schools test-space (↪)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_href_anchor) shows a working anchor link so that you can get a sense of how it is supposed to work, if you're having trouble with yours.
 
 🎉 **Congratulations!** You now know how to add images and links to a webpage!
 
