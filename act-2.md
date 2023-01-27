@@ -165,7 +165,7 @@ You may have added some additional content and HTML markup as well, and that's e
 - **Save your HTML file** and look at it again, after you refresh your browser, to see if your anchor link works. 
 - In my example, the text of "Read Bilbo's speech to the Council" now jumps me to start of Biblo's speech.
 - <mark>Note</mark> that if your anchor link does not appear to "jump" you anywhere, it could be that there is not enough content on your page. In other words, the link _could_ be working, but the page does not need to scroll down to get you to the link. You can solve this problem by adding a bunch of placeholder text to your page, so that you have to scroll to see the end of it.
-- [This W3Schools test-space (↪)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_href_anchor) shows a working anchor link so that you can get a sense of how it is supposed to work if you're ahving trouble with yours.
+- [This W3Schools test-space (↪)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_href_anchor) shows a working anchor link so that you can get a sense of how it is supposed to work if you're having trouble with yours.
 
 🎉 **Congratulations!** You now know how to add images and links to a webpage!
 
