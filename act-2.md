@@ -48,7 +48,7 @@ You may have added some additional content and HTML markup as well, and that's e
 - The path in my case is `images/avaZuko.png`. If you used another image file, then you would replace `avaZuko.png` with your file's name. 
 - <mark>Note</mark> that if we ever move our image file to another folder we would break the link between the image and our HTML page.
 - The `alt` part of the `img` tag means "alternate text" for an image. What you put between the quotation marks will be displayed when the image fails to load. This text is also used by people who may have visual disabilities and who use [screen reader software (↪)](https://www.cnib.ca/en/screen-readers?region=bc).
-- Add your filepath and alternate text to your `<img>` tag.**
+- Add your filepath and alternate text to your `<img>` tag.
 - When you have added your filepath and alternate text, you should have an `<img>` tag that looks something like this:<br/>
 `<img src="images/avaZuko.png" alt="Zuko headshot with a frowning expression">`
         - <mark>Note</mark> that my image is saved as a `.png` file but `<img>` accepts various types, the most common other ones being `.jpeg` (or `.jpg`), `.svg`, and `.gif`.
