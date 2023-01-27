@@ -44,22 +44,29 @@ You may have added some additional content and HTML markup as well, and that's e
 
 - Somewhere between the `<body></body>` tags, add `<img src="image.jpg" alt="image description">`.
 - The `src` part of the `img` tag means "source," or the location your HTML browser will look to display the image. My image, “avaZuko.png”, is stored in the **images** folder. 
-- Between the double quotation marks we put the "filepath" to our image file, which creates a link between our image and our HTML webpage. 
+- In the `src` part of the `img` tag you will see double quotation marks `"``"`. It is between these quotation marks that we put the "filepath" to our image file, which creates a link between our image and our HTML webpage. 
 - The path in my case is `images/avaZuko.png`. If you used another image file, then you would replace `avaZuko.png` with your file's name. 
 - <mark>Note</mark> that if we ever move our image file to another folder we would break the link between the image and our HTML page.
 - The `alt` part of the `img` tag means "alternate text" for an image. What you put between the quotation marks will be displayed when the image fails to load. This text is also used by people who may have visual disabilities and who use [screen reader software (↪)](https://www.cnib.ca/en/screen-readers?region=bc).
 - Add your filepath and alternate text to your `<img>` tag.**
 - When you have added your filepath and alternate text, you should have an `<img>` tag that looks something like this:<br/>
 `<img src="images/avaZuko.png" alt="Zuko headshot with a frowning expression">`
+        - <mark>Note</mark> that my image is saved as a `.png` file but `<img>` accepts various types, the most common other ones being `.jpeg` (or `.jpg`), `.svg`, and `.gif`.
+- Here is an example, in my `about.html` file, of an `<img>` tag: 
 
-        <img src="images/act-2/img.jpg" alt="image tag" style="width:720px;">
+<img src="images/act-2/img-tag-example.jpg" alt="image tag example">
 
-    - **Note** that my image is saved as a .png file but `<img>` accepts various types, the most common other ones being .jpeg (or .jpg), .svg, and .gif.
-5. **Save your HTML file and refresh your browser to see the changes.**
+- Here is what the above HTML example looks like in a browser: 
 
-    - Just for practice, try adding another image to your page. You can use the fire nation image below if you don't have any images of your own.
+<img src="images/act-2/img-browser-example.png" alt="img tag browser example">
 
-        <img src="images/act-2/fire.png" alt="fire nation logo" style="width:720px;">
+
+- Save your HTML file and refresh your browser to see your changes.
+- Hopefully, you will be able to see your image(s). If not please ask your instructor for help as needed. 
+
+<!-- - Just for practice, try adding another image to your page. You can use the fire nation image below if you don't have any images of your own. -->
+
+<-- <img src="images/act-2/fire.png" alt="fire nation logo" style="width:720px;"> -->
 
 ## Adding Links
 
