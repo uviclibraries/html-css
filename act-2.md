@@ -26,7 +26,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 ## Adding Images
 
-- We are going to add some images to our `about.html` page. What this is means, really, is that we are going to create a link to an image file so that when your `about.html` displays in your browser, you will see the actual image. 
+- We are going to add some images to our `about.html` page. What this is means, really, is that we are going to create a link to an image file that you store in another folder. The link you provide in your `about.html` page tells browser where to go to retrieve the image file and display it.
 - To help keep things as tidy as possible, we are going to keep all our images in a separate folder called "images."
 - In your **html_workshop** folder, **create a new folder and name it exactly as follows: `images`**.
 - We will now add an image to the **images** folder. You can find an image on the Internet, or right-click with your mouse or trackpad on the image below, and then save it to the **images** folder.
