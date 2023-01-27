@@ -54,7 +54,7 @@ You may have added some additional content and HTML markup as well, and that's e
         - <mark>Note</mark> that my image is saved as a `.png` file but `<img>` accepts various types, the most common other ones being `.jpeg` (or `.jpg`), `.svg`, and `.gif`.
 - Here is an example, in my `about.html` file, of an `<img>` tag: 
 
-<img src="images/act-2/img-tag-example.jpg" alt="image tag example">
+<img src="images/act-2/img-tag-example.png" alt="image tag example">
 
 - Here is what the above HTML example looks like in a browser: 
 
@@ -66,7 +66,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 <!-- - Just for practice, try adding another image to your page. You can use the fire nation image below if you don't have any images of your own. -->
 
-<-- <img src="images/act-2/fire.png" alt="fire nation logo" style="width:720px;"> -->
+<!-- <img src="images/act-2/fire.png" alt="fire nation logo" style="width:720px;"> -->
 
 ## Adding Links
 
