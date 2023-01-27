@@ -43,9 +43,9 @@ You may have added some additional content and HTML markup as well, and that's e
 ### Add an `<img>` tag to your HTML page
 
 - Somewhere between the `<body></body>` tags, add `<img src="image.jpg" alt="image description">`.
-- The `src` part of the `img` tag means "source," or the location your HTML browser will look to display the image. My image, “avaZuko.png”, is stored in the **images** folder. 
+- The `src` part of the `img` tag means "source," or the location your HTML browser will look to display the image. My image, `zuko.png`, is stored in the **images** folder. 
 - In the `src` part of the `img` tag you will see double quotation marks `"` `"`. It is between these quotation marks that we put the "filepath" to our image file, which creates a link between our image and our HTML webpage. 
-- The path in my case is `images/avaZuko.png`. If you used another image file, then you would replace `avaZuko.png` with your file's name. 
+- The path in my case is `images/zuko.png`. If you used another image file, then you would replace `zuko.png` with your file's name. 
 - <mark>Note</mark> that if we ever move our image file to another folder we would break the link between the image and our HTML page.
 - The `alt` part of the `img` tag means "alternate text" for an image. What you put between the quotation marks will be displayed when the image fails to load. This text is also used by people who may have visual disabilities and who use [screen reader software (↪)](https://www.cnib.ca/en/screen-readers?region=bc).
 - Add your filepath and alternate text to your `<img>` tag.
