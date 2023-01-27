@@ -14,7 +14,7 @@ If you haven’t already completed the first exercise, please go to [Getting Sta
 
 ### Next steps: images and links!
 
-Next, we’ll learn how to add images and links to an HTML page. If you or your group have any questions, or you get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
+In this section we’ll learn how to add images and links to an HTML page. If you or your group have any questions, or you get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
 If you completed the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) exercises, you should have an `about.html` page with some paragraphs, headers, and a list.
 
