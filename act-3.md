@@ -13,15 +13,22 @@ This section of the workshop is on Cascading Style Sheets (CSS). Think of HTML a
 
 CSS is used to alter the presentation of a website. Bascially, it creates the rules for what your various HTML elements, like paragraphs (`p`), headings (`h1`, for example), and content will look like in a browser. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
 
-This means that the same HTML file can appear dramatically different depending on how CSS is used.CSS is , adding colour and a little bit of style to your web pages. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
+Getting CSS to work the way you want to can sometimes try your patience, but it is worth it when things work, so stick with it and be preared to have fun breaking things! 
 
-2.  So far, you should have at least two HTML pages, one with text and one with text and images. 
+If you have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-    <img src="images/act-3/example.jpg" alt="recap of previous acts" style="width:720px;">
+**On our journey, so far**, you should have a couple of HTML pages, with a list, some links, and a mix of text an images. Visually speaking, it looks fairly basic. Here's an example of what my `about.html` page looks like at this point: 
 
+    <img src="images/act-3/img-browser-example.png" alt="example browser image">
 
-4.  **Linking CSS Stylesheet**
-    -   Let’s start off by creating a separate folder, called **“hello-css”**, inside our **“html_workshop”** folder. This can be done in Atom by right clicking html_workshop in the project tab and clicking **“New Folder”**. Make a new file in Atom by right clicking on our new folder in the project tab and select **“New File”**. Save this file as **“styling.css”**.
+Using CSS, we will make our growing website look a little more stylish and colourful.
+
+## Linking CSS to your HTML content
+
+- We are going to create new file, or "style sheet," for our CSS, and this file will also have an extension name, or suffix, of `.css`.
+- The CSS "rules" for modern, complex websites can be very complicated, with multiple style sheets applying multiple rules to HTML files. We are going to keep things simple to start with and use just one style sheet.  
+- In the Visual Code Studio (VCS) editor, create a new file in your `html_workshop` folder and name it exactly as follows: `style.css` 
+
     -   In order for a CSS file to have any effect on an HTML file, these files need to be linked to each other. This is done in the HTML file by using a link tag. Link tags are placed within the head tags and are self closing tags. Within the link tag we need to have two values: “rel” (which stands for relation and is required for all “link” tags), and “href” (which behaves like the “href” in our “a” tags, and it shows the path to the CSS file).<br>
         **&lt;link rel = "stylesheet" href="hello-css/styling.css"&gt;**
     -   Save the changes to your HTML file.
