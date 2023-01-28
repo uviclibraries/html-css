@@ -19,7 +19,7 @@ If you have any questions, or get stuck as you work through this in-class exerci
 
 **On our journey, so far**, you should have a couple of HTML pages, with a list, some links, and a mix of text an images. Visually speaking, it looks fairly basic. Here's an example of what my `about.html` page looks like at this point: 
 
-    <img src="images/act-3/img-browser-example.png" alt="example browser image">
+<img src="images/act-3/img-browser-example.png" alt="example browser image">
 
 Using CSS, we will make our growing website look a little more stylish and colourful.
 
