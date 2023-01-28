@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 If you haven’t already completed the previous exercise, please start [here](https://uviclibraries.github.io/html-css/act-1.html), as this part builds on the topics from the previous section.
 
-This section of the workshop is on Cascading Style Sheets (CSS). Think of HTML as the builder and CSS as the artist. CSS is a different language than HTML and has different rules and structure. 
+This section of the workshop is on Cascading Style Sheets (CSS). **Think of HTML as the builder and CSS as the artist.** CSS is a different language than HTML and has different rules and structure. 
 
 CSS is used to alter the presentation of a website. Bascially, it creates the rules for what your various HTML elements, like paragraphs (`p`), headings (`h1`, for example), and content will look like in a browser. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
 
@@ -29,13 +29,26 @@ Using CSS, we will make our growing website look a little more stylish and colou
 - The CSS "rules" for modern, complex websites can be very complicated, with multiple style sheets applying multiple rules to HTML files. We are going to keep things simple to start with and use just one style sheet.  
 - In the Visual Code Studio (VCS) editor, create a new file in your `html_workshop` folder and name it exactly as follows: `style.css` 
 
-    -   In order for a CSS file to have any effect on an HTML file, these files need to be linked to each other. This is done in the HTML file by using a link tag. Link tags are placed within the head tags and are self closing tags. Within the link tag we need to have two values: “rel” (which stands for relation and is required for all “link” tags), and “href” (which behaves like the “href” in our “a” tags, and it shows the path to the CSS file).<br>
-        **&lt;link rel = "stylesheet" href="hello-css/styling.css"&gt;**
-    -   Save the changes to your HTML file.
-    -   Make sure that the link tag is in the head part of the HTML file.
-    -   Once our style sheet is linked, refreshing our html file in the browser will fetch the CSS file. To see changes save your CSS file and refresh the browser.
-    -   CSS code can be used within an HTML file, but to keep things simple we will only use CSS code in our CSS file.
-5.  **CSS Format**
+<img src="images/act-3/vcs-create-style-sheet.png" alt="creating style sheet in VCS">
+
+- In the same way that we created a link to an image file, in our HTML page, we are going to create a link between an HTML file and the CSS file. We make this HTML > CSS connection possible by adding a link to an HTML page. 
+- In VCS, open your `about.html` page. 
+- The link to our style sheet will be placed within the `<head>` tags in our`about.html` page. 
+
+`<link rel="stylesheet" href="style.css>`
+
+- Before we add our link, let's get to know about more about it. 
+  - Notice that this is a "self-closing" link, in that it has no forward slash `/`.
+  - The first of the two parts in the link is `rel`, which stands for "relation" and is required for all “link” tags.
+  - The second of the two parts in the link is `href`, which stands for "hypertext reference" and specifies the location of another page, just like the `href` in our external links we did in the previous section of this workshop. 
+  - The `href` points our HTML page to our `style.css` page.    
+- In your `about.html` page, add this style sheet link jsut below the open `<head>` tag: `<link rel="stylesheet" href="style.css>`<!-- stopped here -->
+- Save the changes to your HTML file.
+- Make sure that the link tag is in the head part of the HTML file.
+- Once our style sheet is linked, refreshing our html file in the browser will fetch the CSS file. To see changes save your CSS file and refresh the browser.
+- CSS code can be used within an HTML file, but to keep things simple we will only use CSS code in our CSS file.
+
+## CSS Format
     
     <img src="images/act-3/color.png" alt="CSS block" style="width:720px;">
     
