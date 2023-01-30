@@ -48,31 +48,44 @@ Using CSS, we will make our growing website look a little more stylish and colou
 - CSS code can be used within an HTML file, but to keep things simple we will only use CSS code in our CSS file.
 - <mark>Note</mark> that you may need to hard refresh your browser to see your CSS rules work on your `about.html` page.
 
-## CSS Format
+## Get to know CSS
 
 - Here is an example of a "CSS declaration block," which contains an ordered collection of CSS properties and values:<br/>
 
 <img src="images/act-3/css-demo-colour.png" alt="CSS block example">
 
-- The declaration block "delcares" what it will do to change a specific HTML element, such as a paragraph <p>. In CSS-speak, the HTML element you want to change, or style, is called the selector. So, let's put this all together:<br/>
+- The declaration block "delcares" what it will do to change a specific HTML element, such as a paragraph `<p>`. 
+- In CSS-speak, the HTML element you want to change, or "style," is called the "selector". So, let's put this all together:<br/>
 
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS terms image">
-  
-- Each part of the CSS declaration is explained below. Note that the colours may differ depending on the type.
-        -   The **p** in this case, is the **selector**. It states which elements we want to style.
-        -   **colour** in our example, is the **property**. It states which component of the element we want to change.
-        -   **blue**, is the **value**. This is what we want to appear on the page.
-        -   The open and closed curly brackets, these things **{ }**, behave in a similar manner as the open and closed tags do in HMTL. The example shows all the values we want **p** to have.
-        -   The semicolon on line 2 signifies the ending of a "declaration".
-    -   Each block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. Don’t forget to add the semicolon at the end of each rule. Let’s add the following properties and values:
-        `background-colour:grey;`
-        `text-decoration:underline;`
-    -   Feel free to change the values if you wish.
-    -   Your CSS file should now contain something like this. Save it and go back to your browser and refresh your **index.html** page. You should see the changes you’ve made.
+
+- Note that the CSS declaration lives within "**curly brackets**" `{` `}`. Think of these curly brackets like the open and closed tags do in HMTL. 
+- The example above shows all the "values" that would apply to any and all `h1` tags in your HTML file.
+- Note also the use and placement of the **semicolon(s)**. Semicolons signify the end of individual declarations. 
+- <mark>**Important**</mark>: always add a semicolon at the end of each declaration. Also, do not (accidentally) add any spaces before the semicolon or your declaration will not work, or be "invalid": 
+  - Wrong (invalid): `color:blue ;`
+  - Correct (valid): `color:blue;`
+- Note that CSS is written with USA spelling, so it's "color" not "colour". 
+- A declaration block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. 
+- Technically, it does not matter what order we place our delcarations. Modern computers and browsers read CSS very quickly. However, if you had a large CSS file, with hundreds of declarations, page-load times can be affected and it will be important to keep your CSS tidy and easy to read. For reasons of speed, and more, web developers have developed a set of best practices around using CSS, which you will encounter eventually if you carry on in web development.
+- Here is an example of a well formed CSS "ruleset" (which contains the selector, declarations, properties, and values):
+        
+ ```
+ h1 {
+      text-decoration:underline;
+      font-size:25px;
+      color: blue;
+ }
+```
+- In the example above, we are saying this with our CSS: that we want all `h1` headings to be underlined, 25 pixel fint size, and blue in colour. 
+
+Now it is time to start playing with CSS... 
+
+## Add CSS to your `about.html` page
     
-        <img src="images/act-3/format.png" alt="block with formatting" style="width:720px;">
+<img src="images/act-3/format.png" alt="block with formatting" style="width:720px;">
     
-    -   Note: not every single colour has been made available in word form. You can look up those that are available here. For colours not available, we can use its hexadecimal code. You’re probably familiar with decimal numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Hexadecimal works the same except it has 16 unique numbers; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal numbers for colours have 6 digits, divided into three sections. 000000. The first 2 numbers represent how much red goes into the color, the middle two represents how much green is in the colour, and the last 2 are how much blue. If you’re interested in playing around with hexadecimal numbers, start by replacing “blue” with “#0000FF” and you’ll get the same result. Then change the hexadecimal number as you see fit. (#000000 is black, no colour, and #FFFFFF is white, all colours.)
+- Note: not every single colour has been made available in word form. You can look up those that are available here. For colours not available, we can use its hexadecimal code. You’re probably familiar with decimal numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Hexadecimal works the same except it has 16 unique numbers; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal numbers for colours have 6 digits, divided into three sections. 000000. The first 2 numbers represent how much red goes into the color, the middle two represents how much green is in the colour, and the last 2 are how much blue. If you’re interested in playing around with hexadecimal numbers, start by replacing “blue” with “#0000FF” and you’ll get the same result. Then change the hexadecimal number as you see fit. (#000000 is black, no colour, and #FFFFFF is white, all colours.)
 6.  There are a lot of different properties that we can change. Each element has a selection of what can be changed, but there are many shared between elements. No one is expected to memorize all of them, but it’s good to know the main ones and the rest you can always look up. Here are a few to start playing with:
     -   font-style: can take on the values "normal", "italic", or "oblique"
     -   font-size: for now use px as the value, eg: 30px
