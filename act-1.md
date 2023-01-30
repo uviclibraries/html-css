@@ -8,9 +8,9 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 
 # Getting Started With HTML
 
-To start, we will be learning about adding basic components to an about me page like text. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. This exercise will be for creating an about me page, it doesn’t have to be about yourself. Mine will be about Zuko, a character from a cartoon show. Have fun!
+To start, our HTML page will look basic, but if you finish the workshop you will have something that looks like a complete web page, with images and links, and more. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. In this exercise we will create an "about me" page, but it doesn’t have to be about you. Mine will be about "Zuko," a character from a cartoon show. Have fun!
 
-If you haven’t already, **please install [Visual Code Studio text editor](https://code.visualstudio.com/) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor becasue it has some smart features that help to prevent code errors.
+If you haven’t already, **please install [Visual Code Studio text editor (↪)](https://code.visualstudio.com/) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor becasue it has some smart features that help to prevent code errors.
 
 
 ## Create a directory and your first HTML file
@@ -19,7 +19,7 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 - When you open VCS for the first time you will see a "Get Started" window, which you can close.
 - We are going to create a new project in VCS by clicking in the main menu on **File** > **Open Folder**. A Dialogue box will appear. 
 - Navigate to your **Desktop** and then click on the **New Folder** button.
-- Name your folder, or directory, `html_workshop`. 
+- Name your folder, or directory, as follows: `html_workshop`. 
 - Once back in VCS, you will see a navigation pane on the lefthand side of the VCS window. We will use this navigation pane to create our first file.
 - To the right of your directory name (html_workshop), click on the "New file" button. 
 
@@ -28,7 +28,7 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 - You will see a text field appear below the directory name. Now, we will add our file name. 
 - Name your file exactly like this: `about.html`. 
 - VCS will know that this new file is an HTML file becasue you used the `.html` extension, or suffix.
-- We now have our first HTML file. VCS will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themse to make your code easier to read.
+- We now have our first HTML file! VCS will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themse to make your code easier to read.
     <!-- <button onclick="toggle('gif1')">Show/Hide Animation</button> -->
 <!-- <div id="gif1">
     <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
@@ -40,19 +40,19 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 ## Introducing HTML "tags"
 
 - HTML uses tags to tell the browser how to interpret text.
-- HTML involves three basic components: 
+- HTML tags have three elements: 
     - (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy brackets: `<` and `>`; 
     - (2) the closing tag, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor (there are some tags that don’t need a closing bracket and these are called "self-closing" tags); 
     - (3) finally, we have the content (everything between the opening bracket and the closing bracket).
 
 ## Essential HTML 
 
-- The HTML <!DOCTYPE> declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to render it properly.
-- Next, we need to tell the browser where our HTML code will go. On a new line (press the enter key) and type `<html>` (this is the "open" tag because there is no forward slash before `html`). 
-- Go down to a new line and type a closed `</html>` (this is the "closed" tag because there is a forward slash before `html`).
-- When the browser opens this file it now knows how to deal with what is between these tags as it’s a recognized tag. There are many kinds of tags and you’ll be introduced to some of them.
-- The next part will be within our tags. Underneath the opening tag click the tab key once. Then type `<head>`. Your text editor may automatically indents tags by default. Indenting tags, especially within other tags, makes code more readable and orderly. Similarly, we want to have our closing head tag (`</head>`) indented the same amount, still in between the HTML tags. The head tag holds metadata (data about data) on our file, things like styling and  title, but we’ll get to that later.
-- Next, we want to create the `<body>` tags. This is where the content of the website is held. Underneath the closing head tag, but still within the HTML tags, add an open `<body>` and closed `</body>` tag. You can also indent both of these tags. 
+- The HTML <!DOCTYPE> declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to display, or render, it properly.
+- Next, we need to tell the browser where our HTML code will go. Press the enter key, to create a new line, and type `<html>` (this is the "open" tag because there is no forward slash before `html`). 
+- On another new line type a closed `</html>` (this is the "closed" tag because there is a forward slash before `html`).
+- When the browser opens this file it now knows how to deal with what is between these tags. There are many kinds of tags and you’ll be introduced to some of them.
+- The next part will be within our tags. Underneath the open `<html>` tag, type `<head>`. Your text editor may automatically indent new tags by default. Indenting tags, especially within other tags, makes code more readable and orderly. Similarly, we want to have our closing head tag (`</head>`) indented the same amount, but within the `<html>` tags. The `<head>` tag holds metadata (data about data) on our file, such as the page's title, but we’ll get to that later.
+- Next, we want to create the `<body>` tags. This is where the main content of a website is held. Underneath the closing `</head>` tag, but still within the `<html>` tags, add an open `<body>` and closed `</body>` tag. You can also indent both of these tags. 
 - Here is what your `about.html` page should look like so far: 
     
     <img src="images/act-1/vcs-basic-tags.png" alt="tag examples">
@@ -66,9 +66,12 @@ If you haven’t already, **please install [Visual Code Studio text editor](http
 
 ### Title Tags
     
-- The title tag goes within the head tag and is the title of our webpage. You may notice our current file name is `about.html`, but we want to add a different title to our page. Since it is within the head tags, we indent one space and add `<title></title>` and then add text between these two tags.
-- This will always be one line, so leaving the closing tag on the same line will make it more legible than splitting it up. Between the title tags, type `About Me` and save your file.
-- We will now look at our page in a browser. 
+- Our current _file_ name is `about.html`, but we want to add a different title to our page. On a website, this title will appear as the name of the page's tab. 
+- The title tag goes within the `<head>` tag and is therefore part of our page's [metadata (↪)](https://en.wikipedia.org/wiki/Metadata). 
+- Within the open and closed `<head>` tags, tab in one indent add the following: `<title></title>`. The title tags will always be on one line, which makes it more legible than splitting it up.
+- Between the (`<title></title>`) tags, type the following: `About Me`. 
+- **Save your `about.html` file.**
+- We will now look at our `about.html` in a browser. 
 - Navigate to your **Desktop** and go into your `html_workshop` folder and click on the `about.html` file. Your `about.html` file will open in whatever browser is the default on your computer. In the following example, I have opened my file in Chrome: 
 
     <img src="images/act-1/view-page-title.png" alt="page title test">
