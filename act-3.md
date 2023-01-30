@@ -49,10 +49,16 @@ Using CSS, we will make our growing website look a little more stylish and colou
 - <mark>Note</mark> that you may need to hard refresh your browser to see your CSS rules work on your `about.html` page.
 
 ## CSS Format
-    
-    <!-- stopped here --><img src="images/act-3/color.png" alt="CSS block" style="width:720px;">
-    
-    -   In the code extract above we see a snippet of CSS code. The example is called a **declaration block**. It determines the changes we want to make to a specific HTML element, such as a paragraph <p>. Each part of the CSS declaration is explained below. Note that the colours may differ depending on the type.
+
+- Here is an example of a "CSS declaration block," which contains an ordered collection of CSS properties and values:<br/>
+
+<img src="images/act-3/css-demo-colour.png" alt="CSS block example">
+
+- The declaration block "delcares" what it will do to change a specific HTML element, such as a paragraph <p>. In CSS-speak, the HTML element you want to change, or style, is called the selector. So, let's put this all together:<br/>
+
+<img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS terms image">
+  
+- Each part of the CSS declaration is explained below. Note that the colours may differ depending on the type.
         -   The **p** in this case, is the **selector**. It states which elements we want to style.
         -   **colour** in our example, is the **property**. It states which component of the element we want to change.
         -   **blue**, is the **value**. This is what we want to appear on the page.
