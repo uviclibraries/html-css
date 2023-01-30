@@ -33,7 +33,7 @@ If you haven’t already, **please install [Visual Code Studio text editor (↪)
 <!-- <div id="gif1">
     <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
     </div> -->
-    - To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
+- To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggested items, selecting one of these will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
 
 <img src="images/act-1/vcs-autocomplete.png" alt="autocomplete example">
 
@@ -85,7 +85,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
     <img src="images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
     </div> -->
 - Let’s move on to writing code and content between the `<body></body>` tags.
-- We are going to start with heaging or `<h>` tags are HTML heading tags.
+- We are going to start with heading or `<h>` tags.
 - There are 6 types of heading tags: `h1`, `h2`, `h3`, `h4`, `h5`, and `h6`. Heading tags range from biggest text size, with `h1`, to the smallest text size, with `h6`.
 - Heading tags are written as follows:<br>
 `<h1></h1>`
@@ -109,7 +109,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
         `<p>Prince of the Fire Nation</p>`<br>
         `<h3>About Me</h3>`<br>
         `<p>Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>`<br>
-- <mark>Note</mark>: The paragraph content about Zuko is longer than anything we have added so far, and it could be that our text exceeds the width of the VCS window, depending on how wide you have made it on your computer. If your text is disappearing off to the right of the VCS window, we can enable "Word Wrap" so that you can always see your text, not matter what size you make your VCS window. 
+- <mark>Note</mark>: the paragraph content about Zuko is longer than anything we have added so far, and it could be that our text exceeds the width of the VCS window, depending on how wide you have made it on your computer. If your text is disappearing off to the right of the VCS window, and you have to scroll right to see it, we can enable "Word Wrap" so that you can always see your text no matter what size you make your VCS window. 
   - To enable word wrap in VCS, click on **View > Word Wrap**. 
 - Let's add another paragraph beneath the first paragraph:<br>
 `<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.</p>`
@@ -121,18 +121,20 @@ Looking good! Let's move on to adding content to our `about.html` page...
     
 ### List Tags
     
-- You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. Use an ordered list if you want to display content in a particular order. Use an unordered list if the order of the list items does not matter. 
-- Ordered lists use an `<ol>` tag and display in a browser as a numbered list. Here’s an example of an ordered list:  
+- You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. 
+- Use an ordered list if you want to display content in a particular order. 
+- Use an unordered list if the order of the list items does not matter. 
+- Ordered lists use an `<ol>` tag and display, in browsers, as numbered lists. Here’s an example of an ordered list:  
 > Frodo’s top three traveling essentials, in order of importance: 
 > 1. The One Ring
 > 2. Sting (the sword, not the musician)
 > 3. Samwise Gamgee
-- Unordered lists use a `<ul>` tag and display in a browser as a bulleted list. Here’s an example of an unordered list: 
+- Unordered lists use a `<ul>` tag and display, in browsers, as a bulleted lists. Here’s an example of an unordered list: 
 > Frodo’s shopping list for Bree Market: 
 > - Pipe weed
 > - Craft beer
 > - Even more lembas bread?
-- Both ordered (`<ol>`) and unordered (`<ul>`) contain list items, which are indicated with an `<li>`, or list item, tag. 
+- Both ordered (`<ol>`) and unordered (`<ul>`) lists contain list items, which are indicated with an `<li>`, or list item, tag. 
 - It is considered best markup practice to indent your `<li>` tags within the `<ol>` or `<ul>` tags. 
 - In the following examples, I use unordered lists, since the list (`<li>`) items do not need to be in any particular order. Note that the lists in both examples are nested inside paragraph (`<p>`) tags. 
 - I have added a list of some of Zuko's attributes on my `about.html` page. I used an unordered list, since these details are not in any particular order.
@@ -150,13 +152,13 @@ Looking good! Let's move on to adding content to our `about.html` page...
 
 ### Text Tags
     
-- Applying style to your HTML code should be done in CSS files, but sometimes making changes in the HTML file can be helpful. For example, the `<del></del>` and `<ins></ins>` tags can be helpful to highlight specific text. The `<del>` tag puts a line through the text and the `<ins>` tag underlines text.
-- HTML tags can be put around any text that shows up in the browser. These tags don't have to encompass the whole text, it doesn't even have to cover a whole word. Say I wanted the following text to be typed out in a paragraph:
+- Applying style to your HTML code should be done in CSS files (which we look at soon), but sometimes making changes in the HTML file can be helpful. For example, the `<del></del>` and `<ins></ins>` tags can be helpful to highlight specific text. The `<del>` tag puts a line through the text and the `<ins>` tag underlines text.
+- HTML tags can be put around any text. These tags don't have to encompass a whole block of text, or even a whole word. Take the following example, which I intended to create using HTML tags:
     - This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins>
     - We have 2 words in bold, 1 word underlined, and 1 word underlined and in bold. Let’s look at what that would look like in HTML, with tags: 
     -   `<p>This is <strong>important</strong>. This is <strong><ins>very</ins>important.</strong> Thank <ins>you!</ins></p>`
 - Notice where the spaces and full stops are. With so many tags, it can be easy to forget to add important content in the right places.
-- On your `about.html` page, play around with some of the following tags, saving your file(!), and looking at it in your browser as you go:
+- On your `about.html` page, play around with some of the following tags, saving your file as you go(!), and looking at it in your browser as you go:
   - `<strong>` = important
   - `<i>` = italic
   - `<em>` = emphasized
@@ -165,7 +167,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
   - `<sub>` = subscript
   - `<sup>` = superscript
 - Remember that there is no right or wrong with our growing `about.html` page. 
-- We are taking this time to play around and, often, the best learning happens when we break things! 
+- We are taking this time to play around. Often, the best learning happens when we break things! 
 - Let's move on the next section in our workshop... 
 
 <script>  
