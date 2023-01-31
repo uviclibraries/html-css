@@ -84,9 +84,38 @@ Now it is time to start playing with CSS...
 
 ## Add CSS to your `about.html` page
     
-<img src="images/act-3/format.png" alt="block with formatting" style="width:720px;">
-    
-- Note: not every single colour has been made available in word form. You can look up those that are available here. For colours not available, we can use its hexadecimal code. You’re probably familiar with decimal numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. Hexadecimal works the same except it has 16 unique numbers; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal numbers for colours have 6 digits, divided into three sections. 000000. The first 2 numbers represent how much red goes into the color, the middle two represents how much green is in the colour, and the last 2 are how much blue. If you’re interested in playing around with hexadecimal numbers, start by replacing “blue” with “#0000FF” and you’ll get the same result. Then change the hexadecimal number as you see fit. (#000000 is black, no colour, and #FFFFFF is white, all colours.)
+<!-- <img src="images/act-3/format.png" alt="block with formatting" style="width:720px;"> -->
+- Just to play around, let's change the colour of all the text within our `<p>` tags. 
+- Copy/paste the following CSS code into your `style.css` file: 
+
+ ```
+ p {
+      color: blue;
+ }
+```
+- Save your `style.css` file, then open your `about.html` page in your browser to see the changes. If you have blue text, then your CSS is working. If not, be sure to 
+  - (1) hard refresh your browser; 
+  - (2) ensure that your CSS is correct (with no typos or spaces in the wrong places); 
+  - (3) make sure that the stylesheet link (`<link rel="stylesheet" href="style.css>`) in your `about.html` page is correct. 
+- If everything is working as expected, play around with some different colour values for your text, changing the `blue;` to other colours. 
+- CSS has multiple options to indicate colour values. You can write colour names, such as `pink`, `orange`, `grey` and so on. Or, you can be more precise and choose from several alphanumeric (mixes of numbers and letters) value formats: 
+  - RGB (Red Green Blue (↪))
+  - HEX (Hexadecimal (↪))
+  - HSL (Hue Saturation lightness (↪))
+  - RGBA (Red Green Blue Alpha (↪))
+  - HSLA (Hue Saturation Lightness Alpha (↪))
+- With so many options, how do we know which standard to use? As with all things technological, each colour value format has pros and cons and its defenders and detractors. 
+- **HEX colours**, or codes, are a great place to start because each colour has a unique code that you can copy/paste into your CSS value. 
+- Let's change the `blue` in our CSS file to its HEX code equivelent by replacing `blue` with the following code: `#0000FF`: 
+
+ ```
+ p {
+      color: #0000FF;
+ }
+```
+- Note that in HEX language, `#000000` is 100% black (technically no colours) and `#FFFFFF` is 100% white (technically all all colours).
+- Just for fun, and if have time, play around with this online colour picking tool: (htmlcolorcodes.com)[https://htmlcolorcodes.com/]. 
+- Tis took 
 6.  There are a lot of different properties that we can change. Each element has a selection of what can be changed, but there are many shared between elements. No one is expected to memorize all of them, but it’s good to know the main ones and the rest you can always look up. Here are a few to start playing with:
     -   font-style: can take on the values "normal", "italic", or "oblique"
     -   font-size: for now use px as the value, eg: 30px
