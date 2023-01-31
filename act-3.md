@@ -63,8 +63,8 @@ Using CSS, we will make our growing website look a little more stylish and colou
 - The example above shows all the "values" that would apply to any and all `h1` tags in your HTML file.
 - Note the use and placement of the **semicolon(s)**. Semicolons signify the end of individual declarations. 
 - <mark>**Important**</mark>: always add a semicolon at the end of each declaration. Do not (accidentally) add any spaces before the semicolon or your declaration will not work, or be "invalid": 
-  - Wrong (invalid): `color:blue ;`
-  - Correct (valid): `color:blue;`
+  - Invalid: `color:blue ;`
+  - Valid: `color:blue;`
 - Note that CSS is written with USA spelling, so it's "color" not "colour". 
 - A declaration block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. 
 - Technically, it does not matter what order we place our delcarations. Modern computers and browsers read CSS very quickly. However, if you had a large CSS file, with hundreds of declarations, page-load times can be affected and it will be important to keep your CSS tidy and easy to read.
