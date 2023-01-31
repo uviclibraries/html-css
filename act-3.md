@@ -13,9 +13,9 @@ This section of the workshop is on Cascading Style Sheets (CSS). **Think of HTML
 
 CSS is used to alter the presentation of a website. Bascially, it creates the rules for what your various HTML elements, like paragraphs (`p`), headings (`h1`, for example), and content will look like in a browser. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
 
-Getting CSS to work the way you want to can sometimes try your patience, but it is worth it when things work, so stick with it and be preared to have fun breaking things! 
+Getting CSS to work the way you want to can sometimes try your patience, but it is worth it when things work, so stick with it and be prepared to have fun breaking things! 
 
-If you have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
+If you have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
 **On our journey, so far**, you should have a couple of HTML pages, with a list, some links, and a mix of text an images. Visually speaking, it looks fairly basic. Here's an example of what my `about.html` page looks like at this point: 
 
@@ -59,15 +59,16 @@ Using CSS, we will make our growing website look a little more stylish and colou
 
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS terms image">
 
-- Note that the CSS declaration lives within "**curly brackets**" `{` `}`. Think of these curly brackets like the open and closed tags do in HMTL. 
+- Note that the CSS declaration lives within "**curly brackets**" `{` `}`. Think of these curly brackets like the open and closed tags in HMTL. 
 - The example above shows all the "values" that would apply to any and all `h1` tags in your HTML file.
-- Note also the use and placement of the **semicolon(s)**. Semicolons signify the end of individual declarations. 
-- <mark>**Important**</mark>: always add a semicolon at the end of each declaration. Also, do not (accidentally) add any spaces before the semicolon or your declaration will not work, or be "invalid": 
+- Note the use and placement of the **semicolon(s)**. Semicolons signify the end of individual declarations. 
+- <mark>**Important**</mark>: always add a semicolon at the end of each declaration. Do not (accidentally) add any spaces before the semicolon or your declaration will not work, or be "invalid": 
   - Wrong (invalid): `color:blue ;`
   - Correct (valid): `color:blue;`
 - Note that CSS is written with USA spelling, so it's "color" not "colour". 
 - A declaration block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. 
-- Technically, it does not matter what order we place our delcarations. Modern computers and browsers read CSS very quickly. However, if you had a large CSS file, with hundreds of declarations, page-load times can be affected and it will be important to keep your CSS tidy and easy to read. For reasons of speed, and more, web developers have developed a set of best practices around using CSS, which you will encounter eventually if you carry on in web development.
+- Technically, it does not matter what order we place our delcarations. Modern computers and browsers read CSS very quickly. However, if you had a large CSS file, with hundreds of declarations, page-load times can be affected and it will be important to keep your CSS tidy and easy to read.
+- For reasons of speed, readability, and more, web developers typically use a variety of CSS best practices, which you will encounter eventually if you carry on in web development.
 - Here is an example of a well formed CSS "ruleset" (which contains the selector, declarations, properties, and values):
         
  ```
@@ -77,7 +78,7 @@ Using CSS, we will make our growing website look a little more stylish and colou
       color: blue;
  }
 ```
-- In the example above, we are saying this with our CSS: that we want all `h1` headings to be underlined, 25 pixel fint size, and blue in colour. 
+- In the example above, we are saying this with our CSS: that we want all our `h1` headings to be underlined, 25 pixel font size, and blue in colour. 
 
 Now it is time to start playing with CSS... 
 
