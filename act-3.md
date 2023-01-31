@@ -85,6 +85,8 @@ Now it is time to start playing with CSS...
 ## Add CSS to your `about.html` page
     
 <!-- <img src="images/act-3/format.png" alt="block with formatting" style="width:720px;"> -->
+### Playing with colours
+
 - Just to play around, let's change the colour of all the text within our `<p>` tags. 
 - Copy/paste the following CSS code into your `style.css` file: 
 
@@ -99,9 +101,9 @@ Now it is time to start playing with CSS...
   - (3) make sure that the stylesheet link (`<link rel="stylesheet" href="style.css>`) in your `about.html` page is correct. 
 - If everything is working as expected, play around with some different colour values for your text, changing the `blue;` to other colours. 
 - CSS has multiple options to indicate colour values. You can write colour names, such as `pink`, `orange`, `grey` and so on. Or, you can be more precise and choose from several alphanumeric (mixes of numbers and letters) value formats: 
-  - RGB (Red Green Blue (↪))[https://www.w3schools.com/css/css_colors_rgb.asp], and RGBA (Red Green Blue Alpha)
-  - HSL (Hue Saturation lightness (↪))[https://www.w3schools.com/css/css_colors_hsl.asp], and HSLA (Hue Saturation Lightness Alpha)
-  - HEX (Hexadecimal (↪))[https://www.w3schools.com/html/html_colors_hex.asp]
+  - RGB [Red Green Blue (↪)](https://www.w3schools.com/css/css_colors_rgb.asp), and RGBA (Red Green Blue Alpha)
+  - HSL [Hue Saturation lightness (↪)](https://www.w3schools.com/css/css_colors_hsl.asp), and HSLA (Hue Saturation Lightness Alpha)
+  - HEX [Hexadecimal (↪)](https://www.w3schools.com/html/html_colors_hex.asp)
 - With so many options, how do we know which standard to use? As with all things technological, each colour value format has pros and cons, and its defenders and detractors. 
 - **HEX colours**, or codes, are a great place to start because each colour has a unique code that you can copy/paste into your CSS value. 
 - Let's change the `blue` value in our CSS file to its HEX code equivelent by replacing `blue` with the following code: `#0000FF`, as in the following example: 
@@ -112,11 +114,14 @@ Now it is time to start playing with CSS...
  }
 ```
 - Note that in HEX language, `#000000` is 100% black (technically, no colours) and `#FFFFFF` is 100% white (technically, all colours).
-- If you have time, try this online colour picking tool: (htmlcolorcodes)[https://htmlcolorcodes.com/]. 
+- If you have time, try this online colour picking tool: [htmlcolorcodes](https://htmlcolorcodes.com/). 
 
 <img src="images/act-3/htmlcolorcodes-demo.png" alt="htmlcolorcodes website example">
 
 - **<mark>Important</mark>**: make sure that you always include a hastag `#` as part of the HEX code. 
+
+### Playing with text
+
 - CSS does far more than change colours, so let's move on to another CSS fundamental: **changing the look of text**. 
 - The following table lists some changes that you can make to text. In our `about.html` page, you could apply these changes to headings (`h1`, `h2`, `h3`, etc.), or paragraphs (`p`), or lists (`ul`, or `ol`). 
 - **Choose some properties and their corresponding values from the follwing table** and see if you can get them to work on your text. Remember to **save your `about.html` file and refresh your browser as you confirm your changes:** 
@@ -127,15 +132,8 @@ Now it is time to start playing with CSS...
 | `font-style:`      | `italic`       | [font style (↪)](https://www.w3schools.com/css/css_font_style.asp) has three options: `normal`, `italic`, and `oblique`, but it's mostly used for italicizing text. |
 | `font-weight:` | `bold`, `800`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
 | `text-align:` | `center`, `left`, `right`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
+| `text-transform:` | `uppercase`, `lowercase`, `capitalize`    | [text transform (↪)](https://www.w3schools.com/cssref/pr_text_text-transform.php) is handy when you want to change text to look a certain way no matter what the source text looks like. For example, miXeD CaSe words would appear as ALL CAPITALS if you applied the `uppercase` value. |
 
-
-7.  Now add more blocks for different types of tags. Here are some suggestions:
-    -   body
-    -   h1 (you can assign multiple tags to the same block and have a tag in multiple blocks.)
-    -   a
-    -   ol
-    -   ul
-    -   li
 
     <img src="images/act-3/further-format.jpg" alt="block with more formatting" style="width:720px;">
 
@@ -149,8 +147,6 @@ Now it is time to start playing with CSS...
     -   font-style: italic; (or normal or oblique)
     -   list-style-type: circle; (only works for lists)
         -   could also be square, lower-alpha, upper-roman
-9.  CSS files can be used for multiple HTML pages and a single HTML page can have multiple CSS stylesheets.
-10.  Try adding your new CSS file to other HTML files.
 11.  Below is an example for the Zuko about me page:
 
      <img src="images/act-3/zuko-format.jpg" alt="block of formatting for Zuko" style="width:720px;">
