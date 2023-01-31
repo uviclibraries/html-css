@@ -118,14 +118,15 @@ Now it is time to start playing with CSS...
 
 - **<mark>Important</mark>**: make sure that you always include a hastag `#` as part of the HEX code. 
 - CSS does far more than change colours, so let's move on to another CSS fundamental: **changing the look of text**. 
-- Here's a table of some common changes you can make to text: 
+- The following table lists some changes that you can make to text. In our `about.html` page, you could apply these changes to headings (`h1`, `h2`, `h3`, etc.), or paragraphs (`p`), or lists (`ul`, or `ol`). 
+- **Choose some properties and their corresponding values from the follwing table** and see if you can get them to work on your text. Remember to **save your `about.html` file and refresh your browser as you confirm your changes:** 
 
 | Property        | Some value options to try       | Notes  |
 | ------------- |:-------------:| -----:|
-| `font-size:`      | `25px`, `50%` | (font size (↪))[https://www.w3schools.com/css/css_font_size.asp] is expressed in several ways. We have given two examples. First, try `px`, or pixel size. Delete that, then try `%`, or percentage, changing the numbers for each to see what happens. |
-| `font-style:`      | `italic`       | (font style (↪))[https://www.w3schools.com/css/css_font_style.asp] has three options: `normal`, `italic`, and `oblique`, but it's mostly used for italicizing text. |
-| `font-weight:` | `bold`, `800`    | (font weight (↪))[https://www.w3schools.com/cssref/pr_font_weight.php] can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
-| `text-align:` | `center`, `left`, `right`    | (font weight (↪))[https://www.w3schools.com/cssref/pr_font_weight.php] can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
+| `font-size:`      | `25px`, `50%` | [font size (↪)](https://www.w3schools.com/css/css_font_size.asp) is expressed in several ways. We have given two examples. First, try `px`, or pixel size. Delete that, then try `%`, or percentage, changing the numbers for each to see what happens. |
+| `font-style:`      | `italic`       | [font style (↪)](https://www.w3schools.com/css/css_font_style.asp) has three options: `normal`, `italic`, and `oblique`, but it's mostly used for italicizing text. |
+| `font-weight:` | `bold`, `800`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
+| `text-align:` | `center`, `left`, `right`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
 
 
 7.  Now add more blocks for different types of tags. Here are some suggestions:
