@@ -99,27 +99,35 @@ Now it is time to start playing with CSS...
   - (3) make sure that the stylesheet link (`<link rel="stylesheet" href="style.css>`) in your `about.html` page is correct. 
 - If everything is working as expected, play around with some different colour values for your text, changing the `blue;` to other colours. 
 - CSS has multiple options to indicate colour values. You can write colour names, such as `pink`, `orange`, `grey` and so on. Or, you can be more precise and choose from several alphanumeric (mixes of numbers and letters) value formats: 
-  - RGB (Red Green Blue (↪))
-  - HEX (Hexadecimal (↪))
-  - HSL (Hue Saturation lightness (↪))
-  - RGBA (Red Green Blue Alpha (↪))
-  - HSLA (Hue Saturation Lightness Alpha (↪))
-- With so many options, how do we know which standard to use? As with all things technological, each colour value format has pros and cons and its defenders and detractors. 
+  - RGB (Red Green Blue (↪))[https://www.w3schools.com/css/css_colors_rgb.asp], and RGBA (Red Green Blue Alpha)
+  - HSL (Hue Saturation lightness (↪))[https://www.w3schools.com/css/css_colors_hsl.asp], and HSLA (Hue Saturation Lightness Alpha)
+  - HEX (Hexadecimal (↪))[https://www.w3schools.com/html/html_colors_hex.asp]
+- With so many options, how do we know which standard to use? As with all things technological, each colour value format has pros and cons, and its defenders and detractors. 
 - **HEX colours**, or codes, are a great place to start because each colour has a unique code that you can copy/paste into your CSS value. 
-- Let's change the `blue` in our CSS file to its HEX code equivelent by replacing `blue` with the following code: `#0000FF`: 
+- Let's change the `blue` value in our CSS file to its HEX code equivelent by replacing `blue` with the following code: `#0000FF`, as in the following example: 
 
  ```
  p {
       color: #0000FF;
  }
 ```
-- Note that in HEX language, `#000000` is 100% black (technically no colours) and `#FFFFFF` is 100% white (technically all all colours).
-- Just for fun, and if have time, play around with this online colour picking tool: (htmlcolorcodes.com)[https://htmlcolorcodes.com/]. 
-- Tis took 
-6.  There are a lot of different properties that we can change. Each element has a selection of what can be changed, but there are many shared between elements. No one is expected to memorize all of them, but it’s good to know the main ones and the rest you can always look up. Here are a few to start playing with:
-    -   font-style: can take on the values "normal", "italic", or "oblique"
-    -   font-size: for now use px as the value, eg: 30px
-    -   text-align: can take on the values "center", "left", or "right"
+- Note that in HEX language, `#000000` is 100% black (technically, no colours) and `#FFFFFF` is 100% white (technically, all colours).
+- If you have time, try this online colour picking tool: (htmlcolorcodes)[https://htmlcolorcodes.com/]. 
+
+<img src="images/act-3/htmlcolorcodes-demo.png" alt="htmlcolorcodes website example">
+
+- **<mark>Important</mark>**: make sure that you always include a hastag `#` as part of the HEX code. 
+- CSS does far more than change colours, so let's move on to another CSS fundamental: **changing the look of text**. 
+- Here's a table of some common changes you can make to text: 
+
+| Property        | Some value options to try       | Notes  |
+| ------------- |:-------------:| -----:|
+| `font-size:`      | `25px`, `50%` | (font size (↪))[https://www.w3schools.com/css/css_font_size.asp] is expressed in several ways. We have given two examples. First, try `px`, or pixel size. Delete that, then try `%`, or percentage, changing the numbers for each to see what happens. |
+| `font-style:`      | `italic`       | (font style (↪))[https://www.w3schools.com/css/css_font_style.asp] has three options: `normal`, `italic`, and `oblique`, but it's mostly used for italicizing text. |
+| `font-weight:` | `bold`, `800`    | (font weight (↪))[https://www.w3schools.com/cssref/pr_font_weight.php] can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
+| `text-align:` | `center`, `left`, `right`    | (font weight (↪))[https://www.w3schools.com/cssref/pr_font_weight.php] can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
+
+
 7.  Now add more blocks for different types of tags. Here are some suggestions:
     -   body
     -   h1 (you can assign multiple tags to the same block and have a tag in multiple blocks.)
