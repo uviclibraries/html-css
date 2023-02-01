@@ -45,9 +45,7 @@ But, before we can make any layout changes, we need to understand CSS "classes".
 
 ```
 <p class="bigger-text">Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>
-
 <p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko's nerves.</p>
-
 ```
 
 Here is what the above code looks like in my `about.html` page, in VCS: 
