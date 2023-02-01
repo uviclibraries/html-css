@@ -21,7 +21,7 @@ So far, we have learned about and tinkered with the following:
 
 By now, you should have a webpage with the elements listed above. Here's what my `about.html` page looks like in Chrome, so far: 
     
-    <img src="images/act-4/css-browser-example.png" alt="CSS browser example">
+<img src="images/act-4/css-browser-example.png" alt="CSS browser example">
 
 Notice that the content of my `about.html` page is stacked like a list, top to bottom. This stacking is the default layout of HTML files, but CSS can change this layout in a number of ways. But, before we can make any layout changes, we need to understand CSS "classes". 
 
