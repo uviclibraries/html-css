@@ -127,26 +127,21 @@ Now it is time to start playing with CSS...
 - **Choose some properties and their corresponding values from the follwing table** and see if you can get them to work on your text. Remember to **save your `about.html` file and refresh your browser as you confirm your changes:** 
 
 | Property        | Some value options to try       | Notes  |
-| ------------- |:-------------:| -----:|
+|:----------------|:--------------------------------|:-------|
 | `font-size:`      | `25px`, `50%` | [font size (↪)](https://www.w3schools.com/css/css_font_size.asp) is expressed in several ways. We have given two examples. First, try `px`, or pixel size. Delete that, then try `%`, or percentage, changing the numbers for each to see what happens. |
 | `font-style:`      | `italic`       | [font style (↪)](https://www.w3schools.com/css/css_font_style.asp) has three options: `normal`, `italic`, and `oblique`, but it's mostly used for italicizing text. |
-| `font-weight:` | `bold`, `800`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
+| `font-weight:` | `bold`, `800`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `800` is considered "extra bold". |
 | `text-align:` | `center`, `left`, `right`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
-| `text-transform:` | `uppercase`, `lowercase`, `capitalize`    | [text transform (↪)](https://www.w3schools.com/cssref/pr_text_text-transform.php) is handy when you want to change text to look a certain way no matter what the source text looks like. For example, miXeD CaSe words would appear as ALL CAPITALS if you applied the `uppercase` value. |
+| `text-transform:` | `uppercase`, `lowercase`, `capitalize` | [text transform (↪)](https://www.w3schools.com/cssref/pr_text_text-transform.php) is handy when you want to change text to look a certain way no matter what the source text looks like. For example, miXeD CaSe words would appear as ALL CAPITALS if you applied the `uppercase` value. |
+| `letter-spacing:` | `15px`, `.0625em;` | [letter spacing (↪)](https://www.w3schools.com/cssref/pr_text_letter-spacing.php) controls the distance between the individual letters in words. This is usually applied to headings, or to make close-lettered fonts more readable. You can use a pixel, or absolute, value, as in the example given. You can also use an "em" value, which is scale relative to the size of the default font used by your browser of webpage. For example, a value of `2em` would be twice the size of the current default font. You can use negative values, too, like `-2px` and `-1em`.  |
+
 
 
     <img src="images/act-3/further-format.jpg" alt="block with more formatting" style="width:720px;">
 
-8.  Some properties you can change are as follows:
-    -   colour: #012345;
+
     -   background-colour: #6789AB;
-    -   font-size: 10px;
-    -   text-align: center; (or left or right)
-    -   text-transform: uppercase; (or lowercase or capitalize)
-    -   letter-spacing: 10px; (could also be negative eg: -10px)
-    -   font-style: italic; (or normal or oblique)
-    -   list-style-type: circle; (only works for lists)
-        -   could also be square, lower-alpha, upper-roman
+
 11.  Below is an example for the Zuko about me page:
 
      <img src="images/act-3/zuko-format.jpg" alt="block of formatting for Zuko" style="width:720px;">
