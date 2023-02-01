@@ -187,9 +187,10 @@ h2 {
 - Third, this is what it looks like in a browser, in my case, Chrome: 
 
 <img src="images/act-3/css-browser-example.png" alt="CSS browser example">
+I have managed to make something that looks like a website from the late 90s! But, that's ok because we are just playing around. 
 
-- I have managed to make something that looks like a website from the late 90s! But, that's ok because we are just playing around. 
-- CSS can do much more than we have tried, so far, and it can take years to learn its subtleties. Be patient and be prepared to spend far more time than you think trying to fix things. 
-- Next, we will take a look at some of the ways in which CSS can control the placement and arrangement of objects, like blocks of text, headings, and images, on a web page. 
+CSS can do much more than we have tried, so far, and it can take years to learn its subtleties. Be patient and be prepared to spend far more time than you think trying to fix things. 
+
+Next, we will take a look at some of the ways in which CSS can control the placement and arrangement of objects, like blocks of text, headings, and images, on a web page. 
 
 [NEXT STEP: Using CSS to Change Layout](act-4.html){: .btn .btn-blue }
