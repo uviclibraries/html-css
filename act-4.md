@@ -9,36 +9,62 @@ parent: Workshop Activities
 
 This section teaches you to use CSS to change the positioning and layout of your page. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-1.  If you haven’t already completed the previous exercise, please start [here](https://richmccue.github.io/html-css/act-1.html), as this part builds on the topics from the previous section.
-2.  Let’s recap what we have learned about thus far.
-    -   HTML pages
-    -   Headings, text, and lists
-    -   Adding images
-    -   Internal links, to pages within our folder
-    -   External links, to pages on the Internet
-    -   CSS stylesheets and how to link to them
-    -   Some basic CSS styling
+If you haven’t already completed the previous exercise, please start [here](https://uviclibraries.github.io/html-css/act-3.html).
 
-Your page should look something like this:
-    
-    <img src="images/act-4/example.jpg" alt="recap of activities" style="width:720px;">
-    
-3.  You may have noticed that all of our content is stacked like a list. This is the default layout of HTML files. Although our information is clear and orderly, it is also static and not very exciting.
-4.  **CSS and Classes**
-    -   Classes can be used in CSS to define specific HTML tags and alter properties and values for elements for that specific class.
-    -   On the Zuko about page I want to increase the size of text in my paragraph tags. However, I want my upper paragraph tag to be a different size than my other paragraph tags.
-    -   In the HTML file, I can give a tag a class. This class can then be referred to as its own block in the CSS file.
-    -   I'm going to add a class to my top paragraph tag as follows:<br>
-        **&lt;p class=”about-title”&gt;**Hello, Zuko here**&lt;/p&gt;**
-    -   In CSS, class blocks are preceded by a period.
-        
-        ```
-        .about-title{
-            font-size:150%;
-            font-weight: bold;
-        }
-        ```
+So far, we have learned about and tinkered with the following: 
+- HTML pages
+- Headings, text, and lists
+- Images
+- Links (external, internal, and anchors)
+- CSS stylesheets and how to link them to an HTML page
+- Some basic CSS styling
 
+By now, you should have a webpage with the elements listed above. Here's what my `about.html` page looks like in Chrome, so far: 
+    
+    <img src="images/act-4/css-browser-example.png" alt="CSS browser example">
+
+Notice that the content of my `about.html` page is stacked like a list, top to bottom. This stacking is the default layout of HTML files, but CSS can change this layout in a number of ways. But, before we can make any layout changes, we need to understand CSS "classes". 
+
+## CSS classes
+- Earlier, we had looked at CSS "selectors," such as the `h1` in the example, below:
+
+<img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS anatmony">
+
+- Classes are another type of selector you can use to define specific rules for specific HTML tags. Arguably, an example is great way to get to know how CSS classes work. 
+- In my `about.html` page, for example, I have two paragraphs, that is, text content between two sets of open and closed `p` tags. Let's say that I want the text to look bigger in the first paragraph, but not second. If I use a paragraph `p` tag as the selector, then whatever style I apply would change the content to look the same in _both_ parapgraphs, or any content between open and closed `p` tags. We can use custom class to make separate these paragraphs and apply different styles to each.   
+- To make my paragraph changes, I will create a "custom class" in my HTML file and create some CSS rules for it in my CSS file. 
+
+### Adding a class to the HTML file
+
+- Here is what I have added to the first paragraph in my `about.html` page: `<p class="bigger-text">`. 
+- Here is what it looks like, in context, in my `about.html` page: 
+
+```
+<p class="bigger-text">Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>
+
+<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko's nerves.</p>
+
+```
+- <mark>Important</mark>: **Do not put spaces in your class names**:
+  - Incorrect: `<p class="bigger text">`
+  - Correct: `<p class="bigger-text">`
+- I could create a separate class for the second paragraph, but I am happy with its font size already, so I am only creating a custom class for the content I want to change. 
+
+### Adding a class to the CSS file
+
+- Now that I have added my custom class to my `about.html` file, it's time to write a corresponding class in my CSS file. 
+- My custom class will get its own code block and properties and values.
+- <mark>Important</mark>In CSS, **class blocks are preceded by a period**.
+- Here is what the class looks like in my CSS file: `.bigger-text`. 
+- Here is what it looks like in context, and with some properties and values:      
+
+```
+.bigger-text {
+	font-size:150%;
+	font-weight: bold;
+	}
+```
+<!-- stopped here -->
     -   Notice how only the paragraph with the “about-title” class has been affected by the changes.
     -   You may have the same property in the class block and the tag block with different values. This is where **precedence** comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
 
