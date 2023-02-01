@@ -23,7 +23,9 @@ By now, you should have a webpage with the elements listed above. Here's what my
     
 <img src="images/act-4/css-browser-example.png" alt="CSS browser example">
 
-Notice that the content of my `about.html` page is stacked like a list, top to bottom. This stacking is the default layout of HTML files, but CSS can change this layout in a number of ways. But, before we can make any layout changes, we need to understand CSS "classes". 
+Notice that the content of my `about.html` page is stacked like a list, top to bottom. This stacking is the default layout of HTML files, but CSS can change this layout in a number of ways. 
+
+But, before we can make any layout changes, we need to understand CSS "classes". 
 
 ## CSS classes
 - Earlier, we had looked at CSS "selectors," such as the `h1` in the example, below:
@@ -48,17 +50,17 @@ Notice that the content of my `about.html` page is stacked like a list, top to b
 
 Here is what the above code looks like in my `about.html` page in VCS: 
 
-<img src="images/act-4/vcs-html-class-example" alt="HTML class example">
+<img src="images/act-4/vcs-html-class-example.png" alt="HTML class example">
 
 - <mark>Important</mark>: **Do not put spaces in your class names**:
   - Incorrect: `<p class="bigger text">`
   - Correct: `<p class="bigger-text">`
-- I could create a separate class for the second paragraph, but I am happy with its font size already, so I am only creating a custom class for the content I want to change. 
+- I could create a separate class for the second paragraph, but I am happy with its font size already, so I am only creating a class for the content I want to change. 
 
 ### Adding a class to the CSS file
 
-- Now that I have added my custom class to my `about.html` file, it's time to write a corresponding class in my CSS file. 
-- My custom class will get its own code block and properties and values.
+- Now that I have added my class to my `about.html` file, it's time to write a corresponding class in my CSS file. 
+- My class will get its own code block and properties and values.
 - <mark>Important</mark>In CSS, **class blocks are preceded by a period**.
 - Here is what the class looks like in my CSS file: `.bigger-text`. 
 - Remember that we want to apply our changes to a paragraph, but with the addition of the `.bigger-text` class. So, what we end up with is a combination of the two selectors: `p.bigger-text`.
@@ -71,7 +73,13 @@ p.bigger-text {
 	}
 ```
 
-Here is what the above CSS block looks like in my `style.css` file: 
+Here is what the above CSS block looks like in my `style.css` file in VCS: 
+
+<img src="images/act-4/vcs-css-class-example.png" alt="CSS class example">
+
+- Finally, here is what the `about.html` page now looks like in my browser: 
+
+<img src="images/act-4/browser-class-example.png" alt="browser class example">
 
 
 - You may have the same property in the class block and the tag block with different values. This is where **precedence** comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
