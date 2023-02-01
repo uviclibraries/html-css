@@ -31,7 +31,7 @@ Notice that the content of my `about.html` page is stacked like a list, top to b
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS anatmony">
 
 - Classes are another type of selector you can use to define specific rules for specific HTML tags. Arguably, an example is great way to get to know how CSS classes work. 
-- In my `about.html` page, for example, I have two paragraphs, that is, text content between two sets of open and closed `p` tags. Let's say that I want the text to look bigger in the first paragraph, but not second. If I use a paragraph `p` tag as the selector, then whatever style I apply would change the content to look the same in _both_ parapgraphs, or any content between open and closed `p` tags. We can use custom class to make separate these paragraphs and apply different styles to each.   
+- In my `about.html` page, for example, I have two paragraphs, that is, text content between two sets of open and closed `p` tags. Let's say that I want the text to look bigger in the first paragraph, but not second. If I use a paragraph `p` tag as the selector, then whatever style I apply would change the content to look the same in _both_ parapgraphs, or any content between open and closed `p` tags. We can use custom class to make separate CSS rules for these paragraphs.   
 - To make my paragraph changes, I will create a "custom class" in my HTML file and create some CSS rules for it in my CSS file. 
 
 ### Adding a class to the HTML file
@@ -45,6 +45,11 @@ Notice that the content of my `about.html` page is stacked like a list, top to b
 <p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko's nerves.</p>
 
 ```
+
+Here is what the above code looks like in my `about.html` page in VCS: 
+
+<img src="images/act-4/vcs-html-class-example" alt="HTML class example">
+
 - <mark>Important</mark>: **Do not put spaces in your class names**:
   - Incorrect: `<p class="bigger text">`
   - Correct: `<p class="bigger-text">`
@@ -56,17 +61,20 @@ Notice that the content of my `about.html` page is stacked like a list, top to b
 - My custom class will get its own code block and properties and values.
 - <mark>Important</mark>In CSS, **class blocks are preceded by a period**.
 - Here is what the class looks like in my CSS file: `.bigger-text`. 
+- Remember that we want to apply our changes to a paragraph, but with the addition of the `.bigger-text` class. So, what we end up with is a combination of the two selectors: `p.bigger-text`.
 - Here is what it looks like in context, and with some properties and values:      
 
 ```
-.bigger-text {
+p.bigger-text {
 	font-size:150%;
 	font-weight: bold;
 	}
 ```
-<!-- stopped here -->
-    -   Notice how only the paragraph with the “about-title” class has been affected by the changes.
-    -   You may have the same property in the class block and the tag block with different values. This is where **precedence** comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
+
+Here is what the above CSS block looks like in my `style.css` file: 
+
+
+- You may have the same property in the class block and the tag block with different values. This is where **precedence** comes into play. Whichever block has higher precedence is the value the browser will assign. A simple way to think about it is the more specific the selector the higher the precedence.
 
         <img src="images/act-4/css-class.jpg" alt="css class" style="width:720px;">
 
