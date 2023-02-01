@@ -146,14 +146,14 @@ You may have added some additional content and HTML markup as well, and that's e
 
 - This type of link jumps us to another place in the same page.
 - To begin this process, add some placeholder text of some kind to your `about.html` page. 
-- **<mark>Importantant</mark>**: Add enough content so that you have to scroll down in VCS to get to the end of it. 
+- **<mark>Important</mark>**: Add enough content so that you have to scroll down in VCS to get to the end of it. 
 - You can type multiple paragraphs on your own, or use placeholder text called [_lorem ipsum_ (↪)](https://en.wikipedia.org/wiki/Lorem_ipsum), which is often used by web developers for creating website examples. People like to have fun inventing their own versions of _lorem ipsum_, and my current favourite is [_The Lord of The Rings_ _lorem ipsum_ generator (↪)](https://ceheiss.github.io/LordOfTheIpsum/).
 - **Wrap a selection of text in a header tag of your choice and give it a unique `id`.** Think of this as your named anchor. The `<a>` link we eventually create will link to this unique `id` anchor. In my example, I have wrapped the heading text of "Bilbo's speech to the Council" in an `h2` tag and assigned it a unique `id` of `bilbo-speech`:
 
 `<h2 id="bilbo-speech">Bilbo's speech to the Council</h>`
 `<p>I used to think that they were things the wonderful folk of the stories went out and looked for, because they wanted them, because they were exciting and life was a bit dull, a kind of a sport, as you might say. But that’s not the way of it with the tales that really mattered, or the ones that stay in the mind. Folk seem to have been just landed in them, usually their paths were laid that way, as you put it.</p>`
 
-- <mark>Note</mark> that **each anchor has to have a unique name.** In my example, the anchor's `id` is `bilbo-speech`. Any additional anchor on this same page would need to have a diffrent name. For example, if I wanted to link to another of Bilbo's speeches, I would change that anchor's `id` to something like `bilbo-speech-2`. 
+- <mark>Note</mark> that **each anchor has to have a unique name.** In my example, the anchor's `id` is `bilbo-speech`. Any additional anchor on this same page would need to have a different name. For example, if I wanted to link to another of Bilbo's speeches, I would change that anchor's `id` to something like `bilbo-speech-2`. 
 - **Create an `<a>` link to your anchor's unique `id`**. This will be the clickable link that jumps you to the unique `id` you just created. 
 - You can add this link anywhere on the HTML page, but add your link toward the top of your HTML page, but within the `<body></body>` tags. What we are doing in my example is making my `h2` become a link that jumps us to the heading of "Bilbo's speech to the Council." 
 - Here is what my link looks like:
@@ -161,7 +161,7 @@ You may have added some additional content and HTML markup as well, and that's e
 `<h2 href="#bilbo-speech">Read Bilbo's speech to the Council</h2>`
 
 - **Save your `about.html` file** and look at it again, after you refresh your browser, to see if your anchor link works. 
-- In my example, the text of "Read Bilbo's speech to the Council" now jumps me to start of Biblo's speech.
+- In my example, the text of "Read Bilbo's speech to the Council" now jumps me to start of Bilbo's speech.
 - <mark>Note</mark> that if your anchor link does not appear to "jump" you anywhere, it could be that there is not enough content on your page. In other words, the link _could_ be working, but the page does not need to scroll down to get you to the link. You can solve this problem by adding a bunch of placeholder text to your page, so that you have to scroll to see the end of it.
 - [This W3Schools test-space (↪)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_href_anchor) shows a working anchor link so that you can get a sense of how it is supposed to work, if you're having trouble with yours.
 
