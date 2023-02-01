@@ -10,7 +10,7 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 
 To start, our HTML page will look basic, but if you finish the workshop you will have something that looks like a complete web page, with images and links, and more. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. In this exercise we will create an "about me" page, but it doesn’t have to be about you. Mine will be about "Zuko," a character from a cartoon show. Have fun!
 
-If you haven’t already, **please install [Visual Code Studio text editor (↪)](https://code.visualstudio.com/) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor becasue it has some smart features that help to prevent code errors.
+If you haven’t already, **please install [Visual Code Studio text editor (↪)](https://code.visualstudio.com/) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor because it has some smart features that help to prevent code errors.
 
 
 ## Create a directory and your first HTML file
@@ -27,8 +27,8 @@ If you haven’t already, **please install [Visual Code Studio text editor (↪)
 
 - You will see a text field appear below the directory name. Now, we will add our file name. 
 - Name your file exactly like this: `about.html`. 
-- VCS will know that this new file is an HTML file becasue you used the `.html` extension, or suffix.
-- We now have our first HTML file! VCS will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themse to make your code easier to read.
+- VCS will know that this new file is an HTML file because you used the `.html` extension, or suffix.
+- We now have our first HTML file! VCS will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themes to make your code easier to read.
     <!-- <button onclick="toggle('gif1')">Show/Hide Animation</button> -->
 <!-- <div id="gif1">
     <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
