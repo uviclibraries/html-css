@@ -31,18 +31,27 @@ Using CSS, we will make our growing website look a little more stylish and colou
 
 <img src="images/act-3/vcs-create-style-sheet.png" alt="creating style sheet in VCS">
 
-- In the same way that we created a link to an image file, in our `about,html` page, we are going to create a link between an HTML file and a CSS file. We make this HTML > CSS connection possible by adding a link to an HTML page. 
+- In the same way that we created a link to an image file, in our `about.html` page, we are going to create a link between an HTML file and a CSS file. We make this HTML > CSS connection possible by adding a link to an HTML page. 
 - In VCS, open your `about.html` page. 
-- The link to our style sheet will be placed within the `<head>` tags in our`about.html` page. It will look like this:
+- The link to our style sheet will be placed within the `<head></head>` tags in our`about.html` page. It will look like this:
 
-`<link rel="stylesheet" href="style.css>`
+`<link rel="stylesheet" href="style.css">`
 
+Here is an example of what the stylesheet link looks like in my `about.html` page:
+
+ ```
+    <head>
+        <title>About Me</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+```
+- Notice that I place the stylesheet link just above the closed `</head>` tag. 
 - Before we add our stylesheet link, let's get to know about more about it. 
   - Notice that this is a "self-closing" link, in that it has no forward slash `/`.
   - The first of the two parts in the link is `rel`, which stands for "relation" and is required for all “link” tags.
   - The second of the two parts in the link is `href`, which stands for "hypertext reference" and specifies the location of another page, just like the `href` in our external links we did in the previous section of this workshop. 
   - The `href` points our HTML page to our `style.css` page.    
-- In your `about.html` page, add this style sheet link just below the open `<head>` tag: `<link rel="stylesheet" href="style.css>`.
+- In your `about.html` page, add this style sheet link just above the closed `</head>` tag: `<link rel="stylesheet" href="style.css>`.
 - Save your `about.html` page.
 - Our style sheet should now be linked to our `about.html` page. 
 - CSS code can be used within an HTML file, but to keep things simple we will only use CSS code in our CSS file.
@@ -62,7 +71,7 @@ Using CSS, we will make our growing website look a little more stylish and colou
 - Note that the CSS declaration lives within "**curly brackets**" `{` `}`. Think of these curly brackets like the open and closed tags in HMTL. 
 - The example above shows all the "values" that would apply to any and all `h1` tags in your HTML file.
 - Note the use and placement of the **semicolon(s)**. Semicolons signify the end of individual declarations. 
-- <mark>**Important**</mark>: always add a semicolon at the end of each declaration. Do not (accidentally) add any spaces before the semicolon or your declaration will not work, or be "invalid": 
+- <mark>Important</mark>: always add a semicolon at the end of each declaration. Do not (accidentally) add any spaces before the semicolon or your declaration will be "invalid" and not work: 
   - Invalid: `color:blue ;`
   - Valid: `color:blue;`
 - Note that CSS is written with USA spelling, so it's "color" not "colour". 
@@ -119,6 +128,19 @@ Now it is time to start playing with CSS...
 <img src="images/act-3/htmlcolorcodes-demo.png" alt="htmlcolorcodes website example">
 
 - **<mark>Important</mark>**: make sure that you always include a hastag `#` as part of the HEX code. 
+- Now, let's make our `about.html` page a little more dramatic and change the colour of the whole page. What we are doing, really, is using CSS to add a colour value to the `<body>` tag, but since nearly all our HTML content appears between these tags, it effectively changes the whole page. 
+- Copy/paste the following code into your CSS file: 
+
+```
+body {
+    background-color: #59b1c2;
+}
+```
+- Save your CSS file and have a look at your `about.html` page in your browser. 
+- Feel free to try other colour values! 
+- **VCS tip**: you might have noticed that the VCS editor has a handy colour-picker tool built into it. To activate this tool, hover your mouse over the little colour-preview square to the left of your colour value. You should see a colour-picker popup appear. You can use this popup tool instead of having to write in new HEX codes manually. 
+
+<img src="images/act-3/vcs-colour-picker-tool.png" alt="VCS colour picker tool">
 
 ### Playing with text
 
@@ -133,7 +155,7 @@ Now it is time to start playing with CSS...
 | `font-weight:` | `bold`, `800`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `800` is considered "extra bold". |
 | `text-align:` | `center`, `left`, `right`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
 | `text-transform:` | `uppercase`, `lowercase`, `capitalize` | [text transform (↪)](https://www.w3schools.com/cssref/pr_text_text-transform.php) is handy when you want to change text to look a certain way no matter what the source text looks like. For example, miXeD CaSe words would appear as ALL CAPITALS if you applied the `uppercase` value. |
-| `letter-spacing:` | `15px`, `.0625em;` | [letter spacing (↪)](https://www.w3schools.com/cssref/pr_text_letter-spacing.php) controls the distance between the individual letters in words. This is usually applied to headings, or to make close-lettered fonts more readable. You can use a pixel, or absolute, value, as in the example given. You can also use an "em" value, which is scale relative to the size of the default font used by your browser of webpage. For example, a value of `2em` would be twice the size of the current default font. You can use negative values, too, like `-2px` and `-1em`.  |
+| `letter-spacing:` | `15px`, `.0625em;` | [letter spacing (↪)](https://www.w3schools.com/cssref/pr_text_letter-spacing.php) controls the distance between the individual letters in words. This is usually applied to headings, or to make close-lettered fonts more readable. You can use a pixel (an  absolute) value or you can use an "em" (a relative) value. The relative value is relative to what a browser considers the size of the base font, which, in the absence of any applied CSS rules, is 16px. So, `1em` = 16px and `2em` = 32px. One "em" was traditionally defined as the width of the capital "M" in a given typeface. You can try negative values, too, like `-2px` and `-1em`. |
 
 
 
