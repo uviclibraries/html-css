@@ -148,24 +148,46 @@ body {
 - The following table lists some changes that you can make to text. In our `about.html` page, you could apply these changes to headings (`h1`, `h2`, `h3`, etc.), or paragraphs (`p`), or lists (`ul`, or `ol`). 
 - **Choose some properties and their corresponding values from the follwing table** and see if you can get them to work on your text. Remember to **save your `about.html` file and refresh your browser as you confirm your changes:** 
 
-| Property        | Some value options to try       | Notes  |
-|:----------------|:--------------------------------|:-------|
-| `font-size:`      | `25px`, `50%` | [font size (↪)](https://www.w3schools.com/css/css_font_size.asp) is expressed in several ways. We have given two examples. First, try `px`, or pixel size. Delete that, then try `%`, or percentage, changing the numbers for each to see what happens. |
-| `font-style:`      | `italic`       | [font style (↪)](https://www.w3schools.com/css/css_font_style.asp) has three options: `normal`, `italic`, and `oblique`, but it's mostly used for italicizing text. |
-| `font-weight:` | `bold`, `800`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `800` is considered "extra bold". |
-| `text-align:` | `center`, `left`, `right`    | [font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
-| `text-transform:` | `uppercase`, `lowercase`, `capitalize` | [text transform (↪)](https://www.w3schools.com/cssref/pr_text_text-transform.php) is handy when you want to change text to look a certain way no matter what the source text looks like. For example, miXeD CaSe words would appear as ALL CAPITALS if you applied the `uppercase` value. |
-| `letter-spacing:` | `15px`, `.0625em;` | [letter spacing (↪)](https://www.w3schools.com/cssref/pr_text_letter-spacing.php) controls the distance between the individual letters in words. This is usually applied to headings, or to make close-lettered fonts more readable. You can use a pixel (an  absolute) value or you can use an "em" (a relative) value. The relative value is relative to what a browser considers the size of the base font, which, in the absence of any applied CSS rules, is 16px. So, `1em` = 16px and `2em` = 32px. One "em" was traditionally defined as the width of the capital "M" in a given typeface. You can try negative values, too, like `-2px` and `-1em`. |
+| Properties to apply to your text       | Some value options to try       | Notes  |
+|:-------|:-------|:-------|
+|`font-size:`| `25px`, `50%`|[font size (↪)](https://www.w3schools.com/css/css_font_size.asp) is expressed in several ways. We have given two examples. First, try `px`, or pixel size. Delete that, then try `%`, or percentage, changing the numbers for each to see what happens. |
+| `font-style:`| `italic`|[font style (↪)](https://www.w3schools.com/css/css_font_style.asp) has three options: `normal`, `italic`, and `oblique`, but it's mostly used for italicizing text. |
+| `font-weight:`| `bold`, `800`|[font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `800` is considered "extra bold". |
+| `text-align:`| `center`, `left`, `right`|[font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
+| `text-transform:`| `uppercase`, `lowercase`, `capitalize`|[text transform (↪)](https://www.w3schools.com/cssref/pr_text_text-transform.php) is handy when you want to change text to look a certain way no matter what the source text looks like. For example, miXeD CaSe words would appear as ALL CAPITALS if you applied the `uppercase` value.|
+| `letter-spacing:`| `15px`, `.0625em;`|[letter spacing (↪)](https://www.w3schools.com/cssref/pr_text_letter-spacing.php) controls the distance between the individual letters in words. This is usually applied to headings, or to make close-lettered fonts more readable. You can use a pixel (an  absolute) value or you can use an "em" (a relative) value. The relative value is relative to what a browser considers the size of the base font, which, in the absence of any applied CSS rules, is 16px. So, `1em` = 16px and `2em` = 32px. One "em" was traditionally defined as the width of the capital "M" in a given typeface. You can try negative values, too, like `-2px` and `-1em`. |
 
+<!-- <img src="images/act-3/further-format.jpg" alt="block with more formatting" style="width:720px;"> -->
 
+**Let's put it all together!** Here's an example of my CSS changes... 
 
-    <img src="images/act-3/further-format.jpg" alt="block with more formatting" style="width:720px;">
+- First, this is the CSS code (which you could copy/paste): 
 
+```
+p {
+    color:#ac0095;
+}
 
-    -   background-colour: #6789AB;
+body {
+    background-color: #d1d1d1;
+}
 
-11.  Below is an example for the Zuko about me page:
+h2 {
+    font: size 400%;
+    font-weight: 800;
+    font-style: italic;
+    color: #160090;
+}
+```
 
-     <img src="images/act-3/zuko-format.jpg" alt="block of formatting for Zuko" style="width:720px;">
+- Second, this is what it looks like in VCS: 
+
+<img src="images/act-3/vcs-css-example.png" alt="VCS CSS code example">
+
+- Third, this is what it look like in a browser, in my case, Chrome: 
+
+<img src="images/act-3/css-browser-example.png" alt="CSS browser example">
+
+I have managed to make something that looks like a website from the late 90s! 
 
 [NEXT STEP: Using CSS to Change Layout](act-4.html){: .btn .btn-blue }
