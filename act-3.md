@@ -11,7 +11,7 @@ If you haven’t already completed the previous exercise, please start [here](ht
 
 This section of the workshop is on Cascading Style Sheets (CSS). **Think of HTML as the builder and CSS as the artist.** CSS is a different language than HTML and has different rules and structure. 
 
-CSS is used to alter the presentation of a website. Bascially, it creates the rules for what your various HTML elements, like paragraphs (`p`), headings (`h1`, for example), and content will look like in a browser. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
+CSS is used to alter the presentation of a website. Basically, it creates the rules for what your various HTML elements, like paragraphs (`p`), headings (`h1`, for example), and content will look like in a browser. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
 
 Getting CSS to work the way you want to can sometimes try your patience, but it is worth it when things work, so stick with it and be prepared to have fun breaking things! 
 
@@ -33,7 +33,7 @@ Using CSS, we will make our growing website look a little more stylish and colou
 
 - In the same way that we created a link to an image file, in our `about.html` page, we are going to create a link between an HTML file and a CSS file. We make this HTML > CSS connection possible by adding a link to an HTML page. 
 - In VCS, open your `about.html` page. 
-- The link to our style sheet will be placed within the `<head></head>` tags in our`about.html` page. It will look like this:
+- The link to our style sheet will be placed within the `<head></head>` tags in our `about.html` page. It will look like this:
 
 `<link rel="stylesheet" href="style.css">`
 
@@ -63,7 +63,7 @@ Here is an example of what the stylesheet link looks like in my `about.html` pag
 
 <img src="images/act-3/css-demo-colour.png" alt="CSS block example">
 
-- The declaration block "delcares" what it will do to change a specific HTML element, such as a paragraph `<p>`. 
+- The declaration block "declares" what it will do to change a specific HTML element, such as a paragraph `<p>`. 
 - In CSS-speak, the HTML element you want to change, or "style," is called the "selector". So, let's put this all together:<br/>
 
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS terms image">
@@ -76,7 +76,7 @@ Here is an example of what the stylesheet link looks like in my `about.html` pag
   - Valid: `color:blue;`
 - Note that CSS is written with USA spelling, so it's "color" not "colour". 
 - A declaration block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. 
-- Technically, it does not matter what order we place our delcarations. Modern computers and browsers read CSS very quickly. However, if you had a large CSS file, with hundreds of declarations, page-load times can be affected and it will be important to keep your CSS tidy and easy to read.
+- Technically, it does not matter what order we place our declarations. Modern computers and browsers read CSS very quickly. However, if you had a large CSS file, with hundreds of declarations, page-load times can be affected and it will be important to keep your CSS tidy and easy to read.
 - For reasons of speed, readability, and more, web developers typically use a variety of CSS best practices, which you will encounter eventually if you carry on in web development.
 - Here is an example of a well formed CSS "ruleset" (which contains the selector, declarations, properties, and values):
         
@@ -115,7 +115,7 @@ Now it is time to start playing with CSS...
   - HEX [Hexadecimal (↪)](https://www.w3schools.com/html/html_colors_hex.asp)
 - With so many options, how do we know which standard to use? As with all things technological, each colour value format has pros and cons, and its defenders and detractors. 
 - **HEX colours**, or codes, are a great place to start because each colour has a unique code that you can copy/paste into your CSS value. 
-- Let's change the `blue` value in our CSS file to its HEX code equivelent by replacing `blue` with the following code: `#0000FF`, as in the following example: 
+- Let's change the `blue` value in our CSS file to its HEX code equivalent by replacing `blue` with the following code: `#0000FF`, as in the following example: 
 
  ```
  p {
@@ -127,7 +127,7 @@ Now it is time to start playing with CSS...
 
 <img src="images/act-3/htmlcolorcodes-demo.png" alt="htmlcolorcodes website example">
 
-- **<mark>Important</mark>**: make sure that you always include a hastag `#` as part of the HEX code. 
+- **<mark>Important</mark>**: make sure that you always include a hashtag `#` as part of the HEX code. 
 - Now, let's make our `about.html` page a little more dramatic and change the colour of the whole page. What we are doing, really, is using CSS to add a colour value to the `<body>` tag, but since nearly all our HTML content appears between these tags, it effectively changes the whole page. 
 - Copy/paste the following code into your CSS file: 
 
@@ -146,7 +146,7 @@ body {
 
 - CSS does far more than change colours, so let's move on to another CSS fundamental: **changing the look of text**. 
 - The following table lists some changes that you can make to text. In our `about.html` page, you could apply these changes to headings (`h1`, `h2`, `h3`, etc.), or paragraphs (`p`), or lists (`ul`, or `ol`). 
-- **Choose some properties and their corresponding values from the follwing table** and see if you can get them to work on your text. Remember to **save your `about.html` file and refresh your browser as you confirm your changes:** 
+- **Choose some properties and their corresponding values from the following table** and see if you can get them to work on your text. Remember to **save your `about.html` file and refresh your browser as you confirm your changes:** 
 
 | Properties to apply to your text       | Some value options to try       | Notes  |
 |:-------|:-------|:-------|
@@ -184,10 +184,12 @@ h2 {
 
 <img src="images/act-3/vcs-css-example.png" alt="VCS CSS code example">
 
-- Third, this is what it look like in a browser, in my case, Chrome: 
+- Third, this is what it looks like in a browser, in my case, Chrome: 
 
 <img src="images/act-3/css-browser-example.png" alt="CSS browser example">
 
-I have managed to make something that looks like a website from the late 90s! 
+- I have managed to make something that looks like a website from the late 90s! But, that's ok because we are just playing around. 
+- CSS can do much more than we have tried, so far, and it can take years to learn its subtleties. Be patient and be prepared to spend far more time than you think trying to fix things. 
+- Next, we will take a look at some of the ways in which CSS can control the placement and arrangement of objects, like blocks of text, headings, and images, on a web page. 
 
 [NEXT STEP: Using CSS to Change Layout](act-4.html){: .btn .btn-blue }
