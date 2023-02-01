@@ -187,6 +187,7 @@ h2 {
 - Third, this is what it looks like in a browser, in my case, Chrome: 
 
 <img src="images/act-3/css-browser-example.png" alt="CSS browser example">
+
 I have managed to make something that looks like a website from the late 90s! But, that's ok because we are just playing around. 
 
 CSS can do much more than we have tried, so far, and it can take years to learn its subtleties. Be patient and be prepared to spend far more time than you think trying to fix things. 
