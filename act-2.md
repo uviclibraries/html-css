@@ -109,12 +109,11 @@ You may have added some additional content and HTML markup as well, and that's e
 - To test this type of link, we need to create another HTML page to jump to.
 - In your `html_workshop` folder, create a new HTML page called `index.html`. This is the file to where we are going to link from our `about.html` page.
 <!-- <button onclick="toggle('gif1')">Show/Hide Animation</button> -->
-<!-- <div id="gif1">
-<img src="images/act-2/links.gif" alt="adding links animated" style="width:720px;">
-</div> -->
-<!-- <img src="images/act-2/links.jpg" alt="adding links" style="width:720px;">-->
+<!-- <div id="gif1"> -->
+<!-- <img src="images/act-2/links.gif" alt="adding links animated" style="width:720px;"></div> -->
+<!-- <img src="images/act-2/links.jpg" alt="adding links" style="width:720px;"> -->
 - As with any new HTML page, we need to add at least `<!DOCTYPE html>` at the top of the page and some other tags to get us started.
-- Copy/paste the following into your `index.html` page (and **be sure save the file** afterwards): 
+- Copy/paste the following into your `index.html` page (and **be sure to save the file** afterwards): 
 
  ```
 <!DOCTYPE html>
