@@ -48,6 +48,7 @@ But, before we can make any layout changes, we need to understand CSS "classes".
 making him a prince of the fire nation. However, at 13 Zuko was >scarred and subsequently 
 banished by his father for disrespecting his authority. Zuko now roams the world searching for
 the Avatar as his father has >deemed it the only way for Zuko to redeem himself.</p> 
+
 <p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a 
 retired  army general, who mentors Zuko by helping him improve his fire bending and keeping 
 him on the right path. His love of tea often gets on Zuko's nerves.</p>
@@ -87,9 +88,9 @@ Here is what the above CSS block looks like in my `style.css` file, in VCS:
 
 <img src="images/act-4/browser-class-example.png" alt="browser class example">
 
-- You may have noticed that all the text, in both paragraphs, is still pink in colour. This is becasue the `p` selector above my class selector `p.class="bigger-text"` still determines the colour for _all_ `p` selectors. Put another way, the `p` selector has **precedence** over the selector with my class. Another way to think about this is that my `p.class="bigger-text"` selector **inherits** the values of the `p` selector because the `p` selector is higher up in the CSS hierarchy. 
+- You may have noticed that all the text in both paragraphs is still pink in colour. This is becasue the `p` selector above my class selector `p.class="bigger-text"` still determines the colour for _all_ `p` selectors. Put another way, the `p` selector has **precedence** over the selector with my class. Another way to think about this is that my `p.class="bigger-text"` selector **inherits** the values of the `p` selector because the `p` selector is higher up in the CSS hierarchy. 
   - Note that CSS hierarchy, or "style order," is very complicated, but the curious can consult [this handy chart](https://vecta.io/blog/definitive-guide-to-css-styling-order/definitive-guide-to-css-styling-order.611928c06a.svg). 
-- However, I can override this precedence order by declaring, or adding new properties and values, within my `p.class="bigger-text"` class, in this case declaring a colour for the text (`color: #ffffff;`): 
+- However, I can override this precedence order by declaring, or adding new properties and values, within my `p.class="bigger-text"` class; in this case I have declared a colour for the text (`color: #ffffff;`): 
 
 ```
 p.bigger-text {
@@ -105,60 +106,65 @@ p.bigger-text {
 
 <!-- <img src="images/act-4/css-class.jpg" alt="css class" style="width:720px;"> -->
 
-We have just seen one way to make a class is to combnie it with an existing selector, but we can also create an entirely custom class that has no releationship to common selectors, like those used for paragraphs, headings, and lists, for example. 
+We have just seen one way to make a class is to combine it with an existing selector. We can also create an entirely custom class that has no releationship to common selectors, like those used for paragraphs, headings, and lists. 
 
 In principle, we are going to create a division of content in our `about.html` file and then use a custom CSS class to assign it some values. 
 
 ## Divisions, or `div>` tags
 
-- The “div” tag, written in HTML as **<div></div>**, stands for division. All it does is define sections within our code. Alone, it doesn’t do much. However, with CSS it helps organize our content into groups
-    -   By applying a class to **<div>** tag we can change everything between the opening and closing tag.
-    -   In the Zuko example I’ve added a div class to my nested list. This way, I can change the items in my list without affecting the main list or even other lists I may have.
+- As with the above section, feel free to copy/paste what I have done or create your own content. 
+- The "div" tag, in HTML, has an open and closed tag: `<div></div>`. Divs define sections within our code. Alone, a `div` tag doesn’t do much. However, with CSS, it helps to organize our content into groups.
+- Applying a class to `<div>` tag changes everything between the open and closed `<div></div>` tags.
+- In my `about.html' file, I have added a div class to my nested list. This way, I can change the items in my list without affecting the main list or even other lists I may have.
 	
-        <img src="images/act-4/div.jpg" alt="div example" style="width:720px;">
+<img src="images/act-4/div.jpg" alt="div example" style="width:720px;">
 	
-    -   Division tags can also take advantage of precedence. A division tag enclosed within another division tag has higher precedence than the outside division tag.
-6.  **CSS Flexible Boxes**
-    -   Despite all the changes we’ve made, nothing has really moved around yet. This is where flexible boxes or flexbox comes in.
-    -   Flexbox is a simple and powerful way to organize a webpage.
+- Division tags can also take advantage of precedence. A division tag enclosed within another division tag has higher precedence than the outside division tag.
+
+## CSS layout with "flexible boxes," or "flexboxes"
+
+- Despite all the changes we’ve made so far, nothing on our `about.html` page has moved around: this is where flexible boxes or "flexboxes" comes in handy.
+- A flexbox is CSS layout model used to organize a webpage's content.
 
         <img src="images/act-4/flex.png" alt="flex container" style="float:right;width:90px;margin-left:20px;">
 
-    -   Flexbox works by separating each item into its own box. These boxes can then be told how to behave and organize themselves even when viewed from different screen sizes (think a computer screen compared to a smartphone screen).
-    -   HTML defaults to listing everything, one below the other (see right).
-    -   Let's start by adding a flex container to our body tag in CSS.
-        Add the following in your CSS file: 
+- Flexbox works by separating each item into its own box. These flexboxes can be told how to behave and organize themselves, even when viewed with different screen sizes, from desktop computer screens to smartphones.
+- Let's start by adding a "flex container" to our `<body>` tag in CSS. 
+- Add the following in your CSS file: 
         
-        ```
-        body{
+```
+	body {
             display: flex;
         }
-        ```
-
-    -   Refresh your HTML page and the boxes should appear horizontally.
+```
+- Refresh your HTML page and the boxes should appear horizontally.
 
         <img src="images/act-4/flex2.png" alt="more flex containers" style="float:right;width:240px;margin-left:20px;">
 
-    -   I don’t want my page to look like this either. Here is where I can use division tags to organize it further. First get rid of the `display:flex;` we just added in our body tag.
-    -   I want my list to be horizontal to the image of Zuko. I’m going to add my opening <div> above the image tag and the closing </div> below the closing unordered list tag:<br>
-	**&lt;div class = “bio”&gt;**
-        -   Note: you can highlight everything between the opening and closing division tags and click the tab key. This indents all the highlighted items, helping to keep you code legible. Holding the shift key then clicking the tab key does the opposite and moves the text closer to the margin.
-    -   Go to your CSS file and create a block for the bio class and add the display flex property.
+- I don’t want my `about.html` page to look like this either, and so I can use `<div>` tags to organize things further. 
+- First get rid of the `display:flex;` we just added in our body tag.
+- I want my list to be horizontal relative to the image of Zuko. 
+- I’m going to add my opening <div> above the image tag and the closing </div> below the closing unordered list tag:<br>
+`<div class=“bio”>`
+  - <mark>Note</mark>: in VCS you can highlight everything between the opening and closing division tags and click the tab key. This indents all the highlighted items. Holding the shift key, then clicking the tab key does the opposite, and moves the text closer to the margin.
+- Next, go to your CSS file and create a block for the `bio` class and add the `display: flex;` property, as in the following example:
         
-        ```
-        .bio{
+```
+	.bio {
             display: flex;
         }
-        ```
+```
 
-    -   Your list should now be to the right of the image of Zuko!
-    -   If you’d like to have the list on the left, there are a few ways to do this.
-        -   Move the list in your HTML code to be above the image tag.
-        -   Use the flex-direction property in CSS. Flex direction changes the order the items are displayed in. Check out how it works by adding the following to the bio block in your CSS file:
-            **flex-direction: row-reverse;**
-    -   Where flex boxes can start to get complicated is with nested flex boxes, or flex boxes within flex boxes. It is important to plan out how you want your content laid out. This way when adding your division tags, you know where the opening and closing tags should be.
-7.  There are many different ways to manipulate flex boxes with built-in properties. Try a few of the following values to see what they do: 
+- Your list should now be to the right of the image of Zuko.
+- If you’d like to have the list on the left, there are a few ways to do this: 
+  - (1) you could move the list in your HTML code to be above the `<img>` tag, or
+  - (2) use the `flex-direction` property in CSS. Flex direction changes the order the items are displayed in. Check out how it works by adding the following to the bio block in your CSS file:
 
+`<flex-direction: row-reverse;>`
+
+### More with flexboxes
+ 
+-There are many different ways to manipulate flex boxes with built-in properties. Try a few of the following values to see what they do: 
     - flex-direction: row; 
       - “row” aligns flex items horizontally, from left to right. 
     - flex-direction: row-reverse; 
@@ -180,5 +186,6 @@ In principle, we are going to create a division of content in our `about.html` f
             -   justify-content: center;
 	    -   align-items: center;
 
-You can read more about flex boxes on the [W3Shools Flexbox page](https://www.w3schools.com/css/css3_flexbox.asp). 
+Flexboxes can get complicated when flexboxes are placed within other flexboxes, or [nested (↪)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#nested_flex_boxes), so be aware that we have only dabbled, here, with wahat flexboxes can do. You can read more about flex boxes on the [W3Shools Flexbox page](https://www.w3schools.com/css/css3_flexbox.asp). 
+
 [NEXT STEP: Next Steps]
