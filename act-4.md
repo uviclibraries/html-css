@@ -44,12 +44,12 @@ But, before we can make any layout changes, we need to understand CSS "classes".
 - Here is what my class looks like, in context, in my `about.html` page: 
 
 ```
-<p class="bigger-text">Zuko is the son of the current Fire Lord of the Fire Nation,<br/> 
-making him a prince of the fire nation. However, at 13 Zuko was >scarred and subsequently<br/>  
-banished by his father for disrespecting his authority. Zuko now roams the world searching for<br/>
-the Avatar as his father has >deemed it the only way for Zuko to redeem himself.</p><br/> 
-<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a <br/> 
-retired  army general, who mentors Zuko by helping him improve his fire bending and keeping<br/>  
+<p class="bigger-text">Zuko is the son of the current Fire Lord of the Fire Nation, 
+making him a prince of the fire nation. However, at 13 Zuko was >scarred and subsequently 
+banished by his father for disrespecting his authority. Zuko now roams the world searching for
+the Avatar as his father has >deemed it the only way for Zuko to redeem himself.</p> 
+<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a 
+retired  army general, who mentors Zuko by helping him improve his fire bending and keeping 
 him on the right path. His love of tea often gets on Zuko's nerves.</p>
 
 ```
