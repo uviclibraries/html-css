@@ -110,7 +110,7 @@ We have just seen one way to make a class is to combine it with an existing sele
 
 In principle, we are going to create a division of content in our `about.html` file and then use a custom CSS class to assign it some values. 
 
-## Divisions, or `div>` tags
+## Divisions, or `<div>` tags
 
 - As with the above section, feel free to copy/paste what I have done or create your own content. 
 - The "div" tag, in HTML, has an open and closed tag: `<div></div>`. Divs define sections within our code. Alone, a `div` tag doesn’t do much. However, with CSS, it helps to organize our content into groups.
