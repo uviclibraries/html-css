@@ -32,7 +32,7 @@ But, before we can make any layout changes, let's take a look at CSS "classes".
 ## CSS classes
 - Earlier, we had looked at CSS "selectors," such as the `h1` in the example, below:
 
-<img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS anatmony">
+<img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS anatomy">
 
 - Classes are another type of selector you can use to define specific rules for specific HTML tags. 
 - Since it's easier for most of us to learn by doing, we'll dive into an example to see how CSS classes work. 
@@ -91,7 +91,7 @@ Here is what my class block looks like in my `style.css` file, in VCS:
 
 <img src="images/act-4/browser-class-example.png" alt="browser class example">
 
-- You may have noticed that all the text in both paragraphs is still pink in colour. This is becasue the `p` selector (in the class block above my `p.class` class) still determines the colour value for _all_ `p` selectors. Put another way, the `p` has **precedence** over `p.class`. Another way to think about this is that my `p.class` **inherits** the values of the `p` selector because the `p` selector is higher up in the CSS hierarchy. 
+- You may have noticed that all the text in both paragraphs is still pink in colour. This is because the `p` selector (in the class block above my `p.class` class) still determines the colour value for _all_ `p` selectors. Put another way, the `p` has **precedence** over `p.class`. Another way to think about this is that my `p.class` **inherits** the values of the `p` selector because the `p` selector is higher up in the CSS hierarchy. 
   - Note that CSS hierarchy, or "style order," is very complicated, but the curious can consult [this handy chart](https://vecta.io/blog/definitive-guide-to-css-styling-order/definitive-guide-to-css-styling-order.611928c06a.svg) to see how it all fits together. 
 - However, I can override this precedence order by adding a declaration (a tech-language definition for the combination of a CSS property and its value) within my `p.class`. In the following example I have declared a colour for the text (`color: #ffffff;`): 
 
@@ -110,7 +110,7 @@ p.bigger-text {
 <!-- <img src="images/act-4/css-class.jpg" alt="css class" style="width:720px;"> -->
 - As far my browser is concerned, `p` and `p.bigger-text` are different classes, with different CSS rules, even though they both have `p` selectors. 
 
-We have just practiced one way to make a class, by combining it with an existing selector. We can also create an entirely unique class that has no releationship to common selectors, such paragraphs, headings, and lists. 
+We have just practiced one way to make a class, by combining it with an existing selector. We can also create an entirely unique class that has no relationship to common selectors, such paragraphs, headings, and lists. 
 
 Next, I will create a division, or "div", of content in our `about.html` file and then use a CSS class to assign it some declarations. 
 
@@ -128,7 +128,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 <div class="zuko-qualities">
 	<h2>Zuko: not your typical villain</h2>
 
-	One of Zuko's greatest weaknesses throughout the Airbender series is his indecisiveness on which side to choose. As early as the start of 	 	season two, he starts to have doubts about the Fire Nation and begins to see the suffering of others because of the war. However, while he has 		moments of compassion, he often still chooses the wrong thing and ends up going back to the Fire Nation with Azula.
+	One of Zuko's greatest weaknesses throughout the Airbender series is his indecisiveness on which side to choose. As early as the start of season two, he starts to have doubts about the Fire Nation and begins to see the suffering of others because of the war. However, while he has moments of compassion, he often still chooses the wrong thing and ends up going back to the Fire Nation with Azula.
 </div>
 ```
 
@@ -138,7 +138,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 - Now it's time to add some CSS rules to my `<div class="zuko-qualities">` in my `style.css` file. 
 - Note that I have added **CSS comments**, which look like this `/* your comment content goes here */`. 
-- Comments are not dislayed in browsers. Think of them as explanatory notes for what your CSS rules are doing. 
+- Comments are not displayed in browsers. Think of them as explanatory notes for what your CSS rules are doing. 
 - I will add some font styles and play with the position of my new `div`, just to see what it looks like. 
 - Feel free to copy/paste the following CSS code block into your `style.css` file and play around with its various values to see what happens: 
 
@@ -157,7 +157,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 <img src="images/act-4/browser-div-example.png" alt="browser div example">
 
-- OK: still gloriously '90s, but now the fun begins again becasue you can play around with the various values to see what happens, saving and refreshing your files as you go. 
+- OK: still gloriously '90s, but now the fun begins again because you can play around with the various values to see what happens, saving and refreshing your files as you go. 
 - For example, observe what happens when we change this: 
 
 `padding: 1%;`
@@ -175,47 +175,61 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 ## CSS layout with "flexible boxes," or "flexboxes"
 
 - A flexbox is CSS layout model used to organize a webpage's content. 
-- In the image, below, imagine that the coloured squares within the rectangle are separate content containers, which could be paragrpahs, images, or `div` sections. 
+- In the image, below, imagine that the coloured squares within the rectangle are separate content containers, which could be paragraphs, images, or `div` sections. 
 
 <img src="images/act-4/flex.png" alt="flex container">
 
 - Flexboxes work by separating each element in your HTML page—such as paragraphs, images, and `div` sections—into their own containers, or boxes. 
 - The advantage of flexboxes is that they can be be told how to behave and organize themselves, even when viewed with different screen sizes, from desktop computer screens to smartphones.
-- We are going to turn our whole `about.html` page into a "flex container," making the elements within it (our divs, paragraps, and images) separate boxes. To do this, we are going to add the following delcaration to our `style.css` page:
+- We are going to turn our whole `about.html` page into a "flex container," making the elements within it (our divs, paragraph, and images) separate boxes. To do this, we are going to add the following declaration to our `style.css` page:
         
 ```
 	body {
             display: flex;
         }
 ```
-- In 
-- Refresh your HTML page and the boxes should appear horizontally.
+- Here is what `display: flex;` looks like in my `style.css` file, in VCS:
+
+<img src="images/act-4/flexbox-body-css.png" alt="flexbox css example">
+
+- Here is what it looks like in my browser, after I have saved my CSS file and refreshed my browser: 
+
+<img src="images/act-4/flexbox-example-browser.png" alt="flexbox browser example">
+
+- Wow! Everything looks horizontally arranged in a row, and quite strange. This is to be expected because **the default arrangement for `flex` is to display objects as a row**:
 
 <img src="images/act-4/flex2.png" alt="more flex containers">
 
-- I don’t want my `about.html` page to look like this either, and so I can use `<div>` tags to organize things further. 
-- First get rid of the `display:flex;` we just added in our body tag.
-- I want my list to be horizontal relative to the image of Zuko. 
-- I’m going to add my opening <div> above the image tag and the closing </div> below the closing unordered list tag:<br>
-`<div class=“bio”>`
-  - <mark>Note</mark>: in VCS you can highlight everything between the opening and closing division tags and click the tab key. This indents all the highlighted items. Holding the shift key, then clicking the tab key does the opposite, and moves the text closer to the margin.
-- Next, go to your CSS file and create a block for the `bio` class and add the `display: flex;` property, as in the following example:
-        
+- I don’t want my `about.html` page to look like this either, so I will move the `display: flex;` declaration to my `<div class="zuko-qualities">` and see what happens. 
+- Here's what the whole class block now looks like: 
+
 ```
-	.bio {
-            display: flex;
-        }
+.zuko-qualities {
+    display: flex;
+    float: right;
+    background-color: #ffffff;
+    width: 30%;
+    height: 45%;
+    border: 3px solid rgb(157, 255, 0);
+    padding: 1%;
+    color:#001d39;
+  } 
 ```
 
-- Your list should now be to the right of the image of Zuko.
-- If you’d like to have the list on the left, there are a few ways to do this: 
-  - (1) you could move the list in your HTML code to be above the `<img>` tag, or
-  - (2) use the `flex-direction` property in CSS. Flex direction changes the order the items are displayed in. Check out how it works by adding the following to the bio block in your CSS file:
+Here is what the class block looks like in my `style.css` file, in VCS: 
 
-`<flex-direction: row-reverse;>`
+<img src="images/act-4/flex-in-div.png" alt="CSS flex example in div tag">
 
-### More with flexboxes
+- Here is what my `about.html` page now looks like in my browser: 
 
+<img src="images/act-4/flexbox-div-only.png" alt="flex example in div tag in browser">
+
+- Notice that, now, only the content within the `<div class="zuko-qualities">` is horizontal. The text does not look that great, but the goal is to show what flexboxes can do. 
+- If you had two images, for example, and wanted them to sit side-by-side, you could create a `div` in your `about.html` file, and then place image links within the `div`. Then, in your `style.css` file, add `display:flex;` to the CSS declarations for your new `div`. By default, the images would sit horizontally in a row. 
+- Flexboxes can be tricky to understand until you start playing with them to get a sense of how they work. As your web pages become more complicated, generally, the CSS ruls for your page will as well. 
+- If you have the time, you can practice playing with flex boxes by working through the [W3Schools CSS Flexbox tutorial](https://www.w3schools.com/css/css3_flexbox.asp). 
+
+<!-- [Note to DSC: I commented out this whole section because we already point students to the W3Schools site, which does a good job of working through the reasons why and in what circumstances you would use certain flex box values] 
 -There are many different ways to manipulate flex boxes with built-in properties. Try a few of the following values to see what they do: 
 - `flex-direction: row;`: “row” aligns flex items horizontally, from left to right. 
 - `flex-direction: row-reverse;`: “row-reverse” aligns flex items horizontally, from right to left, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
@@ -231,8 +245,8 @@ Next, I will create a division, or "div", of content in our `about.html` file an
   - This property dictates how flex boxes are aligned vertically. Flex-start makes them all start at the top, flex-end makes them all end at the bottom, center makes their center sit in the center, stretch forces all items to cover the entirety of the flex box.
 For having items in the center of your flex box, apply both of the following:
 - `justify-content: center;`
-- `align-items: center;`
+- `align-items: center;`-->
 
-Flexboxes can get complicated when flexboxes are placed within other flexboxes, or [nested (↪)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#nested_flex_boxes), so be aware that we have only dabbled with what flexboxes can do. You can read more about flexboxes on the [W3Shools Flexbox page](https://www.w3schools.com/css/css3_flexbox.asp). 
+**🎊 Congratulations! You have now completed our Introduction to Coding With HTML & CSS workshop!** See the Next Steps page for additional resources and more....  
 
 [NEXT STEP: Next Steps]
