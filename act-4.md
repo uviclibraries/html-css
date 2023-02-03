@@ -7,7 +7,9 @@ parent: Workshop Activities
 
 # Using CSS to Change Layout
 
-This section teaches you some CSS basics, so that you can alter the look and function of a basic HTML page. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
+This section teaches you some CSS basics, so that you can alter the look and function of a basic HTML page. 
+
+If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 If you haven’t already completed the previous exercise, please start [here](https://uviclibraries.github.io/html-css/act-3.html).
 
@@ -25,7 +27,7 @@ Here's what my `about.html` page looks like in Chrome, so far:
 
 Notice that the content of my `about.html` page is stacked like a list, from top to bottom. This stacking is the default layout of HTML files, but CSS can change this layout in a number of ways. 
 
-But, before we can make any layout changes, we need to understand CSS "classes". 
+But, before we can make any layout changes, let's take a look at CSS "classes". 
 
 ## CSS classes
 - Earlier, we had looked at CSS "selectors," such as the `h1` in the example, below:
@@ -33,9 +35,10 @@ But, before we can make any layout changes, we need to understand CSS "classes".
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS anatmony">
 
 - Classes are another type of selector you can use to define specific rules for specific HTML tags. 
-- Since it's easier for most of us to learn by doing, we're dive into an example to learn how CSS classes work. 
-- In my `about.html` page, for example, I have two paragraphs, that is, text content between two sets of open and closed `p` tags. Let's say that I want the text to look bigger in the first paragraph, but not in the second. If I use a `p` tag as the selector, then whatever style I apply would change the content to look the same in _both_ paragraphs. We can use custom class to make these paragraphs look different from each other.   
-- To make my paragraph changes, I will create a CSS "class" in my HTML file and create some CSS rules for it in my CSS file. 
+- Since it's easier for most of us to learn by doing, we'll dive into an example to learn how CSS classes work. 
+- In my `about.html` page, for example, I have two paragraphs, that is, text content between two sets of open and closed `p` tags. 
+- Let's say that I want the text to look bigger in the first paragraph, but not in the second. If I use a `p` tag as the selector, then whatever style I apply would change the content to look the same in _both_ paragraphs. We can use custom class to make these paragraphs look different from each other.   
+- To make my paragraph style changes, I will create a CSS "class" in my HTML file and create some CSS rules for it in my CSS file. 
 
 ### Adding a class to the HTML file
 
@@ -67,7 +70,7 @@ Here is what my `<p class="bigger-text">` class looks like in my `about.html` pa
 ### Adding a class to the CSS file
 
 - Now that I have added my `<p class="bigger-text">` class to my `about.html` file, it's time to write a corresponding CSS class block in my CSS file. 
-- My class will get its own code block and properties and values.
+- My CSS class will get its own code block and properties and values.
 - <mark>Important</mark>: **in CSS, all class blocks are preceded by a period**.
 - Here is what the class looks like in my CSS file: `.bigger-text`. 
 - Remember, though, that we want to apply our changes to a paragraph `<p>`, but with the _addition_ of the `.bigger-text` class. So, what we end up with is a combination of two selectors: `p.bigger-text`.
@@ -90,7 +93,7 @@ Here is what my class block looks like in my `style.css` file, in VCS:
 
 - You may have noticed that all the text in both paragraphs is still pink in colour. This is becasue the `p` selector (in the class block above my `p.class` class) still determines the colour value for _all_ `p` selectors. Put another way, the `p` has **precedence** over `p.class`. Another way to think about this is that my `p.class` **inherits** the values of the `p` selector because the `p` selector is higher up in the CSS hierarchy. 
   - Note that CSS hierarchy, or "style order," is very complicated, but the curious can consult [this handy chart](https://vecta.io/blog/definitive-guide-to-css-styling-order/definitive-guide-to-css-styling-order.611928c06a.svg) to see how it all fits together. 
-- However, I can override this precedence order by adding a declaration (a tech-language definition for the combination of a CSS property and its value) within my `p.class`. I have declared a colour for the text (`color: #ffffff;`): 
+- However, I can override this precedence order by adding a declaration (a tech-language definition for the combination of a CSS property and its value) within my `p.class`. In the following example I have declared a colour for the text (`color: #ffffff;`): 
 
 ```
 p.bigger-text {
@@ -105,9 +108,9 @@ p.bigger-text {
 <img src="images/act-4/browser-class-example-colour.png" alt="browser class example with colour change">
 
 <!-- <img src="images/act-4/css-class.jpg" alt="css class" style="width:720px;"> -->
-- As far as a browser is concerned, `p` and `p.bigger-text` are different classes, with different CSS rules, even though they both have `p` selectors. 
+- As far my browser is concerned, `p` and `p.bigger-text` are different classes, with different CSS rules, even though they both have `p` selectors. 
 
-We have just practiced one way to make a class, by combining it with an existing selecto. We can also create an entirely unique class that has no releationship to common selectors, such paragraphs, headings, and lists. 
+We have just practiced one way to make a class, by combining it with an existing selector. We can also create an entirely unique class that has no releationship to common selectors, such paragraphs, headings, and lists. 
 
 Next, I will create a division, or "div", of content in our `about.html` file and then use a CSS class to assign it some declarations. 
 
@@ -115,11 +118,45 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 - As with the above section, feel free to copy/paste what I have done or create your own content. 
 - A `div` tag, in HTML, is comprised of an open and closed tag: `<div></div>`. 
-- Divs define sections within our code. Alone, a `div` tag doesn’t do much. However, with CSS, it helps to organize our content into groups.
-- Applying a class to `div` tag changes everything between the open and closed `<div></div>` tags.
-- In my `about.html' file, I have added a `div` class to a nested list (list within a list). This way, I can change the items in my nested list without affecting the main list, or even other lists I may have.
-	
-<img src="images/act-4/div.jpg" alt="div example" style="width:720px;">
+- Divs define sections within our code. Think of them as content organizers.
+- Applying a class to `div` tag changes everything between its open and closed `<div></div>` tags.
+- In my `about.html' file, I have added this `div` class to paragraph of text: `<div class="zuko-qualities"></div>` 
+<!-- <img src="images/act-4/div.jpg" alt="div example" style="width:720px;"> -->
+- Here is the entire `div`, including its content: 
+
+```
+<div class="zuko-qualities">
+	<h2>Zuko: not your typical villain</h2>
+        <p>One of Zuko's greatest weaknesses throughout the Airbender series is his indecisiveness on which side to choose. As early as the start of 	 season two, he starts to have doubts about the Fire Nation and begins to see the suffering of others because of the war. However, while he has moments of compassion, he often still chooses the wrong thing and ends up going back to the Fire Nation with Azula.
+         </p>
+</div>
+```
+
+- Here is what my my new `div` looks like in my `about.html` file, in VCS: 
+
+<img src="images/act-4/vcs-div-example.png" alt="div example in VCS">
+
+- Now it's time to add some CSS rules to my `<div class="zuko-qualities">` in my `style.css` file. 
+- Note that I have added CSS comments, which look like this `/* your comment content goes here */`. 
+- Comments are not dislayed in browsers. Think of them as explanatory notes for what your code is doing. 
+- I will add some font styles and play with the position of my new `div`, just to see what it looks like. Feel free to copy/paste this CSS code block into your file and play araound with it to see what happens: 
+
+```
+.zuko-qualities {
+    float: right; /* "floats <div> "container" to the right of the page */
+    background-color: #ffffff; /* changes <div> background colour */
+    width: 30%; /* makes the <div> 30% of page width, no matter window size */ 
+    height: 45%; /* makes the <div> 45% of page height, no matter window size */
+    border: 3px solid rgb(157, 255, 0); /* adds blue border line around <div> */
+    padding: 1%; /* moves the content within the <div> away from the edge on all sides */ 
+    color:#001d39; /* changes <div> text colour */
+  } 
+  ```
+- Here is what my `about.html` page now looks like in my browser: 
+
+
+
+
 	
 - Division tags can also take advantage of precedence. A division tag enclosed within another division tag has higher precedence than the outside division tag.
 
