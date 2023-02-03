@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 This section teaches you some CSS basics, so that you can alter the look and function of a basic HTML page. 
 
-If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
+If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun and be patient with yourself because CSS, especially layout, can be tricky! 
 
 If you haven’t already completed the previous exercise, please start [here](https://uviclibraries.github.io/html-css/act-3.html).
 
@@ -35,14 +35,14 @@ But, before we can make any layout changes, let's take a look at CSS "classes".
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS anatmony">
 
 - Classes are another type of selector you can use to define specific rules for specific HTML tags. 
-- Since it's easier for most of us to learn by doing, we'll dive into an example to learn how CSS classes work. 
+- Since it's easier for most of us to learn by doing, we'll dive into an example to see how CSS classes work. 
 - In my `about.html` page, for example, I have two paragraphs, that is, text content between two sets of open and closed `p` tags. 
 - Let's say that I want the text to look bigger in the first paragraph, but not in the second. If I use a `p` tag as the selector, then whatever style I apply would change the content to look the same in _both_ paragraphs. We can use custom class to make these paragraphs look different from each other.   
 - To make my paragraph style changes, I will create a CSS "class" in my HTML file and create some CSS rules for it in my CSS file. 
 
 ### Adding a class to the HTML file
 
-- You can follow along with what I do, copy/pasting what I do as you go, or create your own class, based on what I do in the following steps. 
+- You can follow along with what I do, copy/pasting as you go, or create your own CSS class block, based on what I do in the following steps. 
 - I have added this class to the first paragraph in my `about.html` page: `<p class="bigger-text">`. 
 - <mark>Important</mark>: **do not put spaces in your class names**:
   - Incorrect: `<p class="bigger text">`
@@ -119,7 +119,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 - As with the above section, feel free to copy/paste what I have done or create your own content. 
 - A `div` tag, in HTML, is comprised of an open and closed tag: `<div></div>`. 
 - Divs define sections within our code. Think of them as content organizers.
-- Applying a class to `div` tag changes everything between its open and closed `<div></div>` tags.
+- Applying a class to `div` tag changes everything within its open and closed `<div></div>` tags.
 - In my `about.html' file, I have added this `div` class to paragraph of text: `<div class="zuko-qualities"></div>` 
 <!-- <img src="images/act-4/div.jpg" alt="div example" style="width:720px;"> -->
 - Here is the entire `div`, including its content: 
@@ -138,7 +138,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 - Now it's time to add some CSS rules to my `<div class="zuko-qualities">` in my `style.css` file. 
 - Note that I have added **CSS comments**, which look like this `/* your comment content goes here */`. 
-- Comments are not dislayed in browsers. Think of them as explanatory notes for what your code is doing. 
+- Comments are not dislayed in browsers. Think of them as explanatory notes for what your CSS rules are doing. 
 - I will add some font styles and play with the position of my new `div`, just to see what it looks like. 
 - Feel free to copy/paste the following CSS code block into your `style.css` file and play around with its various values to see what happens: 
 
@@ -167,9 +167,9 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 `padding: 20%;`
 
 - If you have time, feel free to change other values in our new `<div>`.
-- Now you can see how versatile even a basic `<div>` can be! 
-- We have changed the layout of our `<div>` in a basic way, but the word of CSS layout can complex, depending on what you are trying to do. As you move on in the world of CSS, you will eventually have to have a good grasp of CSS layout, which you can read more about on the [W3Schools CSS Layout tutorial page](https://www.w3schools.com/css/css_positioning.asp). 
-- One approach to layout is to think of your content, such as your paragraphs, images, and `div` sections as tiles, or boxes, that can be moved around relative to each other in various ways.
+- Now you can see how versatile even one `<div>` can be! 
+- We have changed the layout of our `<div>` in a basic way, but the world of CSS layout can be complex, depending on what you are trying to do. If you plan to learn more CSS, you will eventually have to have a solid grasp of CSS layout, which you can read more about on the [W3Schools CSS Layout tutorial page](https://www.w3schools.com/css/css_positioning.asp). 
+- One approach to layout is to think of your content, such as your paragraphs, images, and `div` sections, as tiles, or boxes, that can be moved around, relative to each other on your web page, in various ways.
 - Next, we will play with another way of arranging layout, using flexible boxes, or "flexboxes". 
 
 ## CSS layout with "flexible boxes," or "flexboxes"
