@@ -169,7 +169,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 - If you have time, feel free to change other values in our new `<div>`.
 - Now you can see how versatile even one `<div>` can be! 
 - We have changed the layout of our `<div>` in a basic way, but the world of CSS layout can be complex, depending on what you are trying to do. If you plan to learn more CSS, you will eventually have to have a solid grasp of CSS layout, which you can read more about on the [W3Schools CSS Layout tutorial page](https://www.w3schools.com/css/css_positioning.asp). 
-- One approach to layout is to think of your content, such as your paragraphs, images, and `div` sections, as tiles, or boxes, that can be moved around, relative to each other on your web page, in various ways.
+- One approach to layout is to think of your content—such as paragraphs, images, and `div` sections—as tiles or boxes that can be moved around your web page in various ways.
 - Next, we will play with another way of arranging layout, using flexible boxes, or "flexboxes". 
 
 ## CSS layout with "flexible boxes," or "flexboxes"
@@ -177,17 +177,18 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 - A flexbox is CSS layout model used to organize a webpage's content. 
 - In the image, below, imagine that the coloured squares within the rectangle are separate content containers, which could be paragrpahs, images, or `div` sections. 
 
-<img src="images/act-4/flex.png" alt="flex container" style="float:right;width:90px;margin-left:20px;">
+<img src="images/act-4/flex.png" alt="flex container">
 
-- Flexbox works by separating each item into its own box. These flexboxes can be told how to behave and organize themselves, even when viewed with different screen sizes, from desktop computer screens to smartphones.
-- Let's start by adding a "flex container" to our `<body>` tag in CSS. 
-- Add the following in your CSS file: 
+- Flexboxes work by separating each element in your HTML page—such as paragraphs, images, and `div` sections—into their own containers, or boxes. 
+- The advantage of flexboxes is that they can be be told how to behave and organize themselves, even when viewed with different screen sizes, from desktop computer screens to smartphones.
+- We are going to turn our whole `about.html` page into a "flex container," making the elements within it (our divs, paragraps, and images) separate boxes. To do this, we are going to add the following delcaration to our `style.css` page:
         
 ```
 	body {
             display: flex;
         }
 ```
+- In 
 - Refresh your HTML page and the boxes should appear horizontally.
 
 <img src="images/act-4/flex2.png" alt="more flex containers">
