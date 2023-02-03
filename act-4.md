@@ -141,7 +141,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 ```
 - Refresh your HTML page and the boxes should appear horizontally.
 
-<img src="images/act-4/flex2.png" alt="more flex containers" style="float:right;width:240px;margin-left:20px;">
+<img src="images/act-4/flex2.png" alt="more flex containers">
 
 - I don’t want my `about.html` page to look like this either, and so I can use `<div>` tags to organize things further. 
 - First get rid of the `display:flex;` we just added in our body tag.
@@ -165,7 +165,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 `<flex-direction: row-reverse;>`
 
 ### More with flexboxes
- 
+
 -There are many different ways to manipulate flex boxes with built-in properties. Try a few of the following values to see what they do: 
 - `flex-direction: row;`: “row” aligns flex items horizontally, from left to right. 
 - `flex-direction: row-reverse;`: “row-reverse” aligns flex items horizontally, from right to left, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
@@ -173,7 +173,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 - `flex-direction: column-reverse;`: “column-reverse” aligns flex items vertically, from bottom to top, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
 - `flex-wrap: (wrap / nowrap);`: should your flexbox items extend past the width of your browser page and you do not want users to side scroll, the “wrap” value will stack the following content below. In the example below, without “wrap” the purple box would sit outside the browser window, as represented by the  orange outline. With “wrap,” the purple box aligns below the green and orange boxes.
 
-<img src="images/act-4/flex3.png" alt="flex container wrap" style="float:right;width:240px;">
+<img src="images/act-4/flex3.png" alt="flex container wrap">
 	
 - [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/#:~:text=The%20justify%2Dcontent%20property%20is,have%20reached%20their%20maximum%20size.): (flex-start(default) / flex-end / center / space-between / space-around);
   - This property changes how the flex boxes are spaced between other flexboxes. This can be a fun one to play around with as it can dramatically change the layout of a page.
