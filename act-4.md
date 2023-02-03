@@ -7,11 +7,11 @@ parent: Workshop Activities
 
 # Using CSS to Change Layout
 
-This section teaches you to use CSS to change the positioning and layout of your page. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
+This section teaches you some CSS basics, so that you can alter the look and function of a basic HTML page. If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 If you haven’t already completed the previous exercise, please start [here](https://uviclibraries.github.io/html-css/act-3.html).
 
-So far, we have learned about and tinkered with the following: 
+So far, we have learned to tinker with the following: 
 - HTML pages
 - Headings, text, and lists
 - Images
@@ -19,7 +19,6 @@ So far, we have learned about and tinkered with the following:
 - CSS stylesheets and how to link them to an HTML page
 - Some basic CSS styling
 
-By now, you should have a webpage with the elements listed above. 
 Here's what my `about.html` page looks like in Chrome, so far: 
     
 <img src="images/act-4/css-browser-example.png" alt="CSS browser example">
@@ -33,15 +32,19 @@ But, before we can make any layout changes, we need to understand CSS "classes".
 
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS anatmony">
 
-- Classes are another type of selector you can use to define specific rules for specific HTML tags. Arguably, an example is great way to get to know how CSS classes work. 
-- In my `about.html` page, for example, I have two paragraphs, that is, text content between two sets of open and closed `p` tags. Let's say that I want the text to look bigger in the first paragraph, but not second. If I use a paragraph `p` tag as the selector, then whatever style I apply would change the content to look the same in _both_ parapgraphs, or any content between open and closed `p` tags. We can use custom class to make these paragraphs look different from each other.   
-- To make my paragraph changes, I will create a "custom class" in my HTML file and create some CSS rules for it in my CSS file. 
+- Classes are another type of selector you can use to define specific rules for specific HTML tags. 
+- Since it's easier for most of us to learn by doing, we're dive into an example to learn how CSS classes work. 
+- In my `about.html` page, for example, I have two paragraphs, that is, text content between two sets of open and closed `p` tags. Let's say that I want the text to look bigger in the first paragraph, but not in the second. If I use a `p` tag as the selector, then whatever style I apply would change the content to look the same in _both_ paragraphs. We can use custom class to make these paragraphs look different from each other.   
+- To make my paragraph changes, I will create a CSS "class" in my HTML file and create some CSS rules for it in my CSS file. 
 
 ### Adding a class to the HTML file
 
-- You can follow along with what I do, copy/pasting what I did as you go, or create your own class, based on the following steps. 
-- Here is what I have added to the first paragraph in my `about.html` page: `<p class="bigger-text">`. 
-- Here is what my class looks like, in context, in my `about.html` page: 
+- You can follow along with what I do, copy/pasting what I do as you go, or create your own class, based on what I do in the following steps. 
+- I have added this class to the first paragraph in my `about.html` page: `<p class="bigger-text">`. 
+- <mark>Important</mark>: **do not put spaces in your class names**:
+  - Incorrect: `<p class="bigger text">`
+  - Correct: `<p class="bigger-text">`
+- Here is what my `<p class="bigger-text">` class looks like, in context, in my `about.html` page: 
 
 ```
 <p class="bigger-text">Zuko is the son of the current Fire Lord of the Fire Nation, 
@@ -55,23 +58,20 @@ him on the right path. His love of tea often gets on Zuko's nerves.</p>
 
 ```
 
-Here is what the above code looks like in my `about.html` page, in VCS: 
+Here is what my `<p class="bigger-text">` class looks like in my `about.html` page, in VCS: 
 
 <img src="images/act-4/vcs-html-class-example.png" alt="HTML class example">
 
-- <mark>Important</mark>: **do not put spaces in your class names**:
-  - Incorrect: `<p class="bigger text">`
-  - Correct: `<p class="bigger-text">`
 - I could create a separate class for the second paragraph, but I am happy with its font size already, so I am only creating a class for the content I want to change. 
 
 ### Adding a class to the CSS file
 
-- Now that I have added my class to my `about.html` file, it's time to write a corresponding class in my CSS file. 
+- Now that I have added my `<p class="bigger-text">` class to my `about.html` file, it's time to write a corresponding CSS class block in my CSS file. 
 - My class will get its own code block and properties and values.
 - <mark>Important</mark>: **in CSS, all class blocks are preceded by a period**.
 - Here is what the class looks like in my CSS file: `.bigger-text`. 
-- Remember, though, that we want to apply our changes to a paragraph, but with the _addition_ of the `.bigger-text` class. So, what we end up with is a combination of the two selectors: `p.bigger-text`.
-- Here is what it looks like in context, and with some properties and values:      
+- Remember, though, that we want to apply our changes to a paragraph `<p>`, but with the _addition_ of the `.bigger-text` class. So, what we end up with is a combination of two selectors: `p.bigger-text`.
+- Here is what my class block looks like in context, and with some properties (`font-size` and `font-weight`) and values (`150%` and `bold`):      
 
 ```
 p.bigger-text {
@@ -80,7 +80,7 @@ p.bigger-text {
 	}
 ```
 
-Here is what the above CSS block looks like in my `style.css` file, in VCS: 
+Here is what my class block looks like in my `style.css` file, in VCS: 
 
 <img src="images/act-4/vcs-css-class-example.png" alt="CSS class example">
 
@@ -88,9 +88,9 @@ Here is what the above CSS block looks like in my `style.css` file, in VCS:
 
 <img src="images/act-4/browser-class-example.png" alt="browser class example">
 
-- You may have noticed that all the text in both paragraphs is still pink in colour. This is becasue the `p` selector above my class selector `p.class="bigger-text"` still determines the colour for _all_ `p` selectors. Put another way, the `p` selector has **precedence** over the selector with my class. Another way to think about this is that my `p.class="bigger-text"` selector **inherits** the values of the `p` selector because the `p` selector is higher up in the CSS hierarchy. 
-  - Note that CSS hierarchy, or "style order," is very complicated, but the curious can consult [this handy chart](https://vecta.io/blog/definitive-guide-to-css-styling-order/definitive-guide-to-css-styling-order.611928c06a.svg). 
-- However, I can override this precedence order by declaring, or adding new properties and values, within my `p.class="bigger-text"` class; in this case I have declared a colour for the text (`color: #ffffff;`): 
+- You may have noticed that all the text in both paragraphs is still pink in colour. This is becasue the `p` selector (in the class block above my `p.class` class) still determines the colour value for _all_ `p` selectors. Put another way, the `p` has **precedence** over `p.class`. Another way to think about this is that my `p.class` **inherits** the values of the `p` selector because the `p` selector is higher up in the CSS hierarchy. 
+  - Note that CSS hierarchy, or "style order," is very complicated, but the curious can consult [this handy chart](https://vecta.io/blog/definitive-guide-to-css-styling-order/definitive-guide-to-css-styling-order.611928c06a.svg) to see how it all fits together. 
+- However, I can override this precedence order by adding a declaration (a tech-language definition for the combination of a CSS property and its value) within my `p.class`. I have declared a colour for the text (`color: #ffffff;`): 
 
 ```
 p.bigger-text {
@@ -100,22 +100,24 @@ p.bigger-text {
 	}
 ```
 
-- Here is what this change looks like in my browser: 
+- Here is what this font colour change looks like in my browser: 
 
 <img src="images/act-4/browser-class-example-colour.png" alt="browser class example with colour change">
 
 <!-- <img src="images/act-4/css-class.jpg" alt="css class" style="width:720px;"> -->
+- As far as a browser is concerned, `p` and `p.bigger-text` are different classes, with different CSS rules, even though they both have `p` selectors. 
 
-We have just seen one way to make a class is to combine it with an existing selector. We can also create an entirely custom class that has no releationship to common selectors, like those used for paragraphs, headings, and lists. 
+We have just practiced one way to make a class, by combining it with an existing selecto. We can also create an entirely unique class that has no releationship to common selectors, such paragraphs, headings, and lists. 
 
-In principle, we are going to create a division of content in our `about.html` file and then use a custom CSS class to assign it some values. 
+Next, I will create a division, or "div", of content in our `about.html` file and then use a CSS class to assign it some declarations. 
 
 ## Divisions, or `<div>` tags
 
 - As with the above section, feel free to copy/paste what I have done or create your own content. 
-- The "div" tag, in HTML, has an open and closed tag: `<div></div>`. Divs define sections within our code. Alone, a `div` tag doesn’t do much. However, with CSS, it helps to organize our content into groups.
-- Applying a class to `<div>` tag changes everything between the open and closed `<div></div>` tags.
-- In my `about.html' file, I have added a div class to my nested list. This way, I can change the items in my list without affecting the main list or even other lists I may have.
+- A `div` tag, in HTML, is comprised of an open and closed tag: `<div></div>`. 
+- Divs define sections within our code. Alone, a `div` tag doesn’t do much. However, with CSS, it helps to organize our content into groups.
+- Applying a class to `div` tag changes everything between the open and closed `<div></div>` tags.
+- In my `about.html' file, I have added a `div` class to a nested list (list within a list). This way, I can change the items in my nested list without affecting the main list, or even other lists I may have.
 	
 <img src="images/act-4/div.jpg" alt="div example" style="width:720px;">
 	
