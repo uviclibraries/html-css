@@ -128,7 +128,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 - Despite all the changes we’ve made so far, nothing on our `about.html` page has moved around: this is where flexible boxes or "flexboxes" comes in handy.
 - A flexbox is CSS layout model used to organize a webpage's content.
 
-        <img src="images/act-4/flex.png" alt="flex container" style="float:right;width:90px;margin-left:20px;">
+<img src="images/act-4/flex.png" alt="flex container" style="float:right;width:90px;margin-left:20px;">
 
 - Flexbox works by separating each item into its own box. These flexboxes can be told how to behave and organize themselves, even when viewed with different screen sizes, from desktop computer screens to smartphones.
 - Let's start by adding a "flex container" to our `<body>` tag in CSS. 
@@ -141,7 +141,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 ```
 - Refresh your HTML page and the boxes should appear horizontally.
 
-        <img src="images/act-4/flex2.png" alt="more flex containers" style="float:right;width:240px;margin-left:20px;">
+<img src="images/act-4/flex2.png" alt="more flex containers" style="float:right;width:240px;margin-left:20px;">
 
 - I don’t want my `about.html` page to look like this either, and so I can use `<div>` tags to organize things further. 
 - First get rid of the `display:flex;` we just added in our body tag.
@@ -167,27 +167,22 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 ### More with flexboxes
  
 -There are many different ways to manipulate flex boxes with built-in properties. Try a few of the following values to see what they do: 
-    - flex-direction: row; 
-      - “row” aligns flex items horizontally, from left to right. 
-    - flex-direction: row-reverse; 
-      - “row-reverse” aligns flex items horizontally, from right to left, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
-    - flex-direction: column;
-      - “column” aligns flex items vertically, from top to bottom.
-    - flex-direction: column-reverse;
-      - “column-reverse” aligns flex items vertically, from bottom to top, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
-    -   flex-wrap: (wrap / nowrap);
-        -   Should your flexbox items extend past the width of your browser page and you do not want users to side scroll, the “wrap” value will stack the following content below. In the example below, without “wrap” the purple box would sit outside the browser window, as represented by the  orange outline. With “wrap,” the purple box aligns below the green and orange boxes.
+- `flex-direction: row;`: “row” aligns flex items horizontally, from left to right. 
+- `flex-direction: row-reverse;`: “row-reverse” aligns flex items horizontally, from right to left, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
+- `flex-direction: column;`: “column” aligns flex items vertically, from top to bottom.
+- `flex-direction: column-reverse;`: “column-reverse” aligns flex items vertically, from bottom to top, but be advised that this value may conflict with page-indent and how users utilizing assistive technology view your page.
+- `flex-wrap: (wrap / nowrap);`: should your flexbox items extend past the width of your browser page and you do not want users to side scroll, the “wrap” value will stack the following content below. In the example below, without “wrap” the purple box would sit outside the browser window, as represented by the  orange outline. With “wrap,” the purple box aligns below the green and orange boxes.
 
-	<img src="images/act-4/flex3.png" alt="flex container wrap" style="float:right;width:240px;">
+<img src="images/act-4/flex3.png" alt="flex container wrap" style="float:right;width:240px;">
 	
-    -   [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/#:~:text=The%20justify%2Dcontent%20property%20is,have%20reached%20their%20maximum%20size.): (flex-start(default) / flex-end / center / space-between / space-around);
-        -   This property changes how the flex boxes are spaced between other flexboxes. This can be a fun one to play around with as it can dramatically change the layout of a page.
-    -   [align-items](https://css-tricks.com/almanac/properties/a/align-items/): (flex-start / flex-end / center / stretch);
-        -   This property dictates how flex boxes are aligned vertically. Flex-start makes them all start at the top, flex-end makes them all end at the bottom, center makes their center sit in the center, stretch forces all items to cover the entirety of the flex box.
-        -   For having items in the center of your flex box, apply both of the following:
-            -   justify-content: center;
-	    -   align-items: center;
+- [justify-content](https://css-tricks.com/almanac/properties/j/justify-content/#:~:text=The%20justify%2Dcontent%20property%20is,have%20reached%20their%20maximum%20size.): (flex-start(default) / flex-end / center / space-between / space-around);
+  - This property changes how the flex boxes are spaced between other flexboxes. This can be a fun one to play around with as it can dramatically change the layout of a page.
+- [align-items](https://css-tricks.com/almanac/properties/a/align-items/): (flex-start / flex-end / center / stretch);
+  - This property dictates how flex boxes are aligned vertically. Flex-start makes them all start at the top, flex-end makes them all end at the bottom, center makes their center sit in the center, stretch forces all items to cover the entirety of the flex box.
+For having items in the center of your flex box, apply both of the following:
+- `justify-content: center;`
+- `align-items: center;`
 
-Flexboxes can get complicated when flexboxes are placed within other flexboxes, or [nested (↪)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#nested_flex_boxes), so be aware that we have only dabbled, here, with wahat flexboxes can do. You can read more about flex boxes on the [W3Shools Flexbox page](https://www.w3schools.com/css/css3_flexbox.asp). 
+Flexboxes can get complicated when flexboxes are placed within other flexboxes, or [nested (↪)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#nested_flex_boxes), so be aware that we have only dabbled with what flexboxes can do. You can read more about flexboxes on the [W3Shools Flexbox page](https://www.w3schools.com/css/css3_flexbox.asp). 
 
 [NEXT STEP: Next Steps]
