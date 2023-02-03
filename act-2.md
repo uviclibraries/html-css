@@ -24,7 +24,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 <img src="images/act-1/example-page-with-list.png" alt="example page with list">
 
-## Adding Images
+## Adding images
 
 - We are going to add some images to our `about.html` page. What this is means, really, is that we are going to create a link to an image file that you store in another folder. 
 - The link you provide in your `about.html` page tells browser where to go to retrieve the image file and display it.
@@ -69,7 +69,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 <!-- <img src="images/act-2/fire.png" alt="fire nation logo" style="width:720px;"> -->
 
-## Adding Links
+## Adding links
 
 ### Get to know the `<a>` hyperlink tag
 
@@ -164,7 +164,7 @@ You may have added some additional content and HTML markup as well, and that's e
 - <mark>Note</mark> that if your anchor link does not appear to "jump" you anywhere, it could be that there is not enough content on your page. In other words, the link _could_ be working, but the page does not need to scroll down to get you to the link. You can solve this problem by adding a bunch of placeholder text to your page, so that you have to scroll to see the end of it.
 - [This W3Schools test-space (↪)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_href_anchor) shows a working anchor link so that you can get a sense of how it is supposed to work, if you're having trouble with yours.
 
-🎉 **Congratulations!** You now know how to add images and links to a webpage!
+You now know how to add images and links to a webpage! Let's move on the next part of the workshop....
 
 <script>  
 
