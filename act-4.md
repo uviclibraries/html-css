@@ -127,8 +127,8 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 ```
 <div class="zuko-qualities">
 	<h2>Zuko: not your typical villain</h2>
-        <p>One of Zuko's greatest weaknesses throughout the Airbender series is his indecisiveness on which side to choose. As early as the start of 	 season two, he starts to have doubts about the Fire Nation and begins to see the suffering of others because of the war. However, while he has moments of compassion, he often still chooses the wrong thing and ends up going back to the Fire Nation with Azula.
-         </p>
+
+	One of Zuko's greatest weaknesses throughout the Airbender series is his indecisiveness on which side to choose. As early as the start of 	 	season two, he starts to have doubts about the Fire Nation and begins to see the suffering of others because of the war. However, while he has 		moments of compassion, he often still chooses the wrong thing and ends up going back to the Fire Nation with Azula.
 </div>
 ```
 
@@ -137,9 +137,10 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 <img src="images/act-4/vcs-div-example.png" alt="div example in VCS">
 
 - Now it's time to add some CSS rules to my `<div class="zuko-qualities">` in my `style.css` file. 
-- Note that I have added CSS comments, which look like this `/* your comment content goes here */`. 
+- Note that I have added **CSS comments**, which look like this `/* your comment content goes here */`. 
 - Comments are not dislayed in browsers. Think of them as explanatory notes for what your code is doing. 
-- I will add some font styles and play with the position of my new `div`, just to see what it looks like. Feel free to copy/paste this CSS code block into your file and play araound with it to see what happens: 
+- I will add some font styles and play with the position of my new `div`, just to see what it looks like. 
+- Feel free to copy/paste the following CSS code block into your `style.css` file and play around with its various values to see what happens: 
 
 ```
 .zuko-qualities {
@@ -154,16 +155,27 @@ Next, I will create a division, or "div", of content in our `about.html` file an
   ```
 - Here is what my `about.html` page now looks like in my browser: 
 
+<img src="images/act-4/browser-div-example.png" alt="browser div example">
 
+- OK: still gloriously '90s, but now the fun begins again becasue you can play around with the various values to see what happens, saving and refreshing your files as you go. 
+- For example, observe what happens when we change this: 
 
+`padding: 1%;`
 
-	
-- Division tags can also take advantage of precedence. A division tag enclosed within another division tag has higher precedence than the outside division tag.
+... to this: 
+
+`padding: 20%;`
+
+- If you have time, feel free to change other values in our new `<div>`.
+- Now you can see how versatile even a basic `<div>` can be! 
+- We have changed the layout of our `<div>` in a basic way, but the word of CSS layout can complex, depending on what you are trying to do. As you move on in the world of CSS, you will eventually have to have a good grasp of CSS layout, which you can read more about on the [W3Schools CSS Layout tutorial page](https://www.w3schools.com/css/css_positioning.asp). 
+- One approach to layout is to think of your content, such as your paragraphs, images, and `div` sections as tiles, or boxes, that can be moved around relative to each other in various ways.
+- Next, we will play with another way of arranging layout, using flexible boxes, or "flexboxes". 
 
 ## CSS layout with "flexible boxes," or "flexboxes"
 
-- Despite all the changes we’ve made so far, nothing on our `about.html` page has moved around: this is where flexible boxes or "flexboxes" comes in handy.
-- A flexbox is CSS layout model used to organize a webpage's content.
+- A flexbox is CSS layout model used to organize a webpage's content. 
+- In the image, below, imagine that the coloured squares within the rectangle are separate content containers, which could be paragrpahs, images, or `div` sections. 
 
 <img src="images/act-4/flex.png" alt="flex container" style="float:right;width:90px;margin-left:20px;">
 
