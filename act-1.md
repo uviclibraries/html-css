@@ -64,7 +64,7 @@ If you haven’t already, **please install [Visual Code Studio text editor (↪)
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
     </div> -->
 
-### Title Tags
+### Title tags
     
 - Our current _file_ name is `about.html`, but we want to add a different title to our page. On a website, this title will appear as the name of the page's tab. 
 - The title tag goes within the `<head>` tag and is therefore part of our page's [metadata (↪)](https://en.wikipedia.org/wiki/Metadata). 
@@ -78,7 +78,7 @@ If you haven’t already, **please install [Visual Code Studio text editor (↪)
 
 Looking good! Let's move on to adding content to our `about.html` page...
 
-### Headings Tags
+### Headings tags
     
 <!-- <button onclick="toggle('gif3')">Show/Hide Animation</button>-->
 <!-- <div id="gif3">
@@ -99,7 +99,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 - As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser if you do not see the changes you expect. 
 - Feel free to try different heading tags to see the differences between them.
 
-### Paragraph Tag
+### Paragraph tag
 
 - The `p` tag is used for paragraphs. 
 - The content you want in a paragraph would go between the open and closed paragraph tags, as in the following example:<br>
@@ -119,7 +119,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
     <img src="images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
     </div> -->
     
-### List Tags
+### List tags
     
 - You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. 
 - Use an ordered list if you want to display content in a particular order. 
@@ -150,7 +150,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 
 <!-- <img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;"> -->
 
-### Text Tags
+### Text tags
     
 - Applying style to your HTML code should be done in CSS files (which we look at soon), but sometimes making changes in the HTML file can be helpful. For example, the `<del></del>` and `<ins></ins>` tags can be helpful to highlight specific text. The `<del>` tag puts a line through the text and the `<ins>` tag underlines text.
 - HTML tags can be put around any text. These tags don't have to encompass a whole block of text, or even a whole word. Take the following example, which I intended to create using HTML tags:
