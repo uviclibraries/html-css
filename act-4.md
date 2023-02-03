@@ -127,8 +127,10 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 ```
 <div class="zuko-qualities">
 	<h2>Zuko: not your typical villain</h2>
-
-	One of Zuko's greatest weaknesses throughout the Airbender series is his indecisiveness on which side to choose. As early as the start of season two, he starts to have doubts about the Fire Nation and begins to see the suffering of others because of the war. However, while he has moments of compassion, he often still chooses the wrong thing and ends up going back to the Fire Nation with Azula.
+	One of Zuko's greatest weaknesses throughout the Airbender series is his indecisiveness on which side to choose. 
+	As early as the start of season two, he starts to have doubts about the Fire Nation and begins to see the suffering 
+	of others because of the war. However, while he has moments of compassion, he often still chooses the wrong thing 
+	and ends up going back to the Fire Nation with Azula.
 </div>
 ```
 
@@ -174,14 +176,15 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 ## CSS layout with "flexible boxes," or "flexboxes"
 
-- A flexbox is CSS layout model used to organize a webpage's content. 
-- In the image, below, imagine that the coloured squares within the rectangle are separate content containers, which could be paragraphs, images, or `div` sections. 
+- A flexbox is a CSS layout model used to organize a webpage's content. 
+- In the image below, imagine that the coloured squares within the rectangle are separate content containers within a larger container:
 
 <img src="images/act-4/flex.png" alt="flex container">
 
-- Flexboxes work by separating each element in your HTML page—such as paragraphs, images, and `div` sections—into their own containers, or boxes. 
+- Flexboxes work by separating each element in your HTML page—such as paragraphs, images, `div` sections, or any content—into their own containers, or boxes. 
 - The advantage of flexboxes is that they can be be told how to behave and organize themselves, even when viewed with different screen sizes, from desktop computer screens to smartphones.
-- We are going to turn our whole `about.html` page into a "flex container," making the elements within it (our divs, paragraph, and images) separate boxes. To do this, we are going to add the following declaration to our `style.css` page:
+- We are going to turn our whole `about.html` page into a "flex container," making the elements within it (our divs, paragraph, and images) separate containers, or boxes. 
+- Add the following declaration to your `style.css` page:
         
 ```
 	body {
@@ -201,7 +204,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 <img src="images/act-4/flex2.png" alt="more flex containers">
 
 - I don’t want my `about.html` page to look like this either, so I will move the `display: flex;` declaration to my `<div class="zuko-qualities">` and see what happens. 
-- Here's what the whole class block now looks like: 
+- Here's what the whole `zuko-qualities` class block now looks like: 
 
 ```
 .zuko-qualities {
@@ -216,7 +219,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
   } 
 ```
 
-Here is what the class block looks like in my `style.css` file, in VCS: 
+Here is what the `zuko-qualities` class block looks like in my `style.css` file, in VCS: 
 
 <img src="images/act-4/flex-in-div.png" alt="CSS flex example in div tag">
 
@@ -224,9 +227,9 @@ Here is what the class block looks like in my `style.css` file, in VCS:
 
 <img src="images/act-4/flexbox-div-only.png" alt="flex example in div tag in browser">
 
-- Notice that, now, only the content within the `<div class="zuko-qualities">` is horizontal. The text does not look that great, but the goal is to show what flexboxes can do. 
+- Notice that, now, only the content within the `<div class="zuko-qualities">` is horizontal. The text does not look that great, but the goal with this experiment is to learn what flexboxes can do. 
 - If you had two images, for example, and wanted them to sit side-by-side, you could create a `div` in your `about.html` file, and then place image links within the `div`. Then, in your `style.css` file, add `display:flex;` to the CSS declarations for your new `div`. By default, the images would sit horizontally in a row. 
-- Flexboxes can be tricky to understand until you start playing with them to get a sense of how they work. As your web pages become more complicated, generally, the CSS ruls for your page will as well. 
+- Flexboxes can be tricky to understand until you start playing with them. As your web pages become more complicated, generally, the CSS rules for your page will as well. 
 - If you have the time, you can practice playing with flex boxes by working through the [W3Schools CSS Flexbox tutorial](https://www.w3schools.com/css/css3_flexbox.asp). 
 
 <!-- [Note to DSC: I commented out this whole section because we already point students to the W3Schools site, which does a good job of working through the reasons why and in what circumstances you would use certain flex box values] 
