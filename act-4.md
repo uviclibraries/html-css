@@ -35,9 +35,9 @@ But, before we can make any layout changes, let's take a look at CSS "classes".
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS anatomy">
 
 - Classes are another type of selector you can use to define specific rules for specific HTML tags. 
-- Since it's easier for most of us to learn by doing, we'll dive into an example to see how CSS classes work. 
+- This workshop is all about learning by doing, so we'll dive into an example to see how CSS classes work. 
 - In my `about.html` page, for example, I have two paragraphs, that is, text content between two sets of open and closed `p` tags. 
-- Let's say that I want the text to look bigger in the first paragraph, but not in the second. If I use a `p` tag as the selector, then whatever style I apply would change the content to look the same in _both_ paragraphs. We can use custom class to make these paragraphs look different from each other.   
+- Let's say that I want the text to look bigger in the first paragraph, but not in the second. If I use a `p` tag as the selector, then whatever CSS styles I apply would change the content to look the same in _both_ paragraphs. We can use custom class to make these paragraphs look different from each other.   
 - To make my paragraph style changes, I will create a CSS "class" in my HTML file and create some CSS rules for it in my CSS file. 
 
 ### Adding a class to the HTML file
