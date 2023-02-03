@@ -46,16 +46,16 @@ Here is an example of what the stylesheet link looks like in my `about.html` pag
     </head>
 ```
 - Notice that I place the stylesheet link just above the closed `</head>` tag. 
-- Before we add our stylesheet link, let's get to know about more about it. 
+- Before we add our stylesheet link, let's get to know more about it. 
   - Notice that this is a "self-closing" link, in that it has no forward slash `/`.
-  - The first of the two parts in the link is `rel`, which stands for "relation" and is required for all “link” tags.
-  - The second of the two parts in the link is `href`, which stands for "hypertext reference" and specifies the location of another page, just like the `href` in our external links we did in the previous section of this workshop. 
+  - The first of the two parts in the link is `rel`, which stands for "relation", and this is required for all “link” tags.
+  - The second of the two parts in the link is `href`, which stands for "hypertext reference". This specifies the location of another page, just like the `href` in our external links we did in the previous section of this workshop. 
   - The `href` points our HTML page to our `style.css` page.    
 - In your `about.html` page, add this style sheet link just above the closed `</head>` tag: `<link rel="stylesheet" href="style.css>`.
 - Save your `about.html` page.
 - Our style sheet should now be linked to our `about.html` page. 
 - CSS code can be used within an HTML file, but to keep things simple we will only use CSS code in our CSS file.
-- <mark>Note</mark> that you may need to hard refresh your browser to see your CSS rules work on your `about.html` page.
+- <mark>Note</mark> that you may need to hard refresh (clear your cache) in your browser to see your CSS rules take effect in your `about.html` page.
 
 ## Get to know CSS
 
