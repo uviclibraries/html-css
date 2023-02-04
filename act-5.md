@@ -7,39 +7,28 @@ parent: Workshop Activities
 
 # Next Steps
 
-Now that you have some exposure to coding in HTML and CSS, it's time to apply that knowledge. Your goal is to build an about me page. The page doesn’t have to be about you, it can be about a fictional or historical or celebrity figure. Try to include the tools from the workshop like: images, links, color, and flex boxes. Before you start on your about me page it's recommended to plan beforehand with pen and paper. This way you can visualize your page before making it.
+Now that you have some exposure to coding in HTML and CSS, it's time to apply that knowledge! You can continue to work on your "About Me" (`about.html`) page or start something new from scratch. We recommend planning what you want your web page(s) to look like _before_ you start coding. Some web designers prefer to visualize their pages with pen and paper and others use [wireframing](https://en.wikipedia.org/wiki/Website_wireframe) tools to create website mockups. 
 
-## Create Your Own Public Website
+## Create your own public website
 
-If you eventually want to have your website available on the internet, a great place to start is [GitHub Pages](https://uviclibraries.github.io/twine/github.html){:target="_blank"} because they can host your files for free (this is a DSC step-by-step tutorial). 
+If you eventually want to have your website, GitHub Pages is great place to start is because GitHub can host your files for free. Check out the [GitHub Pages](https://pages.github.com/) site to learn more. 
 
-Uvic also offers hosting services for free for [students](https://www.uvic.ca/systems/services/web/webhosting-students/index.php){:target="_blank"} and [faculty](https://www.uvic.ca/systems/support/web/webhosting-fac-staff/index.php){:target="_blank"} but you will lose access to your UVic space one year after you graduate. Uploading to your UVic web space is not as easy as using Github for your web hosting. Other non-UVic hosting services are available, but typically charge a monthly/annual fee.
+The University of Victoria also offers free hosting services for [students](https://www.uvic.ca/systems/services/web/webhosting-students/index.php) and [faculty](https://www.uvic.ca/systems/support/web/webhosting-fac-staff/index.php), but be advised that you will lose access to your UVic web space one year after you graduate.
 
-## Use a HTML/CSS Template
+## Use a HTML/CSS template
 
-Most website developers do not create their websites from scratch, but will use a template as a starting point and then modify and extend the tempalte to meet their needs. One of the more popular templates that can be used free of charge, and without any licensing restrictions is [Bootstrap](https://getbootstrap.com/){:target="_blank"}. 
+Most website developers do not create their websites from scratch, but will use a template as a starting point and then modify and extend the template to meet their needs. One of the more popular templates that can be used free of charge, and without any licensing restrictions, is [Bootstrap](https://getbootstrap.com/). 
 
-From the Bootstrap website: "Build fast, responsive sites with Bootstrap. Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."
+The W3Schools website has a helpful tutorial for Bootstrap websites: [Make a Website with Bootstrap](https://www.w3schools.com/howto/howto_website_bootstrap.asp). 
 
-You can learn more about the Bootstrap website here: [Bootstrap Website & Documentation](https://getbootstrap.com/){:target="_blank"}
+## More website design resources
 
-## Add More features to Your Website
+In no particular order, here's a list of popular web-design resources: 
 
-Now that you have the basic building blocks for a website, you can start to design your own. It is recommended that before you start coding, you sketch out ideas on pen & paper. It can be helpful to think about what you can do using the tools you have, but you shouldn’t shy away from trying to design something out of your current scope. It may take some research and trial & error, but there are plenty of resources available with helpful tutorials on how to implement all kinds of designs.
--   [W3 schools](https://www.w3schools.com/){:target="_blank"} is a great resource that has examples and simple explanations on both HTML and CSS.
--   [Stackoverflow](https://stackoverflow.com/tags){:target="_blank"} is a forum where coders of all levels ask and answer questions. There are many questions that have already been answered and chances are your question has already been answered.
+- [W3 schools](https://www.w3schools.com/) is a great resource that has well-written explanations and "sandboxes" for you to test practically any aspect of HTML and CSS, and more.
+- [Stackoverflow](https://stackoverflow.com/tags) is a forum where coders of all levels ask and answer questions. Chances are, your web-design questions have already been asked and answered here.
+- [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/default.asp) offers a number of tutorials on what is now the world's most popular programming language.
+- [Codecademy](https://www.codecademy.com/?utm_source=ccblog&utm_medium=ccblog&utm_content=blognavbar) is Codecademy is an online interactive platform that offers free coding classes in 12 different programming languages, including Python, Java, Go, JavaScript, Ruby, SQL, C++, C#, and Swift, as well as markup languages HTML and CSS. 
 
-## Debugging
-
-Running into errors is to be expected when coding. The important thing is to know how to start debugging and solving the issues. Before posting on a forum or searching the web for answers, try to review your code for common errors like the following:
--   A missing closing tag </p>
--   Missing quotations
--   Odd number of brackets “(” or missing brackets.
--   Remember to add a semicolon at the end of a rule in CSS.
--   Writing “30 px” instead of “30px” for measurements in CSS.
-
-## JavaScript
-
-If web development has gotten you excited and you’d like to continue, JavaScript (JS) could be the next language to learn. JS offers additional functionality to websites that will expand what your website can do.
 
 [NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }
