@@ -8,13 +8,11 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 
 # Adding Images and Links in HTML
 
-### Before we begin...
-
 If you haven’t already completed the first exercise, please go to [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html).
 
-### Next steps: images and links!
+In this section, we’ll learn how to add images and links to an HTML page. If you have any questions, or you get stuck, please ask the instructor for assistance. Have fun!
 
-In this section we’ll learn how to add images and links to an HTML page. If you or your group have any questions, or you get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
+### Next steps: images and links
 
 If you completed the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) exercises, you should have an `about.html` page with some paragraphs, headers, and a list.
 
@@ -29,7 +27,7 @@ You may have added some additional content and HTML markup as well, and that's e
 - We are going to add some images to our `about.html` page. What this is means, really, is that we are going to create a link to an image file that you store in another folder. 
 - The link you provide in your `about.html` page tells browser where to go to retrieve the image file and display it.
 - To help keep things as tidy as possible, we are going to keep all our images in a separate folder called "images."
-- In your **html_workshop** folder, **create a new folder and name it exactly as follows: `images`**.
+- In your **html_workshop** folder, create a new folder and name it exactly as follows: `images`.
 - We will now add an image to the **images** folder. 
 - You can find an image on the Internet, or right-click with your mouse or trackpad on the image below, and then save it to the **images** folder.
 
@@ -46,7 +44,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 - Somewhere between the `<body></body>` tags, add the following: `<img src="image.jpg" alt="image description">`.
 - The `src` part of the `img` tag means "source," or the location your HTML browser will look to display the image. My image, `zuko.png`, is stored in the **images** folder. 
-- In the `src` part of the `img` tag you will see double quotation marks `"` `"`. It is between these quotation marks that we put the "filepath" to our image file, which creates a link between our image stored in the images folder and our `about.html` webpage. 
+- In the `src` part of the `img` tag you will see double quotation marks `"` `"`. It is between these quotation marks that we put the "filepath" to our image file, which creates a link between our image stored in the **images** folder and our `about.html` webpage. 
 - The path in my case is `images/zuko.png`. If you used another image file, then you would replace `zuko.png` with your file's name. 
 - <mark>Note</mark> that if we ever move our image file to another folder we would break the link between the image and our HTML page.
 - The `alt` part of the `img` tag means "alternate text" for an image. What you put between the quotation marks will be displayed when the image fails to load. This text is also used by people who may have visual disabilities and who use [screen reader software (↪)](https://www.cnib.ca/en/screen-readers?region=bc).
@@ -71,6 +69,8 @@ You may have added some additional content and HTML markup as well, and that's e
 
 ## Adding links
 
+HTML links are fundamental to websites. Links literally link your web page to other web pages and other forms of content. This content can be other websites, a differentl page within your own website, or even a different spot on the same web page. Links define relationships between content.
+
 ### Get to know the `<a>` hyperlink tag
 
 - Here is an example of a complete [hyperlink tag (↪)](https://www.w3schools.com/tags/tag_a.asp) for an Internet URL (Uniform Resource Locator) web address: `<a href="https://www.wikipedia.org/">Wikipedia</a>`.
@@ -78,8 +78,8 @@ You may have added some additional content and HTML markup as well, and that's e
 - The `<a>` in the hyperlink tag defines it as a hyperlink element, and the `href` is the attribute that indicates the link's destination.
 - Hyperlinks come in flavours and here are the basic four:
   - **"external links"** link you to other locations outside of your directory, such as other webpages or websites. These links always use a full URL (the whole `https://www` part). **Example: `<a href="http://www.wordpress.com/my-webpage.html">clickable text</a>`**.
-  - **"internal links"** link you to other locations within your directory, such as other webpages on your own website. These links do _not_ use the full URL. **Example: `<a href="about-me.html">clickable text</a>`**.
-  - **"anchor links"**, or hashtag links, "jump" you to locations in the same webpage. These are helpful in pages with a lot of text. You can, for example create a table of contents at the top of your HTML page that jumps to sections (or text) within that same page. **Example: `<a href="#anchor-location">clickable text</a>`**.
+  - **"internal links"** link you to other locations within your directory, or folder(s), such as other webpages in your own website. These links do _not_ use the full URL. **Example: `<a href="about-me.html">clickable text</a>`**.
+  - **"anchor links"**, or hashtag links, "jump" you to locations in the same webpage. These are helpful in pages with a lot of text. You can, for example, create a table of contents at the top of your HTML page that jumps to sections (or text) within that same page. **Example: `<a href="#anchor-location">clickable text</a>`**.
   - **"email links"** link you to an email address. When you click on these, they tell your computer to open up whatever email program you are using. **Example: `<a href="mailto:some-email@yoursite.com">Email me</a>`**.
 
 ## Add one or more hyperlinks to your HTML page
@@ -90,7 +90,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 - This type of link takes you to somewhere outside of your website, such as to another website or webpage on the Internet. 
 - The process to create an external link is identical to an internal link, except that the external link requires a full URL, the whole `https://www` part. This type of full URL is known as an ["absolute" URL (↪)](https://www.w3schools.com/tags/att_link_href.asp).  
-- In `about.html` file, choose some text to turn into a link.
+- In your `about.html` file, choose some text to turn into a link.
 - Wrap your selection of text in the following tags:
 
  `<a href="your web URL here">your link text here</a>`
@@ -134,7 +134,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 `<a href="index.html">your link text here</a>`
 
-- <mark>Note</mark> that we only need to link to another location within the same directory, or folder(s), so notice that we do not need to add the full URL, as in the `https://www` part. We only add the file name between the double quotation marks.
+- <mark>Note</mark> that we only need to link to another location within the same directory, so notice that we do not need to add the full URL, as in the `https://www` part. We only add the file name between the double quotation marks.
 - In my example, I want my readers to know that I have another webpage on my website that they can read:
 
 `Be sure to check out <a href="index.html">my Index page</a> for more reading!`
@@ -152,7 +152,7 @@ You may have added some additional content and HTML markup as well, and that's e
 `<h2 id="bilbo-speech">Bilbo's speech to the Council</h>`
 `<p>I used to think that they were things the wonderful folk of the stories went out and looked for, because they wanted them, because they were exciting and life was a bit dull, a kind of a sport, as you might say. But that’s not the way of it with the tales that really mattered, or the ones that stay in the mind. Folk seem to have been just landed in them, usually their paths were laid that way, as you put it.</p>`
 
-- <mark>Note</mark> that **each anchor has to have a unique name.** In my example, the anchor's `id` is `bilbo-speech`. Any additional anchor on this same page would need to have a different name. For example, if I wanted to link to another of Bilbo's speeches, I would change that anchor's `id` to something like `bilbo-speech-2`. 
+- <mark>Note</mark> that **each anchor has to have a unique name.** In my example, the anchor's `id` is "`bilbo-speech`". Any additional anchor on this same page would need to have a different name. For example, if I wanted to link to another of Bilbo's speeches, I would change that anchor's `id` to something like "`bilbo-speech-2`". 
 - **Create an `<a>` link to your anchor's unique `id`**. This will be the clickable link that jumps you to the unique `id` you just created. 
 - You can add this link anywhere on the HTML page, but add your link toward the top of your HTML page, but within the `<body></body>` tags. What we are doing in my example is making my `h2` become a link that jumps us to the heading of "Bilbo's speech to the Council." 
 - Here is what my link looks like:
@@ -164,7 +164,7 @@ You may have added some additional content and HTML markup as well, and that's e
 - <mark>Note</mark> that if your anchor link does not appear to "jump" you anywhere, it could be that there is not enough content on your page. In other words, the link _could_ be working, but the page does not need to scroll down to get you to the link. You can solve this problem by adding a bunch of placeholder text to your page, so that you have to scroll to see the end of it.
 - [This W3Schools test-space (↪)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_href_anchor) shows a working anchor link so that you can get a sense of how it is supposed to work, if you're having trouble with yours.
 
-You now know how to add images and links to a webpage! Let's move on the next part of the workshop....
+Excellent! Now you know how to add images and links to a webpage! Let's move on the next part of the workshop....
 
 <script>  
 
