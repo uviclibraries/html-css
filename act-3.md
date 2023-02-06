@@ -123,7 +123,7 @@ Now it is time to start playing with CSS...
  }
 ```
 - Note that in HEX language, `#000000` is 100% black (technically, no colours) and `#FFFFFF` is 100% white (technically, all colours).
-- If you have time, try this online colour picking tool: [htmlcolorcodes](https://htmlcolorcodes.com/). 
+- If you have time, try this online colour picking tool: [htmlcolorcodes (↪)](https://htmlcolorcodes.com/). 
 
 <img src="images/act-3/htmlcolorcodes-demo.png" alt="htmlcolorcodes website example">
 
@@ -139,7 +139,7 @@ body {
 ```
 - Save your CSS file and have a look at your `about.html` page in your browser. 
 - Feel free to try other colour values! 
-- **VCS tip**: you might have noticed that the VCS editor has a handy colour-picker tool built into it. To activate this tool, hover your mouse over the little colour-preview square to the left of your colour value. You should see a colour-picker popup appear. You can use this popup tool instead of having to write in new HEX codes manually. 
+- **VCS tip**: you might have noticed that the VCS editor has a colour-picker tool built into it. To activate this tool, hover your mouse over the little colour-preview square to the left of your colour value. You should see a colour-picker popup appear. You can use this popup tool instead of having to write in new HEX codes manually. 
 
 <img src="images/act-3/vcs-colour-picker-tool.png" alt="VCS colour picker tool">
 
@@ -156,7 +156,7 @@ body {
 | `font-style:`| `italic`|[font style (↪)](https://www.w3schools.com/css/css_font_style.asp) has three options: `normal`, `italic`, and `oblique`, but it's mostly used for italicizing text. |
 | `font-weight:`| `bold`, `800`|[font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `800` is considered "extra bold". |
 | `text-align:`| `center`, `left`, `right`|[font weight (↪)](https://www.w3schools.com/cssref/pr_font_weight.php) can be expressed as a name, as in `normal`, `bold`, `bolder`, and `lighter`, or you can use a numeric value. In the example given, `900` is considered "extra bold". |
-| `text-transform:`| `uppercase`, `lowercase`, `capitalize`|[text transform (↪)](https://www.w3schools.com/cssref/pr_text_text-transform.php) is handy when you want to change text to look a certain way no matter what the source text looks like. For example, miXeD CaSe words would appear as ALL CAPITALS if you applied the `uppercase` value.|
+| `text-transform:`| `uppercase`, `lowercase`, `capitalize`|[text transform (↪)](https://www.w3schools.com/cssref/pr_text_text-transform.php) is helpful when you want to change text to look a certain way no matter what the source text looks like. For example, miXeD CaSe words would appear as ALL CAPITALS if you applied the `uppercase` value.|
 | `letter-spacing:`| `15px`, `.0625em;`|[letter spacing (↪)](https://www.w3schools.com/cssref/pr_text_letter-spacing.php) controls the distance between the individual letters in words. This is usually applied to headings, or to make close-lettered fonts more readable. You can use a pixel (an  absolute) value or you can use an "em" (a relative) value. The relative value is relative to what a browser considers the size of the base font, which, in the absence of any applied CSS rules, is 16px. So, `1em` = 16px and `2em` = 32px. One "em" was traditionally defined as the width of the capital "M" in a given typeface. You can try negative values, too, like `-2px` and `-1em`. |
 
 <!-- <img src="images/act-3/further-format.jpg" alt="block with more formatting" style="width:720px;"> -->
