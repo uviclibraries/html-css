@@ -19,14 +19,7 @@ The University of Victoria also offers free hosting services for [students](http
 
 Most website developers do not create their websites from scratch, but will use a template as a starting point and then modify and extend the template to meet their needs. [Bootstrap](https://getbootstrap.com/), which is free of charge and licensing restrictions, is a popular template framework. The W3Schools website has a helpful tutorial for Bootstrap websites: [Make a Website with Bootstrap](https://www.w3schools.com/howto/howto_website_bootstrap.asp). 
 
-## More website design resources
-
-In no particular order, here's a list of popular web-design resources: 
-
-- [W3 schools](https://www.w3schools.com/) is a great resource that has well-written explanations and "sandboxes" for you to test practically any aspect of HTML and CSS, and more.
-- [Stackoverflow](https://stackoverflow.com/tags) is a forum where coders of all levels ask and answer questions. Chances are, your web-design questions have already been asked and answered here.
-- [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/default.asp) offers a number of tutorials on what is now the world's most popular programming language.
-- [Codecademy](https://www.codecademy.com/?utm_source=ccblog&utm_medium=ccblog&utm_content=blognavbar) is an online interactive platform that offers free coding classes in 12 different programming languages, including Python, Java, Go, JavaScript, Ruby, SQL, C++, C#, and Swift, as well as markup languages HTML and CSS. 
+**Check out our [Additional Resources page](https://uviclibraries.github.io/html-css/additional-resources.html) for a list of web-design and related links.**
 
 
 [NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }
