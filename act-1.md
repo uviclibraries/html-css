@@ -167,8 +167,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 - Applying style (such as font colours and sizes) to your HTML code should be done in CSS files (which we look at soon), but making changes in the HTML file is sometimes appropriate. For example, the `<del></del>` and `<ins></ins>` tags are used to indicate certain types of text. The `<del>` tag puts a line through the text and the `<ins>` tag underlines text.
 - HTML tags can be put around any text. These tags don't have to encompass a whole block of text, or even a whole word, as in the following example:
     - This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins>
-    - We have two words in bold, one word underlined, and one word underlined _and_ in bold. Let’s look at what that would look like in HTML, with tags: 
-    -   `<p>This is <strong>important</strong>. This is <strong><ins>very</ins>important.</strong> Thank <ins>you!</ins></p>`
+    - We have two words in bold, one word underlined, and one word underlined _and_ in bold. Let’s look at what that would look like in HTML, with tags:<br/>`<p>This is <strong>important</strong>. This is <strong><ins>very</ins>important.</strong> Thank <ins>you!</ins></p>`
 - Notice where the spaces and full stops are. With so many tags, it can be easy to forget to add important content in the right places.
 - On your `about.html` page, play around with some of the following tags, saving your file as you go(!) and then looking at it in your browser:
   - `<strong>` = important
