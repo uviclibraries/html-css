@@ -7,15 +7,15 @@ parent: Workshop Activities
 
 # Introducing CSS
 
-If you haven’t already completed the previous exercise, please start [here](https://uviclibraries.github.io/html-css/act-1.html), as this part builds on the topics from the previous section.
+If you haven’t already completed the previous exercises, please start on the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) page, as this part builds on the topics from previous sections.
 
 This section of the workshop is on Cascading Style Sheets (CSS). **Think of HTML as the builder and CSS as the artist.** CSS is a different language than HTML and has different rules and structure. 
 
-CSS is used to alter the presentation of a website. Basically, it creates the rules for what your various HTML elements, like paragraphs (`p`), headings (`h1`, for example), and content will look like in a browser. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
+CSS is used to alter the presentation of a website. Basically, CSS tells browsers the rules for what your various HTML elements, like paragraphs (`p`), headings (`h1`, for example), and content should look like. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
 
 Getting CSS to work the way you want to can sometimes try your patience, but it is worth it when things work, so stick with it and be prepared to have fun breaking things! 
 
-If you have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
+If you have any questions, or get stuck, please ask the instructor for assistance. Have fun!
 
 **On our journey, so far**, you should have a couple of HTML pages, with a list, some links, and a mix of text an images. Visually speaking, it looks fairly basic. Here's an example of what my `about.html` page looks like at this point: 
 
@@ -45,7 +45,7 @@ Here is an example of what the stylesheet link looks like in my `about.html` pag
         <link rel="stylesheet" href="style.css">
     </head>
 ```
-- Notice that I place the stylesheet link just above the closed `</head>` tag. 
+- Notice that I place the stylesheet link just _above_ the closed `</head>` tag. 
 - Before we add our stylesheet link, let's get to know more about it. 
   - Notice that this is a "self-closing" link, in that it has no forward slash `/`.
   - The first of the two parts in the link is `rel`, which stands for "relation", and this is required for all “link” tags.
@@ -87,7 +87,7 @@ Here is an example of what the stylesheet link looks like in my `about.html` pag
       color: blue;
  }
 ```
-- In the example above, we are saying this with our CSS: that we want all our `h1` headings to be underlined, 25 pixel font size, and blue in colour. 
+- In the example above, we are telling browsers to do the following: make all our `h1` headings underlined, 25 pixel font size, and blue in colour. 
 
 Now it is time to start playing with CSS... 
 
@@ -104,16 +104,16 @@ Now it is time to start playing with CSS...
       color: blue;
  }
 ```
-- Save your `style.css` file, then open your `about.html` page in your browser to see the changes. If you have blue text, then your CSS is working. If not, be sure to 
+- Save your `style.css` file, then open your `about.html` page in your browser to see the changes. If you have blue text, then your CSS is working. If not, try the following solutions:
   - (1) hard refresh your browser; 
   - (2) ensure that your CSS is correct (with no typos or spaces in the wrong places); 
   - (3) make sure that the stylesheet link (`<link rel="stylesheet" href="style.css>`) in your `about.html` page is correct. 
-- If everything is working as expected, play around with some different colour values for your text, changing the `blue;` to other colours. 
+- If everything is working as expected, try some different colour values for your text, changing the `blue;` to other colours. 
 - CSS has multiple options to indicate colour values. You can write colour names, such as `pink`, `orange`, `grey` and so on. Or, you can be more precise and choose from several alphanumeric (mixes of numbers and letters) value formats: 
   - RGB [Red Green Blue (↪)](https://www.w3schools.com/css/css_colors_rgb.asp), and RGBA (Red Green Blue Alpha)
   - HSL [Hue Saturation lightness (↪)](https://www.w3schools.com/css/css_colors_hsl.asp), and HSLA (Hue Saturation Lightness Alpha)
   - HEX [Hexadecimal (↪)](https://www.w3schools.com/html/html_colors_hex.asp)
-- With so many options, how do we know which standard to use? As with all things technological, each colour value format has pros and cons, and its defenders and detractors. 
+- With so many options, how do we know which standard to use? As with all things technological, each colour value format has its pros and cons, and its defenders and detractors. 
 - **HEX colours**, or codes, are a great place to start because each colour has a unique code that you can copy/paste into your CSS value. 
 - Let's change the `blue` value in our CSS file to its HEX code equivalent by replacing `blue` with the following code: `#0000FF`, as in the following example: 
 
@@ -128,8 +128,9 @@ Now it is time to start playing with CSS...
 <img src="images/act-3/htmlcolorcodes-demo.png" alt="htmlcolorcodes website example">
 
 - **<mark>Important</mark>**: make sure that you always include a hashtag `#` as part of the HEX code. 
-- Now, let's make our `about.html` page a little more dramatic and change the colour of the whole page. What we are doing, really, is using CSS to add a colour value to the `<body>` tag, but since nearly all our HTML content appears between these tags, it effectively changes the whole page. 
-- Copy/paste the following code into your CSS file: 
+- Now, let's make our `about.html` page a little more dramatic and change the colour of the whole page. What we are doing, really, is using CSS to add a colour value to the `<body>` tag, but since nearly all our HTML content appears between these tags, it changes the whole page. 
+- Copy/paste the following CSS in your `body` selector: `background-color: #59b1c2;'
+- Here is my example:
 
 ```
 body {
@@ -146,7 +147,8 @@ body {
 
 - CSS does far more than change colours, so let's move on to another CSS fundamental: **changing the look of text**. 
 - The following table lists some changes that you can make to text. In our `about.html` page, you could apply these changes to headings (`h1`, `h2`, `h3`, etc.), or paragraphs (`p`), or lists (`ul`, or `ol`). 
-- **Choose some properties and their corresponding values from the following table** and see if you can get them to work on your text. Remember to **save your `about.html` file and refresh your browser as you confirm your changes:** 
+- **Choose some properties and their corresponding values from the following table** and see if you can get them to work on your text. 
+- Remember to **save your `about.html` file and refresh your browser as you confirm your changes:** 
 
 | Properties to apply to your text       | Some value options to try       | Notes  |
 |:-------|:-------|:-------|
