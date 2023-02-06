@@ -14,7 +14,7 @@ In this section, we’ll learn how to add images and links to an HTML page. If y
 
 ### Next steps: images and links
 
-If you completed the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) exercises, you should have an `about.html` page with some paragraphs, headers, and a list.
+At this point in the workshop, you should have an `about.html` page with some paragraphs, headers, and a list.
 
 You may have added some additional content and HTML markup as well, and that's encouraged because we're here to tinker!
 
