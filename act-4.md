@@ -7,11 +7,11 @@ parent: Workshop Activities
 
 # Using CSS to Change Layout
 
+If you haven’t already completed the previous exercises, please start on the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) page, as this part builds on the topics from previous sections.
+
 This section teaches you some CSS basics, so that you can alter the look and function of a basic HTML page. 
 
-If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun and be patient with yourself because CSS, especially layout, can be tricky! 
-
-If you haven’t already completed the previous exercise, please start [here](https://uviclibraries.github.io/html-css/act-3.html).
+If you have any questions, or get stuck, please ask the instructor for assistance. Have fun and be patient with yourself because CSS, especially layout, can be tricky! 
 
 So far, we have learned to tinker with the following: 
 - HTML pages
@@ -21,7 +21,7 @@ So far, we have learned to tinker with the following:
 - CSS stylesheets and how to link them to an HTML page
 - Some basic CSS styling
 
-Here's what my `about.html` page looks like in Chrome, so far: 
+Here is what my `about.html` page looks like in Chrome, so far: 
     
 <img src="images/act-4/css-browser-example.png" alt="CSS browser example">
 
@@ -30,6 +30,7 @@ Notice that the content of my `about.html` page is stacked like a list, from top
 But, before we can make any layout changes, let's take a look at CSS "classes". 
 
 ## CSS classes
+
 - Earlier, we had looked at CSS "selectors," such as the `h1` in the example, below:
 
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS anatomy">
@@ -93,7 +94,7 @@ Here is what my class block looks like in my `style.css` file, in VCS:
 
 - You may have noticed that all the text in both paragraphs is still pink in colour. This is because the `p` selector (in the class block above my `p.class` class) still determines the colour value for _all_ `p` selectors. Put another way, the `p` has **precedence** over `p.class`. Another way to think about this is that my `p.class` **inherits** the values of the `p` selector because the `p` selector is higher up in the CSS hierarchy. 
   - Note that CSS hierarchy, or "style order," is very complicated, but the curious can consult [this handy chart](https://vecta.io/blog/definitive-guide-to-css-styling-order/definitive-guide-to-css-styling-order.611928c06a.svg) to see how it all fits together. 
-- However, I can override this precedence order by adding a declaration (a tech-language definition for the combination of a CSS property and its value) within my `p.class`. In the following example I have declared a colour for the text (`color: #ffffff;`): 
+- However, I can override this precedence order by adding a declaration (a tech-language definition for the combination of a CSS property and its value) within my `p.class`. In the following example I have declared a colour for the text by adding `color: #ffffff;`: 
 
 ```
 p.bigger-text {
@@ -120,7 +121,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 - A `div` tag, in HTML, is comprised of an open and closed tag: `<div></div>`. 
 - Divs define sections within our code. Think of them as content organizers.
 - Applying a class to `div` tag changes everything within its open and closed `<div></div>` tags.
-- In my `about.html' file, I have added this `div` class to paragraph of text: `<div class="zuko-qualities"></div>` 
+- In my `about.html' file, I have added this `div` class to some text: `<div class="zuko-qualities"></div>` 
 <!-- <img src="images/act-4/div.jpg" alt="div example" style="width:720px;"> -->
 - Here is the entire `div`, including its content: 
 
@@ -139,8 +140,9 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 <img src="images/act-4/vcs-div-example.png" alt="div example in VCS">
 
 - Now it's time to add some CSS rules to my `<div class="zuko-qualities">` in my `style.css` file. 
-- Note that I have added **CSS comments**, which look like this `/* your comment content goes here */`. 
+- Note that I have added **CSS comments**, which look like this: `/* your comment content goes here */`. 
 - Comments are not displayed in browsers. Think of them as explanatory notes for what your CSS rules are doing. 
+  - For the curious, you can read more about comments, and when to use them, on the [W3Schools CSS Comments page (↪)](https://www.w3schools.com/css/css_comments.asp). 
 - I will add some font styles and play with the position of my new `div`, just to see what it looks like. 
 - Feel free to copy/paste the following CSS code block into your `style.css` file and play around with its various values to see what happens: 
 
@@ -159,7 +161,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 <img src="images/act-4/browser-div-example.png" alt="browser div example">
 
-- OK: still gloriously '90s, but now the fun begins again because you can play around with the various values to see what happens, saving and refreshing your files as you go. 
+- OK: still gloriously '90s, but now the fun begins again because you can play around with the various values, saving and refreshing your files as you go. 
 - For example, observe what happens when we change this: 
 
 `padding: 1%;`
@@ -168,9 +170,9 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 `padding: 20%;`
 
-- If you have time, feel free to change other values in our new `<div>`.
+- If you have time, change other values in our new `<div>`.
 - Now you can see how versatile even one `<div>` can be! 
-- We have changed the layout of our `<div>` in a basic way, but the world of CSS layout can be complex, depending on what you are trying to do. If you plan to learn more CSS, you will eventually have to have a solid grasp of CSS layout, which you can read more about on the [W3Schools CSS Layout tutorial page](https://www.w3schools.com/css/css_positioning.asp). 
+- We have changed the layout of our `<div>` in a basic way, but the world of CSS layout can be complex, depending on what you are trying to do. If you plan to learn more CSS, you will eventually have to have a solid grasp of CSS layout, which you can read more about on the [W3Schools CSS Layout tutorial page (↪)](https://www.w3schools.com/css/css_positioning.asp). 
 - One approach to layout is to think of your content—such as paragraphs, images, and `div` sections—as tiles or boxes that can be moved around your web page in various ways.
 - Next, we will play with another way of arranging layout, using flexible boxes, or "flexboxes". 
 
@@ -184,7 +186,8 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 - Flexboxes work by separating each element in your HTML page—such as paragraphs, images, `div` sections, or any content—into their own containers, or boxes. 
 - The advantage of flexboxes is that they can be be told how to behave and organize themselves, even when viewed with different screen sizes, from desktop computer screens to smartphones.
 - We are going to turn our whole `about.html` page into a "flex container," making the elements within it (our divs, paragraph, and images) separate containers, or boxes. 
-- Add the following declaration to your `style.css` page:
+- Within your `body` selector, add the following `display: flex;`
+- Here is my example: 
         
 ```
 	body {
@@ -204,7 +207,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 <img src="images/act-4/flex2.png" alt="more flex containers">
 
 - I don’t want my `about.html` page to look like this either, so I will move the `display: flex;` declaration to my `<div class="zuko-qualities">` and see what happens. 
-- Here's what the whole `zuko-qualities` class block now looks like: 
+- Here is what the whole `zuko-qualities` class block now looks like: 
 
 ```
 .zuko-qualities {
@@ -230,7 +233,7 @@ Here is what the `zuko-qualities` class block looks like in my `style.css` file,
 - Notice that, now, only the content within the `<div class="zuko-qualities">` is horizontal. The text does not look that great, but the goal with this experiment is to learn what flexboxes can do. 
 - If you had two images, for example, and wanted them to sit side-by-side, you could create a `div` in your `about.html` file, and then place image links within the `div`. Then, in your `style.css` file, add `display:flex;` to the CSS declarations for your new `div`. By default, the images would sit horizontally in a row. 
 - Flexboxes can be tricky to understand until you start playing with them. As your web pages become more complicated, generally, the CSS rules for your page will as well. 
-- If you have the time, you can practice playing with flex boxes by working through the [W3Schools CSS Flexbox tutorial](https://www.w3schools.com/css/css3_flexbox.asp). 
+- If you have the time, you can practice playing with flex boxes by working through the [W3Schools CSS Flexbox tutorial (↪)](https://www.w3schools.com/css/css3_flexbox.asp). 
 
 <!-- [Note to DSC: I commented out this whole section because we already point students to the W3Schools site, which does a good job of working through the reasons why and in what circumstances you would use certain flex box values] 
 -There are many different ways to manipulate flex boxes with built-in properties. Try a few of the following values to see what they do: 
