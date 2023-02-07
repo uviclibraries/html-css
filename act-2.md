@@ -69,7 +69,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 ## Adding links
 
-HTML links are fundamental to websites. Links literally link your web page to other web pages and other forms of content. This content can be other websites, a differentl page within your own website, or even a different spot on the same web page. Links define relationships between content.
+HTML links are fundamental to websites. Links literally link your web page to other web pages and other forms of content. This content can be other websites, a different page within your own website, or even a different spot on the same web page. Links define relationships between content.
 
 ### Get to know the `<a>` hyperlink tag
 
