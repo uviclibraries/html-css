@@ -61,7 +61,7 @@ If you haven’t already, **please install [Visual Code Studio text editor (↪)
 - Note that your text editor may automatically indent new tags by default. Indenting tags, especially within other tags, makes code more readable and orderly. 
 - VCS might have already done this for you by default, but let's add our closing head tag, as follows: `</head>`. 
 - Be sure to indent the closed `</head>` tag the same as the open <`head>` tag. 
-- Make sure that that both <`head`></head>` tags are within the `<html>` tags. 
+- Make sure that both `<head></head>` tags are within the `<html>` tags. 
 - Next, we want to create one set of open and closed `<body>` tags. The content within the <`body>` tags is where the main content of a website is held.
 - Within the `<html>` tags, add an open `<body>` tag, hit return a couple of times, and add a closed `</body>` tag. You can also indent both of these tags. 
 - Here is what your `about.html` page should look like so far: 
