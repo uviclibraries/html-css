@@ -129,7 +129,7 @@ HTML links are fundamental to websites. Links literally link your web page to ot
 
 ```
 
-- Let's go back to our `about.html` page and add an internal link to your `index.html` file. 
+- Let's go back to the `about.html` page and add an internal link to the `index.html` file. 
 - In your `about.html` file, select some text to turn into a link and wrap that text in the following tags:
 
 `<a href="index.html">your link text here</a>`
