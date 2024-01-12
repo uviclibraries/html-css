@@ -145,7 +145,7 @@ HTML links are fundamental to websites. Links literally link your web page to ot
 
 - This type of link jumps us to another place in the same page.
 - To begin this process, add some placeholder text of some kind to your `about.html` page. 
-- **<mark>Important</mark>**: Add enough content so that you have to scroll down in VCS to get to the end of it. 
+- **<mark>Important</mark>**: Add enough content so that you have to scroll down in Sublime to get to the end of it. 
 - You can type multiple paragraphs on your own, or use placeholder text called [_lorem ipsum_ (↪)](https://en.wikipedia.org/wiki/Lorem_ipsum), which is often used by web developers for creating website examples. People like to have fun inventing their own versions of _lorem ipsum_, and my current favourite is [_The Lord of The Rings_ _lorem ipsum_ generator (↪)](https://ceheiss.github.io/LordOfTheIpsum/).
 - **Wrap a selection of text in a header tag of your choice and give it a unique `id`.** Think of this as your named anchor. The `<a>` link we eventually create will link to this unique `id` anchor. In my example, I have wrapped the heading text of "Bilbo's speech to the Council" in an `h2` tag and assigned it a unique `id` of `bilbo-speech`:
 
