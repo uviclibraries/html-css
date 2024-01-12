@@ -153,7 +153,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 - I have added a list of some of Zuko's attributes on my `about.html` page. I used an unordered list, since these details are not in any particular order.
 - Here is an example of what we have, so far:
 
-<img src="images/act-1/act1-5.png" alt="example page with list">
+<img width=400px src="images/act-1/act1-5.png" alt="example page with list">
 
 <!-- <button onclick="toggle('gif5')">Show/Hide Animation</button> -->
     
