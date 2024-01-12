@@ -28,15 +28,10 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
     </div> 
 
 - Open Sublime.
-- Select **File** in the menu bar and then select **Save as** (within the `html_workshop` folder you just created). 
-
-<img src="images/act-1/vcs-new-file-button.png" alt="New file button">
-
-- You will see a text field appear below the directory name. Now, we will add our file name. 
-- Name your file exactly like this: `about.html`. 
+- Select **File** in the menu bar and then select **Save as** (within the `html_workshop` folder you just created). Name your file exactly like this: `about.html`. 
 - Sublime will know that this new file is an HTML file because you used the `.html` extension, or suffix.
 - We now have our first HTML file! Sublime will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themes to make your code easier to read.
-- To test Sublime's autocomplete feature, type the letter “**h**”. Sublime has a dropdown list of suggestions, and selecting one will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
+- To test Sublime's autocomplete feature, type the letter “**<h**”. Sublime has a dropdown list of suggestions, and selecting one will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
 
 <img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
