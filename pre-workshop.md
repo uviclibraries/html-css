@@ -12,5 +12,8 @@ This workshop is primarily hands-on practice with HTML and CSS in order to learn
     <iframe width="560" height="315" src="https://www.youtube.com/embed/gT0Lh1eYk78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 -   [Install the Visual Studio Code text-editor (free)](https://code.visualstudio.com/download){:target="_blank"} on your laptop
 -   It is recommended that you do not use Internet Explorer as it has been replaced by Microsoft Edge
+-   [Install Sublime Text](https://www.sublimetext.com/){:target="_blank"}
+
+<img src="images/pre-act1.png" alt="Sublime download button">
 
 [NEXT STEP: Introduction to Hands-On Activities](activities-intro.html){: .btn .btn-blue }
