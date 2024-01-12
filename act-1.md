@@ -17,8 +17,7 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 
 ## Create a directory and your first HTML file
 
-Windows
-- First we are going to create a new folder by clicking on **file explorer**  
+- First we are going to create a new folder by clicking on **file explorer** for Windows users
 - Select your **Desktop** and then right click to select **New** and then toggle to slect **New Folder** 
 - If you are using a Mac, right click on your desktop, select **New Folder**
 - Name your folder as follows: `html_workshop`.
