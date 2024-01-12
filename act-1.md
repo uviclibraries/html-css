@@ -63,20 +63,7 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 ```
 
 <img width=500px src="images/act-1/act1-2.png" alt="about html">
-- The HTML `<!DOCTYPE html>` declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to display, or render, it properly.
-- Next, we need to tell the browser where our HTML code will go. 
-- Press the enter key, to create a new line, and type the following tag: `<html>` (this is the "open" tag because there is no forward slash before `html`). 
-- On another new line type the closing tag, as follows: `</html>` (this is the "closed" tag because there is a forward slash before `html`).
-- When the browser opens this file it now knows how to deal with what is between these tags. There are many kinds of tags and you’ll be introduced to some of them.
-- The next addition to our page will be within our tags. 
-- Underneath the open `<html>` tag, type the following: `<head>`. 
-- The `<head>` tag holds metadata (data about data) on our file, such as the page's title, but we’ll get to that later.
-- Note that your text editor may automatically indent new tags by default. Indenting tags, especially within other tags, makes code more readable and orderly. 
-- Sublime might have already done this for you by default, but let's add our closing head tag, as follows: `</head>`. 
-- Be sure to indent the closed `</head>` tag the same as the open <`head>` tag. 
-- Make sure that both `<head></head>` tags are within the `<html>` tags. 
-- Next, we want to create one set of open and closed `<body>` tags. The content within the <`body>` tags is where the main content of a website is held.
-- Within the `<html>` tags, add an open `<body>` tag, hit return a couple of times, and add a closed `</body>` tag. You can also indent both of these tags. 
+- The HTML `<!DOCTYPE html>` declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to display, or render, it properly. 
 - Here is what your `about.html` page should look like so far: 
     
     <img width=500px src="images/act-1/act1-3.png" alt="tag examples">
