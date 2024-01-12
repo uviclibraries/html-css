@@ -50,6 +50,7 @@ If you haven’t already, **please install [Visual Code Studio text editor (↪)
 ## Essential HTML 
 
 - The first thing we need to do is to add the following code at the very top left of our `about.html` page: `<!DOCTYPE html>`.
+<img src="images/act-1/act1-2.png" alt="about html">
 - The HTML `<!DOCTYPE html>` declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to display, or render, it properly.
 - Next, we need to tell the browser where our HTML code will go. 
 - Press the enter key, to create a new line, and type the following tag: `<html>` (this is the "open" tag because there is no forward slash before `html`). 
