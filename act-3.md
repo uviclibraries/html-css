@@ -184,7 +184,7 @@ h2 {
 
 - Second, this is what it looks like in VCS: 
 
-<img src="images/act-3/vcs-css-example.png" alt="VCS CSS code example">
+<img src="images/act-3/act3-3.png" alt="VCS CSS code example">
 
 - Third, this is what it looks like in a browser, in my case, Chrome: 
 
