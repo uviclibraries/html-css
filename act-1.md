@@ -17,13 +17,11 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 
 ## Create a directory and your first HTML file
 
-- Open Sublime.
-- When you open Sublime for the first time you will see a "Get Started" window, which you can close.
 - We are going to create a new project in Sublime by clicking in the main menu on **File** > **Open Folder**. A Dialogue box will appear. 
 - Navigate to your **Desktop** and then click on the **New Folder** button.
 - Name your folder, or directory, as follows: `html_workshop`. 
-- Once back in Sublime, you will see a navigation pane on the lefthand side of the Sublime window. We will use this navigation pane to create our first file.
-- To the right of your directory name (html_workshop), click on the "New file" button. 
+- Open Sublime.
+- Select **File** in the menu bar and then select **Save as** (within the `html_workshop` folder you just created). 
 
 <img src="images/act-1/vcs-new-file-button.png" alt="New file button">
 
