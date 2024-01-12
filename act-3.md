@@ -27,9 +27,9 @@ Using CSS, we will make our growing website look a little more stylish and colou
 
 - We are going to create new file, or "style sheet," for our CSS, and this file will also have an extension name, or suffix, of `.css`.
 - The CSS "rules" for modern, complex websites can be very complicated, with multiple style sheets applying multiple rules to HTML files. We are going to keep things simple to start with and use just one style sheet.  
-- In the Visual Code Studio (VCS) editor, create a new file in your `html_workshop` folder and name it exactly as follows: `style.css` 
+- In Sublime, create a new file in your `html_workshop` folder and name it exactly as follows: `style.css` 
 - In the same way that we created a link to an image file, in our `about.html` page, we are going to create a link between an HTML file and a CSS file. We make this HTML > CSS connection possible by adding a link to an HTML page. 
-- In VCS, open your `about.html` page. 
+- In Sublime, open your `about.html` page. 
 - The link to our style sheet will be placed within the `<head></head>` tags in our `about.html` page. It will look like this:
 
 `<link rel="stylesheet" href="style.css">`
@@ -58,7 +58,7 @@ Here is an example of what the stylesheet link looks like in my `about.html` pag
 
 - Here is an example of a "CSS declaration block," which contains an ordered collection of CSS properties and values:<br/>
 
-<img src="images/act-3/act3-2.png" alt="CSS block example">
+<img width=500px src="images/act-3/act3-2.png" alt="CSS block example">
 
 - The declaration block "declares" what it will do to change a specific HTML element, such as a paragraph `<p>`. 
 - In CSS-speak, the HTML element you want to change, or "style," is called the "selector". So, let's put this all together:<br/>
@@ -136,9 +136,6 @@ body {
 ```
 - Save your CSS file and have a look at your `about.html` page in your browser. 
 - Feel free to try other colour values! 
-- **VCS tip**: you might have noticed that the VCS editor has a colour-picker tool built into it. To activate this tool, hover your mouse over the little colour-preview square to the left of your colour value. You should see a colour-picker popup appear. You can use this popup tool instead of having to write in new HEX codes manually. 
-
-<img src="images/act-3/vcs-colour-picker-tool.png" alt="VCS colour picker tool">
 
 ### Playing with text
 
@@ -179,9 +176,9 @@ h2 {
 }
 ```
 
-- Second, this is what it looks like in VCS: 
+- Second, this is what it looks like in Sublime: 
 
-<img src="images/act-3/act3-3.png" alt="VCS CSS code example">
+<img width=500px src="images/act-3/act3-3.png" alt="Sublime CSS code example">
 
 - Third, this is what it looks like in a browser, in my case, Chrome: 
 
