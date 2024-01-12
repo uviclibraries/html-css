@@ -37,7 +37,7 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
     </div> -->
 - To test Sublime's autocomplete feature, type the letter “**h**”. Sublime has a dropdown list of suggestions, and selecting one will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
 
-<img src="images/act-1/act1-1.png" alt="autocomplete example">
+<img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
 ## Introducing HTML "tags"
 
@@ -50,7 +50,7 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 ## Essential HTML 
 
 - The first thing we need to do is to add the following code at the very top left of our `about.html` page: `<!DOCTYPE html>`.<br>
-<img src="images/act-1/act1-2.png" alt="about html">
+<img width=500px src="images/act-1/act1-2.png" alt="about html">
 - The HTML `<!DOCTYPE html>` declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to display, or render, it properly.
 - Next, we need to tell the browser where our HTML code will go. 
 - Press the enter key, to create a new line, and type the following tag: `<html>` (this is the "open" tag because there is no forward slash before `html`). 
@@ -67,7 +67,7 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 - Within the `<html>` tags, add an open `<body>` tag, hit return a couple of times, and add a closed `</body>` tag. You can also indent both of these tags. 
 - Here is what your `about.html` page should look like so far: 
     
-    <img src="images/act-1/act1-3.png" alt="tag examples">
+    <img width=500px src="images/act-1/act1-3.png" alt="tag examples">
 
 - Have you saved your file yet? Now is the time: in Sublime's main menu, click on **File > Save As...** or hit **CTRL (or Command for Mac users) + S** on your keyboard.
 
@@ -106,7 +106,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 `<h3>About Me</h3>`
 - Here is an example of what we have, so far: 
 
-<img src="images/act-1/act1-4.png" alt="adding first content">
+<img width=500px src="images/act-1/act1-4.png" alt="adding first content">
 
 - As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser if you do not see the changes you expect. 
 - Feel free to take some time to try different heading tags to see the differences between them.
@@ -153,7 +153,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 - I have added a list of some of Zuko's attributes on my `about.html` page. I used an unordered list, since these details are not in any particular order.
 - Here is an example of what we have, so far:
 
-<img width=400px src="images/act-1/act1-5.png" alt="example page with list">
+<img width=500px src="images/act-1/act1-5.png" alt="example page with list">
 
 <!-- <button onclick="toggle('gif5')">Show/Hide Animation</button> -->
     
