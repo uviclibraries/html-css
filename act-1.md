@@ -25,7 +25,7 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 - Once back in Sublime, you will see a navigation pane on the lefthand side of the Sublime window. We will use this navigation pane to create our first file.
 - To the right of your directory name (html_workshop), click on the "New file" button. 
 
-<img src="images/act-1/Sublime-new-file-button.png" alt="New file button">
+<img src="images/act-1/vsc-new-file-button.png" alt="New file button">
 
 - You will see a text field appear below the directory name. Now, we will add our file name. 
 - Name your file exactly like this: `about.html`. 
