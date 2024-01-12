@@ -17,9 +17,17 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 
 ## Create a directory and your first HTML file
 
-- We are going to create a new project in Sublime by clicking in the main menu on **File** > **Open Folder**. A Dialogue box will appear. 
-- Navigate to your **Desktop** and then click on the **New Folder** button.
-- Name your folder, or directory, as follows: `html_workshop`. 
+Windows
+- First we are going to create a new folder by clicking on **file explorer**  
+- Select your **Desktop** and then right click to select **New** and then toggle to slect **New Folder** 
+- If you are using a Mac, right click on your desktop, select **New Folder**
+- Name your folder as follows: `html_workshop`.
+
+    <button onclick="toggle('gif1')">Show/Hide Animation</button>
+    <div id="gif1">
+    <img src="images/act1-1.gif" alt="Demonstration of making a folder."> <br>
+    </div> 
+
 - Open Sublime.
 - Select **File** in the menu bar and then select **Save as** (within the `html_workshop` folder you just created). 
 
@@ -29,10 +37,6 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 - Name your file exactly like this: `about.html`. 
 - Sublime will know that this new file is an HTML file because you used the `.html` extension, or suffix.
 - We now have our first HTML file! Sublime will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themes to make your code easier to read.
-    <!-- <button onclick="toggle('gif1')">Show/Hide Animation</button> -->
-<!-- <div id="gif1">
-    <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
-    </div> -->
 - To test Sublime's autocomplete feature, type the letter “**h**”. Sublime has a dropdown list of suggestions, and selecting one will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
 
 <img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
