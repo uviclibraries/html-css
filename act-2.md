@@ -20,7 +20,7 @@ You may have added some additional content and HTML markup as well, and that's e
 
 **Your `about.html` document should look something like this:**
 
-<img src="images/act-2/act2-2.png" alt="example page with list">
+<img width=500px src="images/act-2/act2-1.png" alt="example page with list">
 
 ## Adding images
 
@@ -54,7 +54,7 @@ You may have added some additional content and HTML markup as well, and that's e
 - <mark>Note</mark> that my image is saved as a `.png` file but `<img>` accepts various types, the most common other ones being `.jpeg` (or `.jpg`), `.svg`, and `.gif`.
 - Here is an example, in my `about.html` file, of a complete `<img>` tag: 
 
-<img src="images/act-2/act2-2.png" alt="image tag example">
+<img width=500px src="images/act-2/act2-2.png" alt="image tag example">
 
 - Here is what the above `<img>` tag example looks like in a browser: 
 
