@@ -67,7 +67,7 @@ If you haven’t already, **please install [Visual Code Studio text editor (↪)
 - Within the `<html>` tags, add an open `<body>` tag, hit return a couple of times, and add a closed `</body>` tag. You can also indent both of these tags. 
 - Here is what your `about.html` page should look like so far: 
     
-    <img src="images/act-1/vcs-basic-tags.png" alt="tag examples">
+    <img src="images/act-1/act1-3.png" alt="tag examples">
 
 - Have you saved your file yet? Now is the time: in VCS's main menu, click on **File > Save As...** or hit **CTRL (or Command for Mac users) + S** on your keyboard.
 
@@ -106,7 +106,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 `<h3>About Me</h3>`
 - Here is an example of what we have, so far: 
 
-<img src="images/act-1/first-content.png" alt="adding first content">
+<img src="images/act-1/act1-4.png" alt="adding first content">
 
 - As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser if you do not see the changes you expect. 
 - Feel free to take some time to try different heading tags to see the differences between them.
@@ -153,7 +153,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
 - I have added a list of some of Zuko's attributes on my `about.html` page. I used an unordered list, since these details are not in any particular order.
 - Here is an example of what we have, so far:
 
-<img src="images/act-1/example-page-with-list.png" alt="example page with list">
+<img src="images/act-1/act1-5.png" alt="example page with list">
 
 <!-- <button onclick="toggle('gif5')">Show/Hide Animation</button> -->
     
