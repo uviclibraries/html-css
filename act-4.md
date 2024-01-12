@@ -64,7 +64,7 @@ him on the right path. His love of tea often gets on Zuko's nerves.</p>
 
 Here is what my `<p class="bigger-text">` class looks like in my `about.html` page, in VCS: 
 
-<img src="images/act-4/vcs-html-class-example.png" alt="HTML class example">
+<img src="images/act-4/act4-1.png" alt="HTML class example">
 
 - I could create a separate class for the second paragraph, but I am happy with its font size already, so I am only creating a class for the content I want to change. 
 
@@ -86,7 +86,7 @@ p.bigger-text {
 
 Here is what my class block looks like in my `style.css` file, in VCS: 
 
-<img src="images/act-4/vcs-css-class-example.png" alt="CSS class example">
+<img src="images/act-4/act4-2.png" alt="CSS class example">
 
 - Finally, here is what the `about.html` page now looks like in my browser: 
 
@@ -224,7 +224,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 Here is what the `zuko-qualities` class block looks like in my `style.css` file, in VCS: 
 
-<img src="images/act-4/flex-in-div.png" alt="CSS flex example in div tag">
+<img src="images/act-4/act4-4.png" alt="CSS flex example in div tag">
 
 - Here is what my `about.html` page now looks like in my browser: 
 
