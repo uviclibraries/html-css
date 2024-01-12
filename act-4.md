@@ -196,7 +196,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 ```
 - Here is what `display: flex;` looks like in my `style.css` file, in Sublime:
 
-<img src="images/act-4/flexbox-body-css.png" alt="flexbox css example">
+<img width=500px src="images/act-4/act4-5.png" alt="flexbox css example">
 
 - Here is what it looks like in my browser, after I have saved my CSS file and refreshed my browser: 
 
