@@ -12,30 +12,30 @@ Our HTML page will look basic at first, but if you finish the workshop you will 
 
 If you have any questions, or get stuck, please ask the instructor for assistance. The intention of this workshop is for you to create an "about me" page, but it doesn’t have to be about you. For the workshop as a whole, you can use the examples provided, or apply their techniques and principles and create your own work as you like. My example "about me" page will be about "Zuko," a character from a cartoon show. Have fun!
 
-If you haven’t already, **please install [Sublime text editor. (↪)](https://www.sublimetext.com/download) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor because it has some smart features that help to prevent code errors.
+If you haven’t already, **please install [Sublime text editor. (↪)](https://www.sublimetext.com/download) on your computer**. You are welcome to use any text editor you like, but our workshop examples use Sublime. We use this editor because it has some smart features that help to prevent code errors.
 
 
 ## Create a directory and your first HTML file
 
-- Open VCS.
-- When you open VCS for the first time you will see a "Get Started" window, which you can close.
-- We are going to create a new project in VCS by clicking in the main menu on **File** > **Open Folder**. A Dialogue box will appear. 
+- Open Sublime.
+- When you open Sublime for the first time you will see a "Get Started" window, which you can close.
+- We are going to create a new project in Sublime by clicking in the main menu on **File** > **Open Folder**. A Dialogue box will appear. 
 - Navigate to your **Desktop** and then click on the **New Folder** button.
 - Name your folder, or directory, as follows: `html_workshop`. 
-- Once back in VCS, you will see a navigation pane on the lefthand side of the VCS window. We will use this navigation pane to create our first file.
+- Once back in Sublime, you will see a navigation pane on the lefthand side of the Sublime window. We will use this navigation pane to create our first file.
 - To the right of your directory name (html_workshop), click on the "New file" button. 
 
-<img src="images/act-1/vcs-new-file-button.png" alt="New file button">
+<img src="images/act-1/Sublime-new-file-button.png" alt="New file button">
 
 - You will see a text field appear below the directory name. Now, we will add our file name. 
 - Name your file exactly like this: `about.html`. 
-- VCS will know that this new file is an HTML file because you used the `.html` extension, or suffix.
-- We now have our first HTML file! VCS will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themes to make your code easier to read.
+- Sublime will know that this new file is an HTML file because you used the `.html` extension, or suffix.
+- We now have our first HTML file! Sublime will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themes to make your code easier to read.
     <!-- <button onclick="toggle('gif1')">Show/Hide Animation</button> -->
 <!-- <div id="gif1">
     <img src="images/act-1/save-as.gif" alt="save as" style="width:720px;">
     </div> -->
-- To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggestions, and selecting one will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
+- To test Sublime's autocomplete feature, type the letter “**h**”. Sublime has a dropdown list of suggestions, and selecting one will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
 
 <img src="images/act-1/act1-1.png" alt="autocomplete example">
 
@@ -60,7 +60,7 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 - Underneath the open `<html>` tag, type the following: `<head>`. 
 - The `<head>` tag holds metadata (data about data) on our file, such as the page's title, but we’ll get to that later.
 - Note that your text editor may automatically indent new tags by default. Indenting tags, especially within other tags, makes code more readable and orderly. 
-- VCS might have already done this for you by default, but let's add our closing head tag, as follows: `</head>`. 
+- Sublime might have already done this for you by default, but let's add our closing head tag, as follows: `</head>`. 
 - Be sure to indent the closed `</head>` tag the same as the open <`head>` tag. 
 - Make sure that both `<head></head>` tags are within the `<html>` tags. 
 - Next, we want to create one set of open and closed `<body>` tags. The content within the <`body>` tags is where the main content of a website is held.
@@ -69,7 +69,7 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
     
     <img src="images/act-1/act1-3.png" alt="tag examples">
 
-- Have you saved your file yet? Now is the time: in VCS's main menu, click on **File > Save As...** or hit **CTRL (or Command for Mac users) + S** on your keyboard.
+- Have you saved your file yet? Now is the time: in Sublime's main menu, click on **File > Save As...** or hit **CTRL (or Command for Mac users) + S** on your keyboard.
 
 <!-- <button onclick="toggle('gif2')">Show/Hide Animation</button> -->
 <!-- <div id="gif2">
@@ -121,8 +121,8 @@ Looking good! Let's move on to adding content to our `about.html` page...
         `<p>Prince of the Fire Nation</p>`<br>
         `<h3>About Me</h3>`<br>
         `<p>Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>`<br>
-- <mark>Note</mark>: the paragraph content about Zuko is longer than anything we have added so far, and it could be that our paragraph text exceeds the width of the VCS window, depending on how wide you have made it on your computer. If your text is disappearing off to the right of the VCS window, and you have to scroll right to see it, we can enable "Word Wrap" so that you can always see your text no matter what size you make your VCS window. 
-  - To enable word wrap in VCS, click on **View > Word Wrap**. 
+- <mark>Note</mark>: the paragraph content about Zuko is longer than anything we have added so far, and it could be that our paragraph text exceeds the width of the Sublime window, depending on how wide you have made it on your computer. If your text is disappearing off to the right of the Sublime window, and you have to scroll right to see it, we can enable "Word Wrap" so that you can always see your text no matter what size you make your Sublime window. 
+  - To enable word wrap in Sublime, click on **View > Word Wrap**. 
 - Let's add another paragraph beneath the first paragraph:<br>
 `<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.</p>`
 - As you did before, **Save** your file and open it in your browser. 
