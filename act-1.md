@@ -45,7 +45,8 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 
 ## Essential HTML 
 
-- The first thing we need to do is to add the following code at the very top left of our `about.html` page: `<!DOCTYPE html>`.<br>
+- The first thing we need to do is to add the doctype declaration at the top of our `about.html` page.
+- To add the declaration, type `<html` and press **tab** to autocomplete.
 <img width=500px src="images/act-1/act1-2.png" alt="about html">
 - The HTML `<!DOCTYPE html>` declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to display, or render, it properly.
 - Next, we need to tell the browser where our HTML code will go. 
