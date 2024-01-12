@@ -137,7 +137,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 - Here is what my my new `div` looks like in my `about.html` file, in Sublime: 
 
-<img src="images/act-4/vcs-div-example.png" alt="div example in Sublime">
+<img width=500px src="images/act-4/act4-3.png" alt="div example in Sublime">
 
 - Now it's time to add some CSS rules to my `<div class="zuko-qualities">` in my `style.css` file. 
 - Note that I have added **CSS comments**, which look like this: `/* your comment content goes here */`. 
@@ -224,7 +224,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 
 Here is what the `zuko-qualities` class block looks like in my `style.css` file, in Sublime: 
 
-<img src="images/act-4/act4-4.png" alt="CSS flex example in div tag">
+<img width=500px src="images/act-4/act4-4.png" alt="CSS flex example in div tag">
 
 - Here is what my `about.html` page now looks like in my browser: 
 
