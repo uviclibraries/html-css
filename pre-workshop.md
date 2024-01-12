@@ -13,7 +13,7 @@ This workshop is primarily hands-on practice with HTML and CSS in order to learn
 -   It is recommended that you do not use Internet Explorer as it has been replaced by Microsoft Edge
 -   [Install Sublime Text](https://www.sublimetext.com/download){:target="_blank"}
 
-A popup will occasionally appear with a suggestion to upgrade to a paid version of Sublime. You can close this popup with no repercussions.
+A popup will occasionally appear with a suggestion to upgrade to a paid version of Sublime. You can close this popup with no repercussions.<br>
 <img width=250px src="images/pre-act1.png" alt="purchase pop up">
 
 [NEXT STEP: Introduction to Hands-On Activities](activities-intro.html){: .btn .btn-blue }
