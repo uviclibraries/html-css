@@ -37,7 +37,7 @@ If you haven’t already, **please install [Visual Code Studio text editor (↪)
     </div> -->
 - To test VCS's autocomplete feature, type the letter “**h**”. VCS has a dropdown list of suggestions, and selecting one will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
 
-<img src="images/act-1/vcs-autocomplete.png" alt="autocomplete example">
+<img src="images/act-1/act1-1.png" alt="autocomplete example">
 
 ## Introducing HTML "tags"
 
