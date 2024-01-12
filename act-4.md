@@ -62,9 +62,9 @@ him on the right path. His love of tea often gets on Zuko's nerves.</p>
 
 ```
 
-Here is what my `<p class="bigger-text">` class looks like in my `about.html` page, in VCS: 
+Here is what my `<p class="bigger-text">` class looks like in my `about.html` page, in Sublime: 
 
-<img src="images/act-4/act4-1.png" alt="HTML class example">
+<img width=500px src="images/act-4/act4-1.png" alt="HTML class example">
 
 - I could create a separate class for the second paragraph, but I am happy with its font size already, so I am only creating a class for the content I want to change. 
 
@@ -84,9 +84,9 @@ p.bigger-text {
 	}
 ```
 
-Here is what my class block looks like in my `style.css` file, in VCS: 
+Here is what my class block looks like in my `style.css` file, in Sublime: 
 
-<img src="images/act-4/act4-2.png" alt="CSS class example">
+<img width=500px src="images/act-4/act4-2.png" alt="CSS class example">
 
 - Finally, here is what the `about.html` page now looks like in my browser: 
 
@@ -135,9 +135,9 @@ Next, I will create a division, or "div", of content in our `about.html` file an
 </div>
 ```
 
-- Here is what my my new `div` looks like in my `about.html` file, in VCS: 
+- Here is what my my new `div` looks like in my `about.html` file, in Sublime: 
 
-<img src="images/act-4/vcs-div-example.png" alt="div example in VCS">
+<img src="images/act-4/vcs-div-example.png" alt="div example in Sublime">
 
 - Now it's time to add some CSS rules to my `<div class="zuko-qualities">` in my `style.css` file. 
 - Note that I have added **CSS comments**, which look like this: `/* your comment content goes here */`. 
@@ -194,7 +194,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
             display: flex;
         }
 ```
-- Here is what `display: flex;` looks like in my `style.css` file, in VCS:
+- Here is what `display: flex;` looks like in my `style.css` file, in Sublime:
 
 <img src="images/act-4/flexbox-body-css.png" alt="flexbox css example">
 
@@ -222,7 +222,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
   } 
 ```
 
-Here is what the `zuko-qualities` class block looks like in my `style.css` file, in VCS: 
+Here is what the `zuko-qualities` class block looks like in my `style.css` file, in Sublime: 
 
 <img src="images/act-4/act4-4.png" alt="CSS flex example in div tag">
 
