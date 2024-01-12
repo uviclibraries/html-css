@@ -12,7 +12,7 @@ Our HTML page will look basic at first, but if you finish the workshop you will 
 
 If you have any questions, or get stuck, please ask the instructor for assistance. The intention of this workshop is for you to create an "about me" page, but it doesn’t have to be about you. For the workshop as a whole, you can use the examples provided, or apply their techniques and principles and create your own work as you like. My example "about me" page will be about "Zuko," a character from a cartoon show. Have fun!
 
-If you haven’t already, **please install [Sublime text editor. (↪)](https://code.visualstudio.com/) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor because it has some smart features that help to prevent code errors.
+If you haven’t already, **please install [Sublime text editor. (↪)](https://www.sublimetext.com/download) on your computer**. You are welcome to use any text editor you like, but our workshop examples use VCS. We use this editor because it has some smart features that help to prevent code errors.
 
 
 ## Create a directory and your first HTML file
