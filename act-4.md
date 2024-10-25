@@ -157,6 +157,8 @@ Next, I will create a division, or "div", of content in our `about.html` file an
     color:#001d39; /* changes <div> text colour */
   } 
   ```
+Make sure to take note of the dot (.) before zuko-qualities.
+
 - Here is what my `about.html` page now looks like in my browser: 
 
 <img src="images/act-4/browser-div-example.png" alt="browser div example">
