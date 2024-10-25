@@ -158,7 +158,7 @@ Next, I will create a division, or "div", of content in our `about.html` file an
   } 
   ```
 
-- Make sure to take note of the dot (.) before zuko-qualities.
+Make sure to take note of the dot (.) before zuko-qualities. This is done to select the class you want to alter.
 
 - Here is what my `about.html` page now looks like in my browser: 
 
