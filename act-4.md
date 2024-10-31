@@ -258,4 +258,4 @@ For having items in the center of your flex box, apply both of the following:
 
 **🎊 Congratulations! You have now completed our Introduction to Coding With HTML & CSS workshop!** See the Next Steps page for additional resources and more....  
 
-[NEXT STEP: Next Steps]
+[NEXT STEP: Next Steps](act-5.html){:.btn .btn-blue }
