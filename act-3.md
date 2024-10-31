@@ -190,4 +190,4 @@ CSS can do much more than we have tried, so far, and it can take years to learn 
 
 Next, we will take a look at some of the ways in which CSS can control the placement and arrangement of objects, like blocks of text, headings, and images, on a web page.... 
 
-[NEXT STEP: Using CSS to Change Layout](act-4.html){: .btn .btn-blue }
+[NEXT STEP: Using CSS to Change Layout](https://uviclibraries.github.io/html-css/act-4.html){: .btn .btn-blue }
