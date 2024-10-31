@@ -22,4 +22,4 @@ Most website developers do not create their websites from scratch, but will use 
 **Check out our [Additional Resources page](https://uviclibraries.github.io/html-css/additional-resources.html) for a list of web-design and related links.**
 
 
-[NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }
+[NEXT STEP: Earn a Workshop Badge](https://uviclibraries.github.io/html-css/informal-credentials.html){: .btn .btn-blue }
