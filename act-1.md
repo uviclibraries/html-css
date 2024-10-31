@@ -193,4 +193,4 @@ Looking good! Let's move on to adding content to our `about.html` page...
     }
 </script>
 
-[NEXT STEP: Adding Images and Links in HTML](act-2.html){: .btn .btn-blue }
+[NEXT STEP: Adding Images and Links in HTML](https://uviclibraries.github.io/html-css/act-2.html){: .btn .btn-blue }
