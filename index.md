@@ -5,7 +5,7 @@ nav_order: 1
 ---
 <img src="images/logo.svg" alt="html logo" style="float:right;width:180px;"> 
 
-# Introduction to Coding With HTML & CSS
+# Introduction to coding with HTML & CSS
 
 - Pre-workshop activities: 10 min 
 - Introductory presentation: 10 min
@@ -13,7 +13,7 @@ nav_order: 1
 
 ## Why HTML & CSS? 
 
-HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are foundational languages used to build websites. By learning how they work, you’ll be a step ahead when it comes to designing, publishing, and marketing online content. 
+HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are foundational languages used to build websites. By learning how they work, you’ll gain foundational knowledge on how to design, publish, and market online content. 
 
 This workshop introduces you to the basics of HTML and CSS, which will give you the skills needed to build a simple website.
 
@@ -30,6 +30,6 @@ By the end of this workshop you will be able to do the following:
 7. View your creations on an Internet browser
 8. Learn more about how to create your own public website
 
-Image credit: W3C under the [Creative Commons Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/deed.en){:target="_blank"} obtained from the [Wikimedia.org](https://commons.wikimedia.org/w/index.php?curid=12736763){:target="_blank"}
+Image credit: W3C under the [Creative Commons Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/deed.en) obtained from the [Wikimedia.org](https://commons.wikimedia.org/w/index.php?curid=12736763)
  
 [NEXT STEP: Pre-Workshop Activities](https://uviclibraries.github.io/html-css/pre-workshop.html){: .btn .btn-blue }
