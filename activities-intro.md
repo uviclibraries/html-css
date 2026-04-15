@@ -4,11 +4,11 @@ title: Activities Introduction
 nav_order: 1
 parent: Workshop Activities
 ---
-# Hands-On Activities Introduction
+# Hands-on activities introduction
 
 Please review the following links:
 
-- Read the [Introductory Slides](https://docs.google.com/presentation/d/12ZbaJSflaSLN55PVMGak4isqxv2ISsTlgfkVEzPpBho/edit?usp=sharing){:target="_blank"}
-- Video: [Resize Your Laptop Screen for Workshop Handouts (2 min)](https://www.youtube.com/watch?v=Igk5hZUfzN0){:target="_blank"}
+- Read the [Introductory Slides](https://docs.google.com/presentation/d/12ZbaJSflaSLN55PVMGak4isqxv2ISsTlgfkVEzPpBho/edit?usp=sharing)
+- Watch the [Resize Your Laptop Screen for Workshop Handouts](https://www.youtube.com/watch?v=Igk5hZUfzN0) (2 min)
 
 [NEXT STEP: Getting Started](act-1.html){: .btn .btn-blue }
