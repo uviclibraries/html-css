@@ -14,7 +14,7 @@ If you have any questions, or get stuck, please ask the instructor for assistanc
 
 The intention of this workshop is for you to create an "about me" page, but it doesn’t have to be about you. For the workshop as a whole, you can use the examples provided, or apply their techniques and principles and create your own work as you like. My example "about me" page will be about "Zuko," a character from a cartoon show. Have fun <span style='font-size:20px;'>&#128512;</span>
 
-If you haven’t already, **please install [Sublime text editor. (↪)](https://www.sublimetext.com/download) on your computer**. You are welcome to use any text editor you like, later, but our workshop examples use Sublime Text. We use this editor because it has some smart features that help to prevent code errors.
+If you haven’t already, **please install [Sublime text editor](https://www.sublimetext.com/download) on your computer**. You are welcome to use any text editor you like, later, but our workshop examples use Sublime Text. We use this editor because it has some smart features that help to prevent errors and typos.
 
 
 ## Create a directory (folder)
@@ -40,14 +40,17 @@ This section will walk you through now to create, name, and save your first HTML
 
 HTML (Hypertext Markup Language) is a "markup" language, or a text-encoding system that defines the structure and formatting of a digitial "document," such as a web page. So, when we talk about "code" in this context, we are referring to "encoding." 
 
-Like any language, HTML is an agreed-upon set of codes that define a shared meaning. Another word for the act of encoding is "tagging." We use HTML "tags" to tell a web browser how to interpret specific content (text, images, videos, and so on). 
+Like any language, HTML is an agreed-upon set of codes that define a shared meaning. Another word for the act of encoding is "tagging." We use HTML "tags" to tell a web browser—such as Firefox, Safari, or Chrome—how to interpret specific content (text, images, videos, and so on). 
 
 For example, we might want some part of our text, like a chapter title, to be a heading. A heading will stand out from the rest of the text by being larger and bolder than the text around it. In that case, we would use the HTML tag for a heading, and "wrap" a selection of text with that tag. 
 
-- HTML tags have three elements: 
-    - (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy, or angle, brackets: `<` and `>`; 
-    - (2) the closing tag, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor (there are some tags that don’t need a closing bracket and these are called "self-closing" tags); 
-    - (3) finally, we have the content (everything between the opening bracket and the closing bracket).
+Next, let's look at the anatomy of a tag.
+
+HTML tags have three elements: 
+- (1) the **"opening" tag**, which has a descriptor symbol such as `h1` between two pointy, or angle, brackets: `<` and `>`; 
+- (2) the **"closing" tag**, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor—there are some tags that don’t need a closing bracket and these are called "self-closing" tags, but will ignore those for now; 
+- (3) finally, we have **the content**, which is everything between the opening tag and the closing tag. Browsers are designed to hide tags, but display the content between them. 
+[stopped here]
 
 > **<mark>Note</mark>** that Sublime Text is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so always make sure that you are selecting the correct choice.
 > 
