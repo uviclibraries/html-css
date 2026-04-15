@@ -19,7 +19,7 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 
 ## Create a directory (folder)
 
-- First we are going to **create a new folder** (AKA a "directory"):
+- First, we are going to **create a new folder** (AKA a "directory"):
 	-  **Windows users:** open **[File Explorer](https://support.microsoft.com/en-us/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1)** and select **Desktop**. Next, right click somewhere on the empty space in the Explorer window and select **New** > **New Folder** 
 	- **Mac users:** right click (or Control + click) somewhere on the empty space on your desktop and select **New Folder**
 - Name your folder as follows: `html_workshop`.
@@ -32,21 +32,26 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
 ## Create an HTML file
 This section will walk you through now to create, name, and save your first HTML file using Sublime Text. 
 
-1. Open Sublime Text.
+1. Open **Sublime Text**.
 2. In the top left of the main menu, select **File** > **New File**. You should see an empty file with the title of "untitled." Next, we need to name and save our file.
-3. In the main menu, select **File** > **Save as**, then navigate to the `html_workshop` folder we created earlier. Now, **name the file** exactly like this: **`about.html`**. Finally, **click the Save button**.
-
-> **<mark>Note</mark>** that Sublime Text will now recognize your file as an HTML file because you used the `.html` extension, or suffix. Sublime Tesxt is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the correct choice.
-> 
-><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
+3. In the main menu, select **File** > **Save as**, then navigate to the `html_workshop` folder we created earlier. Now, **name the file** exactly like this: **`about.html`**. Finally, **click the Save button**. Sublime Text will now recognize your file as an HTML file because you used the `.html` extension, or suffix—more on why this is important in a moment.
 
 ## Introducing HTML "tags"
 
-- HTML uses tags to tell the browser how to interpret content (text, images, videos, and so on).
+HTML (Hypertext Markup Language) is a "markup" language, or a text-encoding system that defines the structure and formatting of a digitial "document," such as a web page. So, when we talk about "code" in this context, we are referring to "encoding." 
+
+Like any language, HTML is an agreed-upon set of codes that define a shared meaning. Another word for the act of encoding is "tagging." We use HTML "tags" to tell a web browser how to interpret specific content (text, images, videos, and so on). 
+
+For example, we might want some part of our text, like a chapter title, to be a heading. A heading will stand out from the rest of the text by being larger and bolder than the text around it. In that case, we would use the HTML tag for a heading, and "wrap" a selection of text with that tag. 
+
 - HTML tags have three elements: 
     - (1) the opening tag, which has a descriptor symbol such as `h1` between two pointy, or angle, brackets: `<` and `>`; 
     - (2) the closing tag, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor (there are some tags that don’t need a closing bracket and these are called "self-closing" tags); 
     - (3) finally, we have the content (everything between the opening bracket and the closing bracket).
+
+> **<mark>Note</mark>** that Sublime Text is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so always make sure that you are selecting the correct choice.
+> 
+><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
 ## Essential HTML 
 
