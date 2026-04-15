@@ -6,20 +6,22 @@ parent: Workshop Activities
 customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 
-# Getting Started With HTML
+# Getting started with HTML
 
 Our HTML page will look basic at first, but if you finish the workshop you will have something that looks like a complete web page, with images, links, and more. 
 
-If you have any questions, or get stuck, please ask the instructor for assistance. The intention of this workshop is for you to create an "about me" page, but it doesn’t have to be about you. For the workshop as a whole, you can use the examples provided, or apply their techniques and principles and create your own work as you like. My example "about me" page will be about "Zuko," a character from a cartoon show. Have fun!
+If you have any questions, or get stuck, please ask the instructor for assistance. 
 
-If you haven’t already, **please install [Sublime text editor. (↪)](https://www.sublimetext.com/download) on your computer**. You are welcome to use any text editor you like, but our workshop examples use Sublime. We use this editor because it has some smart features that help to prevent code errors.
+The intention of this workshop is for you to create an "about me" page, but it doesn’t have to be about you. For the workshop as a whole, you can use the examples provided, or apply their techniques and principles and create your own work as you like. My example "about me" page will be about "Zuko," a character from a cartoon show. Have fun <span style='font-size:20px;'>&#128512;</span>
+
+If you haven’t already, **please install [Sublime text editor. (↪)](https://www.sublimetext.com/download) on your computer**. You are welcome to use any text editor you like, later, but our workshop examples use Sublime Text. We use this editor because it has some smart features that help to prevent code errors.
 
 
-## Create a directory and your first HTML file
+## Create a directory (folder)
 
-- First we are going to create a new folder by clicking on **file explorer** for Windows users
-- Select your **Desktop** and then right click to select **New** and then toggle to slect **New Folder** 
-- If you are using a Mac, right click on your desktop, select **New Folder**
+- First we are going to **create a new folder** (AKA a "directory"):
+	-  **Windows users:** open **[File Explorer](https://support.microsoft.com/en-us/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1)** and select **Desktop**. Next, right click somewhere on the empty space in the Explorer window and select **New** > **New Folder** 
+	- **Mac users:** right click (or Control + click) somewhere on the empty space on your desktop and select **New Folder**
 - Name your folder as follows: `html_workshop`.
 
     <button onclick="toggle('gif1')">Show/Hide Animation</button>
@@ -27,13 +29,16 @@ If you haven’t already, **please install [Sublime text editor. (↪)](https://
     <img src="images/act1-1.gif" alt="Demonstration of making a folder."> <br>
     </div> 
 
-- Open Sublime.
-- Select **File** in the menu bar and then select **Save as** (within the `html_workshop` folder you just created). Name your file exactly like this: `about.html`. 
-- Sublime will know that this new file is an HTML file because you used the `.html` extension, or suffix.
-- We now have our first HTML file! Sublime will now be able to provide some HTML features, such as autocompletes, suggestions, and colour themes to make your code easier to read.
-- To test Sublime's autocomplete feature, type the letter “**<h**”. Sublime has a dropdown list of suggestions, and selecting one will autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the right one. 
+## Create an HTML file
+This section will walk you through now to create, name, and save your first HTML file using Sublime Text. 
 
-<img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
+1. Open Sublime Text.
+2. In the top left of the main menu, select **File** > **New File**. You should see an empty file with the title of "untitled." Next, we need to name and save our file.
+3. In the main menu, select **File** > **Save as**, then navigate to the `html_workshop` folder we created earlier. Now, **name the file** exactly like this: **`about.html`**. Finally, **click the Save button**.
+
+> **<mark>Note</mark>** that Sublime Text will now recognize your file as an HTML file because you used the `.html` extension, or suffix. Sublime Tesxt is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so make sure you are selecting the correct choice.
+> 
+><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
 ## Introducing HTML "tags"
 
