@@ -40,9 +40,9 @@ This section will walk you through now to create, name, and save your first HTML
 
 HTML (Hypertext Markup Language) is a "markup" language, or a text-encoding system that defines the structure and formatting of a digitial "document," such as a web page. So, when we talk about "code" in this context, we are referring to "encoding." 
 
-Like any language, HTML is an agreed-upon set of codes that define a shared meaning. Another word for the act of encoding is "tagging." We use HTML "tags" to tell a web browser—such as Firefox, Safari, or Chrome—how to interpret specific content (text, images, videos, and so on). 
+Like any language, HTML is an agreed-upon set of codes that define shared meanings. Another word for the act of encoding is "tagging." We use HTML "tags" to tell a web browser—such as Firefox, Safari, or Chrome—how to interpret and categorize specific content (text, images, videos, and so on). 
 
-For example, we might want some part of our text, like a chapter title, to be a heading. A heading will stand out from the rest of the text by being larger and bolder than the text around it. In that case, we would use the HTML tag for a heading, and "wrap" a selection of text with that tag. 
+For example, we might want some part of our text, like a chapter title, to be a heading. A heading will stand out from the rest of the text by being larger and bolder than the text around it. In that case, we would use the HTML tag for a heading, and "wrap" a selection of text with that tag. The combination of a tag and the content within it is called an HTML element. 
 
 Next, let's look at the anatomy of a tag.
 
@@ -50,7 +50,8 @@ HTML tags have three elements:
 - (1) the **"opening" tag**, which has a descriptor symbol such as `h1` between two pointy, or angle, brackets: `<` and `>`; 
 - (2) the **"closing" tag**, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor—there are some tags that don’t need a closing bracket and these are called "self-closing" tags, but will ignore those for now; 
 - (3) finally, we have **the content**, which is everything between the opening tag and the closing tag. Browsers are designed to hide tags, but display the content between them. 
-[stopped here]
+
+<img width=500px src="images/act-1/act1-0.png" alt="HTML element anatomy">
 
 > **<mark>Note</mark>** that Sublime Text is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so always make sure that you are selecting the correct choice.
 > 
