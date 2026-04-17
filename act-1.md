@@ -199,6 +199,7 @@ Here's what my file now looks like, for easier reading:
 Paragraph tags `<p></p>` tell that browser to treat the text between them as separate blocks of text, or paragraphs. All browsers by default will a line break, or place a single blank line, before and after each set of `<p></p>` tags. Paragraph tags always appear, or are "nested," between the `<body></body>` tags. 
 
 1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags, then add some space between the `<p></p>` tags, as in the following example:
+
 ```
 <body>
 
@@ -208,6 +209,7 @@ Paragraph tags `<p></p>` tell that browser to treat the text between them as sep
 
 </body>
 ```
+
 2. Save your file.
 
 _Before_ we add any content between the paragraph tags, **we are going to add one last element** seen in nearly all web pages, and that is a heading of some kind. 
