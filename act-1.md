@@ -266,32 +266,18 @@ LEGACY IMAGES
     <img src="images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
     </div> -->
 
-
 <img width=500px src="images/act-1/act1-4.png" alt="adding first content">
 
-- As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser if you do not see the changes you expect. 
-- Feel free to take some time to try different heading tags to see the differences between them.
+- KEEP: As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser if you do not see the changes you expect. 
+- KEEP: Feel free to take some time to try different heading tags to see the differences between them.
+- 
+  - KEEP: To enable word wrap in Sublime, click on **View > Word Wrap**. 
 
-### Paragraph tag
 
-- The `p` tag is used for paragraphs. 
-- The content you want in a paragraph would go between the open and closed paragraph tags, as in the following example:<br>
-    `<p>Your paragraph content would go here.</p>`
-- We are going to add a couple of `p` tags and some content within them:<br>
-        `<h2>Hello, Zuko here.</h2>`<br>
-        `<p>Prince of the Fire Nation</p>`<br>
-        `<h3>About Me</h3>`<br>
-        `<p>Zuko is the son of the current Fire Lord of the Fire Nation, making him a prince of the fire nation. However, at 13 Zuko was scarred and subsequently banished by his father for disrespecting his authority. Zuko now roams the world searching for the Avatar as his father has deemed it the only way for Zuko to redeem himself.</p>`<br>
-- <mark>Note</mark>: the paragraph content about Zuko is longer than anything we have added so far, and it could be that our paragraph text exceeds the width of the Sublime window, depending on how wide you have made it on your computer. If your text is disappearing off to the right of the Sublime window, and you have to scroll right to see it, we can enable "Word Wrap" so that you can always see your text no matter what size you make your Sublime window. 
-  - To enable word wrap in Sublime, click on **View > Word Wrap**. 
-- Let's add another paragraph beneath the first paragraph:<br>
-`<p>Zuko is joined on his journey for redemption by his paternal uncle, Iroh. Iroh is a retired army general, who mentors Zuko by helping him improve his fire bending and keeping him on the right path. His love of tea often gets on Zuko’s nerves.</p>`
-- As you did before, **Save** your file and open it in your browser. 
 <!-- <button onclick="toggle('gif4')">Show/Hide Animation</button>-->
 <!-- <div id="gif4">
     <img src="images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
     </div> -->
-- Our page is coming along nicely! Let's add another bit of common website content: a list. 
     
 ### List tags
     
@@ -330,7 +316,6 @@ LEGACY IMAGES
 - HTML tags can be put around any text. These tags don't have to encompass a whole block of text, or even a whole word, as in the following example:
     - This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins>
     - We have two words in bold, one word underlined, and one word underlined _and_ in bold. Let’s look at what that would look like in HTML, with tags:<br/>`<p>This is <strong>important</strong>. This is <strong><ins>very</ins>important.</strong> Thank <ins>you!</ins></p>`
-- Notice where the spaces and full stops are. With so many tags, it can be easy to forget to add important content in the right places.
 - On your `about.html` page, play around with some of the following tags, saving your file as you go(!) and then looking at it in your browser:
   - `<strong>` = important
   - `<i>` = italic
