@@ -90,6 +90,14 @@ By now, your `about.html` file should look like this:
 <html></html>
 
 ```
+### the head tag: <head>
+
+Head tags appear, as the name suggests, at the head of the document. The content within head tags tells important informantion to the browser. The head tag also contains an essential element of any HTML page: the page title. 
+
+Page titles typically appear in browser tabs, otherwise, the browser tab for your page would be blank. 
+
+The head tag also contains essential "metadata," or data about data. Metadata in this case is data about the HTML document. With the exception of the `<title>` tag, elements within the `<head>` are _not_ displayed by your browser.
+
 
 <img width=500px src="images/act-1/act1-2.png" alt="about html">
 - The HTML `<!DOCTYPE html>` declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to display, or render, it properly. 
