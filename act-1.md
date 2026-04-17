@@ -239,9 +239,11 @@ Your `about.html` file should now look something like this:
 <body>
 
 <h1></h1>
+
 <p></p>
 
 <h2></h2>
+
 <p></p>
 
 </body>
@@ -251,20 +253,74 @@ Your `about.html` file should now look something like this:
 
 Now that we have all the basic elements in place, it is finally time to add some content <span style='font-size:20px;'>😍</span>
 
-<!-- 
-LEGACY IMAGES 
-<img width=500px src="images/act-1/act1-3.png" alt="tag examples">
+## Adding content to our HTML document
+Remember that all the content between the tags we added between the `<body></body>` tags will be displayed on our web page. 
 
-<!-- <button onclick="toggle('gif2')">Show/Hide Animation</button> -->
-<!-- <div id="gif2">
+1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the tags in your file: 
+
+```
+<body>
+
+<h1>Get to know Frodo Baggins</h1>
+
+<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the newphew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
+
+<h2>Frodo's adventures</h2>
+
+<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.</p>
+
+</body>
+```
+2. Save your file.
+
+Putting it all together, here is what your `about.html` file should look like by now: 
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
+
+<body>
+
+<h1>Get to know Frodo Baggins</h1>
+
+<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the newphew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
+
+<h2>Frodo's adventures</h2>
+
+<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.</p>
+
+</body>
+
+</html>
+```
+
+Congratulations <span style='font-size:20px;'>&#127881;</span> for making your first complete HTML web page. Now, let's check it out.... 
+
+### Testing our basic HTML page
+It is time to see if everything on your `about.html` web page looks as expected. 
+
+1. As you did earlier, navigate to where you saved your `about.html` file.
+2. Open your file with the browser of your choosing. Here is what my web page looks like in Firefox:
+
+<img width=500px src="images/act-1/act1-3.png" alt="first test of complete HTML file">
+
+
+<!--[STOPPED HERE] 
+
+<button onclick="toggle('gif2')">Show/Hide Animation</button>
+<div id="gif2">
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
-    </div> -->
+    </div>
 
-
-<!-- <button onclick="toggle('gif3')">Show/Hide Animation</button>-->
-<!-- <div id="gif3">
+ <button onclick="toggle('gif3')">Show/Hide Animation</button>
+<div id="gif3">
     <img src="images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
-    </div> -->
+    </div> 
 
 <img width=500px src="images/act-1/act1-4.png" alt="adding first content">
 
@@ -274,10 +330,10 @@ LEGACY IMAGES
   - KEEP: To enable word wrap in Sublime, click on **View > Word Wrap**. 
 
 
-<!-- <button onclick="toggle('gif4')">Show/Hide Animation</button>-->
-<!-- <div id="gif4">
+ <button onclick="toggle('gif4')">Show/Hide Animation</button>
+ <div id="gif4">
     <img src="images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
-    </div> -->
+    </div>
     
 ### List tags
     
@@ -302,13 +358,13 @@ LEGACY IMAGES
 
 <img width=500px src="images/act-1/act1-5.png" alt="example page with list">
 
-<!-- <button onclick="toggle('gif5')">Show/Hide Animation</button> -->
+ <button onclick="toggle('gif5')">Show/Hide Animation</button>
     
-<!-- <div id="gif5">
+<div id="gif5">
     <img src="images/act-1/list-tag.gif" alt="list tags animated" style="width:720px;">
-    </div> -->
+    </div> 
 
-<!-- <img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;"> -->
+<img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;"> 
 
 ### Text tags
     
@@ -325,8 +381,9 @@ LEGACY IMAGES
   - `<sub>` = subscript
   - `<sup>` = superscript
 - Remember that there is no right or wrong with our growing `about.html` page. 
-- We are taking this time to play around. Often, the best learning happens when we break things! 
-- Let's move on the next section in our workshop.... -->
+- We are taking this time to play around. Often, the best learning happens when we break things-->
+
+- Let's move on the next section in our workshop.... 
 
 <script>  
 
