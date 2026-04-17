@@ -271,7 +271,8 @@ Remember that all the content between the tags we added between the `<body></bod
 
 </body>
 ```
-2. Save your file.
+
+**Remember to Save your file.**
 
 Putting it all together, here is what your `about.html` file should look like by now: 
 
