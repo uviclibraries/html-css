@@ -12,7 +12,7 @@ Our HTML page will look basic at first, but if you finish the workshop you will 
 
 If you have any questions, or get stuck, please ask the instructor for assistance. 
 
-The intention of this workshop is for you to create an "about me" page, but it doesn’t have to be about you. For the workshop as a whole, you can use the examples provided, or apply their techniques and principles and create your own work as you like. My example "about me" page will be about Frodo Baggins. Have fun <span style='font-size:20px;'>&#128512;</span>
+The intention of this workshop is for you to create an "about me" page, but it doesn’t have to be about you. For the workshop as a whole, you can use the examples provided, or apply their techniques and principles and create your own work as you like. My example "about me" page will be about [Frodo Baggins](https://en.wikipedia.org/wiki/Frodo_Baggins). Have fun <span style='font-size:20px;'>&#128512;</span>
 
 If you haven’t already, **please install [Sublime text editor](https://www.sublimetext.com/download) on your computer**. You are welcome to use any text editor you like, later, but our workshop examples use Sublime Text. We use this editor because it has some smart features that help to prevent errors and typos.
 
@@ -128,7 +128,7 @@ Your `about.html` file should look like this:
 </head>
 </html>
 ```
-7. Between your `<title>` tags, add whatever text you like. Whatever you add between the `<title>` tags will appear in the tab of your web page. In my example, I am writing a short biography of [Frodo Baggins](https://en.wikipedia.org/wiki/Frodo_Baggins), so here is what my `about.html` page looks like at this stage:
+7. Between your `<title>` tags, add whatever text you like. Whatever you add between the `<title>` tags will appear in the tab of your web page. In my example, I am writing a short biography of Frodo Baggins, so here is what my `about.html` page looks like at this stage:
 
 ```
 <!DOCTYPE html>
@@ -217,7 +217,7 @@ _Before_ we add any content between the paragraph tags, **we are going to add on
 ### Headings tags: <h1> to <h6>
 Headings can give structure and readability to your web pages. They help to break up long sections of text and are crucial for those using assistive technologies to provide in-page navigation of your content. 
 
-There are 6 types of heading tags, from largest to smallest: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. 
+There are **six types of heading tags**, from largest to smallest: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. 
 
 Browsers have built-in ways to display headings so that they have different sizes. You can see a demonstration of what each heading looks like on [the W3Schools website](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_headers). 
 
@@ -251,6 +251,8 @@ Your `about.html` file should now look something like this:
 
 Now that we have all the basic elements in place, it is finally time to add some content <span style='font-size:20px;'>😍</span>
 
+<!-- 
+LEGACY IMAGES 
 <img width=500px src="images/act-1/act1-3.png" alt="tag examples">
 
 <!-- <button onclick="toggle('gif2')">Show/Hide Animation</button> -->
@@ -259,26 +261,11 @@ Now that we have all the basic elements in place, it is finally time to add some
     </div> -->
 
 
-
-    <img src="images/act-1/view-page-title.png" alt="page title test">
-
-Looking good! Let's move on to adding content to our `about.html` page...
-
-### Headings tags
-    
 <!-- <button onclick="toggle('gif3')">Show/Hide Animation</button>-->
 <!-- <div id="gif3">
     <img src="images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
     </div> -->
-- Let’s move on to writing code and content between the `<body></body>` tags.
-- We are going to start with heading or `<h>` tags.
-- There are 6 types of heading tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. Heading tags range from biggest text size, with `h1`, to the smallest text size, with `h6`.
-- Heading tags are written as follows:<br>
-`<h1></h1>`
-- We are going to add the following heading tags (between the `<body></body>` tags) and content to our page:
-`<h2>Hello, Zuko here.</h2>`<br>
-`<h3>About Me</h3>`
-- Here is an example of what we have, so far: 
+
 
 <img width=500px src="images/act-1/act1-4.png" alt="adding first content">
 
@@ -354,7 +341,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
   - `<sup>` = superscript
 - Remember that there is no right or wrong with our growing `about.html` page. 
 - We are taking this time to play around. Often, the best learning happens when we break things! 
-- Let's move on the next section in our workshop....
+- Let's move on the next section in our workshop.... -->
 
 <script>  
 
