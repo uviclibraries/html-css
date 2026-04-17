@@ -12,7 +12,7 @@ Our HTML page will look basic at first, but if you finish the workshop you will 
 
 If you have any questions, or get stuck, please ask the instructor for assistance. 
 
-The intention of this workshop is for you to create an "about me" page, but it doesn’t have to be about you. For the workshop as a whole, you can use the examples provided, or apply their techniques and principles and create your own work as you like. My example "about me" page will be about "Zuko," a character from a cartoon show. Have fun <span style='font-size:20px;'>&#128512;</span>
+The intention of this workshop is for you to create an "about me" page, but it doesn’t have to be about you. For the workshop as a whole, you can use the examples provided, or apply their techniques and principles and create your own work as you like. My example "about me" page will be about Frodo Baggins. Have fun <span style='font-size:20px;'>&#128512;</span>
 
 If you haven’t already, **please install [Sublime text editor](https://www.sublimetext.com/download) on your computer**. You are welcome to use any text editor you like, later, but our workshop examples use Sublime Text. We use this editor because it has some smart features that help to prevent errors and typos.
 
@@ -72,7 +72,7 @@ Browsers can open and display more than HTML files, so we need to "declare" what
 
 Although not technically a tag (it is a "keyword"), a DOCTYPE declaration, or DTD, tells the browser what document type to expect. 
 
-> **<mark>Note</mark>** that some tags are [case senstive](https://en.wikipedia.org/wiki/Case_sensitivity), and some are not. In this case, "DOCTYPE" must be in all-caps.
+> **<mark>Note</mark>** that some tags are [case sensitive](https://en.wikipedia.org/wiki/Case_sensitivity), and some are not. In this case, "DOCTYPE" must be in all-caps.
 <br>
 
 1. In your `about.html` file, add the following at the top-left of the file: `<!DOCTYPE html>`
@@ -112,7 +112,7 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 `<head></head>`
 3. As you did for the `<html>` tags, make some space between the `<head>` tags. Then, add the following "meta" tag: <meta charset="UTF-8">
 
-> **<mark>Note</mark>** that the **"charset"** (charachter set) attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8" (**Unicode** Transformation Format–8 bit), rather than letting the browser guess, your web page will now be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more.  
+> **<mark>Note</mark>** that the **"charset"** (character set) attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8" (**Unicode** Transformation Format–8 bit), rather than letting the browser guess, your web page will now be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more.  
 
 4. Save your file.
 5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
@@ -154,12 +154,12 @@ Now it is time to see what your `about.html` file looks like to a browser!
 Right now, all we should see is a blank page and the page's title in the browser tab. Now it is time to add some content to our page....
 
 ## Essential content of a basic HTML document 
-Up to this point, we have learned what it takes to create to create a barebones HTML file, that is, the bare minumum elements to have a browser recognize our `about.html` file as a web page. 
+Up to this point, we have learned what it takes to create to create a bare bones HTML file, that is, the bare minimum elements to have a browser recognize our `about.html` file as a web page. 
 
 Next, we will add what web developers consider the basic elements of web page, and then we will add some content to display. 
 
 ### The body tag: <body>
-The `<body>` tag is appropriately named becasue that is where the body of your content—such as paragraphs, images, links, lists, and more—will be displayed on your web page. There can be only one set of `<body></body>` tags within an HTML file. 
+The `<body>` tag is appropriately named because that is where the body of your content—such as paragraphs, images, links, lists, and more—will be displayed on your web page. There can be only one set of `<body></body>` tags within an HTML file. 
 
 1. Go back to Sublime Text and return to your `about.html` file.
 2. Below the closing `</head>` tag (and above the closing `</html>` tag) add the following tags: `<body></body>`
@@ -219,7 +219,7 @@ Headings can give structure and readability to your web pages. They help to brea
 
 There are 6 types of heading tags, from largest to smallest: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. 
 
-Browsers have built-in ways to display headings so that they have different sizes. You can see a demostration of what each heading looks like on [the W3Schools website](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_headers). 
+Browsers have built-in ways to display headings so that they have different sizes. You can see a demonstration of what each heading looks like on [the W3Schools website](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_headers). 
 
 1. In your `about.html` file, and above your top set of `<p></p>` tags, place the following heading tags: `<h1></h1>`
 2. Above your bottom set of `<p></p>` tags, place the following heading tags: `<h2></h2>`
@@ -369,3 +369,4 @@ Looking good! Let's move on to adding content to our `about.html` page...
 </script>
 
 [NEXT STEP: Adding Images and Links in HTML](https://uviclibraries.github.io/html-css/act-2.html){: .btn .btn-blue }
+
