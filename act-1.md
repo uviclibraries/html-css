@@ -50,7 +50,7 @@ Next, let's look at the anatomy of a tag.
 **HTML tags have three elements:**
 1. the **"opening" tag**, which has a descriptor symbol such as `h1` between two pointy, or angle, brackets: `<` and `>`; 
 2. the **"closing" tag**, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor—there are some tags that don’t need a closing bracket and these are called "self-closing" tags, but will ignore those for now; 
-3. **the **content**, which is everything between the opening tag and the closing tag. Browsers are designed to hide tags, but display the content between them. 
+3. the **"content"**, which is everything between the opening tag and the closing tag. Browsers are designed to hide tags, but display the content between them. 
 
 <img width=500px src="images/act-1/act1-0.png" alt="HTML element anatomy">
 
@@ -72,12 +72,14 @@ Browsers can open and display more than HTML files, so we need to "declare" what
 
 Although not technically a tag (it is a "keyword"), a DOCTYPE declaration, or DTD, tells the browser what document type to expect. 
 
-> **<mark>Note</mark>** that some tags are [case senstive](https://en.wikipedia.org/wiki/Case_sensitivity), and some are not. In this case, "DOCTYPE" must be in all-caps. 
+> **<mark>Note</mark>** that some tags are [case senstive](https://en.wikipedia.org/wiki/Case_sensitivity), and some are not. In this case, "DOCTYPE" must be in all-caps.
+<br>
 
 1. In your `about.html` file, add the following at the top-left of the file: `<!DOCTYPE html>`
 2. Save your file. 
 
 ### Adding your first HTML tag: the <html> tag
+
 Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, this tag is the largest doll, with all other subsequent dolls/tags contained within it. 
 
 1. In your `about.html` file, add the following underneath `<!DOCTYPE html>`: `<html></html>`
@@ -88,9 +90,8 @@ By now, your `about.html` file should look like this:
 ```
 <!DOCTYPE html>
 <html></html>
-
 ```
-### the head tag: <head>
+### The head tag: <head>
 
 Head tags appear, as the name suggests, at the head of the document. The content within head tags tells important informantion to the browser. The head tag also contains an essential element of any HTML page: the page title. 
 
@@ -98,7 +99,31 @@ Page titles typically appear in browser tabs, otherwise, the browser tab for you
 
 The head tag also contains essential "metadata," or data about data. Metadata in this case is data about the HTML document. With the exception of the `<title>` tag, elements within the `<head>` are _not_ displayed by your browser.
 
+1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:
 
+```
+<!DOCTYPE html>
+<html>
+
+	
+</html>
+```
+2. Directly underneath the opening `<head>` tag, add the follwing opening and closing `<head>` tags:
+`<head></head>`
+3. As you did for the `<html>` tags, make some space between the `<head>` tags. Then, add the following "meta" tag: <meta charset="UTF-8">
+4. Save your file.
+5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
+6. Save your file. 
+
+Your `about.html` file should look like this: 
+```
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title></title>
+</html>
+```
+7. 
 <img width=500px src="images/act-1/act1-2.png" alt="about html">
 - The HTML `<!DOCTYPE html>` declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to display, or render, it properly. 
 - Here is what your `about.html` page should look like so far: 
