@@ -60,7 +60,7 @@ Next, let's look at the anatomy of a tag.
 > 
 ><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
-## Essential parts of a complete HTML file
+## Essential parts of a complete HTML document
 
 When we talk about a "complete" or "compliant" HTML file, we are referring to what basic parts of an HTML file we need to have it pass modern and ever-changing [web standards](https://en.wikipedia.org/wiki/Web_standards) for web browsers. Having a web-compliant HTML file, or website, is important for a number of reasons. 
 
@@ -93,7 +93,7 @@ By now, your `about.html` file should look like this:
 ```
 ### The head tag: <head>
 
-Head tags appear, as the name suggests, at the head of the document. The content within head tags tells important informantion to the browser. The head tag also contains an essential element of any HTML page: the page title. 
+Head tags appear, as the name suggests, at the head of the document. The content within head tags tells important information to the browser. The head tag also contains an essential element of any HTML page: the page "title." 
 
 Page titles typically appear in browser tabs, otherwise, the browser tab for your page would be blank. 
 
@@ -108,11 +108,11 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 	
 </html>
 ```
-2. Directly underneath the opening `<head>` tag, add the follwing opening and closing `<head>` tags:
+2. Directly underneath the opening `<html>` tag, add the follwing opening and closing `<head>` tags:
 `<head></head>`
 3. As you did for the `<html>` tags, make some space between the `<head>` tags. Then, add the following "meta" tag: <meta charset="UTF-8">
 
-> **<mark>Note</mark>** that the "charset" attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8", rather than then letting the browser guess, your web page will be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more.  
+> **<mark>Note</mark>** that the **"charset"** (charachter set) attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8" (**Unicode** Transformation Format–8 bit), rather than letting the browser guess, your web page will now be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more.  
 
 4. Save your file.
 5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
@@ -122,33 +122,104 @@ Your `about.html` file should look like this:
 ```
 <!DOCTYPE html>
 <html>
+<head>
 <meta charset="utf-8">
 <title></title>
+</head>
 </html>
 ```
-7. 
-<img width=500px src="images/act-1/act1-2.png" alt="about html">
-- The HTML `<!DOCTYPE html>` declaration is not an HTML element or tag, exactly, but an instruction that tells your browser what type of document to expect, so that your browser knows how to display, or render, it properly. 
-- Here is what your `about.html` page should look like so far: 
-    
-    <img width=500px src="images/act-1/act1-3.png" alt="tag examples">
+7. Between your `<title>` tags, add whatever text you like. Whatever you add between the `<title>` tags will appear in the tab of your web page. In my example, I am writing a short biography of [Frodo Baggins](https://en.wikipedia.org/wiki/Frodo_Baggins), so here is what my `about.html` page looks like at this stage:
 
-- Have you saved your file yet? Now is the time: in Sublime's main menu, click on **File > Save As...** or hit **CTRL (or Command for Mac users) + S** on your keyboard.
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
+</html>
+```
+> **<mark>Note</mark>** that I kept my title short. Browser tabs are only so wide, and I want my readers to be able to see the whole title.
+
+8. Save your file.
+
+### Seeing your (blank) page for the first time
+Now it is time to see what your `about.html` file looks like to a browser! 
+
+1. Navigate to where you saved your `about.html` file.
+2. Right click (or Control + click if you are on a Mac), and open with the browser of your choosing. In my case, this is what my file looks like in the Firefox browser:
+
+<img width=500px src="images/act-1/act1-2.png" alt="testing about.html file in Firefox">
+
+Right now, all we should see is a blank page and the page's title in the browser tab. Now it is time to add some content to our page....
+
+## Essential content of basic HTML document 
+Up to this point, we have learned what it takes to create to create a barebones HTML file, that is, the bare minumum elements to have a browser recognize our `about.html` file as a web page. 
+
+Next, we will add what web developers consider the basic elements of web page, and then we will add some content to display. 
+
+### The body tag: <body>
+The `<body> tag is appropriately named becasue that is where the body of your content will be displayed on your web page, such as paragraphs, images, links, lists, and more. There can be only one set of `<body></body>` tags within an HTML file. 
+
+1. Go back to Sublime Text and return to your `about.html` file.
+2. Beelow the closing `</head>` tag (and above the closing `</html>` tag) add the following tags: `<body></body>`
+
+Your file should now look something like this: 
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
+<body></body>
+</html>
+```
+Now, **let's do a little visual housekeeping**, as it can be easier to keep track of things when we separate out some of the elements from each other.
+
+Here's what my file now looks like, for easier reading: 
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
+
+<body>
+</body>
+
+</html>
+```
+
+### The paragraph tag: <p>
+Paragraph tags `<p></p>` tell that browser to treat the text between them are separate paragraphs. All browser by default will a line break, or single blank line,  before and after each set of `<p></p>` tags, or elements. Paragraph tags always appear, or are "nested" between the `<body></body>` tags. 
+
+1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags, and add some space between them:
+```
+<body>
+
+<p></p>
+
+<p></p>
+
+</body>
+```
+2. Save your file.
+
+_Before_ we add any content between the paragraph tags, we are going to add one last element seen in nearly all web pages, and that is a heading of some kind. 
+
+<img width=500px src="images/act-1/act1-3.png" alt="tag examples">
 
 <!-- <button onclick="toggle('gif2')">Show/Hide Animation</button> -->
 <!-- <div id="gif2">
     <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
     </div> -->
 
-### Title tags
-    
-- Our current _file_ name is `about.html`, but we want to add a different title to our page. On a website, this title will appear as the name of the page's tab. 
-- The title tag goes within the `<head>` tag and is therefore part of our page's [metadata (↪)](https://en.wikipedia.org/wiki/Metadata). 
-- Place your cursor underneath the _open_ `<head>` tag, then hit tab on your keyobard to create indent, then add the following: `<title></title>`. We will keep the title tag on one line, which makes it more legible than splitting it up.
-- Between the (`<title></title>`) tags, type the following: `About Me`. 
-- **Save your `about.html` file.**
-- We will now look at our `about.html` in a browser. 
-- Navigate to your **Desktop** and go into your `html_workshop` folder and click on the `about.html` file. Your `about.html` file will open in whatever browser is the default on your computer. In the following example, I have opened my `<about.html>` file in Chrome: 
+
 
     <img src="images/act-1/view-page-title.png" alt="page title test">
 
