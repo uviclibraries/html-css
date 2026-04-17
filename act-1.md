@@ -153,16 +153,16 @@ Now it is time to see what your `about.html` file looks like to a browser!
 
 Right now, all we should see is a blank page and the page's title in the browser tab. Now it is time to add some content to our page....
 
-## Essential content of basic HTML document 
+## Essential content of a basic HTML document 
 Up to this point, we have learned what it takes to create to create a barebones HTML file, that is, the bare minumum elements to have a browser recognize our `about.html` file as a web page. 
 
 Next, we will add what web developers consider the basic elements of web page, and then we will add some content to display. 
 
 ### The body tag: <body>
-The `<body> tag is appropriately named becasue that is where the body of your content will be displayed on your web page, such as paragraphs, images, links, lists, and more. There can be only one set of `<body></body>` tags within an HTML file. 
+The `<body>` tag is appropriately named becasue that is where the body of your content—such as paragraphs, images, links, lists, and more—will be displayed on your web page. There can be only one set of `<body></body>` tags within an HTML file. 
 
 1. Go back to Sublime Text and return to your `about.html` file.
-2. Beelow the closing `</head>` tag (and above the closing `</html>` tag) add the following tags: `<body></body>`
+2. Below the closing `</head>` tag (and above the closing `</html>` tag) add the following tags: `<body></body>`
 
 Your file should now look something like this: 
 
@@ -196,7 +196,7 @@ Here's what my file now looks like, for easier reading:
 ```
 
 ### The paragraph tag: <p>
-Paragraph tags `<p></p>` tell that browser to treat the text between them are separate paragraphs. All browser by default will a line break, or single blank line,  before and after each set of `<p></p>` tags, or elements. Paragraph tags always appear, or are "nested" between the `<body></body>` tags. 
+Paragraph tags `<p></p>` tell that browser to treat the text between them as separate blocks of text, or paragraphs. All browsers by default will a line break, or place a single blank line, before and after each set of `<p></p>` tags. Paragraph tags always appear, or are "nested," between the `<body></body>` tags. 
 
 1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags, and add some space between them:
 ```
