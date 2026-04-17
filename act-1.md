@@ -111,6 +111,9 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 2. Directly underneath the opening `<head>` tag, add the follwing opening and closing `<head>` tags:
 `<head></head>`
 3. As you did for the `<html>` tags, make some space between the `<head>` tags. Then, add the following "meta" tag: <meta charset="UTF-8">
+
+> **<mark>Note</mark>** that the "charset" attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8", rather than then letting the browser guess, your web page will be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more.  
+
 4. Save your file.
 5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
 6. Save your file. 
