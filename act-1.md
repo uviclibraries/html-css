@@ -29,12 +29,13 @@ If you haven’t already, **please install [Sublime text editor](https://www.sub
     <img src="images/act1-1.gif" alt="Demonstration of making a folder."> <br>
     </div> 
 
-## Create an HTML file
-This section will walk you through now to create, name, and save your first HTML file using Sublime Text. 
+## Create an HTML document
+This section will walk you through now to create, name, and save your first HTML file, or document, using Sublime Text. 
 
 1. Open **Sublime Text**.
 2. In the top left of the main menu, select **File** > **New File**. You should see an empty file with the title of "untitled." Next, we need to name and save our file.
-3. In the main menu, select **File** > **Save as**, then navigate to the `html_workshop` folder we created earlier. Now, **name the file** exactly like this: **`about.html`**. Finally, **click the Save button**. Sublime Text will now recognize your file as an HTML file because you used the `.html` extension, or suffix—more on why this is important in a moment.
+3. In the main menu, select **File** > **Save as**, then navigate to the `html_workshop` folder we created earlier. Now, **name the file** exactly like this: **`about.html`**.
+4. Finally, **click the Save button**. Sublime Text will now recognize your file as an HTML file because you used the `.html` extension, or suffix.
 
 ## Introducing HTML "tags"
 
@@ -46,34 +47,48 @@ For example, we might want some part of our text, like a chapter title, to be a 
 
 Next, let's look at the anatomy of a tag.
 
-HTML tags have three elements: 
-- (1) the **"opening" tag**, which has a descriptor symbol such as `h1` between two pointy, or angle, brackets: `<` and `>`; 
-- (2) the **"closing" tag**, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor—there are some tags that don’t need a closing bracket and these are called "self-closing" tags, but will ignore those for now; 
-- (3) finally, we have **the content**, which is everything between the opening tag and the closing tag. Browsers are designed to hide tags, but display the content between them. 
+**HTML tags have three elements:**
+1. the **"opening" tag**, which has a descriptor symbol such as `h1` between two pointy, or angle, brackets: `<` and `>`; 
+2. the **"closing" tag**, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor—there are some tags that don’t need a closing bracket and these are called "self-closing" tags, but will ignore those for now; 
+3. **the **content**, which is everything between the opening tag and the closing tag. Browsers are designed to hide tags, but display the content between them. 
 
 <img width=500px src="images/act-1/act1-0.png" alt="HTML element anatomy">
 
-> **<mark>Note</mark>** that Sublime Text is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you. Like autocomplete with texting, it is easy to make a mistake, so always make sure that you are selecting the correct choice.
+> **<mark>Note</mark>** that Sublime Text is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you.
+>
+> Like autocomplete with texting, it is easy to make a mistake, so always make sure that you are selecting the correct choice.
 > 
 ><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
-## Essential HTML 
+## Essential parts of a complete HTML file
 
-- The first thing we need to do is to add the doctype declaration at the top of our `about.html` page.
-- To add the declaration, type `<html` and press **tab** to autocomplete or copy and paste the following code
+When we talk about a "complete" or "compliant" HTML file, we are referring to what basic parts of an HTML file we need to have it pass modern and ever-changing [web standards](https://en.wikipedia.org/wiki/Web_standards) for web browsers. Having a web-compliant HTML file, or website, is important for a number of reasons. 
+
+We want our site to load and look as expected. More important is that the Internet is intended, as explained on the [World Wide Web Consortium (W3C)'s website](https://www.w3.org/WAI/fundamentals/accessibility-intro/), "to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability." 
+
+### DOCTYPE declaration
+
+Browsers can open and display more than HTML files, so we need to "declare" what kind of file we have to the browser. 
+
+Although not technically a tag (it is a "keyword"), a DOCTYPE declaration, or DTD, tells the browser what document type to expect. 
+
+> **<mark>Note</mark>** that some tags are [case senstive](https://en.wikipedia.org/wiki/Case_sensitivity), and some are not. In this case, "DOCTYPE" must be in all-caps. 
+
+1. In your `about.html` file, add the following at the top-left of the file: `<!DOCTYPE html>`
+2. Save your file. 
+
+### Adding your first HTML tag: the <html> tag
+Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, this tag is the largest doll, with all other subsequent dolls/tags contained within it. 
+
+1. In your `about.html` file, add the following underneath `<!DOCTYPE html>`: `<html></html>`
+2. Save your file. 
+
+By now, your `about.html` file should look like this: 
 
 ```
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-</head>
-<body>
+<html></html>
 
-</body>
-</html>
 ```
 
 <img width=500px src="images/act-1/act1-2.png" alt="about html">
