@@ -198,7 +198,7 @@ Here's what my file now looks like, for easier reading:
 ### The paragraph tag: <p>
 Paragraph tags `<p></p>` tell that browser to treat the text between them as separate blocks of text, or paragraphs. All browsers by default will a line break, or place a single blank line, before and after each set of `<p></p>` tags. Paragraph tags always appear, or are "nested," between the `<body></body>` tags. 
 
-1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags, and add some space between them:
+1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags, then add some space between the `<p></p>` tags, as in the following example:
 ```
 <body>
 
@@ -210,7 +210,44 @@ Paragraph tags `<p></p>` tell that browser to treat the text between them as sep
 ```
 2. Save your file.
 
-_Before_ we add any content between the paragraph tags, we are going to add one last element seen in nearly all web pages, and that is a heading of some kind. 
+_Before_ we add any content between the paragraph tags, **we are going to add one last element** seen in nearly all web pages, and that is a heading of some kind. 
+
+### Headings tags: <h1> to <h6>
+Headings can give structure and readability to your web pages. They help to break up long sections of text and are crucial for those using assistive technologies to provide in-page navigation of your content. 
+
+There are 6 types of heading tags, from largest to smallest: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. 
+
+Browsers have built-in ways to display headings so that they have different sizes. You can see a demostration of what each heading looks like on [the W3Schools website](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_headers). 
+
+1. In your `about.html` file, and above your top set of `<p></p>` tags, place the following heading tags: `<h1></h1>`
+2. Above your bottom set of `<p></p>` tags, place the following heading tags: `<h2></h2>`
+3. Save your file.
+
+Your `about.html` file should now look something like this:  
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
+
+<body>
+
+<h1></h1>
+<p></p>
+
+<h2></h2>
+<p></p>
+
+</body>
+
+</html>
+```
+
+Now that we have all the basic elements in place, it is finally time to add some content <span style='font-size:20px;'>😍</span>
 
 <img width=500px src="images/act-1/act1-3.png" alt="tag examples">
 
@@ -233,7 +270,7 @@ Looking good! Let's move on to adding content to our `about.html` page...
     </div> -->
 - Let’s move on to writing code and content between the `<body></body>` tags.
 - We are going to start with heading or `<h>` tags.
-- There are 6 types of heading tags: `h1`, `h2`, `h3`, `h4`, `h5`, and `h6`. Heading tags range from biggest text size, with `h1`, to the smallest text size, with `h6`.
+- There are 6 types of heading tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. Heading tags range from biggest text size, with `h1`, to the smallest text size, with `h6`.
 - Heading tags are written as follows:<br>
 `<h1></h1>`
 - We are going to add the following heading tags (between the `<body></body>` tags) and content to our page:
