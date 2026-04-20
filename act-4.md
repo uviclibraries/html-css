@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 4 - Changing Layout
-nav_order: 5
-parent: Workshop Activities
+<!--nav_order: 5
+parent: Workshop Activities-->
 ---
 
 # Using CSS to Change Layout
