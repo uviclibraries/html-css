@@ -48,11 +48,19 @@ Another way of thinking about this is that we are going to tell the HTML file wh
 
 HTML uses an **`<img>`** tag to "embed" an image in a web page. One quirk of an `<img>` tag is that it **does not need a closing tag**. But, it does have **two requirements**: 
 
-- (1) it **must contain the `src`**, or "source" attribute, which provides the file path information for your image (or [other file types](https://www.w3schools.com/tags/att_src.asp)). 
+- (1) it **must contain the `src`**, or "source" attribute, which provides the [file path]()https://www.w3schools.com/Html/html_filepaths.asp information for your image (or [other file types](https://www.w3schools.com/tags/att_src.asp)). 
 - (2) it **must contain `alt` text**, or "[alternate text](https://w3htmlschool.com/the-alt-attribute-in-html/)" attribute, to describe the image for a screen reader, or the text to display in cases where the image might fail to load for someone.
 
 1. In Submime Text, return to your `about.html` file.
-2. Underneath the opening <body> tag, add the following file path information exactly as written: 
+2. Underneath the opening <body> tag, add the following file path information exactly as written: `<img src="images/frodo-01.png" alt="Frodo portrait">`
+3. Save your file.
+4. Open the file in your browser and see if your image appears. Here is what mine now looks like in Firefox:
+
+<img width=500px src="images/act-2/act2-1.png" alt="example HTML page in Sublime Text editor">
+
+5. In Submime Text, return to your `about.html` file. We are now going to break something to learn something important.
+6. 
+
 
 
 
