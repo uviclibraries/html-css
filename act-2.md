@@ -103,7 +103,7 @@ In my "Frodo Baggins bio" page, I will be adding a link to the words "Third Age,
 > **<mark>Note</mark>**: if the text is too small to read in the above screenshot example, right click (or Control + click for Mac users) and select "Open image in a new tab"
 4. Save your file.
 
-### BONUS work: add an anchor link to your HTML document
+### BONUS work: add an anchor link to your HTML document  
 
 **Skip this section if you are feeling pressed for time**, or if you would rather move on to learning about Cascading Style Sheets (CSS), or how to change the look of certain elements in your `about.html` file. 
 
