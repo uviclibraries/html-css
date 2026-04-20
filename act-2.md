@@ -62,7 +62,7 @@ HTML uses an "**image tag**," or`<img>` tag, to "embed" an image in a web page. 
 - Before: `<img src="images/frodo-01.png" alt="Frodo portrait">`
 - After: `<img src="images/ frodo-01.png" alt="Frodo portrait">`
 7. Return to your browser and [refresh](https://www.wikihow.com/Force-Refresh-in-Your-Internet-Browser) it. You should no longer see the portrait of Frodo. Instead, you should see only the "alt text," that is, the text between the double quotation marks in `alt="Frodo portrait"`. Here is my example:
-<img width=500px src="images/act-2/act2-3.png" alt="example HTML page in Sublime Text editor">
+<img width=500px src="images/act-2/act2-3.png" alt="example HTML page showing alt text">
 8. In Sublime Text, return to your `about.html` file and remove the space you added in step 6.
 9. Save your file.
 
@@ -109,7 +109,7 @@ In my "Frodo Baggins bio" page, I will be adding a link to the words "Third Age,
 
 **Anchor links jump you to another place in the same page** based on where you place an "anchor" within it. **<mark>Note</mark>** that you need to add enough text content  that so that you have to scroll down in Sublime Text to get to the end of it. 
 
-If you need to copy in some more random text into your `about.html` file, you can use "placeholder text" called "[_lorem ipsum_ (↪)](https://en.wikipedia.org/wiki/Lorem_ipsum)." This gibberish text is often used by web developers for creating website examples. 
+If you need to copy in some more random text into your `about.html` file, you can use "placeholder text" called "[_lorem ipsum_](https://en.wikipedia.org/wiki/Lorem_ipsum)." This gibberish text is often used by web developers for creating website examples. 
 
 People like to have fun inventing their own versions of _lorem ipsum_, and my current favourite is, of course, [_The Lord of The Rings_ _lorem ipsum_ generator](https://ceheiss.github.io/LordOfTheIpsum/).
 
