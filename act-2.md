@@ -55,9 +55,7 @@ HTML uses an **`<img>`** tag to "embed" an image in a web page. One quirk of an 
 2. Underneath the opening <body> tag, add the following file path information exactly as written: `<img src="images/frodo-01.png" alt="Frodo portrait">`
 3. Save your file.
 4. Open the file in your browser and see if your image appears. Here is what mine now looks like in Firefox:
-
 <img width=500px src="images/act-2/act2-1.png" alt="example HTML page in Sublime Text editor">
-
 5. In Submime Text, return to your `about.html` file. We are now going to break something on purpose to learn a valuable lesson.
 6. 
 
