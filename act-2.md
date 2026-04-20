@@ -66,9 +66,9 @@ HTML uses an "**image tag**," or`<img>` tag, to "embed" an image in a web page. 
 8. In Sublime Text, return to your `about.html` file and remove the space you added in step 6.
 9. Save your file.
 
-**Breaking our image's file path teaches us several things.** First, if you cannot see an image on your web page, it could be that you have accidentally introduced a typo of some kind. Maybe you added a space somewhere, or their are differences between the name of your image file and what you wrote in the file path. 
+**Breaking our image's file path teaches us several things.** First, if you cannot see an image on your web page, it could be that you have accidentally introduced a typo of some kind. Maybe you added a space somewhere, or there are differences between the name of your image file and what you wrote in the file path. 
 
-Second, this lesson remides of the value in adding `alt` text. Screen-reader users rely on clear and consise `alt` text to navigate and experience web pages. This text can also be helpful in cases where your images do not load, for whatever reason. At the very least, someone visiting your broken web page will know the type of image _should_ be there. 
+Second, this lesson reminds us of the value in adding `alt` text. Screen-reader users rely on clear and consise `alt` text to navigate and experience web pages. This text can also be helpful in cases where your images do not load, for whatever reason. At the very least, someone visiting your broken web page will know the type of image _should_ be there. 
 
 As with "hyperlinks," or "links," file path accuracy is important. Now that you have added an image to your growing web page, it is time to add a link. 
 
@@ -98,11 +98,9 @@ In my "Frodo Baggins bio" page, I will be adding a link to the words "Third Age,
 
 1. In Sublime Text, return to your `about.html` file.
 2. Wrap the words "Third Age" in the following tags: `<a href="">Third Age</a>`
-3. Between the double quotation marks in the `href` attribute, add the following link: `https://en.wikipedia.org/wiki/History_of_Arda#Third_Age`. **Make sure that you do not add any accidental spaces before or after your URL.**   
-
-Here is my example:  
+3. Between the double quotation marks in the `href` attribute, add the following link: `https://en.wikipedia.org/wiki/History_of_Arda#Third_Age`. **Make sure that you do not add any accidental spaces before or after your URL.** Here is my example:  
 <img width=600px src="images/act-2/act2-4.png" alt="example HTML link in Sublime Text editor">
-
+> **<mark>Note</mark>**: if the text is too small to read in the above screenshot example, right click (or Control + click for Mac users) and select "Open image in a new tab"
 4. Save your file.
 
 ### BONUS work: add an anchor link to your HTML document
