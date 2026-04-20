@@ -58,7 +58,7 @@ HTML uses an **`<img>`** tag to "embed" an image in a web page. One quirk of an 
 
 <img width=500px src="images/act-2/act2-1.png" alt="example HTML page in Sublime Text editor">
 
-5. In Submime Text, return to your `about.html` file. We are now going to break something to learn something important.
+5. In Submime Text, return to your `about.html` file. We are now going to break something on purpose to learn a valuable lesson.
 6. 
 
 
