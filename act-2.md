@@ -10,20 +10,36 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 
 If you haven’t already completed the first exercise, please go to [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html).
 
-In this section, we’ll learn how to add images and links to an HTML page. If you have any questions, or you get stuck, please ask the instructor for assistance. Have fun!
+Assuming that you are following along and making your own "Frodo Baggins bio" web page, your `about.html` file (in the Sublime Text editor) should looks like this: 
 
-### Next steps: images and links
+<img width=500px src="images/act-2/act2-1.png" alt="example HTML page in Sublime Text editor">
 
-At this point in the workshop, you should have an `about.html` page with some paragraphs, headers, and a list.
+In this section, we’ll learn how to add images and links to an HTML page. 
 
-You may have added some additional content and HTML markup as well, and that's encouraged because we're here to tinker!
+We are starting with images because this will help us to better understand and practice the relationships between folders and files locations. 
 
-**Your `about.html` document should look something like this:**
+## Adding images to an HTML document
 
-<img width=500px src="images/act-2/act2-1.png" alt="example page with list">
+Images come in all shapes and sizes, as well as "formats", or file types.  
 
-## Adding images
+The [most common image file types on the internet](https://w3techs.com/technologies/overview/image_format) are PNG (Portable Network Graphics) and JPEG (Joint Photographic Expert Group image). PNG files end with the `.png` extension (or suffix) and JPEG files typically  end with `.jpg`, `.jpeg`. 
 
+No doubt, you have seen [other file formats](https://en.wikipedia.org/wiki/Image_file_format), but we will be working with a PNG file, as this file type strikes a good balance between image quality and file size, meaning how much storage space the file requires. 
+
+### Create a place to store your image
+
+Let's start by creating a place to store our image. 
+
+1. On your computer, navigate to the  `html_workshop` folder and open it.
+2. In the `html_workshop` folder, create another folder called `images`.
+3. Click on the following link: [Frodo portrait](https://upload.wikimedia.org/wikipedia/en/4/4e/Elijah_Wood_as_Frodo_Baggins.png) and save the file into the `images` folder you just created.
+
+> **<mark>Note</mark>**: if the process of saving images from the internet to your computer is new to you, or if you get into the digital weeds, please reach out to your intstructor. If you are doing this workshop remotely, then [this web page](https://tecnobits.com/en/how-to-download-images-from-the-internet/) walks through the process. 
+4. Rename your PNG image file as follows: `frodo-01.png`. This may seem like a trvial step, but it will pay off later, should we wish to add more images of Frodo, later. 
+
+
+
+You do not need to remember this  and 
 - We are going to add some images to our `about.html` page. What this is means, really, is that we are going to create a link to an image file that you store in another folder. 
 - The link you provide in your `about.html` page tells browser where to go to retrieve the image file and display it.
 - To help keep things as tidy as possible, we are going to keep all our images in a separate folder called "images."
