@@ -311,7 +311,7 @@ It is time to see if everything on your `about.html` web page looks as expected.
 
 <img width=500px src="images/act-1/act1-3.png" alt="first test of complete HTML file">
 
-Congratulations <span style='font-size:20px;'>&#127881;</span> for making your first complete HTML web page. 
+Congratulations for making your first complete HTML web page. <span style='font-size:20px;'>&#127881;</span> 
 
 Now that we have a basic HTML page started, it's time time to learn about adding links and images. So, let's move on the next section in our workshop....
 
