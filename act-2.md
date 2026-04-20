@@ -54,10 +54,13 @@ HTML uses an **`<img>`** tag to "embed" an image in a web page. One quirk of an 
 1. In Submime Text, return to your `about.html` file.
 2. Underneath the opening <body> tag, add the following file path information exactly as written: `<img src="images/frodo-01.png" alt="Frodo portrait">`
 3. Save your file.
-4. Open the file in your browser and see if your image appears. Here is what mine now looks like in Firefox:
+4. Open the file in your browser and see if your image appears. Here is what mine now looks like in Firefox:<br>
 <img width=500px src="images/act-2/act2-1.png" alt="example HTML page in Sublime Text editor">
 5. In Submime Text, return to your `about.html` file. We are now going to break something on purpose to learn a valuable lesson.
-6. 
+6. In the `<img>` tag, add a space between `images/` and `frodo-01.png`. So, the full `<img>` tag will change as follows: 
+- Before: `<img src="images/frodo-01.png" alt="Frodo portrait">`
+- After: `<img src="images/ frodo-01.png" alt="Frodo portrait">`
+7. Return to your browser and [refresh](https://www.wikihow.com/Force-Refresh-in-Your-Internet-Browser) it. You should no longer see the portrait of Frodo. Instead, you should see only the "alt text," that is, the text between the double quotation marks in `alt="Frodo portrait"`. 
 
 
 
