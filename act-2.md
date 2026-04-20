@@ -16,26 +16,52 @@ Assuming that you are following along and making your own "Frodo Baggins bio" we
 
 In this section, we’ll learn how to add images and links to an HTML page. 
 
-We are starting with images because this will help us to better understand and practice the relationships between folders and files locations. 
+We are starting with images because this will help us to better understand and practice the relationships between folder and file locations. 
 
 ## Adding images to an HTML document
 
 Images come in all shapes and sizes, as well as "formats", or file types.  
 
-The [most common image file types on the internet](https://w3techs.com/technologies/overview/image_format) are PNG (Portable Network Graphics) and JPEG (Joint Photographic Expert Group image). PNG files end with the `.png` extension (or suffix) and JPEG files typically  end with `.jpg`, `.jpeg`. 
+The [most common image file types on the internet](https://w3techs.com/technologies/overview/image_format) are PNG (Portable Network Graphics) and JPEG (Joint Photographic Expert Group image). PNG files end with the `.png` extension (or suffix) and JPEG files typically  end with `.jpg` or `.jpeg`. 
 
-No doubt, you have seen [other file formats](https://en.wikipedia.org/wiki/Image_file_format), but we will be working with a PNG file, as this file type strikes a good balance between image quality and file size, meaning how much storage space the file requires. 
+You have likely seen [other file formats](https://en.wikipedia.org/wiki/Image_file_format), but we will be working with a PNG file, as this file type strikes a good balance between image quality and file size. In this case, file size does not mean its scale (the length of its height x width), but how much storage space the file requires. 
 
 ### Create a place to store your image
 
 Let's start by creating a place to store our image. 
 
-1. On your computer, navigate to the  `html_workshop` folder and open it.
+1. On your computer, navigate to the `html_workshop` folder and open it.
 2. In the `html_workshop` folder, create another folder called `images`.
 3. Click on the following link: [Frodo portrait](https://upload.wikimedia.org/wikipedia/en/4/4e/Elijah_Wood_as_Frodo_Baggins.png) and save the file into the `images` folder you just created.
 
 > **<mark>Note</mark>**: if the process of saving images from the internet to your computer is new to you, or if you get into the digital weeds, please reach out to your intstructor. If you are doing this workshop remotely, then [this web page](https://tecnobits.com/en/how-to-download-images-from-the-internet/) walks through the process. 
-4. Rename your PNG image file as follows: `frodo-01.png`. This may seem like a trvial step, but it will pay off later, should we wish to add more images of Frodo, later. 
+
+### Make an image appear on your HTML document: the \<img> tag
+
+Now that we have created a place to store our image, we are going to get the image to appear on our HTML page. To do this, we are essentailly creating a "link" (_not_ an HTML hyperlink: we learn about those soon) between the image in our `images` folder and our `about.html` page. 
+
+Another way of thinking about this is that we are going to tell the HTML file what "path" to take to get to the image, or the "file path" we want to use. 
+
+HTML uses an `<img>` tag to "embed" an image in a web page. One quirk of an `<img>` tag is that it does not need a closing tag. But, it does have two requirements: 
+
+- (1) it must contain the `src`, or "source" attribute, which provides your image's file path information
+- (2) it must contain an `alt`, or "alternate text" attribute, to describe the image for a screen reader, or the text to display in cases where the image might fail to load for someone
+
+1. In Submime Text, return to your `about.html` file.
+2. 
+
+
+
+
+
+
+
+
+
+4. Rename your PNG image file as follows: `frodo-01.png`. This may seem like a trvial step, but it will pay off later, should we wish to add more images of Frodo.
+5. 
+
+
 
 
 
