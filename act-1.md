@@ -216,7 +216,7 @@ All browsers by default will add a line break, or place a single blank line, bef
 
 _Before_ we add any content between the paragraph tags, **we are going to add one last element** seen in nearly all web pages, and that is a heading of some kind. 
 
-### Headings tags: \<h1>\ to \<h6>\
+### Headings tags: \<h1> to \<h6>
 Headings can give structure and readability to your web pages. They help to break up long sections of text and are crucial for those using assistive technologies to provide in-page navigation of your content. 
 
 There are **six types of heading tags**, from largest to smallest: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. 
