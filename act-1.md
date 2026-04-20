@@ -54,15 +54,9 @@ Next, let's look at the anatomy of a tag.
 
 <img width=500px src="images/act-1/act1-0.png" alt="HTML element anatomy">
 
-> **<mark>Note</mark>** that Sublime Text is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you.
->
-> Like autocomplete with texting, it is easy to make a mistake, so always make sure that you are selecting the correct choice.
-> 
-><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
-
 ## Essential parts of a complete HTML document
 
-When we talk about a "complete" or "compliant" HTML file, we are referring to what basic parts of an HTML file we need to have it pass modern and ever-changing [web standards](https://en.wikipedia.org/wiki/Web_standards) for web browsers. Having a web-compliant HTML file, or website, is important for a number of reasons. 
+When we talk about a "complete" or a "valid" HTML file, we are referring to what basic parts of an HTML file we need to have it pass current [web standards](https://en.wikipedia.org/wiki/Web_standards) for web browsers. Having a valid HTML file, or website, is important for a number of reasons. 
 
 We want our site to load and look as expected. More important is that the Internet is intended, as explained on the [World Wide Web Consortium (W3C)'s website](https://www.w3.org/WAI/fundamentals/accessibility-intro/), "to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability." 
 
@@ -82,8 +76,14 @@ Although not technically a tag (it is a "keyword"), a DOCTYPE declaration, or DT
 
 Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, this tag is the largest doll, with all other subsequent dolls/tags contained within it. 
 
-1. In your `about.html` file, add the following underneath `<!DOCTYPE html>`: `<html></html>`
+1. In your `about.html` file, and underneath `<!DOCTYPE html>`, add the following : `<html></html>`
 2. Save your file. 
+
+> **<mark>Note</mark>** that Sublime Text is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you.
+>
+> Like autocomplete with texting, it is easy to make a mistake, so always make sure that you are selecting the correct choice.
+> 
+><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
 By now, your `about.html` file should look like this: 
 
@@ -128,7 +128,7 @@ Your `about.html` file should look like this:
 </head>
 </html>
 ```
-7. Between your `<title>` tags, add whatever text you like. Whatever you add between the `<title>` tags will appear in the tab of your web page. In my example, I am writing a short biography of Frodo Baggins, so here is what my `about.html` page looks like at this stage:
+7. Whatever you add between the `<title>` tags will appear in the tab of your web page. Between your `<title>` tags, add whatever text you like. In my example, I am writing a short biography of Frodo Baggins, so here is what my `about.html` page looks like at this stage:
 
 ```
 <!DOCTYPE html>
@@ -156,7 +156,7 @@ Right now, all we should see is a blank page and the page's title in the browser
 ## Essential content of a basic HTML document 
 Up to this point, we have learned what it takes to create to create a bare bones HTML file, that is, the bare minimum elements to have a browser recognize our `about.html` file as a web page. 
 
-Next, we will add what web developers consider the basic elements of web page, and then we will add some content to display. 
+Next, we will add what web developers consider the basic elements of web page. After that, we will add some content to display. 
 
 ### The body tag: <body>
 The `<body>` tag is appropriately named because that is where the body of your content—such as paragraphs, images, links, lists, and more—will be displayed on your web page. There can be only one set of `<body></body>` tags within an HTML file. 
@@ -164,7 +164,7 @@ The `<body>` tag is appropriately named because that is where the body of your c
 1. Go back to Sublime Text and return to your `about.html` file.
 2. Below the closing `</head>` tag (and above the closing `</html>` tag) add the following tags: `<body></body>`
 
-Your file should now look something like this: 
+Your file might have different content between the `<title>` tags, but should otherwise look like this: 
 
 ```
 <!DOCTYPE html>
@@ -196,9 +196,11 @@ Here's what my file now looks like, for easier reading:
 ```
 
 ### The paragraph tag: <p>
-Paragraph tags `<p></p>` tell that browser to treat the text between them as separate blocks of text, or paragraphs. All browsers by default will a line break, or place a single blank line, before and after each set of `<p></p>` tags. Paragraph tags always appear, or are "nested," between the `<body></body>` tags. 
+Paragraph tags `<p></p>` tell that browser to treat the text between them as separate blocks of text, or paragraphs. 
 
-1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags, then add some space between the `<p></p>` tags, as in the following example:
+All browsers by default will add a line break, or place a single blank line, before and after each set of `<p></p>` tags. Paragraph tags always appear, or are "nested," between the `<body></body>` tags. 
+
+1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags. Then, add some space between the two sets of opening and closing `<p></p>` tags, as in the following example:
 
 ```
 <body>
@@ -225,7 +227,7 @@ Browsers have built-in ways to display headings so that they have different size
 2. Above your bottom set of `<p></p>` tags, place the following heading tags: `<h2></h2>`
 3. Save your file.
 
-Your `about.html` file should now look something like this:  
+Your `about.html` file should now look like this:  
 
 ```
 <!DOCTYPE html>
@@ -254,9 +256,9 @@ Your `about.html` file should now look something like this:
 Now that we have all the basic elements in place, it is finally time to add some content <span style='font-size:20px;'>😍</span>
 
 ## Adding content to our HTML document
-Remember that all the content between the tags we added between the `<body></body>` tags will be displayed on our web page. 
+All the content between the tags we added within the `<body></body>` tags will be displayed on our web page. 
 
-1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the tags in your file: 
+1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the equivalent tags in your `about.html` file: 
 
 ```
 <body>
@@ -299,8 +301,7 @@ Putting it all together, here is what your `about.html` file should look like by
 
 </html>
 ```
-
-Congratulations <span style='font-size:20px;'>&#127881;</span> for making your first complete HTML web page. Now, let's check it out.... 
+Now, let's check it out our work in a browser.  
 
 ### Testing our basic HTML page
 It is time to see if everything on your `about.html` web page looks as expected. 
@@ -310,81 +311,9 @@ It is time to see if everything on your `about.html` web page looks as expected.
 
 <img width=500px src="images/act-1/act1-3.png" alt="first test of complete HTML file">
 
+Congratulations <span style='font-size:20px;'>&#127881;</span> for making your first complete HTML web page. 
 
-<!--[STOPPED HERE] 
-
-<button onclick="toggle('gif2')">Show/Hide Animation</button>
-<div id="gif2">
-    <img src="images/act-1/save-tags.gif" alt="save present tags" style="width:720px;">
-    </div>
-
- <button onclick="toggle('gif3')">Show/Hide Animation</button>
-<div id="gif3">
-    <img src="images/act-1/h-and-p.gif" alt="h and p tags" style="width:720px;">
-    </div> 
-
-<img width=500px src="images/act-1/act1-4.png" alt="adding first content">
-
-- KEEP: As you did before, **Save** your file and open it in your browser. Be sure to [hard refresh (↪)](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/) your browser if you do not see the changes you expect. 
-- KEEP: Feel free to take some time to try different heading tags to see the differences between them.
-- 
-  - KEEP: To enable word wrap in Sublime, click on **View > Word Wrap**. 
-
-
- <button onclick="toggle('gif4')">Show/Hide Animation</button>
- <div id="gif4">
-    <img src="images/act-1/end-of-6.gif" alt="body paragraph" style="width:720px;">
-    </div>
-    
-### List tags
-    
-- You can use HTML markup to create two kinds of lists: ordered lists and unordered lists. 
-- Use an ordered list if you want to display content in a particular order. 
-- Use an unordered list if the order of the list items does not matter. 
-- Ordered lists use an `<ol>` tag and display, in browsers, as numbered lists, meaning that a number will appear beside your list item. Here’s an example of an ordered list:  
-> Frodo’s top three traveling essentials, in order of importance: 
-> 1. The One Ring
-> 2. Sting (the sword, not the musician)
-> 3. Samwise Gamgee
-- Unordered lists use a `<ul>` tag and display, in browsers, as a bulleted lists. Here’s an example of an unordered list: 
-> Frodo’s shopping list for Bree Market: 
-> - Pipe weed
-> - Craft beer
-> - Even more lembas bread?
-- Both ordered (`<ol>`) and unordered (`<ul>`) lists contain list items, which are indicated with an `<li>`, or list item, tag. 
-- It is considered best markup practice to indent your `<li>` tags within the `<ol>` or `<ul>` tags. 
-- In the following examples, I use unordered lists, since the list (`<li>`) items do not need to be in any particular order. Note that the lists in both examples are nested inside paragraph (`<p>`) tags. 
-- I have added a list of some of Zuko's attributes on my `about.html` page. I used an unordered list, since these details are not in any particular order.
-- Here is an example of what we have, so far:
-
-<img width=500px src="images/act-1/act1-5.png" alt="example page with list">
-
- <button onclick="toggle('gif5')">Show/Hide Animation</button>
-    
-<div id="gif5">
-    <img src="images/act-1/list-tag.gif" alt="list tags animated" style="width:720px;">
-    </div> 
-
-<img src="images/act-1/list-tag.jpg" alt="list tags" style="width:720px;"> 
-
-### Text tags
-    
-- Applying style (such as font colours and sizes) to your HTML code should be done in CSS files (which we look at soon), but making changes in the HTML file is sometimes appropriate. For example, the `<del></del>` and `<ins></ins>` tags are used to indicate certain types of text. The `<del>` tag puts a line through the text and the `<ins>` tag underlines text.
-- HTML tags can be put around any text. These tags don't have to encompass a whole block of text, or even a whole word, as in the following example:
-    - This is <strong>important</strong>. This is <strong><ins>very</ins> important.</strong> Thank <ins>you!</ins>
-    - We have two words in bold, one word underlined, and one word underlined _and_ in bold. Let’s look at what that would look like in HTML, with tags:<br/>`<p>This is <strong>important</strong>. This is <strong><ins>very</ins>important.</strong> Thank <ins>you!</ins></p>`
-- On your `about.html` page, play around with some of the following tags, saving your file as you go(!) and then looking at it in your browser:
-  - `<strong>` = important
-  - `<i>` = italic
-  - `<em>` = emphasized
-  - `<mark>` = marked, or <mark>highlighted</mark>
-  - `<small>` = smaller
-  - `<sub>` = subscript
-  - `<sup>` = superscript
-- Remember that there is no right or wrong with our growing `about.html` page. 
-- We are taking this time to play around. Often, the best learning happens when we break things-->
-
-- Let's move on the next section in our workshop.... 
+Now that we have a basic HTML page started, it's time time to learn about adding links and images. So, let's move on the next section in our workshop....
 
 <script>  
 
