@@ -7,23 +7,54 @@ parent: Workshop Activities
 
 # Introducing CSS
 
-If you haven’t already completed the previous exercises, please start on the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) page, as this part builds on the topics from previous sections.
+If you haven’t already completed the previous exercises, please start on the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) page, as this section of the workshop builds on the topics from previous sections.
 
-This section of the workshop is on Cascading Style Sheets (CSS). **Think of HTML as the builder and CSS as the artist.** CSS is a different language than HTML and has different rules and structure. 
+This section of the workshop is on [Cascading Style Sheets (CSS)](https://www.w3schools.com/Html/html_css.asp). **Think of HTML as the builder and CSS as the artist.** CSS is a different language than HTML and has different rules and structure. 
 
-CSS is used to alter the presentation of a website. Basically, CSS tells browsers the rules for what your various HTML elements, like paragraphs (`p`), headings (`h1`, for example), and content should look like. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
+CSS is used to alter the presentation of a website. Basically, CSS tells browsers the rules for what your various HTML elements, like paragraphs (`<p>`), headings (`<h1>`, for example), and content should look like. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
 
-Getting CSS to work the way you want to can sometimes try your patience, but it is worth it when things work, so stick with it and be prepared to have fun breaking things! 
+It can take many years of practice to become competent in the nuances of CSS. Getting CSS to work the way you want to can sometimes try your patience, but it is worth it when things work, so stick with it and be prepared to have fun breaking things. 
 
-If you have any questions, or get stuck, please ask the instructor for assistance. Have fun!
+**For this part of the workshop, you will learn a CSS fundamental: how to link to a "stylesheet,"** and then you will get to play around as you like with some resources provided. 
 
-**On our journey, so far**, you should have a couple of HTML pages, with a list, some links, and a mix of text an images. Visually speaking, it looks fairly basic. Here's an example of what my `about.html` page looks like at this point: 
+## On our journey, so far... 
 
-<img src="images/act-3/img-browser-example.png" alt="example browser image">
+Let's take a moment to look at what your `about.html` page should look like so far. Here's the full code from my `about.html`, just in case you need to compare, or start from scratch if your site is not working as expected: 
 
-Using CSS, we will make our growing website look a little more stylish and colourful.
+```
+<!DOCTYPE html>
+<html>
 
-## Linking CSS to your HTML content
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
+
+<body>
+<img src="images/ frodo-01.png" alt="Frodo portrait">
+<h1>Get to know Frodo Baggins</h1>
+
+<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the newphew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
+
+<h2>Frodo's adventures</h2>
+
+<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the <a href="https://en.wikipedia.org/wiki/History_of_Arda#Third_Age">Third Age</a>.</p>
+
+</body>
+
+</html>
+
+```
+
+Visually speaking, my web page is pretty basic. Here's what it looks like at this point in Firefox: 
+
+<img width=500px src="images/act-2/act3-1.png" alt="example HTML page to this point in workshop">
+
+Using CSS, we will make our growing website look a little more stylish and colourful. 
+
+## Linking CSS to your HTML content: creating a "style sheet" 
+
+[stopped here]
 
 - We are going to create new file, or "style sheet," for our CSS, and this file will also have an extension name, or suffix, of `.css`.
 - The CSS "rules" for modern, complex websites can be very complicated, with multiple style sheets applying multiple rules to HTML files. We are going to keep things simple to start with and use just one style sheet.  
