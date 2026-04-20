@@ -32,7 +32,7 @@ Let's start by creating a place to store our image.
 
 1. On your computer, navigate to the `html_workshop` folder and open it.
 2. In the `html_workshop` folder, create another folder called `images`.
-3. Click on the following link: [Frodo portrait](https://upload.wikimedia.org/wikipedia/en/4/4e/Elijah_Wood_as_Frodo_Baggins.png) and save the file into the `images` folder you just created.
+3. Click on the following link: [Frodo portrait](https://upload.wikimedia.org/wikipedia/en/4/4e/Elijah_Wood_as_Frodo_Baggins.png) and save the file into the `images` folder you just created. If the previous link does not work for you, I have uploaded the identical file [here](https://raw.githubusercontent.com/uviclibraries/html-css/refs/heads/main/images/act-2/frodo.png). 
 
 > **<mark>Note</mark>**: if the process of saving images from the internet to your computer is new to you, or if you get into the digital weeds, please reach out to your intstructor. If you are doing this workshop remotely, then [this web page](https://tecnobits.com/en/how-to-download-images-from-the-internet/) walks through the process.
 
@@ -46,7 +46,7 @@ To get our image to appear on our web page, we are essentially creating a "link"
 
 Another way of thinking about this is that we are going to tell the HTML file what "path" to take to get to the image, or the "file path" we want to use. 
 
-HTML uses an **`<img>`** tag to "embed" an image in a web page. One quirk of an `<img>` tag is that it **does not need a closing tag**. But, it does have **two requirements**: 
+HTML uses an "**image tag**," or`<img>` tag, to "embed" an image in a web page. One quirk of an `<img>` tag is that it **does not need a closing tag**. But, it does have **two requirements**: 
 
 - (1) it **must contain the `src`**, or "source" attribute, which provides the [file path]()https://www.w3schools.com/Html/html_filepaths.asp information for your image (or [other file types](https://www.w3schools.com/tags/att_src.asp)). 
 - (2) it **must contain `alt` text**, or "[alternate text](https://w3htmlschool.com/the-alt-attribute-in-html/)" attribute, to describe the image for a screen reader, or the text to display in cases where the image might fail to load for someone.
@@ -72,146 +72,60 @@ Second, this lesson remides of the value in adding `alt` text. Screen-reader use
 
 As with "hyperlinks," or "links," file path accuracy is important. Now that you have added an image to your growing web page, it is time to add a link... 
 
+## Adding hyperlinks to an HTML document: the \<a> tag
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Add an `<img>` tag to your HTML page
-
-- Somewhere between the `<body></body>` tags, add the following: `<img src="image.jpg" alt="image description">`.
-- The `src` part of the `img` tag means "source," or the location your HTML browser will look to display the image. My image, `zuko.png`, is stored in the **images** folder. 
-- In the `src` part of the `img` tag you will see double quotation marks `"` `"`. It is between these quotation marks that we put the "filepath" to our image file, which creates a link between our image stored in the **images** folder and our `about.html` webpage. 
-- The path in my case is `images/zuko.png`. If you used another image file, then you would replace `zuko.png` with your file's name. 
-- <mark>Note</mark> that if we ever move our image file to another folder we would break the link between the image and our HTML page.
-- The `alt` part of the `img` tag means "alternate text" for an image. What you put between the quotation marks will be displayed when the image fails to load. This text is also used by people who may have visual disabilities and who use [screen reader software (↪)](https://www.cnib.ca/en/screen-readers?region=bc).
-- Add your filepath and alternate text to your `<img>` tag.
-- When you have added your filepath and alternate text, you should have an `<img>` tag that looks something like this:<br/>
-`<img src="images/zuko.png" alt="Zuko headshot with a frowning expression">`
-- <mark>Note</mark> that my image is saved as a `.png` file but `<img>` accepts various types, the most common other ones being `.jpeg` (or `.jpg`), `.svg`, and `.gif`.
-- Here is an example, in my `about.html` file, of a complete `<img>` tag: 
-
-<img width=500px src="images/act-2/act2-2.png" alt="image tag example">
-
-- Here is what the above `<img>` tag example looks like in a browser: 
-
-<img src="images/act-2/img-browser-example.png" alt="img tag browser example">
-
-- Save your `about.html` file and refresh your browser to see your changes.
-- Hopefully, you will be able to see your image. If not please ask your instructor for help as needed. 
-
-<!-- - Just for practice, try adding another image to your page. You can use the fire nation image below if you don't have any images of your own. -->
-
-<!-- <img src="images/act-2/fire.png" alt="fire nation logo" style="width:720px;"> -->
-
-## Adding links
-
-HTML links are fundamental to websites. Links literally link your web page to other web pages and other forms of content. This content can be other websites, a different page within your own website, or even a different spot on the same web page. Links define relationships between content.
+HTML links are fundamental to websites. Links literally act as links from your web page to other web pages and other forms of content. This content can be other websites, a different page within your own website, or even a different spot on the same web page. 
 
 ### Get to know the `<a>` hyperlink tag
 
-- Here is an example of a complete [hyperlink tag (↪)](https://www.w3schools.com/tags/tag_a.asp) for an Internet URL (Uniform Resource Locator) web address: `<a href="https://www.wikipedia.org/">Wikipedia</a>`.
-- The content between the open and closed `<a>` tags will appear as a clickable link in your browser. In the example given, the word "Wikipedia" would appear as the clickable hyperlinked text.
-- The `<a>` in the hyperlink tag defines it as a hyperlink element, and the `href` is the attribute that indicates the link's destination.
-- Hyperlinks come in flavours and here are the basic four:
-  - **"external links"** link you to other locations outside of your directory, such as other webpages or websites. These links always use a full URL (the whole `https://www` part). **Example: `<a href="http://www.wordpress.com/my-webpage.html">clickable text</a>`**.
-  - **"internal links"** link you to other locations within your directory, or folder(s), such as other webpages in your own website. These links do _not_ use the full URL. **Example: `<a href="about-me.html">clickable text</a>`**.
-  - **"anchor links"**, or hashtag links, "jump" you to locations in the same webpage. These are helpful in pages with a lot of text. You can, for example, create a table of contents at the top of your HTML page that jumps to sections (or text) within that same page. **Example: `<a href="#anchor-location">clickable text</a>`**.
+Here is an example of a complete [hyperlink tag](https://www.w3schools.com/tags/tag_a.asp) for an Internet URL (Uniform Resource Locator) web address: `<a href="https://www.wikipedia.org/">Wikipedia</a>`.
+
+The content between the open and closed `<a>` tags will appear as a clickable link in your browser. In the example given, the word "Wikipedia" would appear as the clickable hyperlinked text.
+
+The `<a>` in the hyperlink tag defines it as a hyperlink element, and the `href` is the attribute that indicates the link's destination.
+
+**Hyperlinks have four basic types:**
+  - **"external links"** link you to other locations outside of your directory, or folder(s), such as other web pages. External links always use a full URL (the whole `https://www` part). **Example: `<a href="http://www.wordpress.com/my-webpage.html">clickable text</a>`**.
+  - **"internal links"** link you to other locations within your directory, such as other web pages wuthin in your own website. These links do _not_ use the full URL. **Example: `<a href="about-me.html">clickable text</a>`**.
+  - **"anchor links"**, or hashtag links, "jump" you to locations within the same webpage. These are helpful in pages with a lot of text. You can, for example, create a table of contents at the top of your HTML page that jumps to sections (or text) within that same page. **Example: `<a href="#anchor-location">clickable text</a>`**.
   - **"email links"** link you to an email address. When you click on these, they tell your computer to open up whatever email program you are using. **Example: `<a href="mailto:some-email@yoursite.com">Email me</a>`**.
 
-## Add one or more hyperlinks to your HTML page
+In this workshop, **we will be adding an external link**, but you are free to play with other kinds later, using the resources provided at the end of this section. 
 
-- To get a feel for how hyperlinks work, **choose _one_ (or more, if you have time) of the following three examples to add to your `about.html` page.**
+### Add an external link to your HTML document
 
-### 1. External link
+In my "Frodo Baggins bio" page, I will be adding a link to the words "Third Age," as I want my readers to learn more about where Frodo's adventures sit within the broader history of Middle Earth. 
 
-- This type of link takes you to somewhere outside of your website, such as to another website or webpage on the Internet. 
-- The process to create an external link is identical to an internal link, except that the external link requires a full URL, the whole `https://www` part. This type of full URL is known as an ["absolute" URL (↪)](https://www.w3schools.com/tags/att_link_href.asp).  
-- In your `about.html` file, choose some text to turn into a link.
-- Wrap your selection of text in the following tags:
-
- `<a href="your web URL here">your link text here</a>`
-
-- Add your full URL between the quotation marks, which includes the whole `https://www` part. 
-- **<mark>Important</mark>**: Make sure that you do not add any accidental spaces before or after your URL.
+1. In Submime Text, return to your `about.html` file.
+2. Wrap the words "Third Age" in the following tags: `<a href="">Third Age</a>`
+3. Between the double quotation marks in the `href` attribute, add the following link: `https://en.wikipedia.org/wiki/History_of_Arda#Third_Age`. Make sure that you do not add any accidental spaces before or after your URL.
 - Here's my example URL:
 
 `<a href="https://www.w3schools.com/tags/att_a_href.asp">your link text here</a>`
 
 - Save your HTML file and refresh your browser to see if your new link works.
 
-### 2. Internal link
+### BONUS work: add an anchor link to your HTML document
 
-- This type of link jumps us to another HTML page in our directory. 
-- To test this type of link, we need to create another HTML page to jump to.
-- In your `html_workshop` folder, create a new HTML page called `index.html`. This is the file to where we are going to link from our `about.html` page.
-<!-- <button onclick="toggle('gif1')">Show/Hide Animation</button> -->
-<!-- <div id="gif1"> -->
-<!-- <img src="images/act-2/links.gif" alt="adding links animated" style="width:720px;"></div> -->
-<!-- <img src="images/act-2/links.jpg" alt="adding links" style="width:720px;"> -->
-- As with any new HTML page, we need to add at least `<!DOCTYPE html>` at the top of the page and some other tags to get us started.
-- Copy/paste the following into your `index.html` page (and **be sure to save the file** afterwards): 
+**Skip this section if you are feeling pressed for time**, or if you would rather move on to learning about Cascading Style Sheets (CSS), or how to change the look of certain elements in your `about.html` file. 
 
- ```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Your page title here</title>
-</head>
-  <body>
-    <h1>Your heading here</h1>
-    <p>Your paragraph of text here.</p>
-  </body>
-</html>
+**Anchor links jump you to another place in the same page** based on where you place an "anchor" within it. **<mark>Note</mark>** that you need to add enough text content  that so that you have to scroll down in Sublime Text to get to the end of it. 
 
-```
+If you need to copy in some more random text into your `about.html` file, you can use "placeholder text" called "[_lorem ipsum_ (↪)](https://en.wikipedia.org/wiki/Lorem_ipsum)." This gibberish text is often used by web developers for creating website examples. 
 
-- Let's go back to the `about.html` page and add an internal link to the `index.html` file. 
-- In your `about.html` file, select some text to turn into a link and wrap that text in the following tags:
+People like to have fun inventing their own versions of _lorem ipsum_, and my current favourite is, of course, [_The Lord of The Rings_ _lorem ipsum_ generator](https://ceheiss.github.io/LordOfTheIpsum/).
 
-`<a href="index.html">your link text here</a>`
+In overall terms, anchor links require that we wrap a selection of text in a unique identifyer, or ID, and then link to that ID from another part of the same web page. In fact, the link we used in our external link example, above, is an anchor link. 
 
-- <mark>Note</mark> that we only need to link to another location within the same directory, so notice that we do not need to add the full URL, as in the `https://www` part. We only add the file name between the double quotation marks.
-- In my example, I want my readers to know that I have another webpage on my website that they can read:
+**You can tell an anchor link becasue it will have a hashtag in it**: `https://en.wikipedia.org/wiki/History_of_Arda#Third_Age`
 
-`Be sure to check out <a href="index.html">my Index page</a> for more reading!`
+**Follow [this tutorial](https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html), if you want to play with anchor links in your `about.html` file.**
 
-- Save your `about.html` file and refresh your browser to see if your new link works.
+Once you are done, **return to this page to move on the next part of this workshop.** 
 
-### 3. Anchor link
+Excellent! Now you know how to add images and links to a web page <span style='font-size:20px;'>&#128526;</span> 
 
-- This type of link jumps us to another place in the same page.
-- To begin this process, add some placeholder text of some kind to your `about.html` page. 
-- **<mark>Important</mark>**: Add enough content so that you have to scroll down in Sublime to get to the end of it. 
-- You can type multiple paragraphs on your own, or use placeholder text called [_lorem ipsum_ (↪)](https://en.wikipedia.org/wiki/Lorem_ipsum), which is often used by web developers for creating website examples. People like to have fun inventing their own versions of _lorem ipsum_, and my current favourite is [_The Lord of The Rings_ _lorem ipsum_ generator (↪)](https://ceheiss.github.io/LordOfTheIpsum/).
-- **Wrap a selection of text in a header tag of your choice and give it a unique `id`.** Think of this as your named anchor. The `<a>` link we eventually create will link to this unique `id` anchor. In my example, I have wrapped the heading text of "Bilbo's speech to the Council" in an `h2` tag and assigned it a unique `id` of `bilbo-speech`:
-
-`<h2 id="bilbo-speech">Bilbo's speech to the Council</h>`
-`<p>I used to think that they were things the wonderful folk of the stories went out and looked for, because they wanted them, because they were exciting and life was a bit dull, a kind of a sport, as you might say. But that’s not the way of it with the tales that really mattered, or the ones that stay in the mind. Folk seem to have been just landed in them, usually their paths were laid that way, as you put it.</p>`
-
-- <mark>Note</mark> that **each anchor has to have a unique name.** In my example, the anchor's `id` is "`bilbo-speech`". Any additional anchor on this same page would need to have a different name. For example, if I wanted to link to another of Bilbo's speeches, I would change that anchor's `id` to something like "`bilbo-speech-2`". 
-- **Create an `<a>` link to your anchor's unique `id`**. This will be the clickable link that jumps you to the unique `id` you just created. 
-- You can add this link anywhere on the HTML page, but add your link toward the top of your HTML page, but within the `<body></body>` tags. What we are doing in my example is making my `h2` become a link that jumps us to the heading of "Bilbo's speech to the Council." 
-- Here is what my link looks like:
-
-`<h2 href="#bilbo-speech">Read Bilbo's speech to the Council</h2>`
-
-- **Save your `about.html` file** and look at it again, after you refresh your browser, to see if your anchor link works. 
-- In my example, the text of "Read Bilbo's speech to the Council" now jumps me to start of Bilbo's speech.
-- <mark>Note</mark> that if your anchor link does not appear to "jump" you anywhere, it could be that there is not enough content on your page. In other words, the link _could_ be working, but the page does not need to scroll down to get you to the link. You can solve this problem by adding a bunch of placeholder text to your page, so that you have to scroll to see the end of it.
-- [This W3Schools test-space (↪)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_a_href_anchor) shows a working anchor link so that you can get a sense of how it is supposed to work, if you're having trouble with yours.
-
-Excellent! Now you know how to add images and links to a webpage! Let's move on the next part of the workshop....
+Let's move on the final part of this workshop: changing the look and feel of your web page using CSS, or Cascading Style Scheets... 
 
 <script>  
 
