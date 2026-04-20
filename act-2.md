@@ -68,7 +68,7 @@ HTML uses an "**image tag**," or`<img>` tag, to "embed" an image in a web page. 
 
 **Breaking our image's file path teaches us several things.** First, if you cannot see an image on your web page, it could be that you have accidentally introduced a typo of some kind. Maybe you added a space somewhere, or there are differences between the name of your image file and what you wrote in the file path. 
 
-Second, this lesson reminds us of the value in adding `alt` text. Screen-reader users rely on clear and consise `alt` text to navigate and experience web pages. This text can also be helpful in cases where your images do not load, for whatever reason. At the very least, someone visiting your broken web page will know the type of image _should_ be there. 
+Second, this lesson reminds us of the value in adding `alt` text. Screen-reader users rely on clear and concise `alt` text to navigate and experience web pages. This text can also be helpful in cases where your images do not load, for whatever reason. At the very least, someone visiting your broken web page will know the type of image _should_ be there. 
 
 As with "hyperlinks," or "links," file path accuracy is important. Now that you have added an image to your growing web page, it is time to add a link. 
 
@@ -115,7 +115,7 @@ People like to have fun inventing their own versions of _lorem ipsum_, and my cu
 
 In overall terms, anchor links require that we wrap a selection of text in a unique identifyer, or ID, and then link to that ID from another part of the same web page. In fact, the link we used in our external link example, above, is an anchor link. 
 
-**You can tell an anchor link becasue it will have a hashtag in it**: `https://en.wikipedia.org/wiki/History_of_Arda#Third_Age`
+**You can tell an anchor link because it will have a hashtag in it**: `https://en.wikipedia.org/wiki/History_of_Arda#Third_Age`
 
 **Follow [this tutorial](https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html), if you want to play with anchor links in your `about.html` file.**
 
@@ -123,7 +123,7 @@ Once you are done, **return to this page to move on the next part of this worksh
 
 Excellent! Now you know how to add images and links to a web page <span style='font-size:20px;'>&#128526;</span> 
 
-Let's move on the final part of this workshop: changing the look and feel of your web page using CSS, or Cascading Style Scheets... 
+Let's move on the final part of this workshop: changing the look and feel of your web page using CSS, or Cascading Style Sheets... 
 
 <script>  
 
