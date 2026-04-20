@@ -63,7 +63,11 @@ HTML uses an **`<img>`** tag to "embed" an image in a web page. One quirk of an 
 7. Return to your browser and [refresh](https://www.wikihow.com/Force-Refresh-in-Your-Internet-Browser) it. You should no longer see the portrait of Frodo. Instead, you should see only the "alt text," that is, the text between the double quotation marks in `alt="Frodo portrait"`. Here is my example:
 <img width=500px src="images/act-2/act2-3.png" alt="example HTML page in Sublime Text editor">
 8. In Submime Text, return to your `about.html` file and remove the space you added in step 6.
-9. Save your file. 
+9. Save your file.
+
+Breaking our image's file bath teaches us several things. First, it is a lesson that when you cannot see an image on your web page, it could be that you have accidentally introduced a typo of some kind. Maybe you added a space somewhere, or their are differences between the name of your image file and what you wrote in the file path. 
+
+Second, this lesson shows you the value of adding `alt` text. Screen-reader users rely on clear and consise `alt` text to navigate and experience web pages. This text can be helpful in cases where your images do not load, for whatever reason. At the very least, someone visiting your broken web page will know the type of image _should_ be there. 
 
 
 
