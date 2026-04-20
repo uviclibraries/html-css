@@ -54,7 +54,10 @@ Using CSS, we will make our growing website look a little more stylish and colou
 
 ## Linking CSS to your HTML content: creating a "style sheet" 
 
-[stopped here]
+In the same way that we created a place to keep our images, we need a way to keep track of the changes we make to the look and feel of our web page. As the [W3Schools website points out](https://www.w3schools.com/Html/html_css.asp), CSS allows you to do a lot, such as "control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!"  
+
+There is a way to "embed" CSS "rules" directly between the `<head>,/head>` tags in your HTML file, and this is usually fine for simple, one-page websites. However, it is considered "best practice" to have an "external," or separate dedicated "style sheet" that contains all the rules for your whole site. And, you can see how this would be vital for sites with dozens of pages because you only have to change something in one place to change all the pages at once. [stopped here]
+
 
 - We are going to create new file, or "style sheet," for our CSS, and this file will also have an extension name, or suffix, of `.css`.
 - The CSS "rules" for modern, complex websites can be very complicated, with multiple style sheets applying multiple rules to HTML files. We are going to keep things simple to start with and use just one style sheet.  
