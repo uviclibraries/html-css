@@ -34,21 +34,25 @@ Let's start by creating a place to store our image.
 2. In the `html_workshop` folder, create another folder called `images`.
 3. Click on the following link: [Frodo portrait](https://upload.wikimedia.org/wikipedia/en/4/4e/Elijah_Wood_as_Frodo_Baggins.png) and save the file into the `images` folder you just created.
 
-> **<mark>Note</mark>**: if the process of saving images from the internet to your computer is new to you, or if you get into the digital weeds, please reach out to your intstructor. If you are doing this workshop remotely, then [this web page](https://tecnobits.com/en/how-to-download-images-from-the-internet/) walks through the process. 
+> **<mark>Note</mark>**: if the process of saving images from the internet to your computer is new to you, or if you get into the digital weeds, please reach out to your intstructor. If you are doing this workshop remotely, then [this web page](https://tecnobits.com/en/how-to-download-images-from-the-internet/) walks through the process.
+
+4. Rename your PNG image file as follows: `frodo-01.png`. This may seem like a trvial step, but it will pay off later, should we wish to add more images of Frodo.
+
+Now that we have created a place to store our image, and renamed it, we are going to get the image to appear on our HTML page.
 
 ### Make an image appear on your HTML document: the \<img> tag
 
-Now that we have created a place to store our image, we are going to get the image to appear on our HTML page. To do this, we are essentailly creating a "link" (_not_ an HTML hyperlink: we learn about those soon) between the image in our `images` folder and our `about.html` page. 
+To get our image to appear on our web page, we are essentially creating a "link" (_not_ an HTML hyperlink: we learn about those soon) between the image in our `images` folder and our `about.html` page. 
 
 Another way of thinking about this is that we are going to tell the HTML file what "path" to take to get to the image, or the "file path" we want to use. 
 
-HTML uses an `<img>` tag to "embed" an image in a web page. One quirk of an `<img>` tag is that it does not need a closing tag. But, it does have two requirements: 
+HTML uses an **`<img>`** tag to "embed" an image in a web page. One quirk of an `<img>` tag is that it **does not need a closing tag**. But, it does have **two requirements**: 
 
-- (1) it must contain the `src`, or "source" attribute, which provides your image's file path information
-- (2) it must contain an `alt`, or "alternate text" attribute, to describe the image for a screen reader, or the text to display in cases where the image might fail to load for someone
+- (1) it **must contain the `src`**, or "source" attribute, which provides the file path information for your image (or [other file types](https://www.w3schools.com/tags/att_src.asp)). 
+- (2) it **must contain `alt` text**, or "[alternate text](https://w3htmlschool.com/the-alt-attribute-in-html/)" attribute, to describe the image for a screen reader, or the text to display in cases where the image might fail to load for someone.
 
 1. In Submime Text, return to your `about.html` file.
-2. 
+2. Underneath the opening <body> tag, add the following file path information exactly as written: 
 
 
 
@@ -58,8 +62,7 @@ HTML uses an `<img>` tag to "embed" an image in a web page. One quirk of an `<im
 
 
 
-4. Rename your PNG image file as follows: `frodo-01.png`. This may seem like a trvial step, but it will pay off later, should we wish to add more images of Frodo.
-5. 
+
 
 
 
