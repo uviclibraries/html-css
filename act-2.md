@@ -52,7 +52,8 @@ HTML uses an **`<img>`** tag to "embed" an image in a web page. One quirk of an 
 - (2) it **must contain `alt` text**, or "[alternate text](https://w3htmlschool.com/the-alt-attribute-in-html/)" attribute, to describe the image for a screen reader, or the text to display in cases where the image might fail to load for someone.
 
 1. In Submime Text, return to your `about.html` file.
-2. Underneath the opening <body> tag, add the following file path information exactly as written: `<img src="images/frodo-01.png" alt="Frodo portrait">`
+2. Underneath the opening `<body>` tag, add the following file path information exactly as written: `<img src="images/frodo-01.png" alt="Frodo portrait">`. Here is an image of what this looks like in my `about.html` file:  
+<img width=500px src="images/act-2/act2-1a.png" alt="example of image tag in HTML page in Sublime Text editor">
 3. Save your file.
 4. Open the file in your browser and see if your image appears. Here is what mine now looks like in Firefox:  
 <img width=500px src="images/act-2/act2-2.png" alt="example HTML page in Sublime Text editor">
@@ -65,13 +66,11 @@ HTML uses an **`<img>`** tag to "embed" an image in a web page. One quirk of an 
 8. In Submime Text, return to your `about.html` file and remove the space you added in step 6.
 9. Save your file.
 
-Breaking our image's file bath teaches us several things. First, it is a lesson that when you cannot see an image on your web page, it could be that you have accidentally introduced a typo of some kind. Maybe you added a space somewhere, or their are differences between the name of your image file and what you wrote in the file path. 
+Breaking our image's file path teaches us several things. First, if you cannot see an image on your web page, it could be that you have accidentally introduced a typo of some kind. Maybe you added a space somewhere, or their are differences between the name of your image file and what you wrote in the file path. 
 
-Second, this lesson shows you the value of adding `alt` text. Screen-reader users rely on clear and consise `alt` text to navigate and experience web pages. This text can be helpful in cases where your images do not load, for whatever reason. At the very least, someone visiting your broken web page will know the type of image _should_ be there. 
+Second, this lesson remides of the value in adding `alt` text. Screen-reader users rely on clear and consise `alt` text to navigate and experience web pages. This text can also be helpful in cases where your images do not load, for whatever reason. At the very least, someone visiting your broken web page will know the type of image _should_ be there. 
 
-
-
-
+As with "hyperlinks," or "links," file path accuracy is important. Now that you have added an image to your growing web page, it is time to add a link... 
 
 
 
@@ -84,22 +83,9 @@ Second, this lesson shows you the value of adding `alt` text. Screen-reader user
 
 
 
-You do not need to remember this  and 
-- We are going to add some images to our `about.html` page. What this is means, really, is that we are going to create a link to an image file that you store in another folder. 
-- The link you provide in your `about.html` page tells browser where to go to retrieve the image file and display it.
-- To help keep things as tidy as possible, we are going to keep all our images in a separate folder called "images."
-- In your **html_workshop** folder, create a new folder and name it exactly as follows: `images`.
-- We will now add an image to the **images** folder. 
-- You can find an image on the Internet, or right-click with your mouse or trackpad on the image below, and then save it to the **images** folder.
 
-<img src="images/act-2/zuko.png" alt="zuko">
 
-### Get to know the image `<img>` tag
 
-- `<img>` is the tag used to show images on an HTML webpage. 
-- Notice that there is no closing, or forward slash, in this tag. This is because `<img>` is what's called a self-closing tag, or a [void element (↪)](https://html.spec.whatwg.org/multipage/syntax.html#elements-2). 
-- You may see it written as `<img/>` to show that it is self-closing, but this is just for human readability. 
-- Both `<img>` and `<img/>` are valid, so the important thing is to be consistent.
 
 ### Add an `<img>` tag to your HTML page
 
