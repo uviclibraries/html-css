@@ -51,26 +51,26 @@ HTML uses an "**image tag**," or`<img>` tag, to "embed" an image in a web page. 
 - (1) it **must contain the `src`**, or "source" attribute, which provides the [file path]()https://www.w3schools.com/Html/html_filepaths.asp information for your image (or [other file types](https://www.w3schools.com/tags/att_src.asp)). 
 - (2) it **must contain `alt` text**, or "[alternate text](https://w3htmlschool.com/the-alt-attribute-in-html/)" attribute, to describe the image for a screen reader, or the text to display in cases where the image might fail to load for someone.
 
-1. In Submime Text, return to your `about.html` file.
+1. In Sublime Text, return to your `about.html` file.
 2. Underneath the opening `<body>` tag, add the following file path information exactly as written: `<img src="images/frodo-01.png" alt="Frodo portrait">`. Here is an image of what this looks like in my `about.html` file:  
 <img width=500px src="images/act-2/act2-1a.png" alt="example of image tag in HTML page in Sublime Text editor">
 3. Save your file.
 4. Open the file in your browser and see if your image appears. Here is what mine now looks like in Firefox:  
 <img width=500px src="images/act-2/act2-2.png" alt="example HTML page in Sublime Text editor">
-5. In Submime Text, return to your `about.html` file. We are now going to break something on purpose to learn a valuable lesson.
+5. In Sublime Text, return to your `about.html` file. We are now going to break something on purpose to learn a valuable lesson.
 6. In the `<img>` tag, add a space between `images/` and `frodo-01.png`. So, the full `<img>` tag will change as follows: 
 - Before: `<img src="images/frodo-01.png" alt="Frodo portrait">`
 - After: `<img src="images/ frodo-01.png" alt="Frodo portrait">`
 7. Return to your browser and [refresh](https://www.wikihow.com/Force-Refresh-in-Your-Internet-Browser) it. You should no longer see the portrait of Frodo. Instead, you should see only the "alt text," that is, the text between the double quotation marks in `alt="Frodo portrait"`. Here is my example:
 <img width=500px src="images/act-2/act2-3.png" alt="example HTML page in Sublime Text editor">
-8. In Submime Text, return to your `about.html` file and remove the space you added in step 6.
+8. In Sublime Text, return to your `about.html` file and remove the space you added in step 6.
 9. Save your file.
 
-Breaking our image's file path teaches us several things. First, if you cannot see an image on your web page, it could be that you have accidentally introduced a typo of some kind. Maybe you added a space somewhere, or their are differences between the name of your image file and what you wrote in the file path. 
+**Breaking our image's file path teaches us several things.** First, if you cannot see an image on your web page, it could be that you have accidentally introduced a typo of some kind. Maybe you added a space somewhere, or their are differences between the name of your image file and what you wrote in the file path. 
 
 Second, this lesson remides of the value in adding `alt` text. Screen-reader users rely on clear and consise `alt` text to navigate and experience web pages. This text can also be helpful in cases where your images do not load, for whatever reason. At the very least, someone visiting your broken web page will know the type of image _should_ be there. 
 
-As with "hyperlinks," or "links," file path accuracy is important. Now that you have added an image to your growing web page, it is time to add a link... 
+As with "hyperlinks," or "links," file path accuracy is important. Now that you have added an image to your growing web page, it is time to add a link. 
 
 ## Adding hyperlinks to an HTML document: the \<a> tag
 
@@ -96,14 +96,14 @@ In this workshop, **we will be adding an external link**, but you are free to pl
 
 In my "Frodo Baggins bio" page, I will be adding a link to the words "Third Age," as I want my readers to learn more about where Frodo's adventures sit within the broader history of Middle Earth. 
 
-1. In Submime Text, return to your `about.html` file.
+1. In Sublime Text, return to your `about.html` file.
 2. Wrap the words "Third Age" in the following tags: `<a href="">Third Age</a>`
-3. Between the double quotation marks in the `href` attribute, add the following link: `https://en.wikipedia.org/wiki/History_of_Arda#Third_Age`. Make sure that you do not add any accidental spaces before or after your URL.
-- Here's my example URL:
+3. Between the double quotation marks in the `href` attribute, add the following link: `https://en.wikipedia.org/wiki/History_of_Arda#Third_Age`. **Make sure that you do not add any accidental spaces before or after your URL.**   
 
-`<a href="https://www.w3schools.com/tags/att_a_href.asp">your link text here</a>`
+Here is my example:  
+<img width=600px src="images/act-2/act2-4.png" alt="example HTML link in Sublime Text editor">
 
-- Save your HTML file and refresh your browser to see if your new link works.
+4. Save your file.
 
 ### BONUS work: add an anchor link to your HTML document
 
