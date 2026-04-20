@@ -48,7 +48,7 @@ Let's take a moment to look at what your `about.html` page should look like so f
 
 Visually speaking, my web page is pretty basic. Here's what it looks like at this point in Firefox: 
 
-<img width=500px src="images/act-2/act3-1.png" alt="example HTML page to this point in workshop">
+<img width=500px src="images/act-3/act3-1.png" alt="example HTML page to this point in workshop">
 
 Using CSS, we will make our growing website look a little more stylish and colourful. 
 
