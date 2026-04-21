@@ -61,7 +61,7 @@ There is a way to "embed" CSS "rules" directly between the `<head></head>` tags 
 1. Return to Submlime Text and create a new file: name the file as follows: `style.css`. Now, save the file in your `html_workshop` folder. **<mark>Important:</mark>** make sure you save the file at the same "level" as the `about.html` file. Here is what your `html_workshop` folder should look like, now:  
 <img width=500px src="images/act-3/act3-3.png" alt="stylesheet saved in HTML workshop folder">
 2. In Sublime Text, return to your `about.html` file. In the same way that we created a link to an image file, in our `about.html` page, we are going to create a link between an HTML file and our CSS file, or stylesheet (the `style.css` file we just created).
-3. As a rule, links to stylesheets always go within the `<head></head>` tags of an HTML document. So, just under the `<title>` tags, add the following: `<link rel="stylesheet" href="style.css">`. Here is an example of what the stylesheet link looks like in my `about.html` page:
+3. As a rule, links to stylesheets always go within the `<head></head>` tags of an HTML document. So, just under the `<title>` tags, add the following: `<link rel="stylesheet" href="style.css">`. Here is what the stylesheet link looks like in my `about.html` page:
 
  ```
 <head>
@@ -82,26 +82,26 @@ Notice a few things about the stylesheet link:
 
 ## Get to know some basic CSS terms
 
-- Here is an example of a "CSS declaration block," which contains an ordered collection of CSS properties and values:<br/>
+Here is an example of a "CSS declaration block," which contains an ordered collection of CSS properties and values:<br/>
 
 <img width=500px src="images/act-3/act3-2.png" alt="CSS block example">
 
-- The declaration block "declares" what it will do to change a specific HTML element, such as a paragraph `<p>`. 
-- In CSS-speak, the HTML element you want to change, or "style," is called the "selector". So, let's put this all together:<br/>
+The declaration block "declares" what it will do to change a specific HTML element, such as a paragraph `<p>`. In CSS-speak, the HTML element you want to change, or "style," is called the "selector". So, let's put this all together:<br/>
 
 <img src="https://www.w3schools.com/css/img_selector.gif" alt="CSS terms image">
 
-- Note that the CSS declaration lives within "**curly brackets**" `{` `}`. Think of these curly brackets like the open and closed tags in HMTL. 
-- The example above shows all the "values" that would apply to any and all `h1` tags in your HTML file.
-- Note the use and placement of the **semicolon(s)**. Semicolons signify the end of individual declarations. 
-- <mark>Important</mark>: always add a semicolon at the end of each declaration. Do not (accidentally) add any spaces before the semicolon or your declaration will be "invalid" and not work: 
-  - Invalid: `color:blue ;`
-  - Valid: `color:blue;`
-- Note that CSS is written with USA spelling, so it's "color" not "colour". 
-- A declaration block can hold multiple properties. Each property should be on its own line because it makes the block easy to read. 
-- Technically, it does not matter what order we place our declarations. Modern computers and browsers read CSS very quickly. However, if you had a large CSS file, with hundreds of declarations, page-load times can be affected and it will be important to keep your CSS tidy and easy to read.
-- For reasons of speed, readability, and more, web developers typically use a variety of CSS best practices, which you will encounter eventually if you carry on in web development.
-- Here is an example of a well formed CSS "ruleset" (which contains the selector, declarations, properties, and values):
+Some random but **important CSS tips**:
+- note that the CSS declaration lives within "**curly brackets**" `{` `}`, and think of these curly brackets like the open and closed tags in HMTL
+- the screenshot example, above, shows all the "values" that would apply to any and all `h1` tags in your HTML file
+- note the use and placement of the **semicolon(s)**; semicolons signify the end of individual declarations
+- <mark>Important</mark>: always add a semicolon at the end of each declaration, and avoid (accidentally) adding any spaces before the semicolon or your declaration will be "invalid" and not work: 
+  - invalid: `color:blue ;`
+  - valid: `color:blue;`
+- CSS is written with USA spelling, so it's "color" not "colour" 
+- declaration blocks can hold multiple properties: each property should be on its own line because it makes the block easy to read 
+- technically, it does not matter what order we place our declarations; however, if you had a large CSS file, with hundreds of declarations, page-load times can be affected and it will be important to keep your CSS tidy and easy to read
+- for reasons of speed, readability, and more, web developers typically use a variety of CSS "best practices," which you will encounter eventually if you carry on in web development
+- here is an example of a "well formed" CSS "ruleset" (which contains the selector, declarations, properties, and values):
         
  ```
  h1 {
@@ -110,7 +110,10 @@ Notice a few things about the stylesheet link:
       color: blue;
  }
 ```
-- In the example above, we are telling browsers to do the following: make all our `h1` headings underlined, 25 pixel font size, and blue in colour. 
+
+In the example above, we are telling browsers to do the following: make all our `h1` headings underlined, 25 pixel font size, and blue in colour. 
+
+That's some of the CSS basics covered, so let's get tinkering...  
 
 ## Choose your own CSS quest! 
 
