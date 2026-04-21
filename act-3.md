@@ -58,7 +58,7 @@ In the same way that we created a place to keep our images, we need a way to kee
 
 There is a way to "embed" CSS "rules" directly between the `<head></head>` tags in your HTML file, and this method is usually fine for simple, one-page websites (and you can try this, below). Usually, though, web developers consider it "best practice" to have an "external," or separate, dedicated "stylesheet" that contains all the CSS rules for your whole site. And, you can see how this would be vital for sites with dozens of pages because you only have to change something in one place in order to change all your web pages' styles at once.
 
-1. Return to Submlime Text and create a new file: name the file as follows: `style.css`. Now, save the file in your `html_workshop` folder. **<mark>Important:</mark>** make sure you save the file at the same "level" as the `about.html` file. Here is what your `html_workshop` folder shoud look like, now:  
+1. Return to Submlime Text and create a new file: name the file as follows: `style.css`. Now, save the file in your `html_workshop` folder. **<mark>Important:</mark>** make sure you save the file at the same "level" as the `about.html` file. Here is what your `html_workshop` folder should look like, now:  
 <img width=500px src="images/act-3/act3-3.png" alt="stylesheet saved in HTML workshop folder">
 2. In Sublime Text, return to your `about.html` file. In the same way that we created a link to an image file, in our `about.html` page, we are going to create a link between an HTML file and our CSS file, or stylesheet (the `style.css` file we just created).
 3. As a rule, links to stylesheets always go within the `<head></head>` tags of an HTML document. So, just under the `<title>` tags, add the following: `<link rel="stylesheet" href="style.css">`. Here is an example of what the stylesheet link looks like in my `about.html` page:
@@ -125,11 +125,13 @@ This is the time to play around with CSS in a way that works for you. Maybe you 
 
 Remember that breaking things, especially digital things, is how we learn. 
 
-Good luck, web traveller <span style='font-size:30px;'>&#129497;</span>
+Good luck, web traveler <span style='font-size:30px;'>&#129497;</span>
 
 ## Your CSS quest list
 
-We have curated a sampling of fundamental **tutorials from the W3Schools website**, which is a great resource to learn about, as it is used by beginner and seasoned developers alike. And, we have set some quests from easier to more difficult. As ever, if you have any questions, or get stuck, please ask the instructor for assistance. 
+We have curated a sampling of fundamental **tutorials from the W3Schools website**, which is a great resource to learn about, as it is used by beginner and seasoned developers alike. And, we have set some quests from easier to more difficult. 
+
+As ever, if you have any questions, or get stuck, please ask the instructor for assistance. 
 
 In keeping with the theme of this workshop, we have ordered the quests in **three levels of difficulty**. 
 
@@ -154,7 +156,7 @@ For these quests, it will help to know about [HTML "div" tags](https://www.w3sch
 As above, [choose another beginner tutorial](https://www.w3schools.com/Css/) to try. 
 
 ### Defending Helms Deep
-For these quests, it will vital that are comfortable with creating [HTML "div" tags](https://www.w3schools.com/Tags/tag_div.asp), and using [CSS selectors](https://www.w3schools.com/css/css_selectors.asp)... 
+For these quests, it will vital that you are comfortable with creating [HTML "div" tags](https://www.w3schools.com/Tags/tag_div.asp), and using [CSS selectors](https://www.w3schools.com/css/css_selectors.asp)... 
 
 - [play around with flex boxes](https://www.w3schools.com/css/css3_flexbox.asp)
 - [create a div and make its corners round](https://www.w3schools.com/css/css3_borders.asp)
@@ -162,7 +164,8 @@ For these quests, it will vital that are comfortable with creating [HTML "div" t
 - [create a clickable button](https://www.w3schools.com/Css/css3_buttons.asp)
 - [try to get an animation working](https://www.w3schools.com/css/css3_animations.asp)
 
-This workshop was designed to bring you into the world of HTML and CSS, so thanks for being part of the journey <span style='font-size:20px;'>&#128568;</span>. 
+This workshop was designed to bring you into the world of HTML and CSS, so thanks for being part of the journey <span style='font-size:20px;'>&#128568;</span>.
+
 If you want to take things to the next level, we have some resources in the next section. 
 
 [NEXT STEP: Making your own website](https://uviclibraries.github.io/html-css/act-5.html){: .btn .btn-blue }
