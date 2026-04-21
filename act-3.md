@@ -136,7 +136,7 @@ As ever, if you have any questions, or get stuck, please ask the instructor for 
 
 In keeping with the theme of this workshop, we have ordered the quests in **three levels of difficulty**. 
 
-### Making it to The Prancing Pony
+### Making it to The Prancing Pony (1)
 - embed your CSS rules in the head tag of your HTML document by using "Method 2: Internal CSS" in [this tutorial](https://www.w3schools.in/html/how-to-add-css-in-html)
 - [change text colour](https://www.w3schools.com/css/css_text.asp) in some way
 - [add some text decoration](https://www.w3schools.com/css/css_text_decoration.asp)
@@ -147,7 +147,7 @@ In keeping with the theme of this workshop, we have ordered the quests in **thre
 
 Or [choose another beginner tutorial](https://www.w3schools.com/Css/) to try. 
 
-### Passing through the Mines of Moria
+### Passing through the Mines of Moria (2) 
 For these quests, it will help to know about [HTML "div" tags](https://www.w3schools.com/Tags/tag_div.asp), and [CSS selectors](https://www.w3schools.com/css/css_selectors.asp) and how they work together... 
 - [add a background colour](https://www.w3schools.com/css/css_background.asp) to your whole web page
 - [play with the margins of a paragraph](https://www.w3schools.com/css/css_margin.asp)
@@ -157,7 +157,7 @@ For these quests, it will help to know about [HTML "div" tags](https://www.w3sch
 
 As above, [choose another beginner tutorial](https://www.w3schools.com/Css/) to try. 
 
-### Defending Helms Deep
+### Defending Helms Deep (3) 
 For these quests, it will vital that you are comfortable with creating [HTML "div" tags](https://www.w3schools.com/Tags/tag_div.asp), and using [CSS selectors](https://www.w3schools.com/css/css_selectors.asp)... 
 
 - [play around with flex boxes](https://www.w3schools.com/css/css3_flexbox.asp)
