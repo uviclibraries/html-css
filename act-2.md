@@ -105,7 +105,7 @@ In my "Frodo Baggins bio" page, I will be adding a link to the words "Third Age,
 
 ### BONUS work: add an anchor link to your HTML document  
 
-**Skip this section if you are feeling pressed for time**, or if you would rather move on to learning about Cascading Style Sheets (CSS), or how to change the look of certain elements in your `about.html` file. 
+**Skip this section if you are feeling pressed for time**, or if you would rather move on to learning about Cascading Style Sheets (CSS) (how to change the look your `about.html` file). 
 
 **Anchor links jump you to another place in the same page** based on where you place an "anchor" within it. **<mark>Note</mark>** that you need to add enough text content  that so that you have to scroll down in Sublime Text to get to the end of it. 
 
