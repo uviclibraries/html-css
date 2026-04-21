@@ -136,6 +136,7 @@ As ever, if you have any questions, or get stuck, please ask the instructor for 
 In keeping with the theme of this workshop, we have ordered the quests in **three levels of difficulty**. 
 
 ### Making it to The Prancing Pony
+- embed your CSS rules in the head tag of your HTML document by using "Method 2: Internal CSS" in [this tutorial](https://www.w3schools.in/html/how-to-add-css-in-html)
 - [change text colour](https://www.w3schools.com/css/css_text.asp) in some way
 - [add some text decoration](https://www.w3schools.com/css/css_text_decoration.asp)
 - [align your text](https://www.w3schools.com/css/css_text_align.asp) in some way
