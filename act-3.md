@@ -168,6 +168,65 @@ For these quests, it will vital that you are comfortable with creating [HTML "di
 - [create a clickable button](https://www.w3schools.com/Css/css3_buttons.asp)
 - [try to get an animation working](https://www.w3schools.com/css/css3_animations.asp)
 
+## My Frodo Baggins bio after adding some CSS
+
+<img width=500px src="images/act-3/act3-4.png" alt="example Frodo bio page after CSS">
+
+Does it look like a website from the before times? Yes! So I care? No! We are learning the basics and having fun. I added some padding to the, centred the Frodo portrait and added a fuzzy gold border, and linked in a [Wikimedia image of a Middle Earth map](https://commons.wikimedia.org/wiki/File:Sketch_Map_of_Middle-earth.svg) as a background. 
+
+If you want **to recreate my Frodo Baggins bio page** as a place to start, **here is how I made it work.**   
+
+The `about.html` file looks like this:  
+
+<img width=500px src="images/act-3/act3-5.png" alt="HTML file of Frodo bio page">
+
+The `style.css` looks like this:  
+
+<img width=500px src="images/act-3/act3-6.png" alt="CSS file of Frodo bio page">
+
+Finally, here is **the CSS to copy/paste** if you want to use it and then tweak what I did: 
+
+```
+body {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/Sketch_Map_of_Middle-earth.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+p {
+  background-color:GhostWhite;
+  padding:2%; 
+}
+
+h1 {
+
+  text-align:center;
+  color:white;
+  background-color:DarkOrchid;
+  padding:2%; 
+}
+
+h2 {
+
+  text-align:center;
+  color:white;
+  background-color:DarkSlateBlue;
+  padding:1%; 
+}
+
+/* Frodo image styles */
+
+.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:40%;
+  box-shadow: 0px 0px 15px 15px gold;
+}
+
+```
+
 This workshop was designed to bring you into the world of HTML and CSS, so thanks for being part of the journey <span style='font-size:20px;'>&#128568;</span>
 
 If you want to take things to the next level, we have some resources in the next section. 
