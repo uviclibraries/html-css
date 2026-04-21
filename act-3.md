@@ -43,7 +43,6 @@ Let's take a moment to look at what your `about.html` page should look like so f
 </body>
 
 </html>
-
 ```
 
 Visually speaking, my web page is pretty basic. Here's what it looks like at this point in Firefox: 
@@ -69,7 +68,6 @@ There is a way to "embed" CSS "rules" directly between the `<head></head>` tags 
 <title>Frodo Baggins bio</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
 ```
 Notice a few things about the stylesheet link: 
 - it is placed just _above_ the closed `</head>` tag
@@ -170,9 +168,11 @@ For these quests, it will vital that you are comfortable with creating [HTML "di
 
 ## My Frodo Baggins bio after adding some CSS
 
-<img width=500px src="images/act-3/act3-4.png" alt="example Frodo bio page after CSS">
+Does it look like a website from the before times? Yes! Do I care? No! We are learning the basics and having fun. 
 
-Does it look like a website from the before times? Yes! So I care? No! We are learning the basics and having fun. I added some padding to the, centred the Frodo portrait and added a fuzzy gold border, and linked in a [Wikimedia image of a Middle Earth map](https://commons.wikimedia.org/wiki/File:Sketch_Map_of_Middle-earth.svg) as a background. 
+I added some padding to the text, centred the Frodo portrait (and added a fuzzy gold border!), then linked to a [Wikimedia image of a Middle Earth map](https://commons.wikimedia.org/wiki/File:Sketch_Map_of_Middle-earth.svg) to use as a background. 
+
+<img width=500px src="images/act-3/act3-4.png" alt="example Frodo bio page after CSS">
 
 If you want **to recreate my Frodo Baggins bio page** as a place to start, **here is how I made it work.**   
 
@@ -224,7 +224,6 @@ h2 {
   width:40%;
   box-shadow: 0px 0px 15px 15px gold;
 }
-
 ```
 
 This workshop was designed to bring you into the world of HTML and CSS, so thanks for being part of the journey <span style='font-size:20px;'>&#128568;</span>
