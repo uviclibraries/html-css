@@ -9,9 +9,9 @@ parent: Workshop Activities
 
 If you haven’t already completed the previous exercises, please start on the [Getting Started With HTML](https://uviclibraries.github.io/html-css/act-1.html) page, as this section of the workshop builds on the topics from previous sections.
 
-This section of the workshop is on [Cascading Style Sheets (CSS)](https://www.w3schools.com/Html/html_css.asp). **Think of HTML as the builder and CSS as the artist.** CSS is a different language than HTML and has different rules and structure. 
+This section of the workshop is on [Cascading stylesheets (CSS)](https://www.w3schools.com/Html/html_css.asp). **Think of HTML as the builder and CSS as the artist.** CSS is a different language than HTML and has different rules and structure. 
 
-CSS is used to alter the presentation of a website. Basically, CSS tells browsers the rules for what your various HTML elements, like paragraphs (`<p>`), headings (`<h1>`, for example), and content should look like. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
+CSS is used to alter the presentation of a website. Basically, CSS tells browsers the rules for what your various HTML elements, like paragraphs `<p>`, headings `<h1>`, and other content, should look like. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
 
 It can take many years of practice to become competent in the nuances of CSS. Getting CSS to work the way you want to can sometimes try your patience, but it is worth it when things work, so stick with it and be prepared to have fun breaking things. 
 
@@ -50,18 +50,18 @@ Visually speaking, my web page is pretty basic. Here's what it looks like at thi
 
 <img width=500px src="images/act-3/act3-1.png" alt="example HTML page to this point in workshop">
 
-Using CSS, we will make our growing website look a little more stylish and colourful. So, when we talk about "styling" our web pages, we mean making changes to the look, layout, colour choices, and other vidual elements of the web page. 
+Using CSS, we will make our growing website look a little more stylish and colourful. So, when we talk about "styling" our web pages, we mean making changes to the look, layout, colour choices, and other visual elements of web pages. 
 
-## Linking CSS to your HTML content: creating a "style sheet" 
+## Linking CSS to your HTML content: creating a "stylesheet" 
 
 In the same way that we created a place to keep our images, we need a way to keep track of the changes we make to the style our web page. As the [W3Schools website points out](https://www.w3schools.com/Html/html_css.asp), CSS allows you to do a lot, such as "control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!"  
 
-There is a way to "embed" CSS "rules" directly between the `<head></head>` tags in your HTML file, and this method is usually fine for simple, one-page websites. Usually, web developers consider it "best practice" to have an "external," or separate, dedicated "style sheet" that contains all the CSS rules for your whole site. And, you can see how this would be vital for sites with dozens of pages because you only have to change something in one place in order to change all your web pages' styles at once.
+There is a way to "embed" CSS "rules" directly between the `<head></head>` tags in your HTML file, and this method is usually fine for simple, one-page websites (and you can try this, below). Usually, though, web developers consider it "best practice" to have an "external," or separate, dedicated "stylesheet" that contains all the CSS rules for your whole site. And, you can see how this would be vital for sites with dozens of pages because you only have to change something in one place in order to change all your web pages' styles at once.
 
 1. Return to Submlime Text and create a new file: name the file as follows: `style.css`. Now, save the file in your `html_workshop` folder. **<mark>Important:</mark>** make sure you save the file at the same "level" as the `about.html` file. Here is what your `html_workshop` folder shoud look like, now:  
-<img width=500px src="images/act-3/act3-3.png" alt="style sheet saved in HTML workshop folder">
-2. In Sublime Text, return to your `about.html` file. In the same way that we created a link to an image file, in our `about.html` page, we are going to create a link between an HTML file and our CSS file, or style sheet (the `style.css` file we just created).
-3. As a rule, links to style sheets always go within the `<head></head>` tags of an HTML document. So, just under the `<title>` tags, add the following: `<link rel="stylesheet" href="style.css">`. Here is an example of what the stylesheet link looks like in my `about.html` page:
+<img width=500px src="images/act-3/act3-3.png" alt="stylesheet saved in HTML workshop folder">
+2. In Sublime Text, return to your `about.html` file. In the same way that we created a link to an image file, in our `about.html` page, we are going to create a link between an HTML file and our CSS file, or stylesheet (the `style.css` file we just created).
+3. As a rule, links to stylesheets always go within the `<head></head>` tags of an HTML document. So, just under the `<title>` tags, add the following: `<link rel="stylesheet" href="style.css">`. Here is an example of what the stylesheet link looks like in my `about.html` page:
 
  ```
 <head>
