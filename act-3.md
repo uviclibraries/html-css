@@ -164,7 +164,7 @@ For these quests, it will vital that you are comfortable with creating [HTML "di
 - [create a clickable button](https://www.w3schools.com/Css/css3_buttons.asp)
 - [try to get an animation working](https://www.w3schools.com/css/css3_animations.asp)
 
-This workshop was designed to bring you into the world of HTML and CSS, so thanks for being part of the journey <span style='font-size:20px;'>&#128568;</span>.
+This workshop was designed to bring you into the world of HTML and CSS, so thanks for being part of the journey <span style='font-size:20px;'>&#128568;</span>
 
 If you want to take things to the next level, we have some resources in the next section. 
 
