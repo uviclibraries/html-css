@@ -48,7 +48,7 @@ Another way of thinking about this is that we are going to tell the HTML file wh
 
 HTML uses an "**image tag**," or`<img>` tag, to "embed" an image in a web page. One quirk of an `<img>` tag is that it **does not need a closing tag**. But, it does have **two requirements**: 
 
-- (1) it **must contain the `src`**, or "source" attribute, which provides the [file path]()https://www.w3schools.com/Html/html_filepaths.asp information for your image (or [other file types](https://www.w3schools.com/tags/att_src.asp)). 
+- (1) it **must contain the `src`**, or "source" attribute, which provides the [file path](https://www.w3schools.com/Html/html_filepaths.asp) information for your image (or [other file types](https://www.w3schools.com/tags/att_src.asp)). 
 - (2) it **must contain `alt` text**, or "[alternate text](https://w3htmlschool.com/the-alt-attribute-in-html/)" attribute, to describe the image for a screen reader, or the text to display in cases where the image might fail to load for someone.
 
 1. In Sublime Text, return to your `about.html` file.
