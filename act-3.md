@@ -50,7 +50,7 @@ Visually speaking, my web page is pretty basic. Here's what it looks like at thi
 
 <img width=500px src="images/act-3/act3-1.png" alt="example HTML page to this point in workshop">
 
-Using CSS, we will make our growing website look a little more stylish and colourful. So, when we talk about "styling" our web pages, we mean making changes to the look, layout, colour choices, and other visual elements of web pages. 
+Using CSS will make our growing website look a little more stylish and colourful. When we talk about "styling" our web pages, we mean making changes to the look, layout, colour choices, and other visual elements of web pages. 
 
 ## Linking CSS to your HTML content: creating a "stylesheet" 
 
@@ -72,13 +72,13 @@ There is a way to "embed" CSS "rules" directly between the `<head></head>` tags 
 
 ```
 Notice a few things about the stylesheet link: 
-- the stylesheet link is placed just _above_ the closed `</head>` tag
-- it is, "self-closing" link and does use a closing tag
-- the `rel` part of the link stands for "relation", and this is required for all stylesheet links
-- the `href` part of the tag should look familiar, now, as we saw this in the previous section on adding links to am HTML document; specifies the file path to the `style.css` file, and since it is on the same level as the `about.html` file, the
-  - The `href` points our HTML page to our `style.css` page.    
+- it is placed just _above_ the closed `</head>` tag
+- it is "self-closing," and does require a closing tag
+- the ["rel" attribute](https://www.w3schools.com/TAGS/att_a_rel.asp) of the link stands for "relation", and this is required for all stylesheet links
+- the ["href" attribute](https://www.w3schools.com/tags/att_a_href.asp) should look familiar, now, as we saw this in the previous section on adding links to am HTML document
+  this attribute specifies the file path to the `style.css` file, and since it is on the same level as the `about.html` file, the
 
-- <mark>Note</mark> that you may need to hard refresh (clear your cache) in your browser to see your CSS rules take effect in your `about.html` page.
+- **<mark>Note</mark>** that you may need to hard refresh (clear your cache) in your browser to see your CSS rules take effect in your `about.html` page.
 
 ## Get to know some basic CSS terms
 
@@ -114,15 +114,55 @@ Notice a few things about the stylesheet link:
 
 ## Choose your own CSS quest! 
 
-This is the time to play around with CSS in a way that works for you. Maybe you want to change the look of your headings, or add a background colour to your web page, or add some indents. Remember that breaking things, especially digital things, is how we learn. 
+This is the time to play around with CSS in a way that works for you. Maybe you want to change the look of your headings, or add a background colour to your web page, or add some indents. 
 
-We have curated a sampling of fundamental **tutorials from the W3Schools website**, which is a great resource to learn about, as it is used by beginner and seasoned devlopers alike. And, we have set some quests from easier to more difficult. As ever, if you have any questions, or get stuck, please ask the instructor for assistance.
+**From here forward, you will follow the same process:**
+1. pick a CSS tutorial from the selections below
+2. make additions/changes to your `style.css` file
+3. Save the `style.css` file
+4. Open your `about.hmtl` file in a browser and refresh it to see your changes
+5. Repeat for as long as your patience lasts, or until this workshop ends...  
 
-Good luck, web traveller... 
+Remember that breaking things, especially digital things, is how we learn. 
 
-### 
+Good luck, web traveller <span style='font-size:30px;'>&#129497;</span>
 
+## Your CSS quest list
 
+We have curated a sampling of fundamental **tutorials from the W3Schools website**, which is a great resource to learn about, as it is used by beginner and seasoned developers alike. And, we have set some quests from easier to more difficult. As ever, if you have any questions, or get stuck, please ask the instructor for assistance. 
 
+In keeping with the theme of this workshop, we have ordered the quests in **three levels of difficulty**. 
+
+### Making it to The Prancing Pony
+- [change text colour](https://www.w3schools.com/css/css_text.asp) in some way
+- [add some text decoration](https://www.w3schools.com/css/css_text_decoration.asp)
+- [align your text](https://www.w3schools.com/css/css_text_align.asp) in some way
+- [change some text spacing](https://www.w3schools.com/css/css_text_spacing.asp)
+- [add a mystical shadow to some text](https://www.w3schools.com/css/css_text_shadow.asp)
+- [add a background image](https://www.w3schools.com/css/css_background_image.asp)
+
+Or [choose another beginner tutorial](https://www.w3schools.com/Css/) to try. 
+
+### Passing through the Mines of Moria
+For these quests, it will help to know about [HTML "div" tags](https://www.w3schools.com/Tags/tag_div.asp), and [CSS selectors](https://www.w3schools.com/css/css_selectors.asp) and how they work together... 
+- [add a background colour](https://www.w3schools.com/css/css_background.asp) to your whole web page
+- [play with the margins of a paragraph](https://www.w3schools.com/css/css_margin.asp)
+- [tackle CSS position](https://www.w3schools.com/Css/css_position.asp)
+- [create a div and apply some padding](https://www.w3schools.com/css/css_padding.asp)
+- [create a div and center it on your page](https://www.w3schools.com/css/css_padding.asp)
+
+As above, [choose another beginner tutorial](https://www.w3schools.com/Css/) to try. 
+
+### Defending Helms Deep
+For these quests, it will vital that are comfortable with creating [HTML "div" tags](https://www.w3schools.com/Tags/tag_div.asp), and using [CSS selectors](https://www.w3schools.com/css/css_selectors.asp)... 
+
+- [play around with flex boxes](https://www.w3schools.com/css/css3_flexbox.asp)
+- [create a div and make its corners round](https://www.w3schools.com/css/css3_borders.asp)
+- [make a groovy gradient as a page background](https://www.w3schools.com/css/css3_gradients.asp)
+- [create a clickable button](https://www.w3schools.com/Css/css3_buttons.asp)
+- [try to get an animation working](https://www.w3schools.com/css/css3_animations.asp)
+
+This workshop was designed to bring you into the world of HTML and CSS, so thanks for being part of the journey <span style='font-size:20px;'>&#128568;</span>. 
+If you want to take things to the next level, we have some resources in the next section. 
 
 [NEXT STEP: Making your own website](https://uviclibraries.github.io/html-css/act-5.html){: .btn .btn-blue }
