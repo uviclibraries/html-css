@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 5 - Next Steps
-nav_order: 6
+title: 4 - Next Steps
+nav_order: 5
 parent: Workshop Activities
 ---
 
