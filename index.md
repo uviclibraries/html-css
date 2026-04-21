@@ -31,5 +31,7 @@ By the end of this workshop you will be able to do the following:
 8. Learn more about how to create your own public website
 
 Image credit: W3C under the [Creative Commons Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/deed.en) obtained from the [Wikimedia.org](https://commons.wikimedia.org/w/index.php?curid=12736763)
- 
+
+[Introduction to Coding with HTML & CSS slideshow](https://docs.google.com/presentation/d/12ZbaJSflaSLN55PVMGak4isqxv2ISsTlgfkVEzPpBho/edit?usp=sharing)
+
 [NEXT STEP: Pre-Workshop Activities](https://uviclibraries.github.io/html-css/pre-workshop.html){: .btn .btn-blue }
