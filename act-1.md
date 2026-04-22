@@ -78,7 +78,6 @@ Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, th
 
 1. In your `about.html` file, and underneath `<!DOCTYPE html>`, add the following : `<html></html>`
 2. Save your file. 
-
 > **<mark>Note</mark>** that Sublime Text is programmed to provide some HTML features, such as autocompletes, suggestions, and other features to make your "[markup](https://en.wikipedia.org/wiki/Markup_language)" work easier and more reliable. For example, try Sublime Text's autocomplete feature by typing the letter “**<h**”. Note that a dropdown list of suggestions will appear, giving you the option to autocomplete the line for you.
 >
 > Like autocomplete with texting, it is easy to make a mistake, so always make sure that you are selecting the correct choice.
@@ -100,7 +99,6 @@ Page titles typically appear in browser tabs, otherwise, the browser tab for you
 The head tag also contains essential "metadata," or data about data. Metadata in this case is data about the HTML document. With the exception of the `<title>` tag, elements within the `<head>` are _not_ displayed by your browser.
 
 1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:
-
 ```
 <!DOCTYPE html>
 <html>
@@ -111,14 +109,10 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 2. Directly underneath the opening `<html>` tag, add the follwing opening and closing `<head>` tags:
 `<head></head>`
 3. As you did for the `<html>` tags, make some space between the `<head>` tags. Then, add the following "meta" tag: <meta charset="UTF-8">
-
-> **<mark>Note</mark>** that the **"charset"** (character set) attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8" (**Unicode** Transformation Format–8 bit), rather than letting the browser guess, your web page will now be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more.  
-
+> **<mark>Note</mark>** that the **"charset"** (character set) attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8" (**Unicode** Transformation Format–8 bit), rather than letting the browser guess, your web page will now be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more. 
 4. Save your file.
 5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
-6. Save your file. 
-
-Your `about.html` file should look like this: 
+6. Save your file. Your `about.html` file should look like this: 
 ```
 <!DOCTYPE html>
 <html>
@@ -129,7 +123,6 @@ Your `about.html` file should look like this:
 </html>
 ```
 7. Whatever you add between the `<title>` tags will appear in the tab of your web page. Between your `<title>` tags, add whatever text you like. In my example, I am writing a short biography of Frodo Baggins, so here is what my `about.html` page looks like at this stage:
-
 ```
 <!DOCTYPE html>
 <html>
@@ -140,7 +133,6 @@ Your `about.html` file should look like this:
 </html>
 ```
 > **<mark>Note</mark>** that I kept my title short. Browser tabs are only so wide, and I want my readers to be able to see the whole title.
-
 8. Save your file.
 
 ### Seeing your (blank) page for the first time
@@ -201,7 +193,6 @@ Paragraph tags `<p></p>` tell that browser to treat the text between them as sep
 All browsers by default will add a line break, or place a single blank line, before and after each set of `<p></p>` tags. Paragraph tags always appear, or are "nested," between the `<body></body>` tags. 
 
 1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags. Then, add some space between the two sets of opening and closing `<p></p>` tags, as in the following example:
-
 ```
 <body>
 
@@ -211,7 +202,6 @@ All browsers by default will add a line break, or place a single blank line, bef
 
 </body>
 ```
-
 2. Save your file.
 
 _Before_ we add any content between the paragraph tags, **we are going to add one last element** seen in nearly all web pages, and that is a heading of some kind. 
@@ -259,7 +249,6 @@ Now that we have all the basic elements in place, it is finally time to add some
 All the content between the tags we added within the `<body></body>` tags will be displayed on our web page. 
 
 1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the equivalent tags in your `about.html` file: 
-
 ```
 <body>
 
