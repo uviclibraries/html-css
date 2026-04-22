@@ -84,8 +84,8 @@ Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, th
 > 
 ><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
-By now, your `about.html` file should look like this: 
-    
+By now, your `about.html` file should look like this:
+
 ```html
 <!DOCTYPE html>
 <html></html>
