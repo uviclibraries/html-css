@@ -86,10 +86,10 @@ Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, th
 
 By now, your `about.html` file should look like this: 
     
-	```
-    <!DOCTYPE html>
-    <html></html>
-    ```
+```
+<!DOCTYPE html>
+<html></html>
+```
 
 ### The head tag: <head>
 
@@ -101,40 +101,40 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 
 1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:
 
-    ```
-    <!DOCTYPE html>
-    <html>
+```
+<!DOCTYPE html>
+<html>
 
 	
-    </html>
-    ```
-2. Directly underneath the opening `<html>` tag, add the follwing opening and closing `<head>` tags:
-`<head></head>`
+</html>
+```
+2. Directly underneath the opening `<html>` tag, add the follwing opening and closing `<head>` tags: `<head></head>`
 3. As you did for the `<html>` tags, make some space between the `<head>` tags. Then, add the following "meta" tag: <meta charset="UTF-8">
 > **<mark>Note</mark>** that the **"charset"** (character set) attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8" (**Unicode** Transformation Format–8 bit), rather than letting the browser guess, your web page will now be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more. 
 4. Save your file.
 5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
 6. Save your file. Your `about.html` file should look like this:  
 
-    ```
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <title></title>
-    </head>
-    </html>
-    ```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+</html>
+```
 7. Whatever you add between the `<title>` tags will appear in the tab of your web page. Between your `<title>` tags, add whatever text you like. In my example, I am writing a short biography of Frodo Baggins, so here is what my `about.html` page looks like at this stage:  
-    ```
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <title>Frodo Baggins bio</title>
-    </head>
-    </html>
-    ```
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
+</html>
+```
 > **<mark>Note</mark>** that I kept my title short. Browser tabs are only so wide, and I want my readers to be able to see the whole title.
 8. Save your file.
 
@@ -154,6 +154,7 @@ Up to this point, we have learned what it takes to create to create a bare bones
 Next, we will add what web developers consider the basic elements of web page. After that, we will add some content to display. 
 
 ### The body tag: <body>
+
 The `<body>` tag is appropriately named because that is where the body of your content—such as paragraphs, images, links, lists, and more—will be displayed on your web page. There can be only one set of `<body></body>` tags within an HTML file. 
 
 1. Go back to Sublime Text and return to your `about.html` file.
@@ -161,57 +162,59 @@ The `<body>` tag is appropriately named because that is where the body of your c
 
 Your file might have different content between the `<title>` tags, but should otherwise look like this:  
    
-	```
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <title>Frodo Baggins bio</title>
-    </head>
-    <body></body>
-    </html>
-    ```  
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
+<body></body>
+</html>
+```  
 
 Now, **let's do a little visual housekeeping**, as it can be easier to keep track of things when we separate out some of the elements from each other.
 
 Here's what my file now looks like, for easier reading:  
     
-	```
-    <!DOCTYPE html>
-    <html>
+```
+<!DOCTYPE html>
+<html>
 
-    <head>
-    <meta charset="utf-8">
-    <title>Frodo Baggins bio</title>
-    </head>
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
 
-    <body>
-    </body>
+<body>
+</body>
 
-    </html>
-    ```
+</html>
+```
 
 ### The paragraph tag: <p>
+
 Paragraph tags `<p></p>` tell that browser to treat the text between them as separate blocks of text, or paragraphs. 
 
 All browsers by default will add a line break, or place a single blank line, before and after each set of `<p></p>` tags. Paragraph tags always appear, or are "nested," between the `<body></body>` tags. 
 
 1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags. Then, add some space between the two sets of opening and closing `<p></p>` tags, as in the following example:  
 
-    ```
-    <body>
+```
+<body>
 
-    <p></p>
+<p></p>
 
-    <p></p>
+<p></p>
 
-    </body>
-    ```
+</body>
+```
 2. Save your file.
 
 _Before_ we add any content between the paragraph tags, **we are going to add one last element** seen in nearly all web pages, and that is a heading of some kind. 
 
 ### Headings tags: \<h1> to \<h6>
+
 Headings can give structure and readability to your web pages. They help to break up long sections of text and are crucial for those using assistive technologies to provide in-page navigation of your content. 
 
 There are **six types of heading tags**, from largest to smallest: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. 
@@ -224,29 +227,29 @@ Browsers have built-in ways to display headings so that they have different size
 
 Your `about.html` file should now look like this:  
     
-	```
-    <!DOCTYPE html>
-    <html>
+```
+<!DOCTYPE html>
+<html>
 
-    <head>
-    <meta charset="utf-8">
-    <title>Frodo Baggins bio</title>
-    </head>
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
 
-    <body>
+<body>
 
-    <h1></h1>
+<h1></h1>
 
-    <p></p>
+<p></p>
 
-    <h2></h2>
+<h2></h2>
 
-    <p></p>
+<p></p>
 
-    </body>
+</body>
 
-    </html>
-    ```
+</html>
+```
 
 Now that we have all the basic elements in place, it is finally time to add some content <span style='font-size:20px;'>😍</span>
 
@@ -255,19 +258,19 @@ All the content between the tags we added within the `<body></body>` tags will b
 
 1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the equivalent tags in your `about.html` file:  
 
-    ```
-    <body>
+```
+<body>
 
-    <h1>Get to know Frodo Baggins</h1>
+<h1>Get to know Frodo Baggins</h1>
 
-    <p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood        was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck       family, including his mother Primula Brandybuck. His father, Drogo Baggins was the      eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a      love for the comforts of life, as well as an occasional wild and dangerous              adventure.</p>
+<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
 
-    <h2>Frodo's adventures</h2>
+<h2>Frodo's adventures</h2>
 
-    <p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount       Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-       bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three       hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third      Age.</p>
+<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.</p>
 
-    </body>
-    ```
+</body>
+```
 
 **Remember to Save your file.**
 
