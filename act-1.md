@@ -85,7 +85,8 @@ Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, th
 ><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
 By now, your `about.html` file should look like this: 
-    ```html
+    
+	```html
 <!DOCTYPE html>
 <html></html>
 	```
@@ -99,6 +100,7 @@ Page titles typically appear in browser tabs, otherwise, the browser tab for you
 The head tag also contains essential "metadata," or data about data. Metadata in this case is data about the HTML document. With the exception of the `<title>` tag, elements within the `<head>` are _not_ displayed by your browser.
 
 1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:
+	
 	```html
 <!DOCTYPE html>
 <html>
@@ -175,7 +177,7 @@ Now, **let's do a little visual housekeeping**, as it can be easier to keep trac
 
 Here's what my file now looks like, for easier reading:  
     
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -196,9 +198,9 @@ Paragraph tags `<p></p>` tell that browser to treat the text between them as sep
 
 All browsers by default will add a line break, or place a single blank line, before and after each set of `<p></p>` tags. Paragraph tags always appear, or are "nested," between the `<body></body>` tags. 
 
-1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags. Then, add some space between the two sets of opening and closing `<p></p>` tags, as in the following example:  
+1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags. Then, add some space between the two sets of opening and closing `<p></p>` tags, as in the following example:
 
-```
+```html
 <body>
 
 <p></p>
@@ -225,7 +227,7 @@ Browsers have built-in ways to display headings so that they have different size
 
 Your `about.html` file should now look like this:  
     
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -256,7 +258,7 @@ All the content between the tags we added within the `<body></body>` tags will b
 
 1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the equivalent tags in your `about.html` file:  
 
-```
+```html
 <body>
 
 <h1>Get to know Frodo Baggins</h1>
@@ -274,7 +276,7 @@ All the content between the tags we added within the `<body></body>` tags will b
 
 Putting it all together, here is what your `about.html` file should look like by now:  
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
