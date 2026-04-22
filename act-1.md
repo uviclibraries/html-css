@@ -296,7 +296,7 @@ Putting it all together, here is what your `about.html` file should look like by
 </html>
 ```
 
-Now, let's check it out our work in a browser.  
+Now, let's check out our work in a browser.  
 
 ### Testing our basic HTML page
 It is time to see if everything on your `about.html` web page looks as expected. 
