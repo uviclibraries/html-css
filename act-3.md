@@ -21,7 +21,7 @@ It can take many years of practice to become competent in the nuances of CSS. Ge
 
 Let's take a moment to look at what your `about.html` page should look like so far. Here's the full code from my `about.html`, just in case you need to compare, or start from scratch if your site is not working as expected:
 
-```hmtl
+```html
 <!DOCTYPE html>
 <html>
 
@@ -101,7 +101,7 @@ Some random but **important CSS tips**:
 - for reasons of speed, readability, and more, web developers typically use a variety of CSS "best practices," which you will encounter eventually if you carry on in web development
 - here is an example of a "well formed" CSS "ruleset" (which contains the selector, declarations, properties, and values):
         
-```html
+```css
 h1 {
  text-decoration:underline;
  font-size:25px;
@@ -186,7 +186,7 @@ The `style.css` looks like this:
 
 Finally, here is **the CSS to copy/paste** if you want to use it and then tweak what I did:
 
-```html
+```css
 body {
 background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/Sketch_Map_of_Middle-earth.svg');
 background-repeat: no-repeat;
