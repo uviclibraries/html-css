@@ -222,7 +222,8 @@ Browsers have built-in ways to display headings so that they have different size
 3. Save your file.
 
 Your `about.html` file should now look like this:  
-    ```
+    
+	```
     <!DOCTYPE html>
     <html>
 
@@ -235,16 +236,16 @@ Your `about.html` file should now look like this:
 
     <h1></h1>
 
-<p></p>
+    <p></p>
 
-<h2></h2>
+    <h2></h2>
 
-<p></p>
+    <p></p>
 
-</body>
+    </body>
 
-</html>
-```
+    </html>
+    ```
 
 Now that we have all the basic elements in place, it is finally time to add some content <span style='font-size:20px;'>😍</span>
 
@@ -253,19 +254,19 @@ All the content between the tags we added within the `<body></body>` tags will b
 
 1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the equivalent tags in your `about.html` file:  
 
-```
-<body>
+    ```
+    <body>
 
-<h1>Get to know Frodo Baggins</h1>
+    <h1>Get to know Frodo Baggins</h1>
 
-<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
+    <p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly       at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother           Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the        nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional         wild and dangerous adventure.</p>
 
-<h2>Frodo's adventures</h2>
+    <h2>Frodo's adventures</h2>
 
-<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.</p>
+    <p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it        was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped       by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the           Uttermost West at the end of the Third Age.</p>
 
-</body>
-```
+    </body>
+    ```
 
 **Remember to Save your file.**
 
