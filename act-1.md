@@ -99,14 +99,13 @@ Page titles typically appear in browser tabs, otherwise, the browser tab for you
 The head tag also contains essential "metadata," or data about data. Metadata in this case is data about the HTML document. With the exception of the `<title>` tag, elements within the `<head>` are _not_ displayed by your browser.
 
 1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:
-
-```html
+	```html
 <!DOCTYPE html>
 <html>
 
 	
 </html>
-```
+	```
 2. Directly underneath the opening `<html>` tag, add the follwing opening and closing `<head>` tags: `<head></head>`
 3. As you did for the `<html>` tags, make some space between the `<head>` tags. Then, add the following "meta" tag: <meta charset="UTF-8">
 > **<mark>Note</mark>** that the **"charset"** (character set) attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8" (**Unicode** Transformation Format–8 bit), rather than letting the browser guess, your web page will now be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more. 
