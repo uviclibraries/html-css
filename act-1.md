@@ -85,8 +85,8 @@ Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, th
 ><img width=500px src="images/act-1/act1-1.png" alt="autocomplete example">
 
 By now, your `about.html` file should look like this: 
-
-    ```
+    
+	```
     <!DOCTYPE html>
     <html></html>
     ```
@@ -160,7 +160,8 @@ The `<body>` tag is appropriately named because that is where the body of your c
 2. Below the closing `</head>` tag (and above the closing `</html>` tag) add the following tags: `<body></body>`
 
 Your file might have different content between the `<title>` tags, but should otherwise look like this:  
-    ```
+   
+	```
     <!DOCTYPE html>
     <html>
     <head>
@@ -174,8 +175,8 @@ Your file might have different content between the `<title>` tags, but should ot
 Now, **let's do a little visual housekeeping**, as it can be easier to keep track of things when we separate out some of the elements from each other.
 
 Here's what my file now looks like, for easier reading:  
-
-    ```
+    
+	```
     <!DOCTYPE html>
     <html>
 
@@ -259,11 +260,11 @@ All the content between the tags we added within the `<body></body>` tags will b
 
     <h1>Get to know Frodo Baggins</h1>
 
-    <p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly       at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother           Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the        nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional         wild and dangerous adventure.</p>
+    <p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood        was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck       family, including his mother Primula Brandybuck. His father, Drogo Baggins was the      eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a      love for the comforts of life, as well as an occasional wild and dangerous              adventure.</p>
 
     <h2>Frodo's adventures</h2>
 
-    <p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it        was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped       by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the           Uttermost West at the end of the Third Age.</p>
+    <p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount       Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-       bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three       hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third      Age.</p>
 
     </body>
     ```
@@ -272,29 +273,28 @@ All the content between the tags we added within the `<body></body>` tags will b
 
 Putting it all together, here is what your `about.html` file should look like by now:  
 
-    ```
-    <!DOCTYPE html>
-    <html>
+~~~<!DOCTYPE html>
+<html>
 
-    <head>
-    <meta charset="utf-8">
-    <title>Frodo Baggins bio</title>
-    </head>
+<head>
+<meta charset="utf-8">
+<title>Frodo Baggins bio</title>
+</head>
 
-    <body>
+<body>
 
-    <h1>Get to know Frodo Baggins</h1>
+<h1>Get to know Frodo Baggins</h1>
 
-    <p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly       at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother           Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the        nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional         wild and dangerous adventure.</p>
+<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
 
-    <h2>Frodo's adventures</h2>
+<h2>Frodo's adventures</h2>
 
-    <p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it        was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped       by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the           Uttermost West at the end of the Third Age.</p>
+<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.</p>
 
-    </body>
+</body>
 
-    </html>
-    ```
+</html>~~~
+
 Now, let's check it out our work in a browser.  
 
 ### Testing our basic HTML page
