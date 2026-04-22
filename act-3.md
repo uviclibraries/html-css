@@ -11,11 +11,13 @@ If you haven’t already completed the previous exercises, please start on the [
 
 This section of the workshop is on [Cascading stylesheets (CSS)](https://www.w3schools.com/Html/html_css.asp). **Think of HTML as the builder and CSS as the artist.** CSS is a different language than HTML and has different rules and structure. 
 
-CSS is used to alter the presentation of a website. Basically, CSS tells browsers the rules for what your various HTML elements, like paragraphs `<p>`, headings `<h1>`, and other content, should look like. CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
+CSS is used to alter the presentation of a website. Basically, CSS tells browsers the rules for what your various HTML elements, like paragraphs `<p>`, headings `<h1>`, and other content, should look like. 
+
+CSS also controls things like the size and spacing between objects, like images, and text, and so much more. 
 
 It can take many years of practice to become competent in the nuances of CSS. Getting CSS to work the way you want to can sometimes try your patience, but it is worth it when things work, so stick with it and be prepared to have fun breaking things. 
 
-**For this part of the workshop, you will learn a CSS fundamental: how to link to a "stylesheet,"** and then you will get to play around as you like with some resources provided. 
+**For this part of the workshop, you will learn a CSS fundamental: how to link to a "stylesheet,"** and then you will get to play around as you like with some suggested CSS exercises. 
 
 ## On our journey, so far... 
 
