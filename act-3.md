@@ -34,7 +34,7 @@ Let's take a moment to look at what your `about.html` page should look like so f
 <img src="images/ frodo-01.png" alt="Frodo portrait">
 <h1>Get to know Frodo Baggins</h1>
 
-<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the newphew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
+<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
 
 <h2>Frodo's adventures</h2>
 
