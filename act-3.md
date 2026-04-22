@@ -184,7 +184,7 @@ The `style.css` looks like this:
 
 <img width=500px src="images/act-3/act3-6.png" alt="CSS file of Frodo bio page">
 
-Finally, here is **the CSS to copy/paste** if you want to use it and then tweak what I did: 
+Finally, here is **the CSS to copy/paste** if you want to use it and then tweak what I did:
 
 ```html
 body {
