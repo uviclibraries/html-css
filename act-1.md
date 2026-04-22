@@ -87,8 +87,8 @@ Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, th
 By now, your `about.html` file should look like this: 
     
 	```html
-<!DOCTYPE html>
-<html></html>
+	<!DOCTYPE html>
+	<html></html>
 	```
 
 ### The head tag: <head>
@@ -102,11 +102,11 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:
 	
 	```html
-<!DOCTYPE html>
-<html>
+	<!DOCTYPE html>
+	<html>
 
-	
-</html>
+
+	</html>
 	```
 2. Directly underneath the opening `<html>` tag, add the follwing opening and closing `<head>` tags: `<head></head>`
 3. As you did for the `<html>` tags, make some space between the `<head>` tags. Then, add the following "meta" tag: <meta charset="UTF-8">
@@ -115,26 +115,26 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
 6. Save your file. Your `about.html` file should look like this:  
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title></title>
-</head>
-</html>
-```
+	```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title></title>
+	</head>
+	</html>
+	```
 7. Whatever you add between the `<title>` tags will appear in the tab of your web page. Between your `<title>` tags, add whatever text you like. In my example, I am writing a short biography of Frodo Baggins, so here is what my `about.html` page looks like at this stage:  
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Frodo Baggins bio</title>
-</head>
-</html>
-```
+	```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Frodo Baggins bio</title>
+	</head>
+	</html>
+	```
 > **<mark>Note</mark>** that I kept my title short. Browser tabs are only so wide, and I want my readers to be able to see the whole title.
 8. Save your file.
 
@@ -162,16 +162,16 @@ The `<body>` tag is appropriately named because that is where the body of your c
 
 Your file might have different content between the `<title>` tags, but should otherwise look like this:  
    
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Frodo Baggins bio</title>
-</head>
-<body></body>
-</html>
-```  
+	```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Frodo Baggins bio</title>
+	</head>
+	<body></body>
+	</html>
+	```  
 
 Now, **let's do a little visual housekeeping**, as it can be easier to keep track of things when we separate out some of the elements from each other.
 
