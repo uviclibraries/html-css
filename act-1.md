@@ -99,7 +99,8 @@ Page titles typically appear in browser tabs, otherwise, the browser tab for you
 
 The head tag also contains essential "metadata," or data about data. Metadata in this case is data about the HTML document. With the exception of the `<title>` tag, elements within the `<head>` are _not_ displayed by your browser.
 
-1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:  
+1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:
+
 ```
 <!DOCTYPE html>
 <html>
@@ -114,6 +115,7 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 4. Save your file.
 5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
 6. Save your file. Your `about.html` file should look like this:  
+
 ```
 <!DOCTYPE html>
 <html>
