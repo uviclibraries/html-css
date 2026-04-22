@@ -86,7 +86,7 @@ Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, th
 
 By now, your `about.html` file should look like this: 
     
-```
+```html
 <!DOCTYPE html>
 <html></html>
 ```
@@ -101,7 +101,7 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 
 1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -115,7 +115,7 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
 6. Save your file. Your `about.html` file should look like this:  
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -126,7 +126,7 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 ```
 7. Whatever you add between the `<title>` tags will appear in the tab of your web page. Between your `<title>` tags, add whatever text you like. In my example, I am writing a short biography of Frodo Baggins, so here is what my `about.html` page looks like at this stage:  
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -162,7 +162,7 @@ The `<body>` tag is appropriately named because that is where the body of your c
 
 Your file might have different content between the `<title>` tags, but should otherwise look like this:  
    
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
