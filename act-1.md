@@ -160,8 +160,8 @@ The `<body>` tag is appropriately named because that is where the body of your c
 1. Go back to Sublime Text and return to your `about.html` file.
 2. Below the closing `</head>` tag (and above the closing `</html>` tag) add the following tags: `<body></body>`
 
-Your file might have different content between the `<title>` tags, but should otherwise look like this:  
-   
+Your file might have different content between the `<title>` tags, but should otherwise look like this:
+
 	```html
 	<!DOCTYPE html>
 	<html>
@@ -172,25 +172,24 @@ Your file might have different content between the `<title>` tags, but should ot
 	<body></body>
 	</html>
 	```  
-
 Now, **let's do a little visual housekeeping**, as it can be easier to keep track of things when we separate out some of the elements from each other.
 
 Here's what my file now looks like, for easier reading:  
     
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-<meta charset="utf-8">
-<title>Frodo Baggins bio</title>
-</head>
-
-<body>
-</body>
-
-</html>
-```
+	```html
+	<!DOCTYPE html>
+	<html>
+	
+	<head>
+	<meta charset="utf-8">
+	<title>Frodo Baggins bio</title>
+	</head>
+	
+	<body>
+	</body>
+	
+	</html>
+	```
 
 ### The paragraph tag: <p>
 
@@ -200,15 +199,15 @@ All browsers by default will add a line break, or place a single blank line, bef
 
 1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags. Then, add some space between the two sets of opening and closing `<p></p>` tags, as in the following example:
 
-```html
-<body>
-
-<p></p>
-
-<p></p>
-
-</body>
-```
+	```html
+	<body>
+	
+	<p></p>
+	
+	<p></p>
+	
+	</body>
+	```
 2. Save your file.
 
 _Before_ we add any content between the paragraph tags, **we are going to add one last element** seen in nearly all web pages, and that is a heading of some kind. 
@@ -227,29 +226,29 @@ Browsers have built-in ways to display headings so that they have different size
 
 Your `about.html` file should now look like this:  
     
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-<meta charset="utf-8">
-<title>Frodo Baggins bio</title>
-</head>
-
-<body>
-
-<h1></h1>
-
-<p></p>
-
-<h2></h2>
-
-<p></p>
-
-</body>
-
-</html>
-```
+	```html
+	<!DOCTYPE html>
+	<html>
+	
+	<head>
+	<meta charset="utf-8">
+	<title>Frodo Baggins bio</title>
+	</head>
+	
+	<body>
+	
+	<h1></h1>
+	
+	<p></p>
+	
+	<h2></h2>
+	
+	<p></p>
+	
+	</body>
+	
+	</html>
+	```
 
 Now that we have all the basic elements in place, it is finally time to add some content <span style='font-size:20px;'>😍</span>
 
@@ -258,47 +257,47 @@ All the content between the tags we added within the `<body></body>` tags will b
 
 1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the equivalent tags in your `about.html` file:  
 
-```html
-<body>
-
-<h1>Get to know Frodo Baggins</h1>
-
-<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
-
-<h2>Frodo's adventures</h2>
-
-<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.</p>
-
-</body>
-```
+	```html
+	<body>
+	
+	<h1>Get to know Frodo Baggins</h1>
+	
+	<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
+	
+	<h2>Frodo's adventures</h2>
+	
+	<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.</p>
+	
+	</body>
+	```
 
 **Remember to Save your file.**
 
 Putting it all together, here is what your `about.html` file should look like by now:  
 
-```html
-<!DOCTYPE html>
-<html>
-
-<head>
-<meta charset="utf-8">
-<title>Frodo Baggins bio</title>
-</head>
-
-<body>
-
-<h1>Get to know Frodo Baggins</h1>
-
-<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
-
-<h2>Frodo's adventures</h2>
-
-<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.</p>
-
-</body>
-
-</html>
-```
+	```html
+	<!DOCTYPE html>
+	<html>
+	
+	<head>
+	<meta charset="utf-8">
+	<title>Frodo Baggins bio</title>
+	</head>
+	
+	<body>
+	
+	<h1>Get to know Frodo Baggins</h1>
+	
+	<p>Born on September 22, in the year 1368, by Shire Reckoning, Frodo's childhood was spent mostly at Brandy Hall in Buckland, the ancestral home of the Brandybuck family, including his mother Primula Brandybuck. His father, Drogo Baggins was the eldest son of Fosco Baggins. Frodo was the nephew of Bilbo Baggins, and both had a love for the comforts of life, as well as an occasional wild and dangerous adventure.</p>
+	
+	<h2>Frodo's adventures</h2>
+	
+	<p>Frodo was a crucial part of Quest of Mount Doom. He bore the One Ring to Mount Doom, where it was eventually destroyed following a fight with Gollum. As a Ring-bearer, Frodo's fate was shaped by the power of the One Ring. He was one of three hobbits who sailed from Middle-earth to the Uttermost West at the end of the Third Age.</p>
+	
+	</body>
+	
+	</html>
+	```
 
 Now, let's check out our work in a browser.  
 
