@@ -273,7 +273,7 @@ All the content between the tags we added within the `<body></body>` tags will b
 
 Putting it all together, here is what your `about.html` file should look like by now:  
 
-~~~<!DOCTYPE html>
+```<!DOCTYPE html>
 <html>
 
 <head>
@@ -293,7 +293,8 @@ Putting it all together, here is what your `about.html` file should look like by
 
 </body>
 
-</html>~~~
+</html>
+```
 
 Now, let's check it out our work in a browser.  
 
