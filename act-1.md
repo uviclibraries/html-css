@@ -90,6 +90,7 @@ By now, your `about.html` file should look like this:
 <!DOCTYPE html>
 <html></html>
 ```
+
 ### The head tag: <head>
 
 Head tags appear, as the name suggests, at the head of the document. The content within head tags tells important information to the browser. The head tag also contains an essential element of any HTML page: the page "title." 
@@ -98,7 +99,7 @@ Page titles typically appear in browser tabs, otherwise, the browser tab for you
 
 The head tag also contains essential "metadata," or data about data. Metadata in this case is data about the HTML document. With the exception of the `<title>` tag, elements within the `<head>` are _not_ displayed by your browser.
 
-1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:
+1. In your `about.html` file, place your cursor between the `<html></html>` tags and hit return at least three times. We are making some space for our new tags. Your `about.html` file should now look something like this:  
 ```
 <!DOCTYPE html>
 <html>
@@ -112,7 +113,7 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 > **<mark>Note</mark>** that the **"charset"** (character set) attribute specifies the [character encoding](https://www.w3.org/International/articles/definitions-characters/) for the HTML document. By telling the browser to use "UTF-8" (**Unicode** Transformation Format–8 bit), rather than letting the browser guess, your web page will now be able to display nearly every character and symbol it is possible to display in a browser. Currently, "[Unicode](https://en.wikipedia.org/wiki/Unicode)" has nearly 160,000 characters and over 170 scripts, including emojis, symbols, ancient languages, and more. 
 4. Save your file.
 5. We are now going to add a title to our web page. Underneath the `<meta>` tag, add the following tags: `<title></title>`.
-6. Save your file. Your `about.html` file should look like this: 
+6. Save your file. Your `about.html` file should look like this:  
 ```
 <!DOCTYPE html>
 <html>
@@ -122,7 +123,7 @@ The head tag also contains essential "metadata," or data about data. Metadata in
 </head>
 </html>
 ```
-7. Whatever you add between the `<title>` tags will appear in the tab of your web page. Between your `<title>` tags, add whatever text you like. In my example, I am writing a short biography of Frodo Baggins, so here is what my `about.html` page looks like at this stage:
+7. Whatever you add between the `<title>` tags will appear in the tab of your web page. Between your `<title>` tags, add whatever text you like. In my example, I am writing a short biography of Frodo Baggins, so here is what my `about.html` page looks like at this stage:  
 ```
 <!DOCTYPE html>
 <html>
@@ -156,8 +157,7 @@ The `<body>` tag is appropriately named because that is where the body of your c
 1. Go back to Sublime Text and return to your `about.html` file.
 2. Below the closing `</head>` tag (and above the closing `</html>` tag) add the following tags: `<body></body>`
 
-Your file might have different content between the `<title>` tags, but should otherwise look like this: 
-
+Your file might have different content between the `<title>` tags, but should otherwise look like this:  
 ```
 <!DOCTYPE html>
 <html>
@@ -167,11 +167,11 @@ Your file might have different content between the `<title>` tags, but should ot
 </head>
 <body></body>
 </html>
-```
+```  
+
 Now, **let's do a little visual housekeeping**, as it can be easier to keep track of things when we separate out some of the elements from each other.
 
-Here's what my file now looks like, for easier reading: 
-
+Here's what my file now looks like, for easier reading:  
 ```
 <!DOCTYPE html>
 <html>
@@ -192,7 +192,7 @@ Paragraph tags `<p></p>` tell that browser to treat the text between them as sep
 
 All browsers by default will add a line break, or place a single blank line, before and after each set of `<p></p>` tags. Paragraph tags always appear, or are "nested," between the `<body></body>` tags. 
 
-1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags. Then, add some space between the two sets of opening and closing `<p></p>` tags, as in the following example:
+1. In your `about.html` file, make some space between the `<body></body>` tags and add two sets of paragraph tags. Then, add some space between the two sets of opening and closing `<p></p>` tags, as in the following example:  
 ```
 <body>
 
@@ -218,7 +218,6 @@ Browsers have built-in ways to display headings so that they have different size
 3. Save your file.
 
 Your `about.html` file should now look like this:  
-
 ```
 <!DOCTYPE html>
 <html>
@@ -248,7 +247,8 @@ Now that we have all the basic elements in place, it is finally time to add some
 ## Adding content to our HTML document
 All the content between the tags we added within the `<body></body>` tags will be displayed on our web page. 
 
-1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the equivalent tags in your `about.html` file: 
+1. You can add whatever content you want, or copy/paste the content from my Frodo Baggins bio page. Be careful to copy only the content _between_ the tags, and be sure to place this same content betwen the equivalent tags in your `about.html` file:  
+
 ```
 <body>
 
@@ -265,7 +265,7 @@ All the content between the tags we added within the `<body></body>` tags will b
 
 **Remember to Save your file.**
 
-Putting it all together, here is what your `about.html` file should look like by now: 
+Putting it all together, here is what your `about.html` file should look like by now:  
 
 ```
 <!DOCTYPE html>
