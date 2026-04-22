@@ -103,13 +103,24 @@ Some random but **important CSS tips**:
         
 ```css
 h1 {
- text-decoration:underline;
- font-size:25px;
- color: blue;
+text-decoration:underline;
+font-size:25px;
+color: blue;
  }
 ```
 
 In the example above, we are telling browsers to do the following: make all our `h1` headings underlined, 25 pixel font size, and blue in colour. 
+
+**<mark>Note</mark>** that many prefer to indent (using the Tab keyboard key) the properties within the curly braces, like this: 
+
+```css
+h1 {
+  text-decoration:underline;
+  font-size:25px;
+  color: blue;
+ }
+```
+But, not everybody does, and readability is a matter of opinion. 
 
 That's some of the CSS basics covered, so let's get tinkering...  
 
@@ -188,38 +199,38 @@ Finally, here is **the CSS to copy/paste** if you want to use it and then tweak 
 
 ```css
 body {
-background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/Sketch_Map_of_Middle-earth.svg');
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/Sketch_Map_of_Middle-earth.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 p {
-background-color:GhostWhite;
-padding:2%; 
+  background-color:GhostWhite;
+  padding:2%; 
 }
 
 h1 {
-text-align:center;
-color:white;
-background-color:DarkOrchid;
-padding:2%; 
+  text-align:center;
+  color:white;
+  background-color:DarkOrchid;
+  padding:2%; 
 }
 
 h2 {
-text-align:center;
-color:white;
-background-color:DarkSlateBlue;
-padding:1%; 
+  text-align:center;
+  color:white;
+  background-color:DarkSlateBlue;
+  padding:1%; 
 }
 
 /* Frodo image styles */
 .center {
-display:block;
-margin-left:auto;
-margin-right:auto;
-width:40%;
-box-shadow: 0px 0px 15px 15px gold;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:40%;
+  box-shadow: 0px 0px 15px 15px gold;
 }
 ```
 
