@@ -86,10 +86,10 @@ Now, we need to add the HTML tag. If you think of HTML tags as nesting dolls, th
 
 By now, your `about.html` file should look like this: 
     
-	```html
-	<!DOCTYPE html>
-	<html></html>
-	```
+```html
+<!DOCTYPE html>
+<html></html>
+```
 
 ### The head tag: <head>
 
