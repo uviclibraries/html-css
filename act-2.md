@@ -33,10 +33,9 @@ Let's start by creating a place to store our image.
 1. On your computer, navigate to the `html_workshop` folder and open it.
 2. In the `html_workshop` folder, create another folder called `images`.
 3. Click on the following link: [Frodo portrait](https://upload.wikimedia.org/wikipedia/en/4/4e/Elijah_Wood_as_Frodo_Baggins.png) and save the file into the `images` folder you just created. If the previous link does not work for you, I have uploaded the identical file [here](https://raw.githubusercontent.com/uviclibraries/html-css/refs/heads/main/images/act-2/frodo.png).
+4. Rename your PNG image file as follows: `frodo-01.png`. This may seem like a trvial step, but it will pay off later, should we wish to add more images of Frodo.
 
 > **<mark>Note</mark>**: if the process of saving images from the internet to your computer is new to you, or if you get into the digital weeds, please reach out to your intstructor. If you are doing this workshop remotely, then [this web page](https://tecnobits.com/en/how-to-download-images-from-the-internet/) walks through the process.
-
-4. Rename your PNG image file as follows: `frodo-01.png`. This may seem like a trvial step, but it will pay off later, should we wish to add more images of Frodo.
 
 Now that we have created a place to store our image, and renamed it, we are going to get the image to appear on our HTML page.
 
