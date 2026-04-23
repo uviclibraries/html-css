@@ -78,7 +78,7 @@ Notice a few things about the stylesheet link:
 - the ["href" attribute](https://www.w3schools.com/tags/att_a_href.asp) should look familiar, now, as we saw this in the previous section on adding links to am HTML document
   this attribute specifies the file path to the `style.css` file, and since it is on the same level as the `about.html` file, the
 
-- **<mark>Note</mark>** that you may need to hard refresh (clear your cache) in your browser to see your CSS rules take effect in your `about.html` page.
+- **<mark>Note</mark>** that you may need to [hard refresh your browser](https://www.wikihow.com/Force-Refresh-in-Your-Internet-Browser) to see your CSS rules work in your `about.html` page.
 
 ## Get to know some basic CSS terms
 
@@ -171,7 +171,7 @@ For these quests, it will help to know about [HTML "div" tags](https://www.w3sch
 As above, [choose another beginner tutorial](https://www.w3schools.com/Css/) to try. 
 
 ### Defending Helms Deep (3) 
-For these quests, it will vital that you are comfortable with creating [HTML "div" tags](https://www.w3schools.com/Tags/tag_div.asp), and using [CSS selectors](https://www.w3schools.com/css/css_selectors.asp)... 
+For these quests, it is vital that you are comfortable with creating [HTML "div" tags](https://www.w3schools.com/Tags/tag_div.asp), and using [CSS selectors](https://www.w3schools.com/css/css_selectors.asp)... 
 
 - [play around with flex boxes](https://www.w3schools.com/css/css3_flexbox.asp)
 - [create a div and make its corners round](https://www.w3schools.com/css/css3_borders.asp)
