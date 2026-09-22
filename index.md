@@ -5,7 +5,7 @@ nav_order: 1
 ---
 <img src="images/logo.svg" alt="html logo" style="float:right;width:180px;"> 
 
-# Introduction to coding with HTML & CSS
+# Build a basic AI-free website from scratch: an introduction to HTML and CSS
 
 - Pre-workshop activities: 10 min 
 - Introductory presentation: 10 min
