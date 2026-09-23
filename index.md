@@ -3,7 +3,7 @@ layout: default
 title: Introduction 
 nav_order: 1
 ---
-<img src="images/logo.svg" alt="html logo" style="float:right;width:180px;"> 
+<img src="images/no-ai-logo.png" alt="anti AI logo" style="float:right;width:200px;"> 
 
 # Build a basic AI-free website from scratch: an introduction to HTML and CSS
 
