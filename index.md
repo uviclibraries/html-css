@@ -11,11 +11,11 @@ nav_order: 1
 - Introductory presentation: 10 min
 - Hands-on activities: 60 min
 
-## Why HTML & CSS? 
+## Why learn HTML & CSS? 
 
-HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are foundational languages used to build websites. By learning how they work, you’ll gain foundational knowledge on how to design, publish, and market online content. 
+Website builders like WordPress, Squarespace, and Wix are online services that use a GUI (graphical user interface) to produce websites. And, with the rise of Ai-assisted "[vibe coding](https://github.com/resources/articles/what-is-vibe-coding)," many build websites with little to no understanding of the fundamentals of how they are made or the many rules involved in making them. 
 
-This workshop introduces you to the basics of HTML and CSS, which will give you the skills needed to build a simple website.
+Website services ultimately produce HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) in order to make working websites. In this workshop, you will gain foundational knowledge in the "languages" and rules of HTML and CSS and how they work together to make the websites we visit every day. You will also learn how to take empty text files and turn them into functional web pages, all without needing Ai's help, which is a little journey that can empower you to reclaim some creative and digital autonomy.
 
 ## Learning objectives
 
