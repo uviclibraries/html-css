@@ -48,10 +48,11 @@ For example, we might want some part of our text, like a chapter title, to be a 
 Next, let's look at the anatomy of a tag.
 
 **HTML tags have three elements:**
-1. the **"opening" tag**, which has a descriptor symbol such as `h1` (h1 = "heading 1") between two pointy, or angle, brackets, as in the following example: `<h1>`; 
-2. the **"closing" tag**, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor, as in the following example: `</h1>`—there are some tags that don’t need a closing bracket and these are called "self-closing" tags, but we will ignore those for now; 
-3. the **"content"**, which is everything between the opening tag and the closing tag. Browsers are designed to hide tags, but display the content between them—in the following example, you would only see "Frodo's Shire recipes" on the webpage, not the `<h1>` and `</h1>` tags:
- `<h1>`Frodo's Shire recipes`</h1>`
+1. the **"opening" tag**, which has a descriptor symbol such as `h1` (h1 = "heading 1") between two pointy, or angle, brackets, as in the following example: `<h1>`
+2. the **"closing" tag**, which has the same symbols as the opening tag, with a forward slash _before_ the descriptor, as in the following example: `</h1>`
+3. the **"content"**, which is everything between the opening tag and the closing tag, as in the following example: `<h1>`**Frodo's Shire recipes**`</h1>`
+
+> **<mark>Note</mark>** that browsers are designed to hide tags, but display the content between them. So, in the **content** example, above, you would only see "Frodo's Shire recipes" on the webpage, not the `<h1>` and `</h1>` tags.
 
 <img width=500px src="images/act-1/act1-0.png" alt="HTML element anatomy">
 
