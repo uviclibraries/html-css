@@ -35,7 +35,7 @@ This section will walk you through now to create, name, and save your first HTML
 1. Open **Sublime Text**.
 2. In the top left of the main menu, select **File** > **New File**. You should see an empty file with the title of "untitled." Next, we need to name and save our file.
 3. In the main menu, select **File** > **Save as**, then navigate to the `html_workshop` folder we created earlier. Now, **name the file** exactly like this: **`about.html`**.
-4. Finally, **click the Save button**. Sublime Text will now recognize your file as an HTML file because you used the `.html` extension, or suffix.
+4. Finally, **click the Save button**. Sublime Text will now recognize your file as an HTML file because you used the `.html` [extension](https://en.wikipedia.org/wiki/Filename_extension), or suffix.
 
 ## Introducing HTML "tags"
 
