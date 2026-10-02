@@ -54,7 +54,10 @@ Next, let's look at the anatomy of a tag.
 
 > **<mark>Note</mark>** that browsers are designed to hide tags, but display the content between them. So, in the **content** example, above, you would only see "Frodo's Shire recipes" on the webpage, not the `<h1>` and `</h1>` tags.
 
+Here is an **example of the "anatomy" of a complete HTML element:**
+
 <img width=500px src="images/act-1/act1-0.png" alt="HTML element anatomy">
+
 
 ## Essential parts of a complete HTML document
 
