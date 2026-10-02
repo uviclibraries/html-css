@@ -75,7 +75,14 @@ Although not technically a tag (it is a "keyword"), a DOCTYPE declaration, or DT
 <br>
 
 1. In your `about.html` file, add the following at the top-left of the file: `<!DOCTYPE html>`
-2. Save your file. 
+2. Save your file.
+
+Your `about.html` file should now look like this:
+
+```html
+<!DOCTYPE html>
+
+```
 
 ### Adding your first HTML tag: the <html> tag
 
