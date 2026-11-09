@@ -1,4 +1,4 @@
-# Coding with HTML & CSS
+# Introduction to HTML & CSS
 ### UVic Libraries Digital Scholarship Commmons
 
 Link to workshop: https://uviclibraries.github.io/html-css/
