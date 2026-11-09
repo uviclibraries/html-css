@@ -13,7 +13,7 @@ nav_order: 1
 
 ## Why learn HTML & CSS? 
 
-Website builders like WordPress, Squarespace, and Wix are online services that use a GUI (graphical user interface) to produce websites. And, with the rise of Ai-assisted "[vibe coding](https://github.com/resources/articles/what-is-vibe-coding)," many build websites with little to no understanding of the fundamentals of how they are made or the many rules involved in making them. 
+Website builders like WordPress, Squarespace, and Wix are online services that use a GUI (graphical user interface) to produce websites. And, with the rise of AI-assisted "[vibe coding](https://github.com/resources/articles/what-is-vibe-coding)," many build websites with little to no understanding of the fundamentals of how they are made or the many rules involved in making them. 
 
 Most website-making services ultimately output HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets). In this workshop, you will gain foundational knowledge in the "languages" and rules of HTML and CSS and how they work together to make the websites we visit every day. 
 
