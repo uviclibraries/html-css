@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workshop Activities
+title: Self-Directed Introduction
 nav_order: 3
 has_children: true
 has_toc: true
